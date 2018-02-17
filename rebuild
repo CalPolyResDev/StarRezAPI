@@ -1,11 +1,35 @@
 #!/bin/bash
 
-pip uninstall --yes StarRezAPI
-rm -rf StarRezAPI/
+test=false
+clean=false
+while getopts ":ct" opt
+do
+    case "$opt" in
+        "c")
+            rebuild=true
+            ;;
+        "t")
+            test=true
+            ;;
+        "?")
+            echo "Unknown option $OPTARG"
+            ;;
+    esac
+done
+
+if [ "$clean" = true ]
+then
+    rm -rf ./StarRezAPI
+fi
+
 cd swagger-definitions
 multi-file-swagger -o yaml index.yaml > ../StarRez.yaml
+swagger-codegen generate -i ../StarRez.yaml -l python -o ../StarRezAPI -c config.json
 cd ../
-swagger-codegen generate -i StarRez.yaml -l python -o StarRezAPI -c swagger-definitions/config.json
-pip install ./StarRezAPI
 
-python testClient/test.py
+if [ "$test" = true ]
+then
+    pip uninstall --yes StarRezAPI
+    pip install ./StarRezAPI
+    python testClient/test.py
+fi
