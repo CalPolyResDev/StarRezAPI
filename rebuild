@@ -1,0 +1,11 @@
+#!/bin/bash
+
+pip uninstall --yes StarRezAPI
+rm -rf StarRezAPI/
+cd swagger-definitions
+multi-file-swagger -o yaml index.yaml > ../StarRez.yaml
+cd ../
+swagger-codegen generate -i StarRez.yaml -l python -o StarRezAPI -c swagger-definitions/config.json
+pip install StarRezAPI
+
+python testClient/test.py

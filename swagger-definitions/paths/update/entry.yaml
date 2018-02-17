@@ -1,0 +1,26 @@
+post:
+  summary: updates a student's info
+  operationId: updateResident
+  description: Updates an Entry in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: EntryID
+      type: integer
+      required: true
+      description: Numeric value of the student's entry ID.
+    - in: body
+      name: EntryItem
+      required: true
+      description: Resident to update
+      schema:
+        $ref: '#/definitions/EntryItem'
+  responses:
+    200:
+      description: item updated
+    400:
+      description: invalid input, object invalid

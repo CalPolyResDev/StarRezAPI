@@ -1,0 +1,32 @@
+swagger: '2.0'
+info:
+  description: This is a way to connect wit hthe StarRez API. We are not the developers of the StarRez API, we are just an organization that uses it and wanted a better way to connect to it.
+  version: 1.0.0
+  title: StarRez API
+  contact:
+    email: resdev@calpoly.edu
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+schemes:
+  - https
+basePath: /StarRezRest/services
+securityDefinitions:
+  UserSecurity:
+    type: basic
+consumes:
+  - application/json
+  - application/xml
+produces:
+  - application/atom+xml
+security:
+  - UserSecurity: []
+
+paths:
+  $ref: ./paths/index.yaml
+definitions:
+  $ref: ./definitions/index.yaml
+
+# Generate client code using:
+# multi-file-swagger -o yaml index.yaml > StarRez.yaml
+# swagger-codegen generate -i ~/Downloads/StarRez.yaml -l python -o ./StarRezAPI -c config.json

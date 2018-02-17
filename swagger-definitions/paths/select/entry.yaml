@@ -1,0 +1,36 @@
+get:
+  summary: student info
+  operationId: searchResidents
+  description: |
+    By passing in the appropriate options, you can search for
+    a resident in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: NameFirst
+      description: First Name of the resident you want to look up
+      required: false
+      type: string
+    - in: query
+      name: NameLast
+      description: Last Name of the resident you want to look up
+      required: false
+      type: string
+    - in: query
+      name: NameWeb
+      description: Email address of the resident you want to look up
+      required: false
+      type: string
+  responses:
+    200:
+      description: search results matching criteria
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EntryItem'
+    400:
+      description: bad input parameter

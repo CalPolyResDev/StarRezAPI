@@ -1,0 +1,4 @@
+select/Entry:
+  $ref: ./select/entry.yaml
+update/Entry/{EntryID}:
+  $ref: ./update/entry.yaml
