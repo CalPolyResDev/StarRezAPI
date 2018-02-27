@@ -1,6 +1,8 @@
 import os
 import starrez_client
+
 from dotenv import find_dotenv, load_dotenv
+from starrez_client.rest import ApiException
 
 # In order for this to work a .env file must be in project root
 load_dotenv(find_dotenv())
@@ -21,4 +23,12 @@ api_instance.update_resident(entry_id, entry_item)
 
 test = api_instance.search_residents(name_last="Reis")
 
-print(test)
+# print(test)
+
+try:
+    api_instance.search_residents()
+except ApiException as e:
+    if e.body:
+        print(e.body)
+    else:
+        print(e)

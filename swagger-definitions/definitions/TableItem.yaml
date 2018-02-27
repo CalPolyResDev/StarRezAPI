@@ -1,0 +1,6 @@
+type: object
+properties:
+  Tables:
+    type: array
+    items:
+      type: string

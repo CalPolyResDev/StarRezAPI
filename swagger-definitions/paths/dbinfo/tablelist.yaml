@@ -1,0 +1,16 @@
+get:
+  summary: gets all of the tables in StarRez
+  operationId: getTables
+  description: gets all of the tables in StarRez
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  responses:
+    200:
+      description: search results matching criteria
+      schema:
+        type: string
+    400:
+      description: bad input parameter

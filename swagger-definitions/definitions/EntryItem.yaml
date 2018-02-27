@@ -1,277 +1,184 @@
 type: object
 #required:
-#  - EntryID
-#  - CategoryID
-#  - EventID
-#  - ContactID
-#  - EntryStatusEnum
-#  - AddressTypeID
-#  - BookingID
-#  - EntryApplicationID
-#  - PinNumber
-#  - Password
-#  - PortalEmail
-#  - PortalAuthProviderUserID
-#  - PortalResetGUID
-#  - AgentPassword
-#  - AgentPasswordResetGuid
 #  - NameLast
-#  - NameFirst
-#  - NameTitle
-#  - NamePreferred
-#  - NameWeb
-#  - NameOther
-#  - NameInitials
-#  - NameSharer
-#  - GenderEnum
-#  - Birth_GenderEnum
-#  - DirectoryFlagPrivacy
-#  - Position
-#  - ID1
-#  - ID2
-#  - ID3
-#  - ID4
-#  - ID5
-#  - PhoneProcessToAccount
-#  - PhoneChargeTypeID
-#  - PhoneDisableValue
-#  - PhoneRestrictValue
-#  - PhoneControlEnum
-#  - TaxExemptionEnum
-#  - Previous_EntryStatusEnum
-#  - Testing
-#  - User_SecurityUserID
-#  - SecurityUserID
-#  - CreatedBy_SecurityUserID
-#  - DateCreated
-#  - EntryGUID
-#  - timestamp
-#  - DateModified
 properties:
   EntryID:
     type: integer
+    format: int32
     description: Entry
-    example: 12345
   CategoryID:
     type: integer
+    format: int32
     description: Category
-    example: 5
   EventID:
     type: integer
+    format: int32
     description: Event
-    example: 0
   ContactID:
     type: integer
+    format: int32
     description: Contact
-    example: 0
   EntryStatusEnum:
     type: string
+    format: enum
     description: Entry Status
-    example: History
   AddressTypeID:
     type: integer
+    format: int32
     description: Address Type
-    example: 0
   BookingID:
     type: integer
+    format: int32
     description: Booking
-    example: 123456
   EntryApplicationID:
     type: integer
+    format: int32
     description: Entry Application
-    example: 0
   PinNumber:
     type: integer
+    format: int32
     description: Pin Number
-    example: 123456
-  Password:
-    type: string
-    format: binary
-    maxLength: 20 
-    description: Password
-    example: 
   PortalEmail:
     type: string
     maxLength: 255
     description: Portal Email
-    example: 
   PortalAuthProviderUserID:
     type: string
     maxLength: 255
     description: Portal Auth Provider User
-    example: 
   PortalResetGUID:
     type: string
     format: guid
     description: Portal Reset GUID
-    example: 12345678-1234-1234-1234-1234567890ab
-  AgentPassword:
-    type: string
-    format: long-string
-    description: Agent Password
-    example: 
-  AgentPasswordResetGuid:
-    type: string
-    format: guid
-    description: Agent Password Reset Guid
-  AgentPasswordResetExpiryDate:
-    type: string
-    #format: date-time
-    description: Agent Password Reset Expiry Date
   NameLast:
     type: string
     maxLength: 40
     description: Name Last
-    example: Doe
   NameFirst:
     type: string
     maxLength: 40
     description: Name First
-    example: John
   NameTitle:
     type: string
     maxLength: 15
     description: Name Title
-    example: 
   NamePreferred:
     type: string
     maxLength: 40
     description: Name Preferred
-    example: John
   NameWeb:
     type: string
     maxLength: 50
     description: Name Web
-    example: jdoe@calpoly.edu
   NameOther:
     type: string
     maxLength: 40
     description: Name Other
-    example: 
   NameInitials:
     type: string
     maxLength: 5
     description: Name Initials
-    example: 
   NameSharer:
     type: string
     maxLength: 40
     description: Name Sharer
-    example: 
   GenderEnum:
     type: string
+    format: enum
     description: Gender
-    example: Male
   Birth_GenderEnum:
     type: string
+    format: enum
     description: Birth Gender
-    example: Male
   DirectoryFlagPrivacy:
     type: boolean
     description: Directory Flag Privacy
-    example: false
   DOB:
     type: string
-    #format: date
     description: Date of Birth
-    example: 2018-01-08T00:00:00
   Position:
     type: string
     maxLength: 50
     description: Position
-    example: ""
   ID1:
     type: string
     maxLength: 30
     description: EmplID
-    example: 123456789
   ID2:
     type: string
     maxLength: 30
-    description: ID2
-    example: 6278561226778648
+    description: POLYCARD ISO
   ID3:
     type: string
     maxLength: 30
-    description: ID3
-    example: ""
+    description: CalPoly GUID
   ID4:
     type: integer
+    format: int32
     description: ID4
-    example: 0
   ID5:
     type: integer
+    format: int32
     description: ID5
-    example: 0
   PhoneProcessToAccount:
     type: boolean
     description: Phone Process To Account
-    example: true
   PhoneChargeTypeID:
     type: integer
+    format: int32
     description: Phone Charge Type
-    example: 0
   PhoneDisableValue:
     type: string
     format: money
     description: Phone Disable Value
-    example: 0
   PhoneRestrictValue:
     type: string
     format: money
     description: Phone Restrict Value
-    example: 0
   PhoneControlEnum:
     type: string
+    format: enum
     description: Phone Control
-    example: Default
   TaxExemptionEnum:
     type: string
+    format: enum
     description: Tax Exemption
-    example: None
   LastCheckInOutDate:
     type: string
-    #format: date-time
     description: Last Check In Out Date
-    example: 2018-01-08T15:26:00
   Previous_EntryStatusEnum:
     type: string
+    format: enum
     description: Previous Entry Status
-    example: Application
   Testing:
     type: boolean
     description: Testing
-    example: false
   User_SecurityUserID:
     type: integer
+    format: int32
     description: User Security User
-    example: 0
   SecurityUserID:
     type: integer
+    format: int32
     description: Security User
-    example: 18
   CreatedBy_SecurityUserID:
     type: integer
+    format: int32
     description: Created By Security User
-    example: 18
   DateCreated:
     type: string
     format: date-time
     description: Date Created
-    example: 2018-01-08T15:26:00
   EntryGUID:
     type: string
     format: guid
     description: Entry GUID
-    example: 7c3ce639-5fa1-458a-8520-ee759fd7d250
   timestamp:
     type: string
     format: timestamp
     maxLength: 8
     description: Timestamp
-    example: 0x000000000009FAA2
   DateModified:
-    type:  string
-    format: date-time-seconds
+    type: string
+    format: datetimeseconds
     description: Date Modified
-    example: 2018-02-07T07:59:17.2325981

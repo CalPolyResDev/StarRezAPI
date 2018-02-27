@@ -1,2 +1,4 @@
 EntryItem:
   $ref: EntryItem.yaml
+TableItem:
+  $ref: TableItem.yaml

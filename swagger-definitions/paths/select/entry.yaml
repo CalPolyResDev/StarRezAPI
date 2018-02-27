@@ -1,3 +1,4 @@
+# locked
 get:
   summary: student info
   operationId: searchResidents
@@ -33,4 +34,4 @@ get:
         items:
           $ref: '#/definitions/EntryItem'
     400:
-      description: bad input parameter
+      description: Bad Request

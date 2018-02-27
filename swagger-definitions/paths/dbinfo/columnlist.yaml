@@ -1,0 +1,20 @@
+get:
+  summary: gets all of the column names and attributes of a table
+  operationId: getColumns
+  description: gets all of the column names and attributes of a table
+  produces:
+    - application/json
+    - application/atom+xml
+  parameters:
+    - in: path
+      name: TableName
+      type: string
+      required: true
+      description: The name of the table you want the column info for.
+  responses:
+    200:
+      description: search results matching criteria
+      schema:
+        type: object
+    400:
+      description: bad input parameter

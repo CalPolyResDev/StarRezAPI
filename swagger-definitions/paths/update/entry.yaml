@@ -22,5 +22,9 @@ post:
   responses:
     200:
       description: item updated
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EntryItem'
     400:
       description: invalid input, object invalid
