@@ -19,14 +19,14 @@ name_web = 'test@calpoly.edu'
 entry_item = starrez_client.EntryItem()
 entry_item.name_web = name_web
 
-api_instance.update_resident(entry_id, entry_item)
+api_instance.update_entry(entry_id, entry_item)
 
-test = api_instance.search_residents(name_last="Reis")
+test = api_instance.search_entry(name_last="Reis")
 
 # print(test)
 
 try:
-    api_instance.search_residents()
+    api_instance.search_entry()
 except ApiException as e:
     if e.body:
         print(e.body)

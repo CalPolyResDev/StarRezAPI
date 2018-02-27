@@ -2,9 +2,13 @@
 
 test=false
 clean=false
-while getopts ":ct" opt
+gen=false
+while getopts ":gct" opt
 do
     case "$opt" in
+        "g")
+            gen=true
+            ;;
         "c")
             clean=true
             ;;
@@ -16,6 +20,13 @@ do
             ;;
     esac
 done
+
+if [ "$gen" = true ]
+then
+    cd swagger-definitions
+    python3 swag-gen.py
+    cd ../
+fi
 
 if [ "$clean" = true ]
 then

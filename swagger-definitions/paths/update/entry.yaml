@@ -1,6 +1,6 @@
 post:
-  summary: updates a student's info
-  operationId: updateResident
+  summary: ""
+  operationId: updateEntry
   description: Updates an Entry in the system
   consumes:
     - application/json
@@ -12,19 +12,19 @@ post:
       name: EntryID
       type: integer
       required: true
-      description: Numeric value of the student's entry ID.
+      description: Numeric value of the entryID
     - in: body
       name: EntryItem
       required: true
-      description: Resident to update
+      description: Entry to update
       schema:
         $ref: '#/definitions/EntryItem'
   responses:
     200:
-      description: item updated
+      description: Updated Item
       schema:
         type: array
         items:
           $ref: '#/definitions/EntryItem'
     400:
-      description: invalid input, object invalid
+      description: Invalid Input, Object Invalid.

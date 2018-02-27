@@ -99,76 +99,101 @@ def getTableInfo(api_instance, table):
         table.addColumn(col)
 
 
+def checkFileLock(file_path):
+    try:
+        # Checks if the file is flagged as being locked for editing
+        f = open(file_path, "r")
+        if f.readline()[:-1].lower() == "# locked":
+            f.close()
+            return True
+        f.close()
+        return False
+    except:
+        # File doesn't exist, so it can't be locked
+        return False
+
+
 def writeDefinition(table):
     def_name = table.name + "Item"
-    f = open("./definitions/" + def_name + ".yaml", "w+")
-    f.write("type: object\n")
-    f.write("#required:\n")
-    for col in table.columns:
-        if col.req:
-            f.write("#  - " + col.name + "\n")
-    f.write("properties:\n")
-    for col in table.columns:
-        if "password" not in col.name.lower():
-            f.write("  " + col.name + ":\n")
-            f.write("    type: " + col.type + "\n")
-            if col.format != "" and not col.null:
-                f.write("    format: " + col.format + "\n")
-            if col.size > 0 and col.type == "string":
-                f.write("    maxLength: " + str(col.size) + "\n")
-            f.write("    description: " + col.desc + "\n")
-    f.close()
+    file_path = "./definitions/" + def_name + ".yaml"
+    if not checkFileLock(file_path):
+        f = open(file_path, "w+")
+        f.write("type: object\n")
+        f.write("#required:\n")
+        for col in table.columns:
+            if col.req:
+                f.write("#  - " + col.name + "\n")
+        f.write("properties:\n")
+        for col in table.columns:
+            if "password" not in col.name.lower():
+                f.write("  " + col.name + ":\n")
+                f.write("    type: " + col.type + "\n")
+                if col.format != "" and not col.null:
+                    f.write("    format: " + col.format + "\n")
+                if col.size > 0 and col.type == "string":
+                    f.write("    maxLength: " + str(col.size) + "\n")
+                f.write("    description: " + col.desc + "\n")
+        f.close()
 
 
 # Currently the reqType is either select (GET) or update (POST)
 def writePaths(table, reqType):
     name = table.name
     file_path = "./paths/" + reqType + "/" + name.lower() + ".yaml"
-    try:
-        # Checks if the file is flagged as being locked for editing
-        f = open(file_path, "r")
-        if f.readline()[:-1].lower() == "# locked":
-            f.close()
-            return
-        f.close()
-    except:
-        # File doesn't exist, continue to normal write
-        pass
-    f = open(file_path, "w+")
-    if reqType == "update":
-        f.write("post:\n")
-    else:
-        f.write("get:\n")
-    f.write('  summary: ""\n')
-    f.write("  operationID:")
-    if reqType == "update":
-        f.write("update" + name + "\n")
-        f.write("  description: Updates an " + name + " in the system\n")
-    else:
-        f.write("search" + name + "\n")
-        f.write("  description: By passing in the appropriate options, you can search for a " + name + " in the system\n")
-    f.write("  consumes:\n")
-    f.write("    - application/json\n")
-    f.write("    - application/xml\n")
-    f.write("  produces:\n")
-    f.write("    - application/json\n")
-    f.write("  parameters:\n")
-    if reqType == "update":
-        f.write("    - in: path\n")
-        f.write("      name: " + name + "ID\n")
-        f.write("      type: integer\n")
-        f.write("      required: true\n")
-        f.write("      description: Numeric value of the " + name.lower() + "ID\n")
-        f.write("    - in: body\n")
-        f.write("      name: " + name + "Item\n")
-        f.write("      required: true\n")
-        f.write("      description: " + name + " to update\n")
+    if not checkFileLock(file_path):
+        f = open(file_path, "w+")
+        if reqType == "update":
+            f.write("post:\n")
+        else:
+            f.write("get:\n")
+        f.write('  summary: ""\n')
+        f.write("  operationId: ")
+        if reqType == "update":
+            f.write("update" + name + "\n")
+            f.write("  description: Updates an " + name + " in the system\n")
+        else:
+            f.write("search" + name + "\n")
+            f.write("  description: By passing in the appropriate options, " +
+                    "you can search for a " + name + " in the system\n")
+        f.write("  consumes:\n")
+        f.write("    - application/json\n")
+        f.write("    - application/xml\n")
+        f.write("  produces:\n")
+        f.write("    - application/json\n")
+        
+        f.write("  parameters:\n")
+        if reqType == "update":
+            f.write("    - in: path\n")
+            f.write("      name: " + name + "ID\n")
+            f.write("      type: integer\n")
+            f.write("      required: true\n")
+            f.write("      description: Numeric value of the " + name.lower() + "ID\n")
+            f.write("    - in: body\n")
+            f.write("      name: " + name + "Item\n")
+            f.write("      required: true\n")
+            f.write("      description: " + name + " to update\n")
+            f.write("      schema:\n")
+            f.write("        $ref: '#/definitions/" + name + "Item'\n")
+        else:
+            f.write("    - in: query\n")
+            f.write("      name: " + name + "ID\n")
+            f.write("      description: ID of the " + name + " you want to look up\n")
+            f.write("      required: false\n")
+            f.write("      type: integer\n")
+        
+        f.write("  responses:\n")
+        f.write("    200:\n")
+        desc = "Updated Item" if reqType == "update" else "Search results matching criteria."
+        f.write("      description: " + desc + "\n")
         f.write("      schema:\n")
-        f.write("        $ref: '#/definitions/" + name + "Item'\n")
-    else:
-        f.write("    - in: query\n")
-
-    f.close()
+        f.write("        type: array\n")
+        f.write("        items:\n")
+        f.write("          $ref: '#/definitions/" + name + "Item'\n")
+        f.write("    400:\n")
+        error = "Invalid Input, Object Invalid." if reqType == "update" else "Bad Request"
+        f.write("      description: " + error)
+        
+        f.close()
 
 
 def generateSwagger():
@@ -186,3 +211,4 @@ api_instance = init()
 table = Table("Entry")
 getTableInfo(api_instance, table)
 writeDefinition(table)
+writePaths(table, "update")
