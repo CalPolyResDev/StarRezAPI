@@ -2,9 +2,1505 @@ databaseinfo/tablelist:
   $ref: ./dbinfo/tablelist.yaml
 databaseinfo/columnlist/{TableName}:
   $ref: ./dbinfo/columnlist.yaml
+# Insert Manually created Items above
+# Generated
+select/CorrespondenceSource:
+  $ref: ./select/correspondencesource.yaml
+update/CorrespondenceSource/{CorrespondenceSourceID}:
+  $ref: ./update/correspondencesource.yaml
+select/Country:
+  $ref: ./select/country.yaml
+update/Country/{CountryID}:
+  $ref: ./update/country.yaml
+select/CustomFieldDefinition:
+  $ref: ./select/customfielddefinition.yaml
+update/CustomFieldDefinition/{CustomFieldDefinitionID}:
+  $ref: ./update/customfielddefinition.yaml
+select/CustomMethodTag:
+  $ref: ./select/custommethodtag.yaml
+update/CustomMethodTag/{CustomMethodTagID}:
+  $ref: ./update/custommethodtag.yaml
+select/Document:
+  $ref: ./select/document.yaml
+update/Document/{DocumentID}:
+  $ref: ./update/document.yaml
+select/DynamicList:
+  $ref: ./select/dynamiclist.yaml
+update/DynamicList/{DynamicListID}:
+  $ref: ./update/dynamiclist.yaml
+select/DynamicListPermission:
+  $ref: ./select/dynamiclistpermission.yaml
+update/DynamicListPermission/{DynamicListPermissionID}:
+  $ref: ./update/dynamiclistpermission.yaml
+select/EmailFromAddress:
+  $ref: ./select/emailfromaddress.yaml
+update/EmailFromAddress/{EmailFromAddressID}:
+  $ref: ./update/emailfromaddress.yaml
+select/EmailFromAddressPermission:
+  $ref: ./select/emailfromaddresspermission.yaml
+update/EmailFromAddressPermission/{EmailFromAddressPermissionID}:
+  $ref: ./update/emailfromaddresspermission.yaml
+select/EmailOutbox:
+  $ref: ./select/emailoutbox.yaml
+update/EmailOutbox/{EmailOutboxID}:
+  $ref: ./update/emailoutbox.yaml
+select/FieldDefault:
+  $ref: ./select/fielddefault.yaml
+update/FieldDefault/{FieldDefaultID}:
+  $ref: ./update/fielddefault.yaml
+select/GenericTableData:
+  $ref: ./select/generictabledata.yaml
+update/GenericTableData/{GenericTableDataID}:
+  $ref: ./update/generictabledata.yaml
+select/GenericTableDataField:
+  $ref: ./select/generictabledatafield.yaml
+update/GenericTableDataField/{GenericTableDataFieldID}:
+  $ref: ./update/generictabledatafield.yaml
+select/GenericTableDefinition:
+  $ref: ./select/generictabledefinition.yaml
+update/GenericTableDefinition/{GenericTableDefinitionID}:
+  $ref: ./update/generictabledefinition.yaml
+select/GenericTableDefinitionField:
+  $ref: ./select/generictabledefinitionfield.yaml
+update/GenericTableDefinitionField/{GenericTableDefinitionFieldID}:
+  $ref: ./update/generictabledefinitionfield.yaml
+select/LogActivity:
+  $ref: ./select/logactivity.yaml
+update/LogActivity/{LogActivityID}:
+  $ref: ./update/logactivity.yaml
+select/LogAddIn:
+  $ref: ./select/logaddin.yaml
+update/LogAddIn/{LogAddInID}:
+  $ref: ./update/logaddin.yaml
+select/LogMetric:
+  $ref: ./select/logmetric.yaml
+update/LogMetric/{LogMetricID}:
+  $ref: ./update/logmetric.yaml
+select/Lookup:
+  $ref: ./select/lookup.yaml
+update/Lookup/{LookupID}:
+  $ref: ./update/lookup.yaml
+select/LookupText:
+  $ref: ./select/lookuptext.yaml
+update/LookupText/{LookupTextID}:
+  $ref: ./update/lookuptext.yaml
+select/MailMerge:
+  $ref: ./select/mailmerge.yaml
+update/MailMerge/{MailMergeID}:
+  $ref: ./update/mailmerge.yaml
+select/MessageAction:
+  $ref: ./select/messageaction.yaml
+update/MessageAction/{MessageActionID}:
+  $ref: ./update/messageaction.yaml
+select/MessageSubscriber:
+  $ref: ./select/messagesubscriber.yaml
+update/MessageSubscriber/{MessageSubscriberID}:
+  $ref: ./update/messagesubscriber.yaml
+select/MessageSubscription:
+  $ref: ./select/messagesubscription.yaml
+update/MessageSubscription/{MessageSubscriptionID}:
+  $ref: ./update/messagesubscription.yaml
+select/MessageSubscriptionSettings:
+  $ref: ./select/messagesubscriptionsettings.yaml
+update/MessageSubscriptionSettings/{MessageSubscriptionSettingsID}:
+  $ref: ./update/messagesubscriptionsettings.yaml
+select/Message:
+  $ref: ./select/message.yaml
+update/Message/{MessageID}:
+  $ref: ./update/message.yaml
+select/Nationality:
+  $ref: ./select/nationality.yaml
+update/Nationality/{NationalityID}:
+  $ref: ./update/nationality.yaml
+select/NoteType:
+  $ref: ./select/notetype.yaml
+update/NoteType/{NoteTypeID}:
+  $ref: ./update/notetype.yaml
+select/Priority:
+  $ref: ./select/priority.yaml
+update/Priority/{PriorityID}:
+  $ref: ./update/priority.yaml
+select/RecordAttachment:
+  $ref: ./select/recordattachment.yaml
+update/RecordAttachment/{RecordAttachmentID}:
+  $ref: ./update/recordattachment.yaml
+select/RegionOfBirth:
+  $ref: ./select/regionofbirth.yaml
+update/RegionOfBirth/{RegionOfBirthID}:
+  $ref: ./update/regionofbirth.yaml
+select/Report:
+  $ref: ./select/report.yaml
+update/Report/{ReportID}:
+  $ref: ./update/report.yaml
+select/ReportDetail:
+  $ref: ./select/reportdetail.yaml
+update/ReportDetail/{ReportDetailID}:
+  $ref: ./update/reportdetail.yaml
+select/ReportPermission:
+  $ref: ./select/reportpermission.yaml
+update/ReportPermission/{ReportPermissionID}:
+  $ref: ./update/reportpermission.yaml
+select/ReportSchedule:
+  $ref: ./select/reportschedule.yaml
+update/ReportSchedule/{ReportScheduleID}:
+  $ref: ./update/reportschedule.yaml
+select/ReportSetting:
+  $ref: ./select/reportsetting.yaml
+update/ReportSetting/{ReportSettingID}:
+  $ref: ./update/reportsetting.yaml
+select/Setting:
+  $ref: ./select/setting.yaml
+update/Setting/{SettingID}:
+  $ref: ./update/setting.yaml
+select/Task:
+  $ref: ./select/task.yaml
+update/Task/{TaskID}:
+  $ref: ./update/task.yaml
+select/TaskStatus:
+  $ref: ./select/taskstatus.yaml
+update/TaskStatus/{TaskStatusID}:
+  $ref: ./update/taskstatus.yaml
+select/TaskTemplate:
+  $ref: ./select/tasktemplate.yaml
+update/TaskTemplate/{TaskTemplateID}:
+  $ref: ./update/tasktemplate.yaml
+select/TaskTemplateItem:
+  $ref: ./select/tasktemplateitem.yaml
+update/TaskTemplateItem/{TaskTemplateItemID}:
+  $ref: ./update/tasktemplateitem.yaml
+select/TaskType:
+  $ref: ./select/tasktype.yaml
+update/TaskType/{TaskTypeID}:
+  $ref: ./update/tasktype.yaml
+select/TaskRunnerHistory:
+  $ref: ./select/taskrunnerhistory.yaml
+update/TaskRunnerHistory/{TaskRunnerHistoryID}:
+  $ref: ./update/taskrunnerhistory.yaml
+select/Template:
+  $ref: ./select/template.yaml
+update/Template/{TemplateID}:
+  $ref: ./update/template.yaml
+select/TemplatePermission:
+  $ref: ./select/templatepermission.yaml
+update/TemplatePermission/{TemplatePermissionID}:
+  $ref: ./update/templatepermission.yaml
+select/ZipPostCode:
+  $ref: ./select/zippostcode.yaml
+update/ZipPostCode/{ZipPostCodeID}:
+  $ref: ./update/zippostcode.yaml
+select/AddressType:
+  $ref: ./select/addresstype.yaml
+update/AddressType/{AddressTypeID}:
+  $ref: ./update/addresstype.yaml
+select/ApplicationStatus:
+  $ref: ./select/applicationstatus.yaml
+update/ApplicationStatus/{ApplicationStatusID}:
+  $ref: ./update/applicationstatus.yaml
+select/AutoAllocateRun:
+  $ref: ./select/autoallocaterun.yaml
+update/AutoAllocateRun/{AutoAllocateRunID}:
+  $ref: ./update/autoallocaterun.yaml
+select/Booking:
+  $ref: ./select/booking.yaml
+update/Booking/{BookingID}:
+  $ref: ./update/booking.yaml
+select/BookingCustomField:
+  $ref: ./select/bookingcustomfield.yaml
+update/BookingCustomField/{BookingCustomFieldID}:
+  $ref: ./update/bookingcustomfield.yaml
+select/BookingTag:
+  $ref: ./select/bookingtag.yaml
+update/BookingTag/{BookingTagID}:
+  $ref: ./update/bookingtag.yaml
+select/BookingLinked:
+  $ref: ./select/bookinglinked.yaml
+update/BookingLinked/{BookingLinkedID}:
+  $ref: ./update/bookinglinked.yaml
+select/BookingOccupant:
+  $ref: ./select/bookingoccupant.yaml
+update/BookingOccupant/{BookingOccupantID}:
+  $ref: ./update/bookingoccupant.yaml
+select/BookingReason:
+  $ref: ./select/bookingreason.yaml
+update/BookingReason/{BookingReasonID}:
+  $ref: ./update/bookingreason.yaml
+select/BookingType:
+  $ref: ./select/bookingtype.yaml
+update/BookingType/{BookingTypeID}:
+  $ref: ./update/bookingtype.yaml
+select/Calendar:
+  $ref: ./select/calendar.yaml
+update/Calendar/{CalendarID}:
+  $ref: ./update/calendar.yaml
+select/Category:
+  $ref: ./select/category.yaml
+update/Category/{CategoryID}:
+  $ref: ./update/category.yaml
+select/CategoryCustomField:
+  $ref: ./select/categorycustomfield.yaml
+update/CategoryCustomField/{CategoryCustomFieldID}:
+  $ref: ./update/categorycustomfield.yaml
+select/CategoryLevel:
+  $ref: ./select/categorylevel.yaml
+update/CategoryLevel/{CategoryLevelID}:
+  $ref: ./update/categorylevel.yaml
+select/CategoryPermission:
+  $ref: ./select/categorypermission.yaml
+update/CategoryPermission/{CategoryPermissionID}:
+  $ref: ./update/categorypermission.yaml
+select/CategoryScheduleTransaction:
+  $ref: ./select/categoryscheduletransaction.yaml
+update/CategoryScheduleTransaction/{CategoryScheduleTransactionID}:
+  $ref: ./update/categoryscheduletransaction.yaml
+select/CateringType:
+  $ref: ./select/cateringtype.yaml
+update/CateringType/{CateringTypeID}:
+  $ref: ./update/cateringtype.yaml
+select/Catering:
+  $ref: ./select/catering.yaml
+update/Catering/{CateringID}:
+  $ref: ./update/catering.yaml
+select/CateringItem:
+  $ref: ./select/cateringitem.yaml
+update/CateringItem/{CateringItemID}:
+  $ref: ./update/cateringitem.yaml
+select/ChargeGroup:
+  $ref: ./select/chargegroup.yaml
+update/ChargeGroup/{ChargeGroupID}:
+  $ref: ./update/chargegroup.yaml
+select/ChargeItem:
+  $ref: ./select/chargeitem.yaml
+update/ChargeItem/{ChargeItemID}:
+  $ref: ./update/chargeitem.yaml
+select/Classification:
+  $ref: ./select/classification.yaml
+update/Classification/{ClassificationID}:
+  $ref: ./update/classification.yaml
+select/Contact:
+  $ref: ./select/contact.yaml
+update/Contact/{ContactID}:
+  $ref: ./update/contact.yaml
+select/ContactCustomField:
+  $ref: ./select/contactcustomfield.yaml
+update/ContactCustomField/{ContactCustomFieldID}:
+  $ref: ./update/contactcustomfield.yaml
+select/ContactNote:
+  $ref: ./select/contactnote.yaml
+update/ContactNote/{ContactNoteID}:
+  $ref: ./update/contactnote.yaml
+select/ContactStatus:
+  $ref: ./select/contactstatus.yaml
+update/ContactStatus/{ContactStatusID}:
+  $ref: ./update/contactstatus.yaml
+select/ConcernType:
+  $ref: ./select/concerntype.yaml
+update/ConcernType/{ConcernTypeID}:
+  $ref: ./update/concerntype.yaml
+select/ConcernSubType:
+  $ref: ./select/concernsubtype.yaml
+update/ConcernSubType/{ConcernSubTypeID}:
+  $ref: ./update/concernsubtype.yaml
+select/ConcernNote:
+  $ref: ./select/concernnote.yaml
+update/ConcernNote/{ConcernNoteID}:
+  $ref: ./update/concernnote.yaml
+select/Concern:
+  $ref: ./select/concern.yaml
+update/Concern/{ConcernID}:
+  $ref: ./update/concern.yaml
+select/ConcernEntry:
+  $ref: ./select/concernentry.yaml
+update/ConcernEntry/{ConcernEntryID}:
+  $ref: ./update/concernentry.yaml
+select/ConcernCustomField:
+  $ref: ./select/concerncustomfield.yaml
+update/ConcernCustomField/{ConcernCustomFieldID}:
+  $ref: ./update/concerncustomfield.yaml
+select/ContributionType:
+  $ref: ./select/contributiontype.yaml
+update/ContributionType/{ContributionTypeID}:
+  $ref: ./update/contributiontype.yaml
+select/ContributionSubType:
+  $ref: ./select/contributionsubtype.yaml
+update/ContributionSubType/{ContributionSubTypeID}:
+  $ref: ./update/contributionsubtype.yaml
+select/ContributionNote:
+  $ref: ./select/contributionnote.yaml
+update/ContributionNote/{ContributionNoteID}:
+  $ref: ./update/contributionnote.yaml
+select/Contribution:
+  $ref: ./select/contribution.yaml
+update/Contribution/{ContributionID}:
+  $ref: ./update/contribution.yaml
+select/ContributionEntry:
+  $ref: ./select/contributionentry.yaml
+update/ContributionEntry/{ContributionEntryID}:
+  $ref: ./update/contributionentry.yaml
+select/ContributionCustomField:
+  $ref: ./select/contributioncustomfield.yaml
+update/ContributionCustomField/{ContributionCustomFieldID}:
+  $ref: ./update/contributioncustomfield.yaml
+select/Course:
+  $ref: ./select/course.yaml
+update/Course/{CourseID}:
+  $ref: ./update/course.yaml
+select/CurrencyConversion:
+  $ref: ./select/currencyconversion.yaml
+update/CurrencyConversion/{CurrencyConversionID}:
+  $ref: ./update/currencyconversion.yaml
+select/DeletedTransaction:
+  $ref: ./select/deletedtransaction.yaml
+update/DeletedTransaction/{DeletedTransactionID}:
+  $ref: ./update/deletedtransaction.yaml
+select/Dashboard:
+  $ref: ./select/dashboard.yaml
+update/Dashboard/{DashboardID}:
+  $ref: ./update/dashboard.yaml
+select/DashboardPanel:
+  $ref: ./select/dashboardpanel.yaml
+update/DashboardPanel/{DashboardPanelID}:
+  $ref: ./update/dashboardpanel.yaml
+select/DashboardPanelSetting:
+  $ref: ./select/dashboardpanelsetting.yaml
+update/DashboardPanelSetting/{DashboardPanelSettingID}:
+  $ref: ./update/dashboardpanelsetting.yaml
+select/DashboardSharing:
+  $ref: ./select/dashboardsharing.yaml
+update/DashboardSharing/{DashboardSharingID}:
+  $ref: ./update/dashboardsharing.yaml
+select/ElectronicIdentityType:
+  $ref: ./select/electronicidentitytype.yaml
+update/ElectronicIdentityType/{ElectronicIdentityTypeID}:
+  $ref: ./update/electronicidentitytype.yaml
+select/EndOfSession:
+  $ref: ./select/endofsession.yaml
+update/EndOfSession/{EndOfSessionID}:
+  $ref: ./update/endofsession.yaml
+select/EndOfSessionChargeGroup:
+  $ref: ./select/endofsessionchargegroup.yaml
+update/EndOfSessionChargeGroup/{EndOfSessionChargeGroupID}:
+  $ref: ./update/endofsessionchargegroup.yaml
 select/Entry:
   $ref: ./select/entry.yaml
 update/Entry/{EntryID}:
   $ref: ./update/entry.yaml
-# Insert Manually created Items above
-# Generated
+select/EntryAddress:
+  $ref: ./select/entryaddress.yaml
+update/EntryAddress/{EntryAddressID}:
+  $ref: ./update/entryaddress.yaml
+select/EntryAlumniStatus:
+  $ref: ./select/entryalumnistatus.yaml
+update/EntryAlumniStatus/{EntryAlumniStatusID}:
+  $ref: ./update/entryalumnistatus.yaml
+select/EntryAlumni:
+  $ref: ./select/entryalumni.yaml
+update/EntryAlumni/{EntryAlumniID}:
+  $ref: ./update/entryalumni.yaml
+select/EntryApplication:
+  $ref: ./select/entryapplication.yaml
+update/EntryApplication/{EntryApplicationID}:
+  $ref: ./update/entryapplication.yaml
+select/EntryApplicationCustomField:
+  $ref: ./select/entryapplicationcustomfield.yaml
+update/EntryApplicationCustomField/{EntryApplicationCustomFieldID}:
+  $ref: ./update/entryapplicationcustomfield.yaml
+select/EntryApplicationNote:
+  $ref: ./select/entryapplicationnote.yaml
+update/EntryApplicationNote/{EntryApplicationNoteID}:
+  $ref: ./update/entryapplicationnote.yaml
+select/EntryApplicationPortalSection:
+  $ref: ./select/entryapplicationportalsection.yaml
+update/EntryApplicationPortalSection/{EntryApplicationPortalSectionID}:
+  $ref: ./update/entryapplicationportalsection.yaml
+select/EntryApplicationPreference:
+  $ref: ./select/entryapplicationpreference.yaml
+update/EntryApplicationPreference/{EntryApplicationPreferenceID}:
+  $ref: ./update/entryapplicationpreference.yaml
+select/EntryApplicationProxy:
+  $ref: ./select/entryapplicationproxy.yaml
+update/EntryApplicationProxy/{EntryApplicationProxyID}:
+  $ref: ./update/entryapplicationproxy.yaml
+select/EntryApplicationRoomMate:
+  $ref: ./select/entryapplicationroommate.yaml
+update/EntryApplicationRoomMate/{EntryApplicationRoomMateID}:
+  $ref: ./update/entryapplicationroommate.yaml
+select/EntryApplicationRoomPreference:
+  $ref: ./select/entryapplicationroompreference.yaml
+update/EntryApplicationRoomPreference/{EntryApplicationRoomPreferenceID}:
+  $ref: ./update/entryapplicationroompreference.yaml
+select/EntryCorrespondence:
+  $ref: ./select/entrycorrespondence.yaml
+update/EntryCorrespondence/{EntryCorrespondenceID}:
+  $ref: ./update/entrycorrespondence.yaml
+select/EntryCustomField:
+  $ref: ./select/entrycustomfield.yaml
+update/EntryCustomField/{EntryCustomFieldID}:
+  $ref: ./update/entrycustomfield.yaml
+select/EntryDetail:
+  $ref: ./select/entrydetail.yaml
+update/EntryDetail/{EntryDetailID}:
+  $ref: ./update/entrydetail.yaml
+select/EntryElectronicIdentity:
+  $ref: ./select/entryelectronicidentity.yaml
+update/EntryElectronicIdentity/{EntryElectronicIdentityID}:
+  $ref: ./update/entryelectronicidentity.yaml
+select/EntryEnrollment:
+  $ref: ./select/entryenrollment.yaml
+update/EntryEnrollment/{EntryEnrollmentID}:
+  $ref: ./update/entryenrollment.yaml
+select/EntryFamily:
+  $ref: ./select/entryfamily.yaml
+update/EntryFamily/{EntryFamilyID}:
+  $ref: ./update/entryfamily.yaml
+select/EntryGroup:
+  $ref: ./select/entrygroup.yaml
+update/EntryGroup/{EntryGroupID}:
+  $ref: ./update/entrygroup.yaml
+select/EntryEvent:
+  $ref: ./select/entryevent.yaml
+update/EntryEvent/{EntryEventID}:
+  $ref: ./update/entryevent.yaml
+select/EntryInvitation:
+  $ref: ./select/entryinvitation.yaml
+update/EntryInvitation/{EntryInvitationID}:
+  $ref: ./update/entryinvitation.yaml
+select/EntryMeal:
+  $ref: ./select/entrymeal.yaml
+update/EntryMeal/{EntryMealID}:
+  $ref: ./update/entrymeal.yaml
+select/EntryMealTag:
+  $ref: ./select/entrymealtag.yaml
+update/EntryMealTag/{EntryMealTagID}:
+  $ref: ./update/entrymealtag.yaml
+select/EntryMealPlanDetail:
+  $ref: ./select/entrymealplandetail.yaml
+update/EntryMealPlanDetail/{EntryMealPlanDetailID}:
+  $ref: ./update/entrymealplandetail.yaml
+select/EntryMembership:
+  $ref: ./select/entrymembership.yaml
+update/EntryMembership/{EntryMembershipID}:
+  $ref: ./update/entrymembership.yaml
+select/EntryNote:
+  $ref: ./select/entrynote.yaml
+update/EntryNote/{EntryNoteID}:
+  $ref: ./update/entrynote.yaml
+select/EntryParcel:
+  $ref: ./select/entryparcel.yaml
+update/EntryParcel/{EntryParcelID}:
+  $ref: ./update/entryparcel.yaml
+select/EntryPortalActivity:
+  $ref: ./select/entryportalactivity.yaml
+update/EntryPortalActivity/{EntryPortalActivityID}:
+  $ref: ./update/entryportalactivity.yaml
+select/EntryPosition:
+  $ref: ./select/entryposition.yaml
+update/EntryPosition/{EntryPositionID}:
+  $ref: ./update/entryposition.yaml
+select/EntryProfile:
+  $ref: ./select/entryprofile.yaml
+update/EntryProfile/{EntryProfileID}:
+  $ref: ./update/entryprofile.yaml
+select/EntryResult:
+  $ref: ./select/entryresult.yaml
+update/EntryResult/{EntryResultID}:
+  $ref: ./update/entryresult.yaml
+select/EntryScheduleTransaction:
+  $ref: ./select/entryscheduletransaction.yaml
+update/EntryScheduleTransaction/{EntryScheduleTransactionID}:
+  $ref: ./update/entryscheduletransaction.yaml
+select/EntryScholarship:
+  $ref: ./select/entryscholarship.yaml
+update/EntryScholarship/{EntryScholarshipID}:
+  $ref: ./update/entryscholarship.yaml
+select/EntrySchool:
+  $ref: ./select/entryschool.yaml
+update/EntrySchool/{EntrySchoolID}:
+  $ref: ./update/entryschool.yaml
+select/EntrySDAS:
+  $ref: ./select/entrysdas.yaml
+update/EntrySDAS/{EntrySDASID}:
+  $ref: ./update/entrysdas.yaml
+select/EntryVisitor:
+  $ref: ./select/entryvisitor.yaml
+update/EntryVisitor/{EntryVisitorID}:
+  $ref: ./update/entryvisitor.yaml
+select/Event:
+  $ref: ./select/event.yaml
+update/Event/{EventID}:
+  $ref: ./update/event.yaml
+select/EventCharge:
+  $ref: ./select/eventcharge.yaml
+update/EventCharge/{EventChargeID}:
+  $ref: ./update/eventcharge.yaml
+select/EventQuote:
+  $ref: ./select/eventquote.yaml
+update/EventQuote/{EventQuoteID}:
+  $ref: ./update/eventquote.yaml
+select/EventContactEntry:
+  $ref: ./select/eventcontactentry.yaml
+update/EventContactEntry/{EventContactEntryID}:
+  $ref: ./update/eventcontactentry.yaml
+select/EventCustomField:
+  $ref: ./select/eventcustomfield.yaml
+update/EventCustomField/{EventCustomFieldID}:
+  $ref: ./update/eventcustomfield.yaml
+select/EventMealPlan:
+  $ref: ./select/eventmealplan.yaml
+update/EventMealPlan/{EventMealPlanID}:
+  $ref: ./update/eventmealplan.yaml
+select/EventNote:
+  $ref: ./select/eventnote.yaml
+update/EventNote/{EventNoteID}:
+  $ref: ./update/eventnote.yaml
+select/EventRegistrationFee:
+  $ref: ./select/eventregistrationfee.yaml
+update/EventRegistrationFee/{EventRegistrationFeeID}:
+  $ref: ./update/eventregistrationfee.yaml
+select/EventType:
+  $ref: ./select/eventtype.yaml
+update/EventType/{EventTypeID}:
+  $ref: ./update/eventtype.yaml
+select/Extension:
+  $ref: ./select/extension.yaml
+update/Extension/{ExtensionID}:
+  $ref: ./update/extension.yaml
+select/FinancialSupport:
+  $ref: ./select/financialsupport.yaml
+update/FinancialSupport/{FinancialSupportID}:
+  $ref: ./update/financialsupport.yaml
+select/FunctionBooking:
+  $ref: ./select/functionbooking.yaml
+update/FunctionBooking/{FunctionBookingID}:
+  $ref: ./update/functionbooking.yaml
+select/FunctionBookingAttendee:
+  $ref: ./select/functionbookingattendee.yaml
+update/FunctionBookingAttendee/{FunctionBookingAttendeeID}:
+  $ref: ./update/functionbookingattendee.yaml
+select/FunctionBookingCatering:
+  $ref: ./select/functionbookingcatering.yaml
+update/FunctionBookingCatering/{FunctionBookingCateringID}:
+  $ref: ./update/functionbookingcatering.yaml
+select/FunctionBookingCateringItem:
+  $ref: ./select/functionbookingcateringitem.yaml
+update/FunctionBookingCateringItem/{FunctionBookingCateringItemID}:
+  $ref: ./update/functionbookingcateringitem.yaml
+select/FunctionBookingCharge:
+  $ref: ./select/functionbookingcharge.yaml
+update/FunctionBookingCharge/{FunctionBookingChargeID}:
+  $ref: ./update/functionbookingcharge.yaml
+select/FunctionResource:
+  $ref: ./select/functionresource.yaml
+update/FunctionResource/{FunctionResourceID}:
+  $ref: ./update/functionresource.yaml
+select/FunctionResourceBooking:
+  $ref: ./select/functionresourcebooking.yaml
+update/FunctionResourceBooking/{FunctionResourceBookingID}:
+  $ref: ./update/functionresourcebooking.yaml
+select/FunctionResourceType:
+  $ref: ./select/functionresourcetype.yaml
+update/FunctionResourceType/{FunctionResourceTypeID}:
+  $ref: ./update/functionresourcetype.yaml
+select/FunctionRoom:
+  $ref: ./select/functionroom.yaml
+update/FunctionRoom/{FunctionRoomID}:
+  $ref: ./update/functionroom.yaml
+select/FunctionRoomClosed:
+  $ref: ./select/functionroomclosed.yaml
+update/FunctionRoomClosed/{FunctionRoomClosedID}:
+  $ref: ./update/functionroomclosed.yaml
+select/FunctionRoomBooking:
+  $ref: ./select/functionroombooking.yaml
+update/FunctionRoomBooking/{FunctionRoomBookingID}:
+  $ref: ./update/functionroombooking.yaml
+select/FunctionRoomLocation:
+  $ref: ./select/functionroomlocation.yaml
+update/FunctionRoomLocation/{FunctionRoomLocationID}:
+  $ref: ./update/functionroomlocation.yaml
+select/FunctionRoomRate:
+  $ref: ./select/functionroomrate.yaml
+update/FunctionRoomRate/{FunctionRoomRateID}:
+  $ref: ./update/functionroomrate.yaml
+select/FunctionRoomSetup:
+  $ref: ./select/functionroomsetup.yaml
+update/FunctionRoomSetup/{FunctionRoomSetupID}:
+  $ref: ./update/functionroomsetup.yaml
+select/FunctionRoomType:
+  $ref: ./select/functionroomtype.yaml
+update/FunctionRoomType/{FunctionRoomTypeID}:
+  $ref: ./update/functionroomtype.yaml
+select/FunctionType:
+  $ref: ./select/functiontype.yaml
+update/FunctionType/{FunctionTypeID}:
+  $ref: ./update/functiontype.yaml
+select/GLPosting:
+  $ref: ./select/glposting.yaml
+update/GLPosting/{GLPostingID}:
+  $ref: ./update/glposting.yaml
+select/Group:
+  $ref: ./select/group.yaml
+update/Group/{GroupID}:
+  $ref: ./update/group.yaml
+select/GroupRoomSpace:
+  $ref: ./select/grouproomspace.yaml
+update/GroupRoomSpace/{GroupRoomSpaceID}:
+  $ref: ./update/grouproomspace.yaml
+select/GroupCustomField:
+  $ref: ./select/groupcustomfield.yaml
+update/GroupCustomField/{GroupCustomFieldID}:
+  $ref: ./update/groupcustomfield.yaml
+select/GroupContactEntry:
+  $ref: ./select/groupcontactentry.yaml
+update/GroupContactEntry/{GroupContactEntryID}:
+  $ref: ./update/groupcontactentry.yaml
+select/GroupMealPlan:
+  $ref: ./select/groupmealplan.yaml
+update/GroupMealPlan/{GroupMealPlanID}:
+  $ref: ./update/groupmealplan.yaml
+select/GroupRoomTypeAndRates:
+  $ref: ./select/grouproomtypeandrates.yaml
+update/GroupRoomTypeAndRates/{GroupRoomTypeAndRatesID}:
+  $ref: ./update/grouproomtypeandrates.yaml
+select/Housekeeping:
+  $ref: ./select/housekeeping.yaml
+update/Housekeeping/{HousekeepingID}:
+  $ref: ./update/housekeeping.yaml
+select/HousekeepingSchedule:
+  $ref: ./select/housekeepingschedule.yaml
+update/HousekeepingSchedule/{HousekeepingScheduleID}:
+  $ref: ./update/housekeepingschedule.yaml
+select/HousekeepingScheduleSkip:
+  $ref: ./select/housekeepingscheduleskip.yaml
+update/HousekeepingScheduleSkip/{HousekeepingScheduleSkipID}:
+  $ref: ./update/housekeepingscheduleskip.yaml
+select/Incident:
+  $ref: ./select/incident.yaml
+update/Incident/{IncidentID}:
+  $ref: ./update/incident.yaml
+select/IncidentAction:
+  $ref: ./select/incidentaction.yaml
+update/IncidentAction/{IncidentActionID}:
+  $ref: ./update/incidentaction.yaml
+select/IncidentActionEntry:
+  $ref: ./select/incidentactionentry.yaml
+update/IncidentActionEntry/{IncidentActionEntryID}:
+  $ref: ./update/incidentactionentry.yaml
+select/IncidentActionType:
+  $ref: ./select/incidentactiontype.yaml
+update/IncidentActionType/{IncidentActionTypeID}:
+  $ref: ./update/incidentactiontype.yaml
+select/IncidentCustomField:
+  $ref: ./select/incidentcustomfield.yaml
+update/IncidentCustomField/{IncidentCustomFieldID}:
+  $ref: ./update/incidentcustomfield.yaml
+select/IncidentEntry:
+  $ref: ./select/incidententry.yaml
+update/IncidentEntry/{IncidentEntryID}:
+  $ref: ./update/incidententry.yaml
+select/IncidentEntryCorrespondence:
+  $ref: ./select/incidententrycorrespondence.yaml
+update/IncidentEntryCorrespondence/{IncidentEntryCorrespondenceID}:
+  $ref: ./update/incidententrycorrespondence.yaml
+select/IncidentEntryNote:
+  $ref: ./select/incidententrynote.yaml
+update/IncidentEntryNote/{IncidentEntryNoteID}:
+  $ref: ./update/incidententrynote.yaml
+select/IncidentSanctionType:
+  $ref: ./select/incidentsanctiontype.yaml
+update/IncidentSanctionType/{IncidentSanctionTypeID}:
+  $ref: ./update/incidentsanctiontype.yaml
+select/IncidentCleryGeography:
+  $ref: ./select/incidentclerygeography.yaml
+update/IncidentCleryGeography/{IncidentCleryGeographyID}:
+  $ref: ./update/incidentclerygeography.yaml
+select/IncidentSanctionSubType:
+  $ref: ./select/incidentsanctionsubtype.yaml
+update/IncidentSanctionSubType/{IncidentSanctionSubTypeID}:
+  $ref: ./update/incidentsanctionsubtype.yaml
+select/IncidentAppealDecision:
+  $ref: ./select/incidentappealdecision.yaml
+update/IncidentAppealDecision/{IncidentAppealDecisionID}:
+  $ref: ./update/incidentappealdecision.yaml
+select/IncidentAppealType:
+  $ref: ./select/incidentappealtype.yaml
+update/IncidentAppealType/{IncidentAppealTypeID}:
+  $ref: ./update/incidentappealtype.yaml
+select/IncidentFinding:
+  $ref: ./select/incidentfinding.yaml
+update/IncidentFinding/{IncidentFindingID}:
+  $ref: ./update/incidentfinding.yaml
+select/IncidentPlea:
+  $ref: ./select/incidentplea.yaml
+update/IncidentPlea/{IncidentPleaID}:
+  $ref: ./update/incidentplea.yaml
+select/IncidentViolation:
+  $ref: ./select/incidentviolation.yaml
+update/IncidentViolation/{IncidentViolationID}:
+  $ref: ./update/incidentviolation.yaml
+select/IncidentEntryViolation:
+  $ref: ./select/incidententryviolation.yaml
+update/IncidentEntryViolation/{IncidentEntryViolationID}:
+  $ref: ./update/incidententryviolation.yaml
+select/IncidentEntryAppeal:
+  $ref: ./select/incidententryappeal.yaml
+update/IncidentEntryAppeal/{IncidentEntryAppealID}:
+  $ref: ./update/incidententryappeal.yaml
+select/IncidentEntrySanction:
+  $ref: ./select/incidententrysanction.yaml
+update/IncidentEntrySanction/{IncidentEntrySanctionID}:
+  $ref: ./update/incidententrysanction.yaml
+select/IncidentInvolvement:
+  $ref: ./select/incidentinvolvement.yaml
+update/IncidentInvolvement/{IncidentInvolvementID}:
+  $ref: ./update/incidentinvolvement.yaml
+select/IncidentNote:
+  $ref: ./select/incidentnote.yaml
+update/IncidentNote/{IncidentNoteID}:
+  $ref: ./update/incidentnote.yaml
+select/IncidentSeverity:
+  $ref: ./select/incidentseverity.yaml
+update/IncidentSeverity/{IncidentSeverityID}:
+  $ref: ./update/incidentseverity.yaml
+select/IncidentStatus:
+  $ref: ./select/incidentstatus.yaml
+update/IncidentStatus/{IncidentStatusID}:
+  $ref: ./update/incidentstatus.yaml
+select/IncidentSubType:
+  $ref: ./select/incidentsubtype.yaml
+update/IncidentSubType/{IncidentSubTypeID}:
+  $ref: ./update/incidentsubtype.yaml
+select/IncidentType:
+  $ref: ./select/incidenttype.yaml
+update/IncidentType/{IncidentTypeID}:
+  $ref: ./update/incidenttype.yaml
+select/InspectionRunTemplate:
+  $ref: ./select/inspectionruntemplate.yaml
+update/InspectionRunTemplate/{InspectionRunTemplateID}:
+  $ref: ./update/inspectionruntemplate.yaml
+select/Interface:
+  $ref: ./select/interface.yaml
+update/Interface/{InterfaceID}:
+  $ref: ./update/interface.yaml
+select/InterfaceApplication:
+  $ref: ./select/interfaceapplication.yaml
+update/InterfaceApplication/{InterfaceApplicationID}:
+  $ref: ./update/interfaceapplication.yaml
+select/InterfaceSubscribe:
+  $ref: ./select/interfacesubscribe.yaml
+update/InterfaceSubscribe/{InterfaceSubscribeID}:
+  $ref: ./update/interfacesubscribe.yaml
+select/Invoice:
+  $ref: ./select/invoice.yaml
+update/Invoice/{InvoiceID}:
+  $ref: ./update/invoice.yaml
+select/LogInterface:
+  $ref: ./select/loginterface.yaml
+update/LogInterface/{LogInterfaceID}:
+  $ref: ./update/loginterface.yaml
+select/MealPlan:
+  $ref: ./select/mealplan.yaml
+update/MealPlan/{MealPlanID}:
+  $ref: ./update/mealplan.yaml
+select/MealPlanDetail:
+  $ref: ./select/mealplandetail.yaml
+update/MealPlanDetail/{MealPlanDetailID}:
+  $ref: ./update/mealplandetail.yaml
+select/MealPlanDiningHall:
+  $ref: ./select/mealplandininghall.yaml
+update/MealPlanDiningHall/{MealPlanDiningHallID}:
+  $ref: ./update/mealplandininghall.yaml
+select/MealPlanFree:
+  $ref: ./select/mealplanfree.yaml
+update/MealPlanFree/{MealPlanFreeID}:
+  $ref: ./update/mealplanfree.yaml
+select/MealPlanSession:
+  $ref: ./select/mealplansession.yaml
+update/MealPlanSession/{MealPlanSessionID}:
+  $ref: ./update/mealplansession.yaml
+select/MealPricing:
+  $ref: ./select/mealpricing.yaml
+update/MealPricing/{MealPricingID}:
+  $ref: ./update/mealpricing.yaml
+select/MembershipType:
+  $ref: ./select/membershiptype.yaml
+update/MembershipType/{MembershipTypeID}:
+  $ref: ./update/membershiptype.yaml
+select/ParcelType:
+  $ref: ./select/parceltype.yaml
+update/ParcelType/{ParcelTypeID}:
+  $ref: ./update/parceltype.yaml
+select/Payment:
+  $ref: ./select/payment.yaml
+update/Payment/{PaymentID}:
+  $ref: ./update/payment.yaml
+select/PaymentType:
+  $ref: ./select/paymenttype.yaml
+update/PaymentType/{PaymentTypeID}:
+  $ref: ./update/paymenttype.yaml
+select/PhoneChargeType:
+  $ref: ./select/phonechargetype.yaml
+update/PhoneChargeType/{PhoneChargeTypeID}:
+  $ref: ./update/phonechargetype.yaml
+select/PhoneChargeTypeCallType:
+  $ref: ./select/phonechargetypecalltype.yaml
+update/PhoneChargeTypeCallType/{PhoneChargeTypeCallTypeID}:
+  $ref: ./update/phonechargetypecalltype.yaml
+select/PortalActivity:
+  $ref: ./select/portalactivity.yaml
+update/PortalActivity/{PortalActivityID}:
+  $ref: ./update/portalactivity.yaml
+select/PortalUserToken:
+  $ref: ./select/portalusertoken.yaml
+update/PortalUserToken/{PortalUserTokenID}:
+  $ref: ./update/portalusertoken.yaml
+select/PortalProcess:
+  $ref: ./select/portalprocess.yaml
+update/PortalProcess/{PortalProcessID}:
+  $ref: ./update/portalprocess.yaml
+select/PortalTheme:
+  $ref: ./select/portaltheme.yaml
+update/PortalTheme/{PortalThemeID}:
+  $ref: ./update/portaltheme.yaml
+select/PortalPage:
+  $ref: ./select/portalpage.yaml
+update/PortalPage/{PortalPageID}:
+  $ref: ./update/portalpage.yaml
+select/PortalPageWidget:
+  $ref: ./select/portalpagewidget.yaml
+update/PortalPageWidget/{PortalPageWidgetID}:
+  $ref: ./update/portalpagewidget.yaml
+select/PortalStep:
+  $ref: ./select/portalstep.yaml
+update/PortalStep/{PortalStepID}:
+  $ref: ./update/portalstep.yaml
+select/PortalStepLink:
+  $ref: ./select/portalsteplink.yaml
+update/PortalStepLink/{PortalStepLinkID}:
+  $ref: ./update/portalsteplink.yaml
+select/PortalUserSignature:
+  $ref: ./select/portalusersignature.yaml
+update/PortalUserSignature/{PortalUserSignatureID}:
+  $ref: ./update/portalusersignature.yaml
+select/PortalAction:
+  $ref: ./select/portalaction.yaml
+update/PortalAction/{PortalActionID}:
+  $ref: ./update/portalaction.yaml
+select/PortalPageAction:
+  $ref: ./select/portalpageaction.yaml
+update/PortalPageAction/{PortalPageActionID}:
+  $ref: ./update/portalpageaction.yaml
+select/PortalChoice:
+  $ref: ./select/portalchoice.yaml
+update/PortalChoice/{PortalChoiceID}:
+  $ref: ./update/portalchoice.yaml
+select/PortalRule:
+  $ref: ./select/portalrule.yaml
+update/PortalRule/{PortalRuleID}:
+  $ref: ./update/portalrule.yaml
+select/PortalRuleLink:
+  $ref: ./select/portalrulelink.yaml
+update/PortalRuleLink/{PortalRuleLinkID}:
+  $ref: ./update/portalrulelink.yaml
+select/PortalSetting:
+  $ref: ./select/portalsetting.yaml
+update/PortalSetting/{PortalSettingID}:
+  $ref: ./update/portalsetting.yaml
+select/PortalSite:
+  $ref: ./select/portalsite.yaml
+update/PortalSite/{PortalSiteID}:
+  $ref: ./update/portalsite.yaml
+select/Process:
+  $ref: ./select/process.yaml
+update/Process/{ProcessID}:
+  $ref: ./update/process.yaml
+select/Preference:
+  $ref: ./select/preference.yaml
+update/Preference/{PreferenceID}:
+  $ref: ./update/preference.yaml
+select/ProfileItem:
+  $ref: ./select/profileitem.yaml
+update/ProfileItem/{ProfileItemID}:
+  $ref: ./update/profileitem.yaml
+select/ProfileType:
+  $ref: ./select/profiletype.yaml
+update/ProfileType/{ProfileTypeID}:
+  $ref: ./update/profiletype.yaml
+select/Program:
+  $ref: ./select/program.yaml
+update/Program/{ProgramID}:
+  $ref: ./update/program.yaml
+select/ProgramNote:
+  $ref: ./select/programnote.yaml
+update/ProgramNote/{ProgramNoteID}:
+  $ref: ./update/programnote.yaml
+select/ProgramCustomField:
+  $ref: ./select/programcustomfield.yaml
+update/ProgramCustomField/{ProgramCustomFieldID}:
+  $ref: ./update/programcustomfield.yaml
+select/ProgramType:
+  $ref: ./select/programtype.yaml
+update/ProgramType/{ProgramTypeID}:
+  $ref: ./update/programtype.yaml
+select/ProgramSubType:
+  $ref: ./select/programsubtype.yaml
+update/ProgramSubType/{ProgramSubTypeID}:
+  $ref: ./update/programsubtype.yaml
+select/ProgramEvaluationType:
+  $ref: ./select/programevaluationtype.yaml
+update/ProgramEvaluationType/{ProgramEvaluationTypeID}:
+  $ref: ./update/programevaluationtype.yaml
+select/ProgramEntry:
+  $ref: ./select/programentry.yaml
+update/ProgramEntry/{ProgramEntryID}:
+  $ref: ./update/programentry.yaml
+select/PromoCode:
+  $ref: ./select/promocode.yaml
+update/PromoCode/{PromoCodeID}:
+  $ref: ./update/promocode.yaml
+select/PromoCodeRecord:
+  $ref: ./select/promocoderecord.yaml
+update/PromoCodeRecord/{PromoCodeRecordID}:
+  $ref: ./update/promocoderecord.yaml
+select/PromoCodeUsage:
+  $ref: ./select/promocodeusage.yaml
+update/PromoCodeUsage/{PromoCodeUsageID}:
+  $ref: ./update/promocodeusage.yaml
+select/RefundRequestConfiguration:
+  $ref: ./select/refundrequestconfiguration.yaml
+update/RefundRequestConfiguration/{RefundRequestConfigurationID}:
+  $ref: ./update/refundrequestconfiguration.yaml
+select/RefundRequestConfigurationBreakUp:
+  $ref: ./select/refundrequestconfigurationbreakup.yaml
+update/RefundRequestConfigurationBreakUp/{RefundRequestConfigurationBreakUpID}:
+  $ref: ./update/refundrequestconfigurationbreakup.yaml
+select/RefundRequest:
+  $ref: ./select/refundrequest.yaml
+update/RefundRequest/{RefundRequestID}:
+  $ref: ./update/refundrequest.yaml
+select/RefundRequestBreakUp:
+  $ref: ./select/refundrequestbreakup.yaml
+update/RefundRequestBreakUp/{RefundRequestBreakUpID}:
+  $ref: ./update/refundrequestbreakup.yaml
+select/RefundRequestBatchConfiguration:
+  $ref: ./select/refundrequestbatchconfiguration.yaml
+update/RefundRequestBatchConfiguration/{RefundRequestBatchConfigurationID}:
+  $ref: ./update/refundrequestbatchconfiguration.yaml
+select/RefundRequestBatchConfigurationItem:
+  $ref: ./select/refundrequestbatchconfigurationitem.yaml
+update/RefundRequestBatchConfigurationItem/{RefundRequestBatchConfigurationItemID}:
+  $ref: ./update/refundrequestbatchconfigurationitem.yaml
+select/Resource:
+  $ref: ./select/resource.yaml
+update/Resource/{ResourceID}:
+  $ref: ./update/resource.yaml
+select/ResourceBooking:
+  $ref: ./select/resourcebooking.yaml
+update/ResourceBooking/{ResourceBookingID}:
+  $ref: ./update/resourcebooking.yaml
+select/ResourceType:
+  $ref: ./select/resourcetype.yaml
+update/ResourceType/{ResourceTypeID}:
+  $ref: ./update/resourcetype.yaml
+select/RoommateGroup:
+  $ref: ./select/roommategroup.yaml
+update/RoommateGroup/{RoommateGroupID}:
+  $ref: ./update/roommategroup.yaml
+select/RoommateGroupMandatoryProfile:
+  $ref: ./select/roommategroupmandatoryprofile.yaml
+update/RoommateGroupMandatoryProfile/{RoommateGroupMandatoryProfileID}:
+  $ref: ./update/roommategroupmandatoryprofile.yaml
+select/RoommateGroupRequest:
+  $ref: ./select/roommategrouprequest.yaml
+update/RoommateGroupRequest/{RoommateGroupRequestID}:
+  $ref: ./update/roommategrouprequest.yaml
+select/RoomBase:
+  $ref: ./select/roombase.yaml
+update/RoomBase/{RoomBaseID}:
+  $ref: ./update/roombase.yaml
+select/RoomBaseGender:
+  $ref: ./select/roombasegender.yaml
+update/RoomBaseGender/{RoomBaseGenderID}:
+  $ref: ./update/roombasegender.yaml
+select/RoomConfiguration:
+  $ref: ./select/roomconfiguration.yaml
+update/RoomConfiguration/{RoomConfigurationID}:
+  $ref: ./update/roomconfiguration.yaml
+select/RoomConfigurationAttribute:
+  $ref: ./select/roomconfigurationattribute.yaml
+update/RoomConfigurationAttribute/{RoomConfigurationAttributeID}:
+  $ref: ./update/roomconfigurationattribute.yaml
+select/RoomConfigurationClassification:
+  $ref: ./select/roomconfigurationclassification.yaml
+update/RoomConfigurationClassification/{RoomConfigurationClassificationID}:
+  $ref: ./update/roomconfigurationclassification.yaml
+select/RoomConfigurationRoomSort:
+  $ref: ./select/roomconfigurationroomsort.yaml
+update/RoomConfigurationRoomSort/{RoomConfigurationRoomSortID}:
+  $ref: ./update/roomconfigurationroomsort.yaml
+select/RoomLocation:
+  $ref: ./select/roomlocation.yaml
+update/RoomLocation/{RoomLocationID}:
+  $ref: ./update/roomlocation.yaml
+select/RoomLocationArea:
+  $ref: ./select/roomlocationarea.yaml
+update/RoomLocationArea/{RoomLocationAreaID}:
+  $ref: ./update/roomlocationarea.yaml
+select/RoomLocationClassification:
+  $ref: ./select/roomlocationclassification.yaml
+update/RoomLocationClassification/{RoomLocationClassificationID}:
+  $ref: ./update/roomlocationclassification.yaml
+select/RoomLocationFloorSuite:
+  $ref: ./select/roomlocationfloorsuite.yaml
+update/RoomLocationFloorSuite/{RoomLocationFloorSuiteID}:
+  $ref: ./update/roomlocationfloorsuite.yaml
+select/RoomLocationSection:
+  $ref: ./select/roomlocationsection.yaml
+update/RoomLocationSection/{RoomLocationSectionID}:
+  $ref: ./update/roomlocationsection.yaml
+select/RoomManager:
+  $ref: ./select/roommanager.yaml
+update/RoomManager/{RoomManagerID}:
+  $ref: ./update/roommanager.yaml
+select/RoomPreference:
+  $ref: ./select/roompreference.yaml
+update/RoomPreference/{RoomPreferenceID}:
+  $ref: ./update/roompreference.yaml
+select/RoomConfigurationProfile:
+  $ref: ./select/roomconfigurationprofile.yaml
+update/RoomConfigurationProfile/{RoomConfigurationProfileID}:
+  $ref: ./update/roomconfigurationprofile.yaml
+select/RoomRate:
+  $ref: ./select/roomrate.yaml
+update/RoomRate/{RoomRateID}:
+  $ref: ./update/roomrate.yaml
+select/RoomRateCharge:
+  $ref: ./select/roomratecharge.yaml
+update/RoomRateCharge/{RoomRateChargeID}:
+  $ref: ./update/roomratecharge.yaml
+select/RoomRateRoomTypeLocation:
+  $ref: ./select/roomrateroomtypelocation.yaml
+update/RoomRateRoomTypeLocation/{RoomRateRoomTypeLocationID}:
+  $ref: ./update/roomrateroomtypelocation.yaml
+select/RoomRateSession:
+  $ref: ./select/roomratesession.yaml
+update/RoomRateSession/{RoomRateSessionID}:
+  $ref: ./update/roomratesession.yaml
+select/RoomSpace:
+  $ref: ./select/roomspace.yaml
+update/RoomSpace/{RoomSpaceID}:
+  $ref: ./update/roomspace.yaml
+select/RoomSpaceClosed:
+  $ref: ./select/roomspaceclosed.yaml
+update/RoomSpaceClosed/{RoomSpaceClosedID}:
+  $ref: ./update/roomspaceclosed.yaml
+select/RoomSpaceDetail:
+  $ref: ./select/roomspacedetail.yaml
+update/RoomSpaceDetail/{RoomSpaceDetailID}:
+  $ref: ./update/roomspacedetail.yaml
+select/RoomSpaceInventory:
+  $ref: ./select/roomspaceinventory.yaml
+update/RoomSpaceInventory/{RoomSpaceInventoryID}:
+  $ref: ./update/roomspaceinventory.yaml
+select/RoomSpaceInventoryCondition:
+  $ref: ./select/roomspaceinventorycondition.yaml
+update/RoomSpaceInventoryCondition/{RoomSpaceInventoryConditionID}:
+  $ref: ./update/roomspaceinventorycondition.yaml
+select/RoomSpaceInventoryInspection:
+  $ref: ./select/roomspaceinventoryinspection.yaml
+update/RoomSpaceInventoryInspection/{RoomSpaceInventoryInspectionID}:
+  $ref: ./update/roomspaceinventoryinspection.yaml
+select/RoomSpaceInventoryInspectionItem:
+  $ref: ./select/roomspaceinventoryinspectionitem.yaml
+update/RoomSpaceInventoryInspectionItem/{RoomSpaceInventoryInspectionItemID}:
+  $ref: ./update/roomspaceinventoryinspectionitem.yaml
+select/RoomSpaceInventoryInspectionRun:
+  $ref: ./select/roomspaceinventoryinspectionrun.yaml
+update/RoomSpaceInventoryInspectionRun/{RoomSpaceInventoryInspectionRunID}:
+  $ref: ./update/roomspaceinventoryinspectionrun.yaml
+select/RoomSpaceInventoryStatus:
+  $ref: ./select/roomspaceinventorystatus.yaml
+update/RoomSpaceInventoryStatus/{RoomSpaceInventoryStatusID}:
+  $ref: ./update/roomspaceinventorystatus.yaml
+select/RoomSpaceInventoryType:
+  $ref: ./select/roomspaceinventorytype.yaml
+update/RoomSpaceInventoryType/{RoomSpaceInventoryTypeID}:
+  $ref: ./update/roomspaceinventorytype.yaml
+select/RoomSpaceKey:
+  $ref: ./select/roomspacekey.yaml
+update/RoomSpaceKey/{RoomSpaceKeyID}:
+  $ref: ./update/roomspacekey.yaml
+select/RoomSpaceKeyBooking:
+  $ref: ./select/roomspacekeybooking.yaml
+update/RoomSpaceKeyBooking/{RoomSpaceKeyBookingID}:
+  $ref: ./update/roomspacekeybooking.yaml
+select/RoomSpaceKeyType:
+  $ref: ./select/roomspacekeytype.yaml
+update/RoomSpaceKeyType/{RoomSpaceKeyTypeID}:
+  $ref: ./update/roomspacekeytype.yaml
+select/RoomSpaceMaintenance:
+  $ref: ./select/roomspacemaintenance.yaml
+update/RoomSpaceMaintenance/{RoomSpaceMaintenanceID}:
+  $ref: ./update/roomspacemaintenance.yaml
+select/RoomSpaceMaintenanceCategory:
+  $ref: ./select/roomspacemaintenancecategory.yaml
+update/RoomSpaceMaintenanceCategory/{RoomSpaceMaintenanceCategoryID}:
+  $ref: ./update/roomspacemaintenancecategory.yaml
+select/RoomSpaceMaintenanceItem:
+  $ref: ./select/roomspacemaintenanceitem.yaml
+update/RoomSpaceMaintenanceItem/{RoomSpaceMaintenanceItemID}:
+  $ref: ./update/roomspacemaintenanceitem.yaml
+select/RoomSpaceMaintenanceJobAction:
+  $ref: ./select/roomspacemaintenancejobaction.yaml
+update/RoomSpaceMaintenanceJobAction/{RoomSpaceMaintenanceJobActionID}:
+  $ref: ./update/roomspacemaintenancejobaction.yaml
+select/RoomSpaceMaintenanceMaterials:
+  $ref: ./select/roomspacemaintenancematerials.yaml
+update/RoomSpaceMaintenanceMaterials/{RoomSpaceMaintenanceMaterialsID}:
+  $ref: ./update/roomspacemaintenancematerials.yaml
+select/RoomSpaceSwap:
+  $ref: ./select/roomspaceswap.yaml
+update/RoomSpaceSwap/{RoomSpaceSwapID}:
+  $ref: ./update/roomspaceswap.yaml
+select/RoomSpaceSwapPreference:
+  $ref: ./select/roomspaceswappreference.yaml
+update/RoomSpaceSwapPreference/{RoomSpaceSwapPreferenceID}:
+  $ref: ./update/roomspaceswappreference.yaml
+select/RoomSortConfiguration:
+  $ref: ./select/roomsortconfiguration.yaml
+update/RoomSortConfiguration/{RoomSortConfigurationID}:
+  $ref: ./update/roomsortconfiguration.yaml
+select/RoomSortProfile:
+  $ref: ./select/roomsortprofile.yaml
+update/RoomSortProfile/{RoomSortProfileID}:
+  $ref: ./update/roomsortprofile.yaml
+select/RoomSortProfileItem:
+  $ref: ./select/roomsortprofileitem.yaml
+update/RoomSortProfileItem/{RoomSortProfileItemID}:
+  $ref: ./update/roomsortprofileitem.yaml
+select/RoomConfigurationTermType:
+  $ref: ./select/roomconfigurationtermtype.yaml
+update/RoomConfigurationTermType/{RoomConfigurationTermTypeID}:
+  $ref: ./update/roomconfigurationtermtype.yaml
+select/RoomType:
+  $ref: ./select/roomtype.yaml
+update/RoomType/{RoomTypeID}:
+  $ref: ./update/roomtype.yaml
+select/RoomTypeCapacity:
+  $ref: ./select/roomtypecapacity.yaml
+update/RoomTypeCapacity/{RoomTypeCapacityID}:
+  $ref: ./update/roomtypecapacity.yaml
+select/SavedList:
+  $ref: ./select/savedlist.yaml
+update/SavedList/{SavedListID}:
+  $ref: ./update/savedlist.yaml
+select/SavedListItem:
+  $ref: ./select/savedlistitem.yaml
+update/SavedListItem/{SavedListItemID}:
+  $ref: ./update/savedlistitem.yaml
+select/School:
+  $ref: ./select/school.yaml
+update/School/{SchoolID}:
+  $ref: ./update/school.yaml
+select/SDASChargeRate:
+  $ref: ./select/sdaschargerate.yaml
+update/SDASChargeRate/{SDASChargeRateID}:
+  $ref: ./update/sdaschargerate.yaml
+select/SDASData:
+  $ref: ./select/sdasdata.yaml
+update/SDASData/{SDASDataID}:
+  $ref: ./update/sdasdata.yaml
+select/ShippingType:
+  $ref: ./select/shippingtype.yaml
+update/ShippingType/{ShippingTypeID}:
+  $ref: ./update/shippingtype.yaml
+select/ShoppingCartItem:
+  $ref: ./select/shoppingcartitem.yaml
+update/ShoppingCartItem/{ShoppingCartItemID}:
+  $ref: ./update/shoppingcartitem.yaml
+select/ShoppingCartItemHold:
+  $ref: ./select/shoppingcartitemhold.yaml
+update/ShoppingCartItemHold/{ShoppingCartItemHoldID}:
+  $ref: ./update/shoppingcartitemhold.yaml
+select/PortalUserHold:
+  $ref: ./select/portaluserhold.yaml
+update/PortalUserHold/{PortalUserHoldID}:
+  $ref: ./update/portaluserhold.yaml
+select/Staff:
+  $ref: ./select/staff.yaml
+update/Staff/{StaffID}:
+  $ref: ./update/staff.yaml
+select/Survey:
+  $ref: ./select/survey.yaml
+update/Survey/{SurveyID}:
+  $ref: ./update/survey.yaml
+select/SurveyType:
+  $ref: ./select/surveytype.yaml
+update/SurveyType/{SurveyTypeID}:
+  $ref: ./update/surveytype.yaml
+select/SurveyQuestion:
+  $ref: ./select/surveyquestion.yaml
+update/SurveyQuestion/{SurveyQuestionID}:
+  $ref: ./update/surveyquestion.yaml
+select/ResponseStatus:
+  $ref: ./select/responsestatus.yaml
+update/ResponseStatus/{ResponseStatusID}:
+  $ref: ./update/responsestatus.yaml
+select/SurveyResponse:
+  $ref: ./select/surveyresponse.yaml
+update/SurveyResponse/{SurveyResponseID}:
+  $ref: ./update/surveyresponse.yaml
+select/SurveyQuestionResponse:
+  $ref: ./select/surveyquestionresponse.yaml
+update/SurveyQuestionResponse/{SurveyQuestionResponseID}:
+  $ref: ./update/surveyquestionresponse.yaml
+select/BookingAgreement:
+  $ref: ./select/bookingagreement.yaml
+update/BookingAgreement/{BookingAgreementID}:
+  $ref: ./update/bookingagreement.yaml
+select/SystemActivity:
+  $ref: ./select/systemactivity.yaml
+update/SystemActivity/{SystemActivityID}:
+  $ref: ./update/systemactivity.yaml
+select/Term:
+  $ref: ./select/term.yaml
+update/Term/{TermID}:
+  $ref: ./update/term.yaml
+select/TermSession:
+  $ref: ./select/termsession.yaml
+update/TermSession/{TermSessionID}:
+  $ref: ./update/termsession.yaml
+select/TermSessionFree:
+  $ref: ./select/termsessionfree.yaml
+update/TermSessionFree/{TermSessionFreeID}:
+  $ref: ./update/termsessionfree.yaml
+select/TermRule:
+  $ref: ./select/termrule.yaml
+update/TermRule/{TermRuleID}:
+  $ref: ./update/termrule.yaml
+select/TermType:
+  $ref: ./select/termtype.yaml
+update/TermType/{TermTypeID}:
+  $ref: ./update/termtype.yaml
+select/TimeSlot:
+  $ref: ./select/timeslot.yaml
+update/TimeSlot/{TimeSlotID}:
+  $ref: ./update/timeslot.yaml
+select/Title:
+  $ref: ./select/title.yaml
+update/Title/{TitleID}:
+  $ref: ./update/title.yaml
+select/Total:
+  $ref: ./select/total.yaml
+update/Total/{TotalID}:
+  $ref: ./update/total.yaml
+select/Transaction:
+  $ref: ./select/transaction.yaml
+update/Transaction/{TransactionID}:
+  $ref: ./update/transaction.yaml
+select/TransactionLink:
+  $ref: ./select/transactionlink.yaml
+update/TransactionLink/{TransactionLinkID}:
+  $ref: ./update/transactionlink.yaml
+select/TransactionLinkItem:
+  $ref: ./select/transactionlinkitem.yaml
+update/TransactionLinkItem/{TransactionLinkItemID}:
+  $ref: ./update/transactionlinkitem.yaml
+select/TransactionTag:
+  $ref: ./select/transactiontag.yaml
+update/TransactionTag/{TransactionTagID}:
+  $ref: ./update/transactiontag.yaml
+select/TransactionTemplate:
+  $ref: ./select/transactiontemplate.yaml
+update/TransactionTemplate/{TransactionTemplateID}:
+  $ref: ./update/transactiontemplate.yaml
+select/TransactionTemplateItem:
+  $ref: ./select/transactiontemplateitem.yaml
+update/TransactionTemplateItem/{TransactionTemplateItemID}:
+  $ref: ./update/transactiontemplateitem.yaml
+select/TransactionDispute:
+  $ref: ./select/transactiondispute.yaml
+update/TransactionDispute/{TransactionDisputeID}:
+  $ref: ./update/transactiondispute.yaml
+select/TransactionDisputeCustomField:
+  $ref: ./select/transactiondisputecustomfield.yaml
+update/TransactionDisputeCustomField/{TransactionDisputeCustomFieldID}:
+  $ref: ./update/transactiondisputecustomfield.yaml
+select/TransactionDisputeItem:
+  $ref: ./select/transactiondisputeitem.yaml
+update/TransactionDisputeItem/{TransactionDisputeItemID}:
+  $ref: ./update/transactiondisputeitem.yaml
+select/Visitor:
+  $ref: ./select/visitor.yaml
+update/Visitor/{VisitorID}:
+  $ref: ./update/visitor.yaml
+select/VisitorType:
+  $ref: ./select/visitortype.yaml
+update/VisitorType/{VisitorTypeID}:
+  $ref: ./update/visitortype.yaml
+select/VMData:
+  $ref: ./select/vmdata.yaml
+update/VMData/{VMDataID}:
+  $ref: ./update/vmdata.yaml
+select/VMGroup:
+  $ref: ./select/vmgroup.yaml
+update/VMGroup/{VMGroupID}:
+  $ref: ./update/vmgroup.yaml
+select/VMGroupExtension:
+  $ref: ./select/vmgroupextension.yaml
+update/VMGroupExtension/{VMGroupExtensionID}:
+  $ref: ./update/vmgroupextension.yaml
+select/VMGroupMailBox:
+  $ref: ./select/vmgroupmailbox.yaml
+update/VMGroupMailBox/{VMGroupMailBoxID}:
+  $ref: ./update/vmgroupmailbox.yaml
+select/VMGroupMessage:
+  $ref: ./select/vmgroupmessage.yaml
+update/VMGroupMessage/{VMGroupMessageID}:
+  $ref: ./update/vmgroupmessage.yaml
+select/VMLineUsage:
+  $ref: ./select/vmlineusage.yaml
+update/VMLineUsage/{VMLineUsageID}:
+  $ref: ./update/vmlineusage.yaml
+select/VMMailBox:
+  $ref: ./select/vmmailbox.yaml
+update/VMMailBox/{VMMailBoxID}:
+  $ref: ./update/vmmailbox.yaml
+select/VMMailBoxType:
+  $ref: ./select/vmmailboxtype.yaml
+update/VMMailBoxType/{VMMailBoxTypeID}:
+  $ref: ./update/vmmailboxtype.yaml
+select/VMMCI:
+  $ref: ./select/vmmci.yaml
+update/VMMCI/{VMMCIID}:
+  $ref: ./update/vmmci.yaml
+select/VMMessage:
+  $ref: ./select/vmmessage.yaml
+update/VMMessage/{VMMessageID}:
+  $ref: ./update/vmmessage.yaml
+select/VMMessageLamp:
+  $ref: ./select/vmmessagelamp.yaml
+update/VMMessageLamp/{VMMessageLampID}:
+  $ref: ./update/vmmessagelamp.yaml
+select/WaitList:
+  $ref: ./select/waitlist.yaml
+update/WaitList/{WaitListID}:
+  $ref: ./update/waitlist.yaml
+select/WaitListEntryApplication:
+  $ref: ./select/waitlistentryapplication.yaml
+update/WaitListEntryApplication/{WaitListEntryApplicationID}:
+  $ref: ./update/waitlistentryapplication.yaml
+select/WaitListRoomSpace:
+  $ref: ./select/waitlistroomspace.yaml
+update/WaitListRoomSpace/{WaitListRoomSpaceID}:
+  $ref: ./update/waitlistroomspace.yaml
+select/WaitListProfile:
+  $ref: ./select/waitlistprofile.yaml
+update/WaitListProfile/{WaitListProfileID}:
+  $ref: ./update/waitlistprofile.yaml
+select/WaitListClassification:
+  $ref: ./select/waitlistclassification.yaml
+update/WaitListClassification/{WaitListClassificationID}:
+  $ref: ./update/waitlistclassification.yaml
+select/WebBlock:
+  $ref: ./select/webblock.yaml
+update/WebBlock/{WebBlockID}:
+  $ref: ./update/webblock.yaml
+select/WebControl:
+  $ref: ./select/webcontrol.yaml
+update/WebControl/{WebControlID}:
+  $ref: ./update/webcontrol.yaml
+select/WebEmailText:
+  $ref: ./select/webemailtext.yaml
+update/WebEmailText/{WebEmailTextID}:
+  $ref: ./update/webemailtext.yaml
+select/WebField:
+  $ref: ./select/webfield.yaml
+update/WebField/{WebFieldID}:
+  $ref: ./update/webfield.yaml
+select/WebLog:
+  $ref: ./select/weblog.yaml
+update/WebLog/{WebLogID}:
+  $ref: ./update/weblog.yaml
+select/WebMenu:
+  $ref: ./select/webmenu.yaml
+update/WebMenu/{WebMenuID}:
+  $ref: ./update/webmenu.yaml
+select/WebMenuClassification:
+  $ref: ./select/webmenuclassification.yaml
+update/WebMenuClassification/{WebMenuClassificationID}:
+  $ref: ./update/webmenuclassification.yaml
+select/WebSite:
+  $ref: ./select/website.yaml
+update/WebSite/{WebSiteID}:
+  $ref: ./update/website.yaml
+select/WebModule:
+  $ref: ./select/webmodule.yaml
+update/WebModule/{WebModuleID}:
+  $ref: ./update/webmodule.yaml
+select/WebPayment:
+  $ref: ./select/webpayment.yaml
+update/WebPayment/{WebPaymentID}:
+  $ref: ./update/webpayment.yaml
+select/WebRule:
+  $ref: ./select/webrule.yaml
+update/WebRule/{WebRuleID}:
+  $ref: ./update/webrule.yaml
+select/WebRuleLink:
+  $ref: ./select/webrulelink.yaml
+update/WebRuleLink/{WebRuleLinkID}:
+  $ref: ./update/webrulelink.yaml
+select/WebSection:
+  $ref: ./select/websection.yaml
+update/WebSection/{WebSectionID}:
+  $ref: ./update/websection.yaml
+select/WebSectionTextBlock:
+  $ref: ./select/websectiontextblock.yaml
+update/WebSectionTextBlock/{WebSectionTextBlockID}:
+  $ref: ./update/websectiontextblock.yaml
+select/WebSetting:
+  $ref: ./select/websetting.yaml
+update/WebSetting/{WebSettingID}:
+  $ref: ./update/websetting.yaml
+select/WebTransaction:
+  $ref: ./select/webtransaction.yaml
+update/WebTransaction/{WebTransactionID}:
+  $ref: ./update/webtransaction.yaml
+select/Workflow:
+  $ref: ./select/workflow.yaml
+update/Workflow/{WorkflowID}:
+  $ref: ./update/workflow.yaml
+select/WorkflowStep:
+  $ref: ./select/workflowstep.yaml
+update/WorkflowStep/{WorkflowStepID}:
+  $ref: ./update/workflowstep.yaml
+select/WorkflowHistory:
+  $ref: ./select/workflowhistory.yaml
+update/WorkflowHistory/{WorkflowHistoryID}:
+  $ref: ./update/workflowhistory.yaml
+select/WorkflowPermission:
+  $ref: ./select/workflowpermission.yaml
+update/WorkflowPermission/{WorkflowPermissionID}:
+  $ref: ./update/workflowpermission.yaml
+select/WorkflowStepPermission:
+  $ref: ./select/workflowsteppermission.yaml
+update/WorkflowStepPermission/{WorkflowStepPermissionID}:
+  $ref: ./update/workflowsteppermission.yaml
+select/Room:
+  $ref: ./select/room.yaml
+update/Room/{RoomID}:
+  $ref: ./update/room.yaml
+select/RoomProfile:
+  $ref: ./select/roomprofile.yaml
+update/RoomProfile/{RoomProfileID}:
+  $ref: ./update/roomprofile.yaml
+select/RoomAttribute:
+  $ref: ./select/roomattribute.yaml
+update/RoomAttribute/{RoomAttributeID}:
+  $ref: ./update/roomattribute.yaml
+select/RoomClassification:
+  $ref: ./select/roomclassification.yaml
+update/RoomClassification/{RoomClassificationID}:
+  $ref: ./update/roomclassification.yaml
+select/RoomTermType:
+  $ref: ./select/roomtermtype.yaml
+update/RoomTermType/{RoomTermTypeID}:
+  $ref: ./update/roomtermtype.yaml

@@ -1,6 +1,754 @@
 TableItem:
   $ref: TableItem.yaml
-EntryItem:
-  $ref: EntryItem.yaml
 # Insert Manually created Items above
 # Generated
+CorrespondenceSourceItem:
+  $ref: CorrespondenceSourceItem.yaml
+CountryItem:
+  $ref: CountryItem.yaml
+CustomFieldDefinitionItem:
+  $ref: CustomFieldDefinitionItem.yaml
+CustomMethodTagItem:
+  $ref: CustomMethodTagItem.yaml
+DocumentItem:
+  $ref: DocumentItem.yaml
+DynamicListItem:
+  $ref: DynamicListItem.yaml
+DynamicListPermissionItem:
+  $ref: DynamicListPermissionItem.yaml
+EmailFromAddressItem:
+  $ref: EmailFromAddressItem.yaml
+EmailFromAddressPermissionItem:
+  $ref: EmailFromAddressPermissionItem.yaml
+EmailOutboxItem:
+  $ref: EmailOutboxItem.yaml
+FieldDefaultItem:
+  $ref: FieldDefaultItem.yaml
+GenericTableDataItem:
+  $ref: GenericTableDataItem.yaml
+GenericTableDataFieldItem:
+  $ref: GenericTableDataFieldItem.yaml
+GenericTableDefinitionItem:
+  $ref: GenericTableDefinitionItem.yaml
+GenericTableDefinitionFieldItem:
+  $ref: GenericTableDefinitionFieldItem.yaml
+LogActivityItem:
+  $ref: LogActivityItem.yaml
+LogAddInItem:
+  $ref: LogAddInItem.yaml
+LogMetricItem:
+  $ref: LogMetricItem.yaml
+LookupItem:
+  $ref: LookupItem.yaml
+LookupTextItem:
+  $ref: LookupTextItem.yaml
+MailMergeItem:
+  $ref: MailMergeItem.yaml
+MessageActionItem:
+  $ref: MessageActionItem.yaml
+MessageSubscriberItem:
+  $ref: MessageSubscriberItem.yaml
+MessageSubscriptionItem:
+  $ref: MessageSubscriptionItem.yaml
+MessageSubscriptionSettingsItem:
+  $ref: MessageSubscriptionSettingsItem.yaml
+MessageItem:
+  $ref: MessageItem.yaml
+NationalityItem:
+  $ref: NationalityItem.yaml
+NoteTypeItem:
+  $ref: NoteTypeItem.yaml
+PriorityItem:
+  $ref: PriorityItem.yaml
+RecordAttachmentItem:
+  $ref: RecordAttachmentItem.yaml
+RegionOfBirthItem:
+  $ref: RegionOfBirthItem.yaml
+ReportItem:
+  $ref: ReportItem.yaml
+ReportDetailItem:
+  $ref: ReportDetailItem.yaml
+ReportPermissionItem:
+  $ref: ReportPermissionItem.yaml
+ReportScheduleItem:
+  $ref: ReportScheduleItem.yaml
+ReportSettingItem:
+  $ref: ReportSettingItem.yaml
+SettingItem:
+  $ref: SettingItem.yaml
+TaskItem:
+  $ref: TaskItem.yaml
+TaskStatusItem:
+  $ref: TaskStatusItem.yaml
+TaskTemplateItem:
+  $ref: TaskTemplateItem.yaml
+TaskTemplateItemItem:
+  $ref: TaskTemplateItemItem.yaml
+TaskTypeItem:
+  $ref: TaskTypeItem.yaml
+TaskRunnerHistoryItem:
+  $ref: TaskRunnerHistoryItem.yaml
+TemplateItem:
+  $ref: TemplateItem.yaml
+TemplatePermissionItem:
+  $ref: TemplatePermissionItem.yaml
+ZipPostCodeItem:
+  $ref: ZipPostCodeItem.yaml
+AddressTypeItem:
+  $ref: AddressTypeItem.yaml
+ApplicationStatusItem:
+  $ref: ApplicationStatusItem.yaml
+AutoAllocateRunItem:
+  $ref: AutoAllocateRunItem.yaml
+BookingItem:
+  $ref: BookingItem.yaml
+BookingCustomFieldItem:
+  $ref: BookingCustomFieldItem.yaml
+BookingTagItem:
+  $ref: BookingTagItem.yaml
+BookingLinkedItem:
+  $ref: BookingLinkedItem.yaml
+BookingOccupantItem:
+  $ref: BookingOccupantItem.yaml
+BookingReasonItem:
+  $ref: BookingReasonItem.yaml
+BookingTypeItem:
+  $ref: BookingTypeItem.yaml
+CalendarItem:
+  $ref: CalendarItem.yaml
+CategoryItem:
+  $ref: CategoryItem.yaml
+CategoryCustomFieldItem:
+  $ref: CategoryCustomFieldItem.yaml
+CategoryLevelItem:
+  $ref: CategoryLevelItem.yaml
+CategoryPermissionItem:
+  $ref: CategoryPermissionItem.yaml
+CategoryScheduleTransactionItem:
+  $ref: CategoryScheduleTransactionItem.yaml
+CateringTypeItem:
+  $ref: CateringTypeItem.yaml
+CateringItem:
+  $ref: CateringItem.yaml
+CateringItemItem:
+  $ref: CateringItemItem.yaml
+ChargeGroupItem:
+  $ref: ChargeGroupItem.yaml
+ChargeItemItem:
+  $ref: ChargeItemItem.yaml
+ClassificationItem:
+  $ref: ClassificationItem.yaml
+ContactItem:
+  $ref: ContactItem.yaml
+ContactCustomFieldItem:
+  $ref: ContactCustomFieldItem.yaml
+ContactNoteItem:
+  $ref: ContactNoteItem.yaml
+ContactStatusItem:
+  $ref: ContactStatusItem.yaml
+ConcernTypeItem:
+  $ref: ConcernTypeItem.yaml
+ConcernSubTypeItem:
+  $ref: ConcernSubTypeItem.yaml
+ConcernNoteItem:
+  $ref: ConcernNoteItem.yaml
+ConcernItem:
+  $ref: ConcernItem.yaml
+ConcernEntryItem:
+  $ref: ConcernEntryItem.yaml
+ConcernCustomFieldItem:
+  $ref: ConcernCustomFieldItem.yaml
+ContributionTypeItem:
+  $ref: ContributionTypeItem.yaml
+ContributionSubTypeItem:
+  $ref: ContributionSubTypeItem.yaml
+ContributionNoteItem:
+  $ref: ContributionNoteItem.yaml
+ContributionItem:
+  $ref: ContributionItem.yaml
+ContributionEntryItem:
+  $ref: ContributionEntryItem.yaml
+ContributionCustomFieldItem:
+  $ref: ContributionCustomFieldItem.yaml
+CourseItem:
+  $ref: CourseItem.yaml
+CurrencyConversionItem:
+  $ref: CurrencyConversionItem.yaml
+DeletedTransactionItem:
+  $ref: DeletedTransactionItem.yaml
+DashboardItem:
+  $ref: DashboardItem.yaml
+DashboardPanelItem:
+  $ref: DashboardPanelItem.yaml
+DashboardPanelSettingItem:
+  $ref: DashboardPanelSettingItem.yaml
+DashboardSharingItem:
+  $ref: DashboardSharingItem.yaml
+ElectronicIdentityTypeItem:
+  $ref: ElectronicIdentityTypeItem.yaml
+EndOfSessionItem:
+  $ref: EndOfSessionItem.yaml
+EndOfSessionChargeGroupItem:
+  $ref: EndOfSessionChargeGroupItem.yaml
+EntryItem:
+  $ref: EntryItem.yaml
+EntryAddressItem:
+  $ref: EntryAddressItem.yaml
+EntryAlumniStatusItem:
+  $ref: EntryAlumniStatusItem.yaml
+EntryAlumniItem:
+  $ref: EntryAlumniItem.yaml
+EntryApplicationItem:
+  $ref: EntryApplicationItem.yaml
+EntryApplicationCustomFieldItem:
+  $ref: EntryApplicationCustomFieldItem.yaml
+EntryApplicationNoteItem:
+  $ref: EntryApplicationNoteItem.yaml
+EntryApplicationPortalSectionItem:
+  $ref: EntryApplicationPortalSectionItem.yaml
+EntryApplicationPreferenceItem:
+  $ref: EntryApplicationPreferenceItem.yaml
+EntryApplicationProxyItem:
+  $ref: EntryApplicationProxyItem.yaml
+EntryApplicationRoomMateItem:
+  $ref: EntryApplicationRoomMateItem.yaml
+EntryApplicationRoomPreferenceItem:
+  $ref: EntryApplicationRoomPreferenceItem.yaml
+EntryCorrespondenceItem:
+  $ref: EntryCorrespondenceItem.yaml
+EntryCustomFieldItem:
+  $ref: EntryCustomFieldItem.yaml
+EntryDetailItem:
+  $ref: EntryDetailItem.yaml
+EntryElectronicIdentityItem:
+  $ref: EntryElectronicIdentityItem.yaml
+EntryEnrollmentItem:
+  $ref: EntryEnrollmentItem.yaml
+EntryFamilyItem:
+  $ref: EntryFamilyItem.yaml
+EntryGroupItem:
+  $ref: EntryGroupItem.yaml
+EntryEventItem:
+  $ref: EntryEventItem.yaml
+EntryInvitationItem:
+  $ref: EntryInvitationItem.yaml
+EntryMealItem:
+  $ref: EntryMealItem.yaml
+EntryMealTagItem:
+  $ref: EntryMealTagItem.yaml
+EntryMealPlanDetailItem:
+  $ref: EntryMealPlanDetailItem.yaml
+EntryMembershipItem:
+  $ref: EntryMembershipItem.yaml
+EntryNoteItem:
+  $ref: EntryNoteItem.yaml
+EntryParcelItem:
+  $ref: EntryParcelItem.yaml
+EntryPortalActivityItem:
+  $ref: EntryPortalActivityItem.yaml
+EntryPositionItem:
+  $ref: EntryPositionItem.yaml
+EntryProfileItem:
+  $ref: EntryProfileItem.yaml
+EntryResultItem:
+  $ref: EntryResultItem.yaml
+EntryScheduleTransactionItem:
+  $ref: EntryScheduleTransactionItem.yaml
+EntryScholarshipItem:
+  $ref: EntryScholarshipItem.yaml
+EntrySchoolItem:
+  $ref: EntrySchoolItem.yaml
+EntrySDASItem:
+  $ref: EntrySDASItem.yaml
+EntryVisitorItem:
+  $ref: EntryVisitorItem.yaml
+EventItem:
+  $ref: EventItem.yaml
+EventChargeItem:
+  $ref: EventChargeItem.yaml
+EventQuoteItem:
+  $ref: EventQuoteItem.yaml
+EventContactEntryItem:
+  $ref: EventContactEntryItem.yaml
+EventCustomFieldItem:
+  $ref: EventCustomFieldItem.yaml
+EventMealPlanItem:
+  $ref: EventMealPlanItem.yaml
+EventNoteItem:
+  $ref: EventNoteItem.yaml
+EventRegistrationFeeItem:
+  $ref: EventRegistrationFeeItem.yaml
+EventTypeItem:
+  $ref: EventTypeItem.yaml
+ExtensionItem:
+  $ref: ExtensionItem.yaml
+FinancialSupportItem:
+  $ref: FinancialSupportItem.yaml
+FunctionBookingItem:
+  $ref: FunctionBookingItem.yaml
+FunctionBookingAttendeeItem:
+  $ref: FunctionBookingAttendeeItem.yaml
+FunctionBookingCateringItem:
+  $ref: FunctionBookingCateringItem.yaml
+FunctionBookingCateringItemItem:
+  $ref: FunctionBookingCateringItemItem.yaml
+FunctionBookingChargeItem:
+  $ref: FunctionBookingChargeItem.yaml
+FunctionResourceItem:
+  $ref: FunctionResourceItem.yaml
+FunctionResourceBookingItem:
+  $ref: FunctionResourceBookingItem.yaml
+FunctionResourceTypeItem:
+  $ref: FunctionResourceTypeItem.yaml
+FunctionRoomItem:
+  $ref: FunctionRoomItem.yaml
+FunctionRoomClosedItem:
+  $ref: FunctionRoomClosedItem.yaml
+FunctionRoomBookingItem:
+  $ref: FunctionRoomBookingItem.yaml
+FunctionRoomLocationItem:
+  $ref: FunctionRoomLocationItem.yaml
+FunctionRoomRateItem:
+  $ref: FunctionRoomRateItem.yaml
+FunctionRoomSetupItem:
+  $ref: FunctionRoomSetupItem.yaml
+FunctionRoomTypeItem:
+  $ref: FunctionRoomTypeItem.yaml
+FunctionTypeItem:
+  $ref: FunctionTypeItem.yaml
+GLPostingItem:
+  $ref: GLPostingItem.yaml
+GroupItem:
+  $ref: GroupItem.yaml
+GroupRoomSpaceItem:
+  $ref: GroupRoomSpaceItem.yaml
+GroupCustomFieldItem:
+  $ref: GroupCustomFieldItem.yaml
+GroupContactEntryItem:
+  $ref: GroupContactEntryItem.yaml
+GroupMealPlanItem:
+  $ref: GroupMealPlanItem.yaml
+GroupRoomTypeAndRatesItem:
+  $ref: GroupRoomTypeAndRatesItem.yaml
+HousekeepingItem:
+  $ref: HousekeepingItem.yaml
+HousekeepingScheduleItem:
+  $ref: HousekeepingScheduleItem.yaml
+HousekeepingScheduleSkipItem:
+  $ref: HousekeepingScheduleSkipItem.yaml
+IncidentItem:
+  $ref: IncidentItem.yaml
+IncidentActionItem:
+  $ref: IncidentActionItem.yaml
+IncidentActionEntryItem:
+  $ref: IncidentActionEntryItem.yaml
+IncidentActionTypeItem:
+  $ref: IncidentActionTypeItem.yaml
+IncidentCustomFieldItem:
+  $ref: IncidentCustomFieldItem.yaml
+IncidentEntryItem:
+  $ref: IncidentEntryItem.yaml
+IncidentEntryCorrespondenceItem:
+  $ref: IncidentEntryCorrespondenceItem.yaml
+IncidentEntryNoteItem:
+  $ref: IncidentEntryNoteItem.yaml
+IncidentSanctionTypeItem:
+  $ref: IncidentSanctionTypeItem.yaml
+IncidentCleryGeographyItem:
+  $ref: IncidentCleryGeographyItem.yaml
+IncidentSanctionSubTypeItem:
+  $ref: IncidentSanctionSubTypeItem.yaml
+IncidentAppealDecisionItem:
+  $ref: IncidentAppealDecisionItem.yaml
+IncidentAppealTypeItem:
+  $ref: IncidentAppealTypeItem.yaml
+IncidentFindingItem:
+  $ref: IncidentFindingItem.yaml
+IncidentPleaItem:
+  $ref: IncidentPleaItem.yaml
+IncidentViolationItem:
+  $ref: IncidentViolationItem.yaml
+IncidentEntryViolationItem:
+  $ref: IncidentEntryViolationItem.yaml
+IncidentEntryAppealItem:
+  $ref: IncidentEntryAppealItem.yaml
+IncidentEntrySanctionItem:
+  $ref: IncidentEntrySanctionItem.yaml
+IncidentInvolvementItem:
+  $ref: IncidentInvolvementItem.yaml
+IncidentNoteItem:
+  $ref: IncidentNoteItem.yaml
+IncidentSeverityItem:
+  $ref: IncidentSeverityItem.yaml
+IncidentStatusItem:
+  $ref: IncidentStatusItem.yaml
+IncidentSubTypeItem:
+  $ref: IncidentSubTypeItem.yaml
+IncidentTypeItem:
+  $ref: IncidentTypeItem.yaml
+InspectionRunTemplateItem:
+  $ref: InspectionRunTemplateItem.yaml
+InterfaceItem:
+  $ref: InterfaceItem.yaml
+InterfaceApplicationItem:
+  $ref: InterfaceApplicationItem.yaml
+InterfaceSubscribeItem:
+  $ref: InterfaceSubscribeItem.yaml
+InvoiceItem:
+  $ref: InvoiceItem.yaml
+LogInterfaceItem:
+  $ref: LogInterfaceItem.yaml
+MealPlanItem:
+  $ref: MealPlanItem.yaml
+MealPlanDetailItem:
+  $ref: MealPlanDetailItem.yaml
+MealPlanDiningHallItem:
+  $ref: MealPlanDiningHallItem.yaml
+MealPlanFreeItem:
+  $ref: MealPlanFreeItem.yaml
+MealPlanSessionItem:
+  $ref: MealPlanSessionItem.yaml
+MealPricingItem:
+  $ref: MealPricingItem.yaml
+MembershipTypeItem:
+  $ref: MembershipTypeItem.yaml
+ParcelTypeItem:
+  $ref: ParcelTypeItem.yaml
+PaymentItem:
+  $ref: PaymentItem.yaml
+PaymentTypeItem:
+  $ref: PaymentTypeItem.yaml
+PhoneChargeTypeItem:
+  $ref: PhoneChargeTypeItem.yaml
+PhoneChargeTypeCallTypeItem:
+  $ref: PhoneChargeTypeCallTypeItem.yaml
+PortalActivityItem:
+  $ref: PortalActivityItem.yaml
+PortalUserTokenItem:
+  $ref: PortalUserTokenItem.yaml
+PortalProcessItem:
+  $ref: PortalProcessItem.yaml
+PortalThemeItem:
+  $ref: PortalThemeItem.yaml
+PortalPageItem:
+  $ref: PortalPageItem.yaml
+PortalPageWidgetItem:
+  $ref: PortalPageWidgetItem.yaml
+PortalStepItem:
+  $ref: PortalStepItem.yaml
+PortalStepLinkItem:
+  $ref: PortalStepLinkItem.yaml
+PortalUserSignatureItem:
+  $ref: PortalUserSignatureItem.yaml
+PortalActionItem:
+  $ref: PortalActionItem.yaml
+PortalPageActionItem:
+  $ref: PortalPageActionItem.yaml
+PortalChoiceItem:
+  $ref: PortalChoiceItem.yaml
+PortalRuleItem:
+  $ref: PortalRuleItem.yaml
+PortalRuleLinkItem:
+  $ref: PortalRuleLinkItem.yaml
+PortalSettingItem:
+  $ref: PortalSettingItem.yaml
+PortalSiteItem:
+  $ref: PortalSiteItem.yaml
+ProcessItem:
+  $ref: ProcessItem.yaml
+PreferenceItem:
+  $ref: PreferenceItem.yaml
+ProfileItemItem:
+  $ref: ProfileItemItem.yaml
+ProfileTypeItem:
+  $ref: ProfileTypeItem.yaml
+ProgramItem:
+  $ref: ProgramItem.yaml
+ProgramNoteItem:
+  $ref: ProgramNoteItem.yaml
+ProgramCustomFieldItem:
+  $ref: ProgramCustomFieldItem.yaml
+ProgramTypeItem:
+  $ref: ProgramTypeItem.yaml
+ProgramSubTypeItem:
+  $ref: ProgramSubTypeItem.yaml
+ProgramEvaluationTypeItem:
+  $ref: ProgramEvaluationTypeItem.yaml
+ProgramEntryItem:
+  $ref: ProgramEntryItem.yaml
+PromoCodeItem:
+  $ref: PromoCodeItem.yaml
+PromoCodeRecordItem:
+  $ref: PromoCodeRecordItem.yaml
+PromoCodeUsageItem:
+  $ref: PromoCodeUsageItem.yaml
+RefundRequestConfigurationItem:
+  $ref: RefundRequestConfigurationItem.yaml
+RefundRequestConfigurationBreakUpItem:
+  $ref: RefundRequestConfigurationBreakUpItem.yaml
+RefundRequestItem:
+  $ref: RefundRequestItem.yaml
+RefundRequestBreakUpItem:
+  $ref: RefundRequestBreakUpItem.yaml
+RefundRequestBatchConfigurationItem:
+  $ref: RefundRequestBatchConfigurationItem.yaml
+RefundRequestBatchConfigurationItemItem:
+  $ref: RefundRequestBatchConfigurationItemItem.yaml
+ResourceItem:
+  $ref: ResourceItem.yaml
+ResourceBookingItem:
+  $ref: ResourceBookingItem.yaml
+ResourceTypeItem:
+  $ref: ResourceTypeItem.yaml
+RoommateGroupItem:
+  $ref: RoommateGroupItem.yaml
+RoommateGroupMandatoryProfileItem:
+  $ref: RoommateGroupMandatoryProfileItem.yaml
+RoommateGroupRequestItem:
+  $ref: RoommateGroupRequestItem.yaml
+RoomBaseItem:
+  $ref: RoomBaseItem.yaml
+RoomBaseGenderItem:
+  $ref: RoomBaseGenderItem.yaml
+RoomConfigurationItem:
+  $ref: RoomConfigurationItem.yaml
+RoomConfigurationAttributeItem:
+  $ref: RoomConfigurationAttributeItem.yaml
+RoomConfigurationClassificationItem:
+  $ref: RoomConfigurationClassificationItem.yaml
+RoomConfigurationRoomSortItem:
+  $ref: RoomConfigurationRoomSortItem.yaml
+RoomLocationItem:
+  $ref: RoomLocationItem.yaml
+RoomLocationAreaItem:
+  $ref: RoomLocationAreaItem.yaml
+RoomLocationClassificationItem:
+  $ref: RoomLocationClassificationItem.yaml
+RoomLocationFloorSuiteItem:
+  $ref: RoomLocationFloorSuiteItem.yaml
+RoomLocationSectionItem:
+  $ref: RoomLocationSectionItem.yaml
+RoomManagerItem:
+  $ref: RoomManagerItem.yaml
+RoomPreferenceItem:
+  $ref: RoomPreferenceItem.yaml
+RoomConfigurationProfileItem:
+  $ref: RoomConfigurationProfileItem.yaml
+RoomRateItem:
+  $ref: RoomRateItem.yaml
+RoomRateChargeItem:
+  $ref: RoomRateChargeItem.yaml
+RoomRateRoomTypeLocationItem:
+  $ref: RoomRateRoomTypeLocationItem.yaml
+RoomRateSessionItem:
+  $ref: RoomRateSessionItem.yaml
+RoomSpaceItem:
+  $ref: RoomSpaceItem.yaml
+RoomSpaceClosedItem:
+  $ref: RoomSpaceClosedItem.yaml
+RoomSpaceDetailItem:
+  $ref: RoomSpaceDetailItem.yaml
+RoomSpaceInventoryItem:
+  $ref: RoomSpaceInventoryItem.yaml
+RoomSpaceInventoryConditionItem:
+  $ref: RoomSpaceInventoryConditionItem.yaml
+RoomSpaceInventoryInspectionItem:
+  $ref: RoomSpaceInventoryInspectionItem.yaml
+RoomSpaceInventoryInspectionItemItem:
+  $ref: RoomSpaceInventoryInspectionItemItem.yaml
+RoomSpaceInventoryInspectionRunItem:
+  $ref: RoomSpaceInventoryInspectionRunItem.yaml
+RoomSpaceInventoryStatusItem:
+  $ref: RoomSpaceInventoryStatusItem.yaml
+RoomSpaceInventoryTypeItem:
+  $ref: RoomSpaceInventoryTypeItem.yaml
+RoomSpaceKeyItem:
+  $ref: RoomSpaceKeyItem.yaml
+RoomSpaceKeyBookingItem:
+  $ref: RoomSpaceKeyBookingItem.yaml
+RoomSpaceKeyTypeItem:
+  $ref: RoomSpaceKeyTypeItem.yaml
+RoomSpaceMaintenanceItem:
+  $ref: RoomSpaceMaintenanceItem.yaml
+RoomSpaceMaintenanceCategoryItem:
+  $ref: RoomSpaceMaintenanceCategoryItem.yaml
+RoomSpaceMaintenanceItemItem:
+  $ref: RoomSpaceMaintenanceItemItem.yaml
+RoomSpaceMaintenanceJobActionItem:
+  $ref: RoomSpaceMaintenanceJobActionItem.yaml
+RoomSpaceMaintenanceMaterialsItem:
+  $ref: RoomSpaceMaintenanceMaterialsItem.yaml
+RoomSpaceSwapItem:
+  $ref: RoomSpaceSwapItem.yaml
+RoomSpaceSwapPreferenceItem:
+  $ref: RoomSpaceSwapPreferenceItem.yaml
+RoomSortConfigurationItem:
+  $ref: RoomSortConfigurationItem.yaml
+RoomSortProfileItem:
+  $ref: RoomSortProfileItem.yaml
+RoomSortProfileItemItem:
+  $ref: RoomSortProfileItemItem.yaml
+RoomConfigurationTermTypeItem:
+  $ref: RoomConfigurationTermTypeItem.yaml
+RoomTypeItem:
+  $ref: RoomTypeItem.yaml
+RoomTypeCapacityItem:
+  $ref: RoomTypeCapacityItem.yaml
+SavedListItem:
+  $ref: SavedListItem.yaml
+SavedListItemItem:
+  $ref: SavedListItemItem.yaml
+SchoolItem:
+  $ref: SchoolItem.yaml
+SDASChargeRateItem:
+  $ref: SDASChargeRateItem.yaml
+SDASDataItem:
+  $ref: SDASDataItem.yaml
+ShippingTypeItem:
+  $ref: ShippingTypeItem.yaml
+ShoppingCartItemItem:
+  $ref: ShoppingCartItemItem.yaml
+ShoppingCartItemHoldItem:
+  $ref: ShoppingCartItemHoldItem.yaml
+PortalUserHoldItem:
+  $ref: PortalUserHoldItem.yaml
+StaffItem:
+  $ref: StaffItem.yaml
+SurveyItem:
+  $ref: SurveyItem.yaml
+SurveyTypeItem:
+  $ref: SurveyTypeItem.yaml
+SurveyQuestionItem:
+  $ref: SurveyQuestionItem.yaml
+ResponseStatusItem:
+  $ref: ResponseStatusItem.yaml
+SurveyResponseItem:
+  $ref: SurveyResponseItem.yaml
+SurveyQuestionResponseItem:
+  $ref: SurveyQuestionResponseItem.yaml
+BookingAgreementItem:
+  $ref: BookingAgreementItem.yaml
+SystemActivityItem:
+  $ref: SystemActivityItem.yaml
+TermItem:
+  $ref: TermItem.yaml
+TermSessionItem:
+  $ref: TermSessionItem.yaml
+TermSessionFreeItem:
+  $ref: TermSessionFreeItem.yaml
+TermRuleItem:
+  $ref: TermRuleItem.yaml
+TermTypeItem:
+  $ref: TermTypeItem.yaml
+TimeSlotItem:
+  $ref: TimeSlotItem.yaml
+TitleItem:
+  $ref: TitleItem.yaml
+TotalItem:
+  $ref: TotalItem.yaml
+TransactionItem:
+  $ref: TransactionItem.yaml
+TransactionLinkItem:
+  $ref: TransactionLinkItem.yaml
+TransactionLinkItemItem:
+  $ref: TransactionLinkItemItem.yaml
+TransactionTagItem:
+  $ref: TransactionTagItem.yaml
+TransactionTemplateItem:
+  $ref: TransactionTemplateItem.yaml
+TransactionTemplateItemItem:
+  $ref: TransactionTemplateItemItem.yaml
+TransactionDisputeItem:
+  $ref: TransactionDisputeItem.yaml
+TransactionDisputeCustomFieldItem:
+  $ref: TransactionDisputeCustomFieldItem.yaml
+TransactionDisputeItemItem:
+  $ref: TransactionDisputeItemItem.yaml
+VisitorItem:
+  $ref: VisitorItem.yaml
+VisitorTypeItem:
+  $ref: VisitorTypeItem.yaml
+VMDataItem:
+  $ref: VMDataItem.yaml
+VMGroupItem:
+  $ref: VMGroupItem.yaml
+VMGroupExtensionItem:
+  $ref: VMGroupExtensionItem.yaml
+VMGroupMailBoxItem:
+  $ref: VMGroupMailBoxItem.yaml
+VMGroupMessageItem:
+  $ref: VMGroupMessageItem.yaml
+VMLineUsageItem:
+  $ref: VMLineUsageItem.yaml
+VMMailBoxItem:
+  $ref: VMMailBoxItem.yaml
+VMMailBoxTypeItem:
+  $ref: VMMailBoxTypeItem.yaml
+VMMCIItem:
+  $ref: VMMCIItem.yaml
+VMMessageItem:
+  $ref: VMMessageItem.yaml
+VMMessageLampItem:
+  $ref: VMMessageLampItem.yaml
+WaitListItem:
+  $ref: WaitListItem.yaml
+WaitListEntryApplicationItem:
+  $ref: WaitListEntryApplicationItem.yaml
+WaitListRoomSpaceItem:
+  $ref: WaitListRoomSpaceItem.yaml
+WaitListProfileItem:
+  $ref: WaitListProfileItem.yaml
+WaitListClassificationItem:
+  $ref: WaitListClassificationItem.yaml
+WebBlockItem:
+  $ref: WebBlockItem.yaml
+WebControlItem:
+  $ref: WebControlItem.yaml
+WebEmailTextItem:
+  $ref: WebEmailTextItem.yaml
+WebFieldItem:
+  $ref: WebFieldItem.yaml
+WebLogItem:
+  $ref: WebLogItem.yaml
+WebMenuItem:
+  $ref: WebMenuItem.yaml
+WebMenuClassificationItem:
+  $ref: WebMenuClassificationItem.yaml
+WebSiteItem:
+  $ref: WebSiteItem.yaml
+WebModuleItem:
+  $ref: WebModuleItem.yaml
+WebPaymentItem:
+  $ref: WebPaymentItem.yaml
+WebRuleItem:
+  $ref: WebRuleItem.yaml
+WebRuleLinkItem:
+  $ref: WebRuleLinkItem.yaml
+WebSectionItem:
+  $ref: WebSectionItem.yaml
+WebSectionTextBlockItem:
+  $ref: WebSectionTextBlockItem.yaml
+WebSettingItem:
+  $ref: WebSettingItem.yaml
+WebTransactionItem:
+  $ref: WebTransactionItem.yaml
+WorkflowItem:
+  $ref: WorkflowItem.yaml
+WorkflowStepItem:
+  $ref: WorkflowStepItem.yaml
+WorkflowHistoryItem:
+  $ref: WorkflowHistoryItem.yaml
+WorkflowPermissionItem:
+  $ref: WorkflowPermissionItem.yaml
+WorkflowStepPermissionItem:
+  $ref: WorkflowStepPermissionItem.yaml
+RoomItem:
+  $ref: RoomItem.yaml
+RoomProfileItem:
+  $ref: RoomProfileItem.yaml
+RoomAttributeItem:
+  $ref: RoomAttributeItem.yaml
+RoomClassificationItem:
+  $ref: RoomClassificationItem.yaml
+RoomTermTypeItem:
+  $ref: RoomTermTypeItem.yaml

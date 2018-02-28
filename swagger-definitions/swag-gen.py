@@ -139,10 +139,10 @@ def registerPath(table_name, reqType):
     f.close()
 
 
-def registerDef(table_name):
+def registerDef(def_name):
     f = open("./definitions/index.yaml", "a")
-    f.write(table_name + "Item:\n")
-    f.write("  $ref: " + table_name + "Item.yaml\n")
+    f.write(def_name + ":\n")
+    f.write("  $ref: " + def_name + ".yaml\n")
     f.close()
 
 
@@ -243,3 +243,14 @@ def generateSwagger():
         writePaths(table, "update")
 
 generateSwagger()
+
+
+def testGen():
+    api_instance = init()
+    table = Table("Entry")
+    cleanIndex("./paths/index.yaml")
+    cleanIndex("./definitions/index.yaml")
+    getTableInfo(api_instance, table)
+    writeDefinition(table)
+    writePaths(table, "select")
+    writePaths(table, "update")

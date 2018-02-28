@@ -35,7 +35,7 @@ fi
 
 cd swagger-definitions
 multi-file-swagger -o yaml index.yaml > ../StarRez.yaml
-swagger-codegen generate -i ../StarRez.yaml -l python -o ../StarRezAPI -c config.json
+swagger-codegen generate -i ../StarRez.yaml -l python -o ../StarRezAPI -c config.json &> /dev/null
 cd ../
 
 if [ "$test" = true ]
