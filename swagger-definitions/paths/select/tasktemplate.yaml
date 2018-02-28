@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchTaskTemplate
+  description: By passing in the appropriate options, you can search for a TaskTemplate in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: TaskTemplateID
+      description: ID of the TaskTemplate you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/TaskTemplateItem'
+    400:
+      description: Bad Request

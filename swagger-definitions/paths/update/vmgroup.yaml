@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateVMGroup
+  description: Updates an VMGroup in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: VMGroupID
+      type: integer
+      required: true
+      description: Numeric value of the vmgroupID
+    - in: body
+      name: VMGroupItem
+      required: true
+      description: VMGroup to update
+      schema:
+        $ref: '#/definitions/VMGroupItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/VMGroupItem'
+    400:
+      description: Invalid Input, Object Invalid.

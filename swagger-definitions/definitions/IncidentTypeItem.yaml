@@ -1,0 +1,32 @@
+type: object
+#required:
+#  - Description
+properties:
+  IncidentTypeID:
+    type: integer
+    format: int32
+    description: Incident Type
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  Description:
+    type: string
+    maxLength: 50
+    description: Description
+  Grade:
+    type: integer
+    format: int32
+    description: Grade
+  Comments:
+    type: string
+    maxLength: 1000
+    description: Comments
+  CategoryID:
+    type: integer
+    format: int32
+    description: Category
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

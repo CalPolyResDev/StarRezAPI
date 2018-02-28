@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateRoomSpace
+  description: Updates an RoomSpace in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: RoomSpaceID
+      type: integer
+      required: true
+      description: Numeric value of the roomspaceID
+    - in: body
+      name: RoomSpaceItem
+      required: true
+      description: RoomSpace to update
+      schema:
+        $ref: '#/definitions/RoomSpaceItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/RoomSpaceItem'
+    400:
+      description: Invalid Input, Object Invalid.

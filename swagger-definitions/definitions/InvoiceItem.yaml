@@ -1,0 +1,145 @@
+type: object
+#required:
+properties:
+  InvoiceID:
+    type: integer
+    format: int32
+    description: Invoice
+  InvoiceTypeEnum:
+    type: string
+    format: enum
+    description: Invoice Type
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  Description:
+    type: string
+    maxLength: 100
+    description: Description
+  InvoiceFromDate:
+    type: string
+    description: Invoice From Date
+  InvoiceToDate:
+    type: string
+    format: datetimeseconds
+    description: Invoice To Date
+  InvoiceDate:
+    type: string
+    format: datetimeseconds
+    description: Invoice Date
+  DueDate:
+    type: string
+    format: datetimeseconds
+    description: Due Date
+  PreviousBalance:
+    type: string
+    format: money
+    description: Previous Balance
+  InvoiceTotal:
+    type: string
+    format: money
+    description: Invoice Total
+  InvoiceTaxTotal:
+    type: string
+    format: money
+    description: Invoice Tax Total
+  InvoiceBalance:
+    type: string
+    format: money
+    description: Invoice Balance
+  DiscountDate:
+    type: string
+    format: date-time
+    description: Discount Date
+  DiscountTotal:
+    type: string
+    format: money
+    description: Discount Total
+  ChargeGroupList:
+    type: string
+    maxLength: 2000
+    description: Charge Group List
+  EntryName:
+    type: string
+    maxLength: 60
+    description: Entry Name
+  Category_Description:
+    type: string
+    maxLength: 50
+    description: Category Description
+  RoomSpace_Description:
+    type: string
+    maxLength: 20
+    description: Room Space Description
+  ElectronicIdentity:
+    type: string
+    maxLength: 500
+    description: Electronic Identity
+  AccountCode:
+    type: string
+    maxLength: 20
+    description: Account Code
+  AccountDueDate:
+    type: string
+    format: date-time
+    description: Account Due Date
+  AccountDue:
+    type: boolean
+    description: Account Due
+  ID1:
+    type: string
+    maxLength: 30
+    description: ID 1
+  AddressSalutation:
+    type: string
+    maxLength: 50
+    description: Address Salutation
+  AddressContactName:
+    type: string
+    maxLength: 50
+    description: Address Contact Name
+  AddressStreet:
+    type: string
+    maxLength: 50
+    description: Address Street
+  AddressStreet2:
+    type: string
+    maxLength: 50
+    description: Address Street 2
+  AddressCity:
+    type: string
+    maxLength: 40
+    description: Address City
+  AddressCountry:
+    type: string
+    maxLength: 30
+    description: Address Country
+  AddressStateProvince:
+    type: string
+    maxLength: 20
+    description: Address State Province
+  AddressZipPostcode:
+    type: string
+    maxLength: 15
+    description: Address Zip Postcode
+  Comments:
+    type: string
+    maxLength: 500
+    description: Comments
+  MachineName:
+    type: string
+    maxLength: 30
+    description: Machine Name
+  ExternalNumber:
+    type: string
+    maxLength: 30
+    description: External Number
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

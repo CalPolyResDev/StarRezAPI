@@ -1,0 +1,63 @@
+type: object
+#required:
+properties:
+  InterfaceID:
+    type: integer
+    format: int32
+    description: Interface
+  InterfaceApplicationID:
+    type: integer
+    format: int32
+    description: Interface Application
+  InterfaceActionEnum:
+    type: string
+    format: enum
+    description: Interface Action
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  PinNumber:
+    type: integer
+    format: int32
+    description: Pin Number
+  RoomSpaceID:
+    type: integer
+    format: int32
+    description: Room Space
+  ExtensionID:
+    type: integer
+    format: int32
+    description: Extension
+  Old_RoomSpaceID:
+    type: integer
+    format: int32
+    description: Old Room Space
+  Old_ExtensionID:
+    type: integer
+    format: int32
+    description: Old Extension
+  LogDate:
+    type: string
+    format: datetimeseconds
+    description: Log Date
+  EntryName:
+    type: string
+    maxLength: 40
+    description: Entry Name
+  Comments:
+    type: string
+    maxLength: 500
+    description: Comments
+  MachineName:
+    type: string
+    maxLength: 30
+    description: Machine Name
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

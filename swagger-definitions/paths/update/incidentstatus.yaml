@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateIncidentStatus
+  description: Updates an IncidentStatus in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: IncidentStatusID
+      type: integer
+      required: true
+      description: Numeric value of the incidentstatusID
+    - in: body
+      name: IncidentStatusItem
+      required: true
+      description: IncidentStatus to update
+      schema:
+        $ref: '#/definitions/IncidentStatusItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/IncidentStatusItem'
+    400:
+      description: Invalid Input, Object Invalid.

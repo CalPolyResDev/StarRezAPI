@@ -1,0 +1,50 @@
+type: object
+#required:
+#  - Description
+properties:
+  TemplateID:
+    type: integer
+    format: int32
+    description: Template
+  Description:
+    type: string
+    maxLength: 50
+    description: Description
+  ParentID:
+    type: integer
+    format: int32
+    description: Parent
+  Folder:
+    type: boolean
+    description: Folder
+  CorrespondenceSourceID:
+    type: integer
+    format: int32
+    description: Correspondence Source
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  TemplateText:
+    type: string
+    format: longstring
+    description: Template Text
+  LastRan_SecurityUserID:
+    type: integer
+    format: int32
+    description: Last Ran Security User
+  LastRanDate:
+    type: string
+    description: Last Ran Date
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

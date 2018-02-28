@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateVMLineUsage
+  description: Updates an VMLineUsage in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: VMLineUsageID
+      type: integer
+      required: true
+      description: Numeric value of the vmlineusageID
+    - in: body
+      name: VMLineUsageItem
+      required: true
+      description: VMLineUsage to update
+      schema:
+        $ref: '#/definitions/VMLineUsageItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/VMLineUsageItem'
+    400:
+      description: Invalid Input, Object Invalid.

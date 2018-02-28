@@ -1,0 +1,186 @@
+type: object
+#required:
+#  - Description
+properties:
+  TermSessionID:
+    type: integer
+    format: int32
+    description: Term Session
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  TermID:
+    type: integer
+    format: int32
+    description: Term
+  Description:
+    type: string
+    maxLength: 50
+    description: Description
+  WebDescription:
+    type: string
+    maxLength: 50
+    description: Web Description
+  TermSessionCode:
+    type: string
+    maxLength: 10
+    description: Term Session Code
+  RoomTypeID:
+    type: integer
+    format: int32
+    description: Room Type
+  RoomLocationID:
+    type: integer
+    format: int32
+    description: Room Location
+  RoomLocationFixed:
+    type: boolean
+    description: Room Location Fixed
+  UseActiveBookingAsTemplate:
+    type: boolean
+    description: Use Active Booking As Template
+  Start_BookingReasonID:
+    type: integer
+    format: int32
+    description: Start Booking Reason
+  End_BookingReasonID:
+    type: integer
+    format: int32
+    description: End Booking Reason
+  BookingTypeID:
+    type: integer
+    format: int32
+    description: Booking Type
+  RoomRateID:
+    type: integer
+    format: int32
+    description: Room Rate
+  RoomRateAmount:
+    type: string
+    format: money
+    description: Room Rate Amount
+  EntryStatusEnum:
+    type: string
+    format: enum
+    description: Entry Status
+  CheckInDate:
+    type: string
+    description: Check In Date
+  CheckOutDate:
+    type: string
+    description: Check Out Date
+  ContractDateStart:
+    type: string
+    description: Contract Date Start
+  ContractDateEnd:
+    type: string
+    description: Contract Date End
+  ETA:
+    type: string
+    format: minutessincemidnight
+    description: ETA
+  ETD:
+    type: string
+    format: minutessincemidnight
+    description: ETD
+  HousekeepingID:
+    type: integer
+    format: int32
+    description: Housekeeping
+  ContractDateCheckInIncrease_BooleanAskEnum:
+    type: string
+    format: enum
+    description: Contract Date Check In Increase Boolean Ask
+  ContractDateCheckInDecrease_BooleanAskEnum:
+    type: string
+    format: enum
+    description: Contract Date Check In Decrease Boolean Ask
+  ContractDateCheckOutIncrease_BooleanAskEnum:
+    type: string
+    format: enum
+    description: Contract Date Check Out Increase Boolean Ask
+  ContractDateCheckOutDecrease_BooleanAskEnum:
+    type: string
+    format: enum
+    description: Contract Date Check Out Decrease Boolean Ask
+  CheckInDateActualIncrease_BooleanAskEnum:
+    type: string
+    format: enum
+    description: Check In Date Actual Increase Boolean Ask
+  CheckInDateActualDecrease_BooleanAskEnum:
+    type: string
+    format: enum
+    description: Check In Date Actual Decrease Boolean Ask
+  CheckOutDateActualIncrease_BooleanAskEnum:
+    type: string
+    format: enum
+    description: Check Out Date Actual Increase Boolean Ask
+  CheckOutDateActualDecrease_BooleanAskEnum:
+    type: string
+    format: enum
+    description: Check Out Date Actual Decrease Boolean Ask
+  CheckInUpdateStartBookingReason_BooleanAskEnum:
+    type: string
+    format: enum
+    description: Check In Update Start Booking Reason Boolean Ask
+  CheckOutUpdateEndBookingReason_BooleanAskEnum:
+    type: string
+    format: enum
+    description: Check Out Update End Booking Reason Boolean Ask
+  CancelBookingUpdateEndBookingReason_BooleanAskEnum:
+    type: string
+    format: enum
+    description: Cancel Booking Update End Booking Reason Boolean Ask
+  CheckInDefaultStart_BookingReasonID:
+    type: integer
+    format: int32
+    description: Check In Default Start Booking Reason
+  CheckOutDefaultEnd_BookingReasonID:
+    type: integer
+    format: int32
+    description: Check Out Default End Booking Reason
+  CancelBookingDefaultEnd_BookingReasonID:
+    type: integer
+    format: int32
+    description: Cancel Booking Default End Booking Reason
+  CustomBit1:
+    type: boolean
+    description: Custom Flag 1
+  CustomBit2:
+    type: boolean
+    description: Custom Flag 2
+  CustomString1:
+    type: string
+    maxLength: 50
+    description: Custom String 1
+  CustomString2:
+    type: string
+    maxLength: 50
+    description: Custom String 2
+  CustomString3:
+    type: string
+    maxLength: 50
+    description: Custom String 3
+  CustomString4:
+    type: string
+    maxLength: 50
+    description: Custom String 4
+  CustomString5:
+    type: string
+    maxLength: 50
+    description: Custom String 5
+  CustomString6:
+    type: string
+    maxLength: 50
+    description: Custom String 6
+  CustomDate1:
+    type: string
+    description: Custom Date 1
+  CustomDate2:
+    type: string
+    description: Custom Date 2
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateEntryPosition
+  description: Updates an EntryPosition in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: EntryPositionID
+      type: integer
+      required: true
+      description: Numeric value of the entrypositionID
+    - in: body
+      name: EntryPositionItem
+      required: true
+      description: EntryPosition to update
+      schema:
+        $ref: '#/definitions/EntryPositionItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EntryPositionItem'
+    400:
+      description: Invalid Input, Object Invalid.

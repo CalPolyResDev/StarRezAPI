@@ -1,0 +1,58 @@
+type: object
+#required:
+#  - Description
+properties:
+  MailMergeID:
+    type: integer
+    format: int32
+    description: Mail Merge
+  Description:
+    type: string
+    maxLength: 50
+    description: Description
+  ParentID:
+    type: integer
+    format: int32
+    description: Parent
+  Folder:
+    type: boolean
+    description: Folder
+  MailMergeType:
+    type: string
+    format: short
+    description: Mail Merge Type
+  DocumentName:
+    type: string
+    maxLength: 100
+    description: Document Name
+  DocumentPath:
+    type: string
+    maxLength: 500
+    description: Document Path
+  MergeWithWordAutomation:
+    type: boolean
+    description: Merge With Word Automation
+  ReportID:
+    type: integer
+    format: int32
+    description: Report
+  Comments:
+    type: string
+    maxLength: 100
+    description: Comments
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

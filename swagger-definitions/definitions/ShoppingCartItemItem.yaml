@@ -1,0 +1,121 @@
+type: object
+#required:
+#  - Description
+#  - Amount
+properties:
+  ShoppingCartItemID:
+    type: integer
+    format: int32
+    description: Shopping Cart Item
+  ChargeItemID:
+    type: integer
+    format: int32
+    description: Charge Item
+  Description:
+    type: string
+    maxLength: 100
+    description: Description
+  Comments:
+    type: string
+    maxLength: 5000
+    description: Comments
+  MaxQuantity:
+    type: integer
+    format: int32
+    description: Max Quantity
+  Amount:
+    type: string
+    format: money
+    description: Amount
+  AmountCost:
+    type: string
+    format: money
+    description: Amount Cost
+  TableID:
+    type: integer
+    format: int32
+    description: Table
+  TableName:
+    type: string
+    maxLength: 50
+    description: Table Name
+  ViewOnWeb:
+    type: boolean
+    description: View On Web
+  WebImageLocation:
+    type: string
+    maxLength: 200
+    description: Web Image Location
+  SortOrder:
+    type: integer
+    format: int32
+    description: Sort Order
+  ActiveDateStart:
+    type: string
+    description: Active Date Start
+  ActiveDateEnd:
+    type: string
+    description: Active Date End
+  MaxItemsPerEntry:
+    type: integer
+    format: int32
+    description: Max Items Per Entry
+  TransactionTemplateID:
+    type: integer
+    description: Transaction Template
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  CustomBit1:
+    type: boolean
+    description: Custom Flag 1
+  CustomBit2:
+    type: boolean
+    description: Custom Flag 2
+  CustomString1:
+    type: string
+    maxLength: 50
+    description: Custom String 1
+  CustomString2:
+    type: string
+    maxLength: 50
+    description: Custom String 2
+  CustomString3:
+    type: string
+    maxLength: 50
+    description: Custom String 3
+  CustomString4:
+    type: string
+    maxLength: 50
+    description: Custom String 4
+  CustomString5:
+    type: string
+    maxLength: 50
+    description: Custom String 5
+  CustomString6:
+    type: string
+    maxLength: 50
+    description: Custom String 6
+  CustomDate1:
+    type: string
+    description: Custom Date 1
+  CustomDate2:
+    type: string
+    description: Custom Date 2
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  CreatedBy_SecurityUserID:
+    type: integer
+    format: int32
+    description: Created By Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

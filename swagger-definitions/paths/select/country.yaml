@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchCountry
+  description: By passing in the appropriate options, you can search for a Country in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: CountryID
+      description: ID of the Country you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/CountryItem'
+    400:
+      description: Bad Request

@@ -1,0 +1,35 @@
+type: object
+#required:
+properties:
+  TransactionDisputeItemID:
+    type: integer
+    format: int32
+    description: Transaction Dispute Item
+  TransactionID:
+    type: integer
+    format: int32
+    description: Transaction
+  TransactionDisputeID:
+    type: integer
+    format: int32
+    description: Transaction Dispute
+  TransactionDisputeItemStatusEnum:
+    type: string
+    format: enum
+    description: Transaction Dispute Item Status
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  CreatedBy_SecurityUserID:
+    type: integer
+    format: int32
+    description: Created By Security User
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

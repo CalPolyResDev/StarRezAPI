@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchGroupContactEntry
+  description: By passing in the appropriate options, you can search for a GroupContactEntry in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: GroupContactEntryID
+      description: ID of the GroupContactEntry you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/GroupContactEntryItem'
+    400:
+      description: Bad Request

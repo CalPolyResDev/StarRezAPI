@@ -1,0 +1,75 @@
+type: object
+#required:
+#  - Description
+properties:
+  ProfileItemID:
+    type: integer
+    format: int32
+    description: Profile Item
+  ProfileTypeID:
+    type: integer
+    format: int32
+    description: Profile Type
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  Description:
+    type: string
+    maxLength: 30
+    description: Description
+  ProfileItemTypeEnum:
+    type: string
+    format: enum
+    description: Profile Item Type
+  ProfileWeightLowDescription:
+    type: string
+    maxLength: 100
+    description: Profile Weight Low Description
+  ProfileWeightMediumLowDescription:
+    type: string
+    maxLength: 100
+    description: Profile Weight Medium Low Description
+  ProfileWeightMediumDescription:
+    type: string
+    maxLength: 100
+    description: Profile Weight Medium Description
+  ProfileWeightMediumHighDescription:
+    type: string
+    maxLength: 100
+    description: Profile Weight Medium High Description
+  ProfileWeightHighDescription:
+    type: string
+    maxLength: 100
+    description: Profile Weight High Description
+  ProfileWeightDescription:
+    type: string
+    maxLength: 200
+    description: Profile Weight Description
+  Comments:
+    type: string
+    maxLength: 100
+    description: Comments
+  WebIconClass:
+    type: string
+    maxLength: 30
+    description: Web Icon Class
+  ViewOnWeb:
+    type: boolean
+    description: View On Web
+  WebDescription:
+    type: string
+    maxLength: 1000
+    description: Web Description
+  WebOrder:
+    type: integer
+    format: int32
+    description: Web Order
+  WebComments:
+    type: string
+    format: longstring
+    description: Web Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateIncidentSanctionType
+  description: Updates an IncidentSanctionType in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: IncidentSanctionTypeID
+      type: integer
+      required: true
+      description: Numeric value of the incidentsanctiontypeID
+    - in: body
+      name: IncidentSanctionTypeItem
+      required: true
+      description: IncidentSanctionType to update
+      schema:
+        $ref: '#/definitions/IncidentSanctionTypeItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/IncidentSanctionTypeItem'
+    400:
+      description: Invalid Input, Object Invalid.

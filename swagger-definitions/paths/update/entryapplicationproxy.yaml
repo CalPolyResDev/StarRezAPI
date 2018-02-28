@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateEntryApplicationProxy
+  description: Updates an EntryApplicationProxy in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: EntryApplicationProxyID
+      type: integer
+      required: true
+      description: Numeric value of the entryapplicationproxyID
+    - in: body
+      name: EntryApplicationProxyItem
+      required: true
+      description: EntryApplicationProxy to update
+      schema:
+        $ref: '#/definitions/EntryApplicationProxyItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EntryApplicationProxyItem'
+    400:
+      description: Invalid Input, Object Invalid.

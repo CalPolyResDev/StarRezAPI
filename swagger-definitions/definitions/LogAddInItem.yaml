@@ -1,0 +1,51 @@
+type: object
+#required:
+properties:
+  LogAddInID:
+    type: integer
+    format: int32
+    description: Log Add In
+  LogDate:
+    type: string
+    format: datetimeseconds
+    description: Log Date
+  SessionTag:
+    type: integer
+    format: int32
+    description: Session Tag
+  AddinFilename:
+    type: string
+    maxLength: 100
+    description: Addin Filename
+  LogEventType:
+    type: string
+    format: byte
+    description: Log Event Type
+  Machine:
+    type: string
+    maxLength: 50
+    description: Machine
+  UserName:
+    type: string
+    maxLength: 30
+    description: User Name
+  MethodName:
+    type: string
+    maxLength: 100
+    description: Method Name
+  Description:
+    type: string
+    maxLength: 5000
+    description: Description
+  TableName:
+    type: string
+    maxLength: 50
+    description: Table Name
+  TableID:
+    type: integer
+    format: int32
+    description: Table
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

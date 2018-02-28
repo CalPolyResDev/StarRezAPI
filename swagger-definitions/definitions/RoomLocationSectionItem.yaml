@@ -1,0 +1,43 @@
+type: object
+#required:
+#  - Description
+properties:
+  RoomLocationSectionID:
+    type: integer
+    format: int32
+    description: Room Location Section
+  RoomLocationID:
+    type: integer
+    format: int32
+    description: Room Location
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  Description:
+    type: string
+    maxLength: 25
+    description: Description
+  Comments:
+    type: string
+    maxLength: 200
+    description: Comments
+  ViewOnWeb:
+    type: boolean
+    description: View On Web
+  WebImageLocation:
+    type: string
+    maxLength: 200
+    description: Web Image Location
+  WebDescription:
+    type: string
+    maxLength: 1000
+    description: Web Description
+  WebComments:
+    type: string
+    format: longstring
+    description: Web Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

@@ -1,0 +1,47 @@
+type: object
+#required:
+#  - Description
+properties:
+  RecordAttachmentID:
+    type: integer
+    format: int32
+    description: Record Attachment
+  AttachmentObject:
+    type: string
+    description: Attachment Object
+  Provider:
+    type: string
+    maxLength: 255
+    description: Provider
+  ProviderKey:
+    type: string
+    maxLength: 1000
+    description: Provider Key
+  Description:
+    type: string
+    maxLength: 255
+    description: Description
+  TableID:
+    type: integer
+    format: int32
+    description: Table
+  TableName:
+    type: string
+    maxLength: 50
+    description: Table Name
+  CreatedBy_SecurityUserID:
+    type: integer
+    format: int32
+    description: Created By Security User
+  DateCreated:
+    type: string
+    format: datetimeseconds
+    description: Date Created
+  DateExpiry:
+    type: string
+    maxLength: 50
+    description: Date Expiry
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateWebSection
+  description: Updates an WebSection in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: WebSectionID
+      type: integer
+      required: true
+      description: Numeric value of the websectionID
+    - in: body
+      name: WebSectionItem
+      required: true
+      description: WebSection to update
+      schema:
+        $ref: '#/definitions/WebSectionItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/WebSectionItem'
+    400:
+      description: Invalid Input, Object Invalid.

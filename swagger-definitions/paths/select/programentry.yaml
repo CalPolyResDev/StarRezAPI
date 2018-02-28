@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchProgramEntry
+  description: By passing in the appropriate options, you can search for a ProgramEntry in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: ProgramEntryID
+      description: ID of the ProgramEntry you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ProgramEntryItem'
+    400:
+      description: Bad Request

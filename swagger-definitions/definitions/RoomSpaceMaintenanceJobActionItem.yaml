@@ -1,0 +1,44 @@
+type: object
+#required:
+#  - Description
+properties:
+  RoomSpaceMaintenanceJobActionID:
+    type: integer
+    format: int32
+    description: Room Space Maintenance Job Action
+  RoomSpaceMaintenanceID:
+    type: integer
+    format: int32
+    description: Room Space Maintenance
+  RoomSpaceMaintenanceJobActionDate:
+    type: string
+    format: datetimeseconds
+    description: Room Space Maintenance Job Action Date
+  Type:
+    type: string
+    maxLength: 100
+    description: Type
+  Description:
+    type: string
+    maxLength: 1000
+    description: Description
+  Technician:
+    type: string
+    maxLength: 200
+    description: Technician
+  HourlyRate:
+    type: string
+    format: decimal
+    description: Hourly Rate
+  MaterialCost:
+    type: string
+    format: decimal
+    description: Material Cost
+  Hours:
+    type: string
+    format: decimal
+    description: Hours
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

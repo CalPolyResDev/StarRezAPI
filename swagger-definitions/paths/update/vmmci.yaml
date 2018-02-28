@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateVMMCI
+  description: Updates an VMMCI in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: VMMCIID
+      type: integer
+      required: true
+      description: Numeric value of the vmmciID
+    - in: body
+      name: VMMCIItem
+      required: true
+      description: VMMCI to update
+      schema:
+        $ref: '#/definitions/VMMCIItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/VMMCIItem'
+    400:
+      description: Invalid Input, Object Invalid.

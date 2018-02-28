@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateEntryApplication
+  description: Updates an EntryApplication in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: EntryApplicationID
+      type: integer
+      required: true
+      description: Numeric value of the entryapplicationID
+    - in: body
+      name: EntryApplicationItem
+      required: true
+      description: EntryApplication to update
+      schema:
+        $ref: '#/definitions/EntryApplicationItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EntryApplicationItem'
+    400:
+      description: Invalid Input, Object Invalid.

@@ -1,0 +1,49 @@
+type: object
+#required:
+#  - AppealDescription
+properties:
+  IncidentEntryAppealID:
+    type: integer
+    format: int32
+    description: Incident Entry Appeal
+  IncidentEntryID:
+    type: integer
+    format: int32
+    description: Incident Entry
+  AppealDateCreated:
+    type: string
+    description: Appeal Date Created
+  AppealDate:
+    type: string
+    description: Appeal Date
+  AppealDateComplete:
+    type: string
+    description: Appeal Date Complete
+  AppealManager_EntryID:
+    type: integer
+    format: int32
+    description: Appeal Manager Entry
+  IncidentAppealTypeID:
+    type: integer
+    format: int32
+    description: Incident Appeal Type
+  IncidentAppealDecisionID:
+    type: integer
+    format: int32
+    description: Incident Appeal Decision
+  AppealDescription:
+    type: string
+    maxLength: 2000
+    description: Appeal Description
+  AppealComments:
+    type: string
+    maxLength: 5000
+    description: Appeal Comments
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

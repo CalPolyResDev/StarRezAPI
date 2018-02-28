@@ -1,0 +1,31 @@
+type: object
+#required:
+properties:
+  ZipPostCodeID:
+    type: integer
+    format: int32
+    description: Zip Post Code
+  ZipPostCode:
+    type: string
+    maxLength: 15
+    description: Zip Post Code
+  PostCodeSort:
+    type: integer
+    format: int32
+    description: Post Code Sort
+  Locality:
+    type: string
+    maxLength: 50
+    description: Locality
+  StateProvince:
+    type: string
+    maxLength: 10
+    description: State Province
+  CountryID:
+    type: integer
+    format: int32
+    description: Country
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

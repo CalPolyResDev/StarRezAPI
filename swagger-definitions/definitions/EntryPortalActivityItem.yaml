@@ -1,0 +1,42 @@
+type: object
+#required:
+properties:
+  EntryPortalActivityID:
+    type: integer
+    format: int32
+    description: Entry Portal Activity
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  PortalPageID:
+    type: integer
+    format: int32
+    description: Portal Page
+  FirstVisitDate:
+    type: string
+    format: date-time
+    description: First Visit Date
+  LastVisitDate:
+    type: string
+    format: date-time
+    description: Last Visit Date
+  CompleteDate:
+    type: string
+    description: Complete Date
+  TableName:
+    type: string
+    maxLength: 100
+    description: Table Name
+  TableID:
+    type: integer
+    format: int32
+    description: Table
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

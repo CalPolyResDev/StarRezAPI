@@ -1,0 +1,43 @@
+type: object
+#required:
+properties:
+  PortalSettingID:
+    type: integer
+    format: int32
+    description: Portal Setting
+  TableID:
+    type: integer
+    format: int32
+    description: Table
+  TableName:
+    type: string
+    maxLength: 100
+    description: Table Name
+  Description:
+    type: string
+    maxLength: 200
+    description: Description
+  Value:
+    type: string
+    format: longstring
+    description: Value
+  TemplateValue:
+    type: string
+    format: longstring
+    description: Template Value
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

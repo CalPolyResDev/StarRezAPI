@@ -1,0 +1,19 @@
+type: object
+#required:
+properties:
+  BookingLinkedID:
+    type: integer
+    format: int32
+    description: Booking Linked
+  BookingID:
+    type: integer
+    format: int32
+    description: Booking
+  Linked_BookingID:
+    type: integer
+    format: int32
+    description: Linked Booking
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

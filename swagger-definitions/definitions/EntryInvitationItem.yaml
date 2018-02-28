@@ -1,0 +1,56 @@
+type: object
+#required:
+#  - EntryID
+#  - Name
+properties:
+  EntryInvitationID:
+    type: integer
+    format: int32
+    description: Entry Invitation
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  RoommateGroupID:
+    type: integer
+    format: int32
+    description: Roommate Group
+  Accepted_EntryID:
+    type: integer
+    format: int32
+    description: Accepted Entry
+  InvitationStatusEnum:
+    type: string
+    format: enum
+    description: Invitation Status
+  Name:
+    type: string
+    maxLength: 100
+    description: Name
+  Email:
+    type: string
+    maxLength: 100
+    description: Email
+  DateExpiry:
+    type: string
+    description: Date Expiry
+  RegistrationURL:
+    type: string
+    maxLength: 1000
+    description: Registration URL
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  CreatedBy_SecurityUserID:
+    type: integer
+    format: int32
+    description: Created By Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

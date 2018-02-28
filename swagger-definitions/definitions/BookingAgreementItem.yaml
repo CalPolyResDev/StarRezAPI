@@ -1,0 +1,28 @@
+type: object
+#required:
+#  - TableName
+#  - TableID
+properties:
+  BookingAgreementID:
+    type: integer
+    format: int32
+    description: Booking Agreement
+  BookingID:
+    type: integer
+    format: int32
+    description: Booking
+  TableName:
+    type: string
+    maxLength: 50
+    description: Table Name
+  TableID:
+    type: integer
+    format: int32
+    description: Table
+  DateAgreed:
+    type: string
+    description: Date Agreed
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

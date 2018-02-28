@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateGroupRoomSpace
+  description: Updates an GroupRoomSpace in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: GroupRoomSpaceID
+      type: integer
+      required: true
+      description: Numeric value of the grouproomspaceID
+    - in: body
+      name: GroupRoomSpaceItem
+      required: true
+      description: GroupRoomSpace to update
+      schema:
+        $ref: '#/definitions/GroupRoomSpaceItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/GroupRoomSpaceItem'
+    400:
+      description: Invalid Input, Object Invalid.

@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateWebMenu
+  description: Updates an WebMenu in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: WebMenuID
+      type: integer
+      required: true
+      description: Numeric value of the webmenuID
+    - in: body
+      name: WebMenuItem
+      required: true
+      description: WebMenu to update
+      schema:
+        $ref: '#/definitions/WebMenuItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/WebMenuItem'
+    400:
+      description: Invalid Input, Object Invalid.

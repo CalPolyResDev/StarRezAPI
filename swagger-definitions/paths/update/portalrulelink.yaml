@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updatePortalRuleLink
+  description: Updates an PortalRuleLink in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: PortalRuleLinkID
+      type: integer
+      required: true
+      description: Numeric value of the portalrulelinkID
+    - in: body
+      name: PortalRuleLinkItem
+      required: true
+      description: PortalRuleLink to update
+      schema:
+        $ref: '#/definitions/PortalRuleLinkItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/PortalRuleLinkItem'
+    400:
+      description: Invalid Input, Object Invalid.

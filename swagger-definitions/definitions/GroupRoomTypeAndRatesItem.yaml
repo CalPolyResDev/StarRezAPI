@@ -1,0 +1,78 @@
+type: object
+#required:
+properties:
+  GroupRoomTypeAndRatesID:
+    type: integer
+    format: int32
+    description: Group Room Type And Rates
+  GroupID:
+    type: integer
+    format: int32
+    description: Group
+  Description:
+    type: string
+    maxLength: 100
+    description: Description
+  RoomTypeID:
+    type: integer
+    format: int32
+    description: Room Type
+  RoomLocationID:
+    type: integer
+    format: int32
+    description: Room Location
+  RoomRateID:
+    type: integer
+    format: int32
+    description: Room Rate
+  GuestEstimate:
+    type: string
+    format: short
+    description: Guest Estimate
+  GuestGuarantee:
+    type: string
+    format: short
+    description: Guest Guarantee
+  GuestMaximum:
+    type: string
+    format: short
+    description: Guest Maximum
+  Amount:
+    type: string
+    format: money
+    description: Amount
+  AmountDouble:
+    type: string
+    format: money
+    description: Amount Double
+  AmountExtra:
+    type: string
+    format: money
+    description: Amount Extra
+  AmountChildren:
+    type: string
+    format: money
+    description: Amount Children
+  Comments:
+    type: string
+    maxLength: 500
+    description: Comments
+  ViewOnWeb:
+    type: boolean
+    description: View On Web
+  WebDescription:
+    type: string
+    maxLength: 1000
+    description: Web Description
+  WebOrder:
+    type: integer
+    format: int32
+    description: Web Order
+  WebComments:
+    type: string
+    format: longstring
+    description: Web Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

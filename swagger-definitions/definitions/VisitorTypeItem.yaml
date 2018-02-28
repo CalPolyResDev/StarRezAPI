@@ -1,0 +1,43 @@
+type: object
+#required:
+#  - Description
+properties:
+  VisitorTypeID:
+    type: integer
+    format: int32
+    description: Visitor Type
+  Description:
+    type: string
+    maxLength: 100
+    description: Description
+  MaxGuestPerTermSession:
+    type: integer
+    format: int32
+    description: Max Guest Per Term Session
+  MaxGuestsPerMonth:
+    type: integer
+    format: int32
+    description: Max Guests Per Month
+  MaxVisitationNights:
+    type: integer
+    format: int32
+    description: Max Visitation Nights
+  MaxConsecutiveNights:
+    type: integer
+    format: int32
+    description: Max Consecutive Nights
+  VisitDatesMustOverlapBookingDates:
+    type: boolean
+    description: Visit Dates Must Overlap Booking Dates
+  Comments:
+    type: string
+    maxLength: 500
+    description: Comments
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

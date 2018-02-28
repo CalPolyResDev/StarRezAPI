@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateEmailFromAddress
+  description: Updates an EmailFromAddress in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: EmailFromAddressID
+      type: integer
+      required: true
+      description: Numeric value of the emailfromaddressID
+    - in: body
+      name: EmailFromAddressItem
+      required: true
+      description: EmailFromAddress to update
+      schema:
+        $ref: '#/definitions/EmailFromAddressItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EmailFromAddressItem'
+    400:
+      description: Invalid Input, Object Invalid.

@@ -1,0 +1,89 @@
+type: object
+#required:
+#  - Description
+#  - PaymentTypeID
+properties:
+  RefundRequestID:
+    type: integer
+    format: int32
+    description: Refund Request
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  CategoryID:
+    type: integer
+    format: int32
+    description: Category
+  Description:
+    type: string
+    maxLength: 200
+    description: Description
+  RequestedAmount:
+    type: string
+    format: money
+    description: Requested Amount
+  RefundAmount:
+    type: string
+    format: money
+    description: Refund Amount
+  ChargeGroupID:
+    type: integer
+    format: int32
+    description: Charge Group
+  PaymentTypeID:
+    type: integer
+    format: int32
+    description: Payment Type
+  RefundRequestConfigurationID:
+    type: integer
+    format: int32
+    description: Refund Request Configuration
+  RefundRequestBatchConfigurationID:
+    type: integer
+    format: int32
+    description: Refund Request Batch Configuration
+  BatchNumber:
+    type: integer
+    format: int32
+    description: Batch Number
+  RefundRequestStatusEnum:
+    type: string
+    format: enum
+    description: Refund Request Status
+  Comments:
+    type: string
+    maxLength: 300
+    description: Comments
+  WorkflowStepID:
+    type: integer
+    format: int32
+    description: Workflow Step
+  AssignedTo_SecurityUserID:
+    type: integer
+    format: int32
+    description: Assigned To Security User
+  Current_WorkflowHistoryID:
+    type: integer
+    format: int32
+    description: Current Workflow History
+  Previous_WorkflowHistoryID:
+    type: integer
+    format: int32
+    description: Previous Workflow History
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  CreatedBy_SecurityUserID:
+    type: integer
+    format: int32
+    description: Created By Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

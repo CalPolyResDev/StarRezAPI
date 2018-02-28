@@ -1,0 +1,35 @@
+type: object
+#required:
+properties:
+  WorkflowID:
+    type: integer
+    format: int32
+    description: Workflow
+  TableName:
+    type: string
+    maxLength: 25
+    description: Table Name
+  Description:
+    type: string
+    maxLength: 50
+    description: Description
+  WorkflowOrder:
+    type: integer
+    format: int32
+    description: Workflow Order
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  CreatedBy_SecurityUserID:
+    type: integer
+    format: int32
+    description: Created By Security User
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

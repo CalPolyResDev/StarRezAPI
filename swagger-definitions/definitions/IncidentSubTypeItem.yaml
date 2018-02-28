@@ -1,0 +1,42 @@
+type: object
+#required:
+#  - Description
+properties:
+  IncidentSubTypeID:
+    type: integer
+    format: int32
+    description: Incident Sub Type
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  IncidentTypeID:
+    type: integer
+    format: int32
+    description: Incident Type
+  IncidentSeverityID:
+    type: integer
+    format: int32
+    description: Incident Severity
+  Description:
+    type: string
+    maxLength: 50
+    description: Description
+  Comments:
+    type: string
+    maxLength: 1000
+    description: Comments
+  Clery:
+    type: boolean
+    description: Clery
+  CleryOrder:
+    type: integer
+    format: int32
+    description: Clery Order
+  AlwaysCountInClery:
+    type: boolean
+    description: Always Count In Clery
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

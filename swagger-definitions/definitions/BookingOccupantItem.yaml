@@ -1,0 +1,27 @@
+type: object
+#required:
+properties:
+  BookingOccupantID:
+    type: integer
+    format: int32
+    description: Booking Occupant
+  BookingID:
+    type: integer
+    format: int32
+    description: Booking
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  CheckInDate:
+    type: string
+    format: date
+    description: Check In Date
+  CheckOutDate:
+    type: string
+    format: date
+    description: Check Out Date
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

@@ -1,0 +1,122 @@
+type: object
+#required:
+#  - TableName
+#  - FieldName
+properties:
+  WebFieldID:
+    type: integer
+    format: int32
+    description: Web Field
+  WebBlockID:
+    type: integer
+    format: int32
+    description: Web Block
+  Display:
+    type: boolean
+    description: Display
+  Required:
+    type: boolean
+    description: Required
+  RequiredIndex:
+    type: string
+    maxLength: 20
+    description: Required Index
+  FieldOrder:
+    type: integer
+    format: int32
+    description: Field Order
+  TableName:
+    type: string
+    maxLength: 100
+    description: Table Name
+  FieldName:
+    type: string
+    maxLength: 100
+    description: Field Name
+  WebFieldDataTypeEnum:
+    type: string
+    format: enum
+    description: Web Field Data Type
+  DataLength:
+    type: integer
+    format: int32
+    description: Data Length
+  DefaultValue:
+    type: string
+    maxLength: 200
+    description: Default Value
+  UseDefaultOnly:
+    type: boolean
+    description: Use Default Only
+  DateRangeMin:
+    type: string
+    description: Date Range Min
+  DateRangeMax:
+    type: string
+    description: Date Range Max
+  LookupTableName:
+    type: string
+    maxLength: 100
+    description: Lookup Table Name
+  LookupTableFilter:
+    type: string
+    maxLength: 500
+    description: Lookup Table Filter
+  LookupTableOrderBy:
+    type: string
+    maxLength: 200
+    description: Lookup Table Order By
+  LookupFieldDataName:
+    type: string
+    maxLength: 100
+    description: Lookup Field Data Name
+  LookupFieldDisplayName:
+    type: string
+    maxLength: 100
+    description: Lookup Field Display Name
+  FieldDisplayName:
+    type: string
+    maxLength: 100
+    description: Field Display Name
+  FieldDisplayComments:
+    type: string
+    maxLength: 500
+    description: Field Display Comments
+  WebFieldControlTypeEnum:
+    type: string
+    format: enum
+    description: Web Field Control Type
+  ActionEvent:
+    type: string
+    maxLength: 50
+    description: Action Event
+  ActionFunction:
+    type: string
+    maxLength: 1500
+    description: Action Function
+  DataBound:
+    type: boolean
+    description: Data Bound
+  RegEx:
+    type: string
+    maxLength: 100
+    description: Reg Ex
+  AllowModify:
+    type: boolean
+    description: Allow Modify
+  CSSClass:
+    type: string
+    maxLength: 100
+    description: CSS Class
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

@@ -1,0 +1,31 @@
+type: object
+#required:
+properties:
+  SystemActivityID:
+    type: integer
+    format: int32
+    description: System Activity
+  Client:
+    type: string
+    format: binary
+    maxLength: 50
+    description: Client
+  Tracking:
+    type: string
+    format: binary
+    maxLength: 50
+    description: Tracking
+  ActivityKey:
+    type: string
+    format: binary
+    maxLength: 50
+    description: Activity Key
+  Instance:
+    type: string
+    format: binary
+    maxLength: 50
+    description: Instance
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

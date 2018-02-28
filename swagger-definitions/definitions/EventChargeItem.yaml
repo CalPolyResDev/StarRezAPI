@@ -1,0 +1,61 @@
+type: object
+#required:
+#  - ChargeItemID
+properties:
+  EventChargeID:
+    type: integer
+    format: int32
+    description: Event Charge
+  EventID:
+    type: integer
+    format: int32
+    description: Event
+  Description:
+    type: string
+    maxLength: 100
+    description: Description
+  ChargeItemID:
+    type: integer
+    format: int32
+    description: Charge Item
+  TransactionTypeEnum:
+    type: string
+    format: enum
+    description: Transaction Type
+  TermSessionID:
+    type: integer
+    format: int32
+    description: Term Session
+  Amount:
+    type: string
+    format: money
+    description: Amount
+  AmountCost:
+    type: string
+    format: money
+    description: Amount Cost
+  Comments:
+    type: string
+    maxLength: 250
+    description: Comments
+  Posted:
+    type: boolean
+    description: Posted
+  TableName:
+    type: string
+    maxLength: 50
+    description: Table Name
+  TableID:
+    type: integer
+    format: int32
+    description: Table
+  ChargeToEntry:
+    type: boolean
+    description: Charge To Entry
+  PerEntry:
+    type: boolean
+    description: Per Entry
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

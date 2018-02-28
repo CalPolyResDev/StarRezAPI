@@ -1,0 +1,24 @@
+type: object
+#required:
+#  - Description
+properties:
+  FunctionTypeID:
+    type: integer
+    format: int32
+    description: Function Type
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  Description:
+    type: string
+    maxLength: 25
+    description: Description
+  Comments:
+    type: string
+    maxLength: 250
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

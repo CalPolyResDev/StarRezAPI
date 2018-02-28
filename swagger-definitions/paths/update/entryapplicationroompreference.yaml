@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateEntryApplicationRoomPreference
+  description: Updates an EntryApplicationRoomPreference in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: EntryApplicationRoomPreferenceID
+      type: integer
+      required: true
+      description: Numeric value of the entryapplicationroompreferenceID
+    - in: body
+      name: EntryApplicationRoomPreferenceItem
+      required: true
+      description: EntryApplicationRoomPreference to update
+      schema:
+        $ref: '#/definitions/EntryApplicationRoomPreferenceItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EntryApplicationRoomPreferenceItem'
+    400:
+      description: Invalid Input, Object Invalid.

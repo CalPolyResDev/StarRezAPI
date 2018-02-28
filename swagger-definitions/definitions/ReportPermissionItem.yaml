@@ -1,0 +1,23 @@
+type: object
+#required:
+properties:
+  ReportPermissionID:
+    type: integer
+    format: int32
+    description: Report Permission
+  ReportID:
+    type: integer
+    format: int32
+    description: Report
+  AccessTypeEnum:
+    type: string
+    format: enum
+    description: Access Type
+  SecurityGroupID:
+    type: integer
+    format: int32
+    description: Security Group
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

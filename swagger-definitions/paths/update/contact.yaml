@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateContact
+  description: Updates an Contact in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: ContactID
+      type: integer
+      required: true
+      description: Numeric value of the contactID
+    - in: body
+      name: ContactItem
+      required: true
+      description: Contact to update
+      schema:
+        $ref: '#/definitions/ContactItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ContactItem'
+    400:
+      description: Invalid Input, Object Invalid.

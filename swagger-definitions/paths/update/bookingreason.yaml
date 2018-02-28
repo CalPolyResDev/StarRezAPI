@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateBookingReason
+  description: Updates an BookingReason in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: BookingReasonID
+      type: integer
+      required: true
+      description: Numeric value of the bookingreasonID
+    - in: body
+      name: BookingReasonItem
+      required: true
+      description: BookingReason to update
+      schema:
+        $ref: '#/definitions/BookingReasonItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/BookingReasonItem'
+    400:
+      description: Invalid Input, Object Invalid.

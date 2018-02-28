@@ -1,0 +1,130 @@
+type: object
+#required:
+#  - Title
+properties:
+  IncidentID:
+    type: integer
+    format: int32
+    description: Incident
+  IncidentStatusID:
+    type: integer
+    format: int32
+    description: Incident Status
+  CategoryID:
+    type: integer
+    format: int32
+    description: Category
+  IncidentDate:
+    type: string
+    format: date-time
+    description: Incident Date
+  ViewOnWeb:
+    type: boolean
+    description: View On Web
+  Title:
+    type: string
+    maxLength: 100
+    description: Title
+  Description:
+    type: string
+    format: longstring
+    description: Description
+  ReportNumber:
+    type: string
+    maxLength: 50
+    description: Report Number
+  IncidentManager_EntryID:
+    type: integer
+    format: int32
+    description: Incident Manager Entry
+  ActionRequired:
+    type: string
+    maxLength: 100
+    description: Action Required
+  RoomLocationID:
+    type: integer
+    format: int32
+    description: Room Location
+  RoomLocationFloorSuiteID:
+    type: integer
+    format: int32
+    description: Room Location Floor Suite
+  RoomBaseID:
+    type: integer
+    format: int32
+    description: Room Base
+  LocationComments:
+    type: string
+    maxLength: 100
+    description: Location Comments
+  IncidentCleryGeographyID:
+    type: integer
+    format: int32
+    description: Incident Clery Geography
+  LocationLocked:
+    type: boolean
+    description: Location Locked
+  PropertyDamaged:
+    type: boolean
+    description: Property Damaged
+  PropertyStolen:
+    type: boolean
+    description: Property Stolen
+  Victim:
+    type: boolean
+    description: Victim
+  VictimPerpetratorKnown:
+    type: boolean
+    description: Victim Perpetrator Known
+  VictimInjured:
+    type: boolean
+    description: Victim Injured
+  VictimComments:
+    type: string
+    maxLength: 500
+    description: Victim Comments
+  Comments:
+    type: string
+    format: longstring
+    description: Comments
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  CreatedBy_SecurityUserID:
+    type: integer
+    format: int32
+    description: Created By Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  IncidentGUID:
+    type: string
+    format: guid
+    description: Incident GUID
+  timestamp:
+    type: string
+    format: timestamp
+    maxLength: 8
+    description: Timestamp
+  WorkflowStepID:
+    type: integer
+    format: int32
+    description: Workflow Step
+  AssignedTo_SecurityUserID:
+    type: integer
+    format: int32
+    description: Assigned To Security User
+  Current_WorkflowHistoryID:
+    type: integer
+    format: int32
+    description: Current Workflow History
+  Previous_WorkflowHistoryID:
+    type: integer
+    format: int32
+    description: Previous Workflow History
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

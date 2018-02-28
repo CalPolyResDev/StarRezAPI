@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchWorkflowHistory
+  description: By passing in the appropriate options, you can search for a WorkflowHistory in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: WorkflowHistoryID
+      description: ID of the WorkflowHistory you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/WorkflowHistoryItem'
+    400:
+      description: Bad Request

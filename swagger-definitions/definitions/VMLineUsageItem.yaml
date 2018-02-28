@@ -1,0 +1,34 @@
+type: object
+#required:
+properties:
+  VMLineUsageID:
+    type: integer
+    format: int32
+    description: VM Line Usage
+  VMLineUsageDate:
+    type: string
+    format: date-time
+    description: VM Line Usage Date
+  SiteID:
+    type: integer
+    format: int32
+    description: Site
+  Line:
+    type: string
+    format: short
+    description: Line
+  Duration:
+    type: integer
+    format: int32
+    description: Duration
+  ExtensionID:
+    type: integer
+    format: int32
+    description: Extension
+  Admin:
+    type: boolean
+    description: Admin
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

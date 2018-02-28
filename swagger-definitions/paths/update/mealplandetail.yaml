@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateMealPlanDetail
+  description: Updates an MealPlanDetail in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: MealPlanDetailID
+      type: integer
+      required: true
+      description: Numeric value of the mealplandetailID
+    - in: body
+      name: MealPlanDetailItem
+      required: true
+      description: MealPlanDetail to update
+      schema:
+        $ref: '#/definitions/MealPlanDetailItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/MealPlanDetailItem'
+    400:
+      description: Invalid Input, Object Invalid.

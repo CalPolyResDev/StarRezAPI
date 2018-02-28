@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateWebControl
+  description: Updates an WebControl in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: WebControlID
+      type: integer
+      required: true
+      description: Numeric value of the webcontrolID
+    - in: body
+      name: WebControlItem
+      required: true
+      description: WebControl to update
+      schema:
+        $ref: '#/definitions/WebControlItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/WebControlItem'
+    400:
+      description: Invalid Input, Object Invalid.

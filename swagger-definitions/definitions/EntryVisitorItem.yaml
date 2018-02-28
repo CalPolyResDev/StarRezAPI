@@ -1,0 +1,53 @@
+type: object
+#required:
+#  - VisitorID
+#  - TermSessionID
+properties:
+  EntryVisitorID:
+    type: integer
+    format: int32
+    description: Entry Visitor
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  VisitorID:
+    type: integer
+    format: int32
+    description: Visitor
+  VisitorStatusEnum:
+    type: string
+    format: enum
+    description: Visitor Status
+  TermSessionID:
+    type: integer
+    format: int32
+    description: Term Session
+  ArrivalDate:
+    type: string
+    format: date-time
+    description: Arrival Date
+  DepartureDate:
+    type: string
+    format: date-time
+    description: Departure Date
+  VisitorTypeID:
+    type: integer
+    format: int32
+    description: Visitor Type
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  CreatedBy_SecurityUserID:
+    type: integer
+    format: int32
+    description: Created By Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

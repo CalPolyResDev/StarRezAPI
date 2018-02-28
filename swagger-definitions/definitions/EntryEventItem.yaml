@@ -1,0 +1,36 @@
+type: object
+#required:
+#  - EventID
+properties:
+  EntryEventID:
+    type: integer
+    format: int32
+    description: Entry Event
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  EventID:
+    type: integer
+    format: int32
+    description: Event
+  EventRegistrationFeeID:
+    type: integer
+    format: int32
+    description: Event Registration Fee
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  CreatedBy_SecurityUserID:
+    type: integer
+    format: int32
+    description: Created By Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateCategoryLevel
+  description: Updates an CategoryLevel in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: CategoryLevelID
+      type: integer
+      required: true
+      description: Numeric value of the categorylevelID
+    - in: body
+      name: CategoryLevelItem
+      required: true
+      description: CategoryLevel to update
+      schema:
+        $ref: '#/definitions/CategoryLevelItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/CategoryLevelItem'
+    400:
+      description: Invalid Input, Object Invalid.

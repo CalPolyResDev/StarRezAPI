@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateWebEmailText
+  description: Updates an WebEmailText in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: WebEmailTextID
+      type: integer
+      required: true
+      description: Numeric value of the webemailtextID
+    - in: body
+      name: WebEmailTextItem
+      required: true
+      description: WebEmailText to update
+      schema:
+        $ref: '#/definitions/WebEmailTextItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/WebEmailTextItem'
+    400:
+      description: Invalid Input, Object Invalid.

@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchEntryDetail
+  description: By passing in the appropriate options, you can search for a EntryDetail in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: EntryDetailID
+      description: ID of the EntryDetail you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EntryDetailItem'
+    400:
+      description: Bad Request

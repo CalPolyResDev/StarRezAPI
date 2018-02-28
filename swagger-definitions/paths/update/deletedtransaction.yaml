@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateDeletedTransaction
+  description: Updates an DeletedTransaction in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: DeletedTransactionID
+      type: integer
+      required: true
+      description: Numeric value of the deletedtransactionID
+    - in: body
+      name: DeletedTransactionItem
+      required: true
+      description: DeletedTransaction to update
+      schema:
+        $ref: '#/definitions/DeletedTransactionItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/DeletedTransactionItem'
+    400:
+      description: Invalid Input, Object Invalid.

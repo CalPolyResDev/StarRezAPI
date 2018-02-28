@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateAddressType
+  description: Updates an AddressType in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: AddressTypeID
+      type: integer
+      required: true
+      description: Numeric value of the addresstypeID
+    - in: body
+      name: AddressTypeItem
+      required: true
+      description: AddressType to update
+      schema:
+        $ref: '#/definitions/AddressTypeItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/AddressTypeItem'
+    400:
+      description: Invalid Input, Object Invalid.

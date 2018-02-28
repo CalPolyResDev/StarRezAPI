@@ -1,0 +1,152 @@
+type: object
+#required:
+properties:
+  EntryMealID:
+    type: integer
+    format: int32
+    description: Entry Meal
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  MealPlanID:
+    type: integer
+    format: int32
+    description: Meal Plan
+  TermSessionID:
+    type: integer
+    format: int32
+    description: Term Session
+  MealStatusEnum:
+    type: string
+    format: enum
+    description: Meal Status
+  BookingID:
+    type: integer
+    format: int32
+    description: Booking
+  NumberOfGuests:
+    type: string
+    format: short
+    description: Number Of Guests
+  NumberOfMeals:
+    type: string
+    format: short
+    description: Number Of Meals
+  Breakfast:
+    type: string
+    format: short
+    description: Breakfast
+  Lunch:
+    type: string
+    format: short
+    description: Lunch
+  Dinner:
+    type: string
+    format: short
+    description: Dinner
+  Other:
+    type: string
+    format: short
+    description: Other
+  DateStart:
+    type: string
+    format: date
+    description: Date Start
+  DateEnd:
+    type: string
+    format: date
+    description: Date End
+  ContractDateStart:
+    type: string
+    format: date
+    description: Contract Date Start
+  ContractDateEnd:
+    type: string
+    format: date
+    description: Contract Date End
+  AllowanceAInitial:
+    type: string
+    format: decimal
+    description: Allowance A Initial
+  AllowanceAUsed:
+    type: string
+    format: decimal
+    description: Allowance A Used
+  AllowanceBInitial:
+    type: string
+    format: decimal
+    description: Allowance B Initial
+  AllowanceBUsed:
+    type: string
+    format: decimal
+    description: Allowance B Used
+  AllowanceCInitial:
+    type: string
+    format: decimal
+    description: Allowance C Initial
+  AllowanceCUsed:
+    type: string
+    format: decimal
+    description: Allowance C Used
+  Cancelled:
+    type: boolean
+    description: Cancelled
+  ProcessedCharged:
+    type: boolean
+    description: Processed Charged
+  ProcessedCancelled:
+    type: boolean
+    description: Processed Cancelled
+  Comments:
+    type: string
+    maxLength: 200
+    description: Comments
+  DateChargedTo:
+    type: string
+    format: date
+    description: Date Charged To
+  CustomBit1:
+    type: boolean
+    description: Custom Flag 1
+  CustomBit2:
+    type: boolean
+    description: Custom Flag 2
+  CustomString1:
+    type: string
+    maxLength: 50
+    description: Custom String 1
+  CustomString2:
+    type: string
+    maxLength: 50
+    description: Custom String 2
+  CustomString3:
+    type: string
+    maxLength: 50
+    description: Custom String 3
+  CustomString4:
+    type: string
+    maxLength: 50
+    description: Custom String 4
+  CustomString5:
+    type: string
+    maxLength: 50
+    description: Custom String 5
+  CustomString6:
+    type: string
+    maxLength: 50
+    description: Custom String 6
+  CustomDate1:
+    type: string
+    description: Custom Date 1
+  CustomDate2:
+    type: string
+    description: Custom Date 2
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

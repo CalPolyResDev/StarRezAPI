@@ -1,0 +1,19 @@
+type: object
+#required:
+properties:
+  RoomConfigurationClassificationID:
+    type: integer
+    format: int32
+    description: Room Configuration Classification
+  RoomConfigurationID:
+    type: integer
+    format: int32
+    description: Room Configuration
+  ClassificationID:
+    type: integer
+    format: int32
+    description: Classification
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

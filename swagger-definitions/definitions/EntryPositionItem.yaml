@@ -1,0 +1,41 @@
+type: object
+#required:
+properties:
+  EntryPositionID:
+    type: integer
+    format: int32
+    description: Entry Position
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  TermID:
+    type: integer
+    format: int32
+    description: Term
+  PositionYear:
+    type: string
+    maxLength: 10
+    description: Position Year
+  TermDetail:
+    type: string
+    maxLength: 40
+    description: Term Detail
+  Position:
+    type: string
+    maxLength: 50
+    description: Position
+  PositionDateStart:
+    type: string
+    description: Position Date Start
+  PositionDateEnd:
+    type: string
+    description: Position Date End
+  Comments:
+    type: string
+    maxLength: 255
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

@@ -1,0 +1,31 @@
+type: object
+#required:
+properties:
+  WebMenuClassificationID:
+    type: integer
+    format: int32
+    description: Web Menu Classification
+  WebMenuID:
+    type: integer
+    format: int32
+    description: Web Menu
+  TermTypeID:
+    type: integer
+    format: int32
+    description: Term Type
+  ClassificationID:
+    type: integer
+    format: int32
+    description: Classification
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

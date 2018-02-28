@@ -1,0 +1,19 @@
+type: object
+#required:
+properties:
+  DashboardSharingID:
+    type: integer
+    format: int32
+    description: Dashboard Sharing
+  SecurityGroupID:
+    type: integer
+    format: int32
+    description: Security Group
+  DashboardID:
+    type: integer
+    format: int32
+    description: Dashboard
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

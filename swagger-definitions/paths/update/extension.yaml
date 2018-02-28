@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateExtension
+  description: Updates an Extension in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: ExtensionID
+      type: integer
+      required: true
+      description: Numeric value of the extensionID
+    - in: body
+      name: ExtensionItem
+      required: true
+      description: Extension to update
+      schema:
+        $ref: '#/definitions/ExtensionItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ExtensionItem'
+    400:
+      description: Invalid Input, Object Invalid.

@@ -1,0 +1,41 @@
+type: object
+#required:
+properties:
+  GenericTableDataFieldID:
+    type: integer
+    format: int32
+    description: Generic Table Data Field
+  GenericTableDataID:
+    type: integer
+    format: int32
+    description: Generic Table Data
+  GenericTableDefinitionFieldID:
+    type: integer
+    format: int32
+    description: Generic Table Definition Field
+  FieldDataTypeEnum:
+    type: string
+    format: enum
+    description: Field Data Type
+  ValueString:
+    type: string
+    maxLength: 5000
+    description: Value String
+  ValueDate:
+    type: string
+    description: Value Date
+  ValueBoolean:
+    type: boolean
+    description: Value Boolean
+  ValueInteger:
+    type: integer
+    format: int32
+    description: Value Integer
+  ValueMoney:
+    type: string
+    format: money
+    description: Value Money
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

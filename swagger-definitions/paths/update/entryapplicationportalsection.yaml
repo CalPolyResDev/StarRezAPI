@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateEntryApplicationPortalSection
+  description: Updates an EntryApplicationPortalSection in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: EntryApplicationPortalSectionID
+      type: integer
+      required: true
+      description: Numeric value of the entryapplicationportalsectionID
+    - in: body
+      name: EntryApplicationPortalSectionItem
+      required: true
+      description: EntryApplicationPortalSection to update
+      schema:
+        $ref: '#/definitions/EntryApplicationPortalSectionItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EntryApplicationPortalSectionItem'
+    400:
+      description: Invalid Input, Object Invalid.

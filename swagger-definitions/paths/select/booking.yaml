@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchBooking
+  description: By passing in the appropriate options, you can search for a Booking in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: BookingID
+      description: ID of the Booking you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/BookingItem'
+    400:
+      description: Bad Request

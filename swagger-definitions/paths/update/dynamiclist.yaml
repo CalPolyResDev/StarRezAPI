@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateDynamicList
+  description: Updates an DynamicList in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: DynamicListID
+      type: integer
+      required: true
+      description: Numeric value of the dynamiclistID
+    - in: body
+      name: DynamicListItem
+      required: true
+      description: DynamicList to update
+      schema:
+        $ref: '#/definitions/DynamicListItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/DynamicListItem'
+    400:
+      description: Invalid Input, Object Invalid.

@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchConcernNote
+  description: By passing in the appropriate options, you can search for a ConcernNote in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: ConcernNoteID
+      description: ID of the ConcernNote you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ConcernNoteItem'
+    400:
+      description: Bad Request

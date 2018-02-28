@@ -1,0 +1,15 @@
+type: object
+#required:
+properties:
+  RoomProfileID:
+    type: integer
+    format: int32
+    description: Room Profile
+  RoomID:
+    type: integer
+    format: int32
+    description: Room
+  ProfileItemID:
+    type: integer
+    format: int32
+    description: Profile Item

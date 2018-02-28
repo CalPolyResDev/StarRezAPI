@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateCustomFieldDefinition
+  description: Updates an CustomFieldDefinition in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: CustomFieldDefinitionID
+      type: integer
+      required: true
+      description: Numeric value of the customfielddefinitionID
+    - in: body
+      name: CustomFieldDefinitionItem
+      required: true
+      description: CustomFieldDefinition to update
+      schema:
+        $ref: '#/definitions/CustomFieldDefinitionItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/CustomFieldDefinitionItem'
+    400:
+      description: Invalid Input, Object Invalid.

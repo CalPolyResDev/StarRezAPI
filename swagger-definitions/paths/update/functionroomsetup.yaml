@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateFunctionRoomSetup
+  description: Updates an FunctionRoomSetup in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: FunctionRoomSetupID
+      type: integer
+      required: true
+      description: Numeric value of the functionroomsetupID
+    - in: body
+      name: FunctionRoomSetupItem
+      required: true
+      description: FunctionRoomSetup to update
+      schema:
+        $ref: '#/definitions/FunctionRoomSetupItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/FunctionRoomSetupItem'
+    400:
+      description: Invalid Input, Object Invalid.

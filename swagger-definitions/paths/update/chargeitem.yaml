@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateChargeItem
+  description: Updates an ChargeItem in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: ChargeItemID
+      type: integer
+      required: true
+      description: Numeric value of the chargeitemID
+    - in: body
+      name: ChargeItemItem
+      required: true
+      description: ChargeItem to update
+      schema:
+        $ref: '#/definitions/ChargeItemItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ChargeItemItem'
+    400:
+      description: Invalid Input, Object Invalid.

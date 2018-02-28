@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateGroupContactEntry
+  description: Updates an GroupContactEntry in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: GroupContactEntryID
+      type: integer
+      required: true
+      description: Numeric value of the groupcontactentryID
+    - in: body
+      name: GroupContactEntryItem
+      required: true
+      description: GroupContactEntry to update
+      schema:
+        $ref: '#/definitions/GroupContactEntryItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/GroupContactEntryItem'
+    400:
+      description: Invalid Input, Object Invalid.

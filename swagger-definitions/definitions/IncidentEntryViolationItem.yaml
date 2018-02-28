@@ -1,0 +1,47 @@
+type: object
+#required:
+properties:
+  IncidentEntryViolationID:
+    type: integer
+    format: int32
+    description: Incident Entry Violation
+  IncidentEntryID:
+    type: integer
+    format: int32
+    description: Incident Entry
+  IncidentViolationID:
+    type: integer
+    format: int32
+    description: Incident Violation
+  IncidentEntryAppealID:
+    type: integer
+    format: int32
+    description: Incident Entry Appeal
+  IncidentTypeID:
+    type: integer
+    format: int32
+    description: Incident Type
+  IncidentSubTypeID:
+    type: integer
+    format: int32
+    description: Incident Sub Type
+  IncidentSeverityID:
+    type: integer
+    format: int32
+    description: Incident Severity
+  IncidentPleaID:
+    type: integer
+    format: int32
+    description: Plea
+  IncidentFindingID:
+    type: integer
+    format: int32
+    description: Finding
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

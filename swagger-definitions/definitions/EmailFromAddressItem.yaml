@@ -1,0 +1,41 @@
+type: object
+#required:
+#  - Description
+#  - FromAddress
+properties:
+  EmailFromAddressID:
+    type: integer
+    format: int32
+    description: Email From Address
+  Description:
+    type: string
+    maxLength: 50
+    description: Description
+  FromAddress:
+    type: string
+    maxLength: 200
+    description: From Address
+  FromName:
+    type: string
+    maxLength: 200
+    description: From Name
+  SmtpUsername:
+    type: string
+    maxLength: 50
+    description: Smtp Username
+  Module:
+    type: string
+    maxLength: 50
+    description: Module
+  Comments:
+    type: string
+    maxLength: 1000
+    description: Comments
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

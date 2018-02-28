@@ -1,0 +1,79 @@
+type: object
+#required:
+#  - Description
+properties:
+  RoomSpaceInventoryID:
+    type: integer
+    format: int32
+    description: Room Space Inventory
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  RoomSpaceInventoryTypeID:
+    type: integer
+    format: int32
+    description: Room Space Inventory Type
+  RoomSpaceID:
+    type: integer
+    format: int32
+    description: Room Space
+  RoomSpaceInventoryConditionID:
+    type: integer
+    format: int32
+    description: Room Space Inventory Condition
+  RoomSpaceInventoryStatusID:
+    type: integer
+    format: int32
+    description: Room Space Inventory Status
+  Code:
+    type: string
+    maxLength: 50
+    description: Code
+  Description:
+    type: string
+    maxLength: 250
+    description: Description
+  Colour:
+    type: string
+    maxLength: 20
+    description: Colour
+  ExpiryDate:
+    type: string
+    format: date-time
+    description: Expiry Date
+  WarrantyDate:
+    type: string
+    description: Warranty Date
+  PurchaseDate:
+    type: string
+    format: date-time
+    description: Purchase Date
+  PurchasePrice:
+    type: string
+    format: money
+    description: Purchase Price
+  PurchasePlace:
+    type: string
+    maxLength: 50
+    description: Purchase Place
+  PurchaseDetails:
+    type: string
+    maxLength: 250
+    description: Purchase Details
+  BrandDetails:
+    type: string
+    maxLength: 250
+    description: Brand Details
+  Location:
+    type: string
+    maxLength: 50
+    description: Location
+  Comments:
+    type: string
+    maxLength: 500
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

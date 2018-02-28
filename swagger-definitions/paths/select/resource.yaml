@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchResource
+  description: By passing in the appropriate options, you can search for a Resource in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: ResourceID
+      description: ID of the Resource you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ResourceItem'
+    400:
+      description: Bad Request

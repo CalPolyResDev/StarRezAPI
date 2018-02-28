@@ -1,0 +1,27 @@
+type: object
+#required:
+properties:
+  RoomAttributeID:
+    type: integer
+    format: int32
+    description: Room Attribute
+  RoomID:
+    type: integer
+    format: int32
+    description: Room
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  FieldName:
+    type: string
+    maxLength: 50
+    description: Field Name
+  FieldValue:
+    type: string
+    maxLength: 50
+    description: Field Value
+  Weighting:
+    type: string
+    format: byte
+    description: Weighting

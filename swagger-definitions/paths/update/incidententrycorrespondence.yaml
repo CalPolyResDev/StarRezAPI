@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateIncidentEntryCorrespondence
+  description: Updates an IncidentEntryCorrespondence in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: IncidentEntryCorrespondenceID
+      type: integer
+      required: true
+      description: Numeric value of the incidententrycorrespondenceID
+    - in: body
+      name: IncidentEntryCorrespondenceItem
+      required: true
+      description: IncidentEntryCorrespondence to update
+      schema:
+        $ref: '#/definitions/IncidentEntryCorrespondenceItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/IncidentEntryCorrespondenceItem'
+    400:
+      description: Invalid Input, Object Invalid.

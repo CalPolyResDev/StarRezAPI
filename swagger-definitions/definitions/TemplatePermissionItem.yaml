@@ -1,0 +1,23 @@
+type: object
+#required:
+properties:
+  TemplatePermissionID:
+    type: integer
+    format: int32
+    description: Template Permission
+  TemplateID:
+    type: integer
+    format: int32
+    description: Template
+  AccessTypeEnum:
+    type: string
+    format: enum
+    description: Access Type
+  SecurityGroupID:
+    type: integer
+    format: int32
+    description: Security Group
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

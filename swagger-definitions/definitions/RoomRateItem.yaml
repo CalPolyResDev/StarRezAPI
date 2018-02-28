@@ -1,0 +1,27 @@
+type: object
+#required:
+#  - Description
+properties:
+  RoomRateID:
+    type: integer
+    format: int32
+    description: Room Rate
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  Description:
+    type: string
+    maxLength: 50
+    description: Description
+  AutomaticSessionRollover:
+    type: boolean
+    description: Automatic Session Rollover
+  Comments:
+    type: string
+    maxLength: 100
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

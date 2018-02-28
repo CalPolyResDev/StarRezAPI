@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateTemplate
+  description: Updates an Template in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: TemplateID
+      type: integer
+      required: true
+      description: Numeric value of the templateID
+    - in: body
+      name: TemplateItem
+      required: true
+      description: Template to update
+      schema:
+        $ref: '#/definitions/TemplateItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/TemplateItem'
+    400:
+      description: Invalid Input, Object Invalid.

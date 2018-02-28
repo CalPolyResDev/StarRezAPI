@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateRoommateGroup
+  description: Updates an RoommateGroup in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: RoommateGroupID
+      type: integer
+      required: true
+      description: Numeric value of the roommategroupID
+    - in: body
+      name: RoommateGroupItem
+      required: true
+      description: RoommateGroup to update
+      schema:
+        $ref: '#/definitions/RoommateGroupItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/RoommateGroupItem'
+    400:
+      description: Invalid Input, Object Invalid.

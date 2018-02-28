@@ -1,0 +1,55 @@
+type: object
+#required:
+properties:
+  WorkflowHistoryID:
+    type: integer
+    format: int32
+    description: Workflow History
+  TableName:
+    type: string
+    maxLength: 25
+    description: Table Name
+  TableID:
+    type: integer
+    format: int32
+    description: Table
+  From_WorkflowStepID:
+    type: integer
+    format: int32
+    description: From Workflow Step
+  To_WorkflowStepID:
+    type: integer
+    format: int32
+    description: To Workflow Step
+  From_SecurityUserID:
+    type: integer
+    format: int32
+    description: From Security User
+  To_SecurityUserID:
+    type: integer
+    format: int32
+    description: To Security User
+  TemplateID:
+    type: integer
+    format: int32
+    description: Template
+  Comments:
+    type: string
+    maxLength: 200
+    description: Comments
+  Reason:
+    type: string
+    maxLength: 200
+    description: Reason
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  DateCreated:
+    type: string
+    format: datetimeseconds
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateReportPermission
+  description: Updates an ReportPermission in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: ReportPermissionID
+      type: integer
+      required: true
+      description: Numeric value of the reportpermissionID
+    - in: body
+      name: ReportPermissionItem
+      required: true
+      description: ReportPermission to update
+      schema:
+        $ref: '#/definitions/ReportPermissionItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ReportPermissionItem'
+    400:
+      description: Invalid Input, Object Invalid.

@@ -1,0 +1,56 @@
+type: object
+#required:
+#  - TableName
+#  - FieldName
+properties:
+  FieldDefaultID:
+    type: integer
+    format: int32
+    description: Field Default
+  TableName:
+    type: string
+    maxLength: 50
+    description: Table Name
+  FieldName:
+    type: string
+    maxLength: 50
+    description: Field Name
+  Required:
+    type: boolean
+    description: Required
+  RequiredMessage:
+    type: string
+    maxLength: 150
+    description: Required Message
+  EnforceUnique:
+    type: boolean
+    description: Enforce Unique
+  EnforceUniqueMessage:
+    type: string
+    maxLength: 150
+    description: Enforce Unique Message
+  ApplyDefault:
+    type: boolean
+    description: Apply Default
+  Value:
+    type: string
+    maxLength: 50
+    description: Value
+  Conditional:
+    type: boolean
+    description: Conditional
+  ConditionalFieldName:
+    type: string
+    maxLength: 50
+    description: Conditional Field Name
+  ConditionalValue:
+    type: string
+    maxLength: 50
+    description: Conditional Value
+  Important:
+    type: boolean
+    description: Important
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

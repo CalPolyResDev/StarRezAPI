@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchTermSession
+  description: By passing in the appropriate options, you can search for a TermSession in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: TermSessionID
+      description: ID of the TermSession you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/TermSessionItem'
+    400:
+      description: Bad Request

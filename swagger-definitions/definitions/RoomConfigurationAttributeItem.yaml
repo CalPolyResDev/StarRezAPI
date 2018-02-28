@@ -1,0 +1,32 @@
+type: object
+#required:
+#  - FieldName
+properties:
+  RoomConfigurationAttributeID:
+    type: integer
+    format: int32
+    description: Room Configuration Attribute
+  RoomConfigurationID:
+    type: integer
+    format: int32
+    description: Room Configuration
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  FieldName:
+    type: string
+    maxLength: 50
+    description: Field Name
+  FieldValue:
+    type: string
+    maxLength: 50
+    description: Field Value
+  Weighting:
+    type: string
+    format: byte
+    description: Weighting
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

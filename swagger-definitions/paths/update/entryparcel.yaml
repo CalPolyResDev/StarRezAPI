@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateEntryParcel
+  description: Updates an EntryParcel in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: EntryParcelID
+      type: integer
+      required: true
+      description: Numeric value of the entryparcelID
+    - in: body
+      name: EntryParcelItem
+      required: true
+      description: EntryParcel to update
+      schema:
+        $ref: '#/definitions/EntryParcelItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EntryParcelItem'
+    400:
+      description: Invalid Input, Object Invalid.

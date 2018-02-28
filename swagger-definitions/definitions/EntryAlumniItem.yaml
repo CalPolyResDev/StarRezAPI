@@ -1,0 +1,77 @@
+type: object
+#required:
+properties:
+  EntryAlumniID:
+    type: integer
+    format: int32
+    description: Entry Alumni
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  EntryAlumniStatusID:
+    type: integer
+    format: int32
+    description: Entry Alumni Status
+  NameResident:
+    type: string
+    maxLength: 50
+    description: Name Resident
+  DoNotContact:
+    type: boolean
+    description: Do Not Contact
+  DoNotAskToContribute:
+    type: boolean
+    description: Do Not Ask To Contribute
+  CustomBit1:
+    type: boolean
+    description: Custom Flag 1
+  CustomBit2:
+    type: boolean
+    description: Custom Flag 2
+  CustomString1:
+    type: string
+    maxLength: 50
+    description: Custom String 1
+  CustomString2:
+    type: string
+    maxLength: 50
+    description: Custom String 2
+  CustomString3:
+    type: string
+    maxLength: 50
+    description: Custom String 3
+  CustomString4:
+    type: string
+    maxLength: 50
+    description: Custom String 4
+  CustomString5:
+    type: string
+    maxLength: 50
+    description: Custom String 5
+  CustomString6:
+    type: string
+    maxLength: 50
+    description: Custom String 6
+  CustomDate1:
+    type: string
+    description: Custom Date 1
+  CustomDate2:
+    type: string
+    description: Custom Date 2
+  Comments:
+    type: string
+    maxLength: 1000
+    description: Comments
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

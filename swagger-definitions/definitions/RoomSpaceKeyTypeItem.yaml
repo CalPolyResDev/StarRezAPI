@@ -1,0 +1,35 @@
+type: object
+#required:
+#  - Description
+properties:
+  RoomSpaceKeyTypeID:
+    type: integer
+    format: int32
+    description: Room Space Key Type
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  Description:
+    type: string
+    maxLength: 25
+    description: Description
+  Comments:
+    type: string
+    maxLength: 100
+    description: Comments
+  IssueOnCheckIn:
+    type: boolean
+    description: Issue On Check In
+  UpdateDateStartWithCheckInDate_BooleanAskEnum:
+    type: string
+    format: enum
+    description: Update Date Start With Check In Date Boolean Ask
+  UpdateDateEndWithCheckOutDate_BooleanAskEnum:
+    type: string
+    format: enum
+    description: Update Date End With Check Out Date Boolean Ask
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

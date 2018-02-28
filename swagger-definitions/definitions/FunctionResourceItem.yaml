@@ -1,0 +1,51 @@
+type: object
+#required:
+#  - Description
+properties:
+  FunctionResourceID:
+    type: integer
+    format: int32
+    description: Function Resource
+  FunctionResourceTypeID:
+    type: integer
+    format: int32
+    description: Function Resource Type
+  CategoryID:
+    type: integer
+    format: int32
+    description: Category
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  FunctionRoomID:
+    type: integer
+    format: int32
+    description: Function Room
+  FixedToFunctionRoom:
+    type: boolean
+    description: Fixed To Function Room
+  Description:
+    type: string
+    maxLength: 30
+    description: Description
+  ChargeItemID:
+    type: integer
+    format: int32
+    description: Charge Item
+  Amount:
+    type: string
+    format: money
+    description: Amount
+  AmountCost:
+    type: string
+    format: money
+    description: Amount Cost
+  Comments:
+    type: string
+    maxLength: 100
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

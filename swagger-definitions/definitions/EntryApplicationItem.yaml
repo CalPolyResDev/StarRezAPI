@@ -1,0 +1,213 @@
+type: object
+#required:
+properties:
+  EntryApplicationID:
+    type: integer
+    format: int32
+    description: Entry Application
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  ApplicationStatusID:
+    type: integer
+    format: int32
+    description: Application Status
+  ClassificationID:
+    type: integer
+    format: int32
+    description: Classification
+  TermID:
+    type: integer
+    format: int32
+    description: Term
+  Returning:
+    type: boolean
+    description: Returning
+  ExpectedArrivalDate:
+    type: string
+    description: Expected Arrival Date
+  ExpectedArrivalDateLatest:
+    type: string
+    description: Expected Arrival Date Latest
+  ExpectedDepartureDate:
+    type: string
+    description: Expected Departure Date
+  ApplicationDate:
+    type: string
+    description: Application Date
+  Rating:
+    type: string
+    maxLength: 10
+    description: Rating
+  CancelDate:
+    type: string
+    description: Cancel Date
+  EnquiryDate:
+    type: string
+    description: Enquiry Date
+  ReceivedDate:
+    type: string
+    description: Received Date
+  CompleteDate:
+    type: string
+    description: Complete Date
+  ReceivedFee:
+    type: boolean
+    description: Received Fee
+  ReceivedFee_WebPaymentID:
+    type: integer
+    format: int32
+    description: Received Fee Web Payment
+  ReceivedFee_PaymentID:
+    type: integer
+    format: int32
+    description: Received Fee Payment
+  ReceivedFeeDate:
+    type: string
+    description: Received Fee Date
+  ReceivedFeeAmount:
+    type: string
+    format: money
+    description: Received Fee Amount
+  ReceivedDeposit:
+    type: boolean
+    description: Received Deposit
+  ReceivedDepositWaived:
+    type: boolean
+    description: Received Deposit Waived
+  ReceivedDeposit_WebPaymentID:
+    type: integer
+    format: int32
+    description: Received Deposit Web Payment
+  ReceivedDeposit_PaymentID:
+    type: integer
+    format: int32
+    description: Received Deposit Payment
+  ReceivedDepositDate:
+    type: string
+    description: Received Deposit Date
+  ReceivedDepositAmount:
+    type: string
+    format: money
+    description: Received Deposit Amount
+  ReceivedPhotoDate:
+    type: string
+    description: Received Photo Date
+  OfferedDate:
+    type: string
+    description: Offered Date
+  OfferSentDate:
+    type: string
+    description: Offer Sent Date
+  OfferReplyEnum:
+    type: string
+    format: enum
+    description: Offer Reply
+  OfferReplyDate:
+    type: string
+    description: Offer Reply Date
+  OfferReplyReason:
+    type: string
+    maxLength: 30
+    description: Offer Reply Reason
+  ContractSignedDate:
+    type: string
+    description: Contract Signed Date
+  PreferenceComments:
+    type: string
+    maxLength: 500
+    description: Preference Comments
+  RoomPreferenceComments:
+    type: string
+    maxLength: 500
+    description: Room Preference Comments
+  Comments:
+    type: string
+    maxLength: 5000
+    description: Comments
+  CommentsInternal:
+    type: string
+    maxLength: 500
+    description: Comments Internal
+  Web:
+    type: boolean
+    description: Web
+  RoomSelectionTimeslot:
+    type: string
+    description: Room Selection Timeslot
+  RoomSelectionNumber:
+    type: integer
+    format: int32
+    description: Room Selection Number
+  RoommateGroupID:
+    type: integer
+    format: int32
+    description: Roommate Group
+  RoomMateGroupSortOrder:
+    type: integer
+    format: int32
+    description: Room Mate Group Sort Order
+  RoomMateShowInSearch:
+    type: boolean
+    description: Room Mate Show In Search
+  RoomMateDescription:
+    type: string
+    maxLength: 500
+    description: Room Mate Description
+  AllocateOptionEnum:
+    type: string
+    format: enum
+    description: Allocate Option
+  PortalTrackingOnly:
+    type: boolean
+    description: Portal Tracking Only
+  TableID:
+    type: integer
+    format: int32
+    description: Table
+  TableName:
+    type: string
+    maxLength: 100
+    description: Table Name
+  CustomBit1:
+    type: boolean
+    description: Custom Flag 1
+  CustomBit2:
+    type: boolean
+    description: Custom Flag 2
+  CustomBit3:
+    type: boolean
+    description: Custom Flag 3
+  CustomBit4:
+    type: boolean
+    description: Custom Flag 4
+  CustomDate1:
+    type: string
+    description: Custom Date 1
+  CustomDate2:
+    type: string
+    description: Custom Date 2
+  CustomDate3:
+    type: string
+    description: Custom Date 3
+  CustomDate4:
+    type: string
+    description: Custom Date 4
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  timestamp:
+    type: string
+    format: timestamp
+    maxLength: 8
+    description: Timestamp
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

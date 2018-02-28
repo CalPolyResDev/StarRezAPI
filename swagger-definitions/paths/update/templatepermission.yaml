@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateTemplatePermission
+  description: Updates an TemplatePermission in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: TemplatePermissionID
+      type: integer
+      required: true
+      description: Numeric value of the templatepermissionID
+    - in: body
+      name: TemplatePermissionItem
+      required: true
+      description: TemplatePermission to update
+      schema:
+        $ref: '#/definitions/TemplatePermissionItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/TemplatePermissionItem'
+    400:
+      description: Invalid Input, Object Invalid.

@@ -1,0 +1,100 @@
+type: object
+#required:
+properties:
+  IncidentEntryID:
+    type: integer
+    format: int32
+    description: Incident Entry
+  IncidentID:
+    type: integer
+    format: int32
+    description: Incident
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  IncidentInvolvementID:
+    type: integer
+    format: int32
+    description: Incident Involvement
+  Reported:
+    type: boolean
+    description: Reported
+  Link_IncidentEntryID:
+    type: integer
+    description: Link Incident Entry
+  LinkRelationship:
+    type: string
+    maxLength: 500
+    description: Link Relationship
+  IdentityKnown:
+    type: boolean
+    description: Identity Known
+  Name:
+    type: string
+    maxLength: 50
+    description: Name
+  Demographic:
+    type: string
+    maxLength: 30
+    description: Demographic
+  GenderEnum:
+    type: string
+    format: enum
+    description: Gender
+  Race:
+    type: string
+    maxLength: 20
+    description: Race
+  Religion:
+    type: string
+    maxLength: 20
+    description: Religion
+  Ethnicity:
+    type: string
+    maxLength: 20
+    description: Ethnicity
+  Height:
+    type: string
+    maxLength: 20
+    description: Height
+  Weight:
+    type: string
+    maxLength: 20
+    description: Weight
+  HairColour:
+    type: string
+    maxLength: 20
+    description: Hair Colour
+  EyeColour:
+    type: string
+    maxLength: 20
+    description: Eye Colour
+  Age:
+    type: string
+    maxLength: 20
+    description: Age
+  Comments:
+    type: string
+    maxLength: 500
+    description: Comments
+  WorkflowStepID:
+    type: integer
+    format: int32
+    description: Workflow Step
+  AssignedTo_SecurityUserID:
+    type: integer
+    format: int32
+    description: Assigned To Security User
+  Current_WorkflowHistoryID:
+    type: integer
+    format: int32
+    description: Current Workflow History
+  Previous_WorkflowHistoryID:
+    type: integer
+    format: int32
+    description: Previous Workflow History
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

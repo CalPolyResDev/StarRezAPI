@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchWorkflow
+  description: By passing in the appropriate options, you can search for a Workflow in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: WorkflowID
+      description: ID of the Workflow you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/WorkflowItem'
+    400:
+      description: Bad Request

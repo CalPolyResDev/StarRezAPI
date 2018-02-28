@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateVMMessage
+  description: Updates an VMMessage in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: VMMessageID
+      type: integer
+      required: true
+      description: Numeric value of the vmmessageID
+    - in: body
+      name: VMMessageItem
+      required: true
+      description: VMMessage to update
+      schema:
+        $ref: '#/definitions/VMMessageItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/VMMessageItem'
+    400:
+      description: Invalid Input, Object Invalid.

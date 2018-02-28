@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchFunctionResourceBooking
+  description: By passing in the appropriate options, you can search for a FunctionResourceBooking in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: FunctionResourceBookingID
+      description: ID of the FunctionResourceBooking you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/FunctionResourceBookingItem'
+    400:
+      description: Bad Request

@@ -1,0 +1,25 @@
+type: object
+#required:
+properties:
+  MealPlanFreeID:
+    type: integer
+    format: int32
+    description: Meal Plan Free
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  MealPlanID:
+    type: integer
+    format: int32
+    description: Meal Plan
+  DateStart:
+    type: string
+    description: Date Start
+  DateEnd:
+    type: string
+    description: Date End
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

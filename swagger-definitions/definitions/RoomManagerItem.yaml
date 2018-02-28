@@ -1,0 +1,42 @@
+type: object
+#required:
+#  - Description
+properties:
+  RoomManagerID:
+    type: integer
+    format: int32
+    description: Room Manager
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  ContactID:
+    type: integer
+    format: int32
+    description: Contact
+  Description:
+    type: string
+    maxLength: 40
+    description: Description
+  LeaseDateStart:
+    type: string
+    description: Lease Date Start
+  LeaseDateEnd:
+    type: string
+    description: Lease Date End
+  AmountRent:
+    type: string
+    format: money
+    description: Amount Rent
+  AmountBond:
+    type: string
+    format: money
+    description: Amount Bond
+  Comments:
+    type: string
+    maxLength: 250
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

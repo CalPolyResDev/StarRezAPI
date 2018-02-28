@@ -1,0 +1,19 @@
+type: object
+#required:
+properties:
+  EndOfSessionChargeGroupID:
+    type: integer
+    format: int32
+    description: End Of Session Charge Group
+  EndOfSessionID:
+    type: integer
+    format: int32
+    description: End Of Session
+  ChargeGroupID:
+    type: integer
+    format: int32
+    description: Charge Group
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

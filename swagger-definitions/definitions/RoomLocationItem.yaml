@@ -1,0 +1,113 @@
+type: object
+#required:
+#  - Description
+properties:
+  RoomLocationID:
+    type: integer
+    format: int32
+    description: Room Location
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  RoomLocationAreaID:
+    type: integer
+    format: int32
+    description: Room Location Area
+  CategoryID:
+    type: integer
+    format: int32
+    description: Category
+  NonResidential:
+    type: boolean
+    description: Non Residential
+  Description:
+    type: string
+    maxLength: 25
+    description: Description
+  Comments:
+    type: string
+    maxLength: 200
+    description: Comments
+  Lease:
+    type: boolean
+    description: Lease
+  AllocateSortOrder:
+    type: integer
+    format: int32
+    description: Allocate Sort Order
+  City:
+    type: string
+    maxLength: 60
+    description: City
+  CountryID:
+    type: integer
+    format: int32
+    description: Country
+  StateProvince:
+    type: string
+    maxLength: 60
+    description: State Province
+  ZipPostcode:
+    type: string
+    maxLength: 15
+    description: Zip Postcode
+  GenderTypeEnum:
+    type: string
+    format: enum
+    description: Gender Type
+  CustomBit1:
+    type: boolean
+    description: Custom Flag 1
+  CustomBit2:
+    type: boolean
+    description: Custom Flag 2
+  CustomString1:
+    type: string
+    maxLength: 50
+    description: Custom String 1
+  CustomString2:
+    type: string
+    maxLength: 50
+    description: Custom String 2
+  CustomString3:
+    type: string
+    maxLength: 50
+    description: Custom String 3
+  CustomString4:
+    type: string
+    maxLength: 50
+    description: Custom String 4
+  CustomString5:
+    type: string
+    maxLength: 50
+    description: Custom String 5
+  CustomString6:
+    type: string
+    maxLength: 50
+    description: Custom String 6
+  CustomDate1:
+    type: string
+    description: Custom Date 1
+  CustomDate2:
+    type: string
+    description: Custom Date 2
+  ViewOnWeb:
+    type: boolean
+    description: View On Web
+  WebImageLocation:
+    type: string
+    maxLength: 200
+    description: Web Image Location
+  WebDescription:
+    type: string
+    maxLength: 1000
+    description: Web Description
+  WebComments:
+    type: string
+    format: longstring
+    description: Web Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

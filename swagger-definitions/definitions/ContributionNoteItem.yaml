@@ -1,0 +1,43 @@
+type: object
+#required:
+#  - NoteType
+properties:
+  ContributionNoteID:
+    type: integer
+    format: int32
+    description: Contribution Note
+  ContributionID:
+    type: integer
+    format: int32
+    description: Contribution
+  DirectoryFlag:
+    type: boolean
+    description: Directory Flag
+  NoteDate:
+    type: string
+    format: date-time
+    description: Note Date
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  CreatedBy_SecurityUserID:
+    type: integer
+    format: int32
+    description: Created By Security User
+  NoteType:
+    type: string
+    maxLength: 50
+    description: Note Type
+  Notes:
+    type: string
+    maxLength: 5000
+    description: Notes
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

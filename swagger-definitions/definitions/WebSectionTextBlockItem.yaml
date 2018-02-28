@@ -1,0 +1,36 @@
+type: object
+#required:
+#  - BlockName
+properties:
+  WebSectionTextBlockID:
+    type: integer
+    format: int32
+    description: Web Section Text Block
+  WebSectionID:
+    type: integer
+    format: int32
+    description: Web Section
+  BlockName:
+    type: string
+    maxLength: 50
+    description: Block Name
+  BlockText:
+    type: string
+    format: longstring
+    description: Block Text
+  SQL:
+    type: string
+    maxLength: 5000
+    description: SQL
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

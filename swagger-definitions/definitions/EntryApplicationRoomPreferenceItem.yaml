@@ -1,0 +1,27 @@
+type: object
+#required:
+properties:
+  EntryApplicationRoomPreferenceID:
+    type: integer
+    format: int32
+    description: Entry Application Room Preference
+  EntryApplicationID:
+    type: integer
+    format: int32
+    description: Entry Application
+  RoomPreferenceID:
+    type: integer
+    format: int32
+    description: Room Preference
+  Preference:
+    type: string
+    format: byte
+    description: Preference
+  Comments:
+    type: string
+    maxLength: 1000
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

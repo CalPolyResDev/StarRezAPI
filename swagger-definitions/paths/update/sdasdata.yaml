@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateSDASData
+  description: Updates an SDASData in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: SDASDataID
+      type: integer
+      required: true
+      description: Numeric value of the sdasdataID
+    - in: body
+      name: SDASDataItem
+      required: true
+      description: SDASData to update
+      schema:
+        $ref: '#/definitions/SDASDataItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/SDASDataItem'
+    400:
+      description: Invalid Input, Object Invalid.

@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateWaitList
+  description: Updates an WaitList in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: WaitListID
+      type: integer
+      required: true
+      description: Numeric value of the waitlistID
+    - in: body
+      name: WaitListItem
+      required: true
+      description: WaitList to update
+      schema:
+        $ref: '#/definitions/WaitListItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/WaitListItem'
+    400:
+      description: Invalid Input, Object Invalid.

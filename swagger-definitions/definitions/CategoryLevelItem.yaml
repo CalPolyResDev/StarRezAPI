@@ -1,0 +1,43 @@
+type: object
+#required:
+properties:
+  CategoryID:
+    type: integer
+    format: int32
+    description: Category
+  Level1:
+    type: string
+    maxLength: 100
+    description: Level 1
+  Level1ID:
+    type: integer
+    format: int32
+    description: Level 1
+  Level2:
+    type: string
+    maxLength: 100
+    description: Level 2
+  Level2ID:
+    type: integer
+    format: int32
+    description: Level 2
+  Level3:
+    type: string
+    maxLength: 100
+    description: Level 3
+  Level3ID:
+    type: integer
+    format: int32
+    description: Level 3
+  Level4:
+    type: string
+    maxLength: 100
+    description: Level 4
+  Level4ID:
+    type: integer
+    format: int32
+    description: Level 4
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

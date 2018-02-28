@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateTermType
+  description: Updates an TermType in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: TermTypeID
+      type: integer
+      required: true
+      description: Numeric value of the termtypeID
+    - in: body
+      name: TermTypeItem
+      required: true
+      description: TermType to update
+      schema:
+        $ref: '#/definitions/TermTypeItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/TermTypeItem'
+    400:
+      description: Invalid Input, Object Invalid.

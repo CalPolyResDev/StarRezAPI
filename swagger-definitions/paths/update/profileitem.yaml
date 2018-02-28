@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateProfileItem
+  description: Updates an ProfileItem in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: ProfileItemID
+      type: integer
+      required: true
+      description: Numeric value of the profileitemID
+    - in: body
+      name: ProfileItemItem
+      required: true
+      description: ProfileItem to update
+      schema:
+        $ref: '#/definitions/ProfileItemItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ProfileItemItem'
+    400:
+      description: Invalid Input, Object Invalid.

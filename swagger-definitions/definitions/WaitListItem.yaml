@@ -1,0 +1,42 @@
+type: object
+#required:
+#  - Description
+properties:
+  WaitListID:
+    type: integer
+    format: int32
+    description: Wait List
+  TermID:
+    type: integer
+    format: int32
+    description: Term
+  GenderTypeEnum:
+    type: string
+    format: enum
+    description: Gender Type
+  Description:
+    type: string
+    maxLength: 50
+    description: Description
+  Comments:
+    type: string
+    maxLength: 100
+    description: Comments
+  Lease:
+    type: boolean
+    description: Lease
+  RemoveEntriesWhenBooked:
+    type: boolean
+    description: Remove Entries When Booked
+  RoomTypeID:
+    type: integer
+    format: int32
+    description: Room Type
+  RoomLocationID:
+    type: integer
+    format: int32
+    description: Room Location
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

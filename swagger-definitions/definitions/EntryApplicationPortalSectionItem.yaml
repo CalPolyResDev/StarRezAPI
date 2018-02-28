@@ -1,0 +1,29 @@
+type: object
+#required:
+properties:
+  EntryApplicationPortalSectionID:
+    type: integer
+    format: int32
+    description: Entry Application Portal Section
+  WebSectionID:
+    type: integer
+    format: int32
+    description: Web Section
+  EntryApplicationID:
+    type: integer
+    format: int32
+    description: Entry Application
+  Complete:
+    type: boolean
+    description: Complete
+  CompleteDate:
+    type: string
+    description: Complete Date
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

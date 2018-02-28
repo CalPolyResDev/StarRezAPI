@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateWebTransaction
+  description: Updates an WebTransaction in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: WebTransactionID
+      type: integer
+      required: true
+      description: Numeric value of the webtransactionID
+    - in: body
+      name: WebTransactionItem
+      required: true
+      description: WebTransaction to update
+      schema:
+        $ref: '#/definitions/WebTransactionItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/WebTransactionItem'
+    400:
+      description: Invalid Input, Object Invalid.

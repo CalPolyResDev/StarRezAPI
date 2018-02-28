@@ -1,0 +1,48 @@
+type: object
+#required:
+#  - Description
+properties:
+  SurveyQuestionID:
+    type: integer
+    format: int32
+    description: Survey Question
+  SurveyID:
+    type: integer
+    format: int32
+    description: Survey
+  Description:
+    type: string
+    maxLength: 150
+    description: Description
+  Comments:
+    type: string
+    format: longstring
+    description: Comments
+  QuestionGroup:
+    type: string
+    maxLength: 150
+    description: Question Group
+  FieldControlTypeEnum:
+    type: string
+    format: enum
+    description: Field Control Type
+  QuestionOrder:
+    type: integer
+    format: int32
+    description: Question Order
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

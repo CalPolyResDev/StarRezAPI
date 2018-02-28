@@ -1,0 +1,57 @@
+type: object
+#required:
+properties:
+  TransactionTemplateItemID:
+    type: integer
+    format: int32
+    description: Transaction Template Item
+  TransactionTemplateID:
+    type: integer
+    format: int32
+    description: Transaction Template
+  ChargeGroupID:
+    type: integer
+    format: int32
+    description: Charge Group
+  ChargeItemID:
+    type: integer
+    format: int32
+    description: Charge Item
+  TransactionTypeEnum:
+    type: string
+    format: enum
+    description: Transaction Type
+  Description:
+    type: string
+    maxLength: 100
+    description: Description
+  AutoPayOverride:
+    type: boolean
+    description: Auto Pay Override
+  Amount:
+    type: string
+    format: money
+    description: Amount
+  DueDate:
+    type: string
+    description: Due Date
+  Tag:
+    type: string
+    maxLength: 10
+    description: Tag
+  TagFinance:
+    type: string
+    maxLength: 10
+    description: Tag Finance
+  TermSessionID:
+    type: integer
+    format: int32
+    description: Term Session
+  Comments:
+    type: string
+    maxLength: 100
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

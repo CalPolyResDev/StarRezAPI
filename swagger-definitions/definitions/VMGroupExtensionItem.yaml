@@ -1,0 +1,19 @@
+type: object
+#required:
+properties:
+  VMGroupExtensionID:
+    type: integer
+    format: int32
+    description: VM Group Extension
+  VMGroupID:
+    type: integer
+    format: int32
+    description: VM Group
+  ExtensionID:
+    type: integer
+    format: int32
+    description: Extension
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

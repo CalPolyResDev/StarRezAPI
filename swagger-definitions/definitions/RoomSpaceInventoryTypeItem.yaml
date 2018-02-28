@@ -1,0 +1,32 @@
+type: object
+#required:
+#  - Description
+properties:
+  RoomSpaceInventoryTypeID:
+    type: integer
+    format: int32
+    description: Room Space Inventory Type
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  Description:
+    type: string
+    maxLength: 25
+    description: Description
+  Comments:
+    type: string
+    maxLength: 100
+    description: Comments
+  ChargeItemID:
+    type: integer
+    format: int32
+    description: Charge Item
+  DefaultChargeAmount:
+    type: string
+    format: money
+    description: Default Charge Amount
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

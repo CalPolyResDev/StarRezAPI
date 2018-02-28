@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateRoomSpaceClosed
+  description: Updates an RoomSpaceClosed in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: RoomSpaceClosedID
+      type: integer
+      required: true
+      description: Numeric value of the roomspaceclosedID
+    - in: body
+      name: RoomSpaceClosedItem
+      required: true
+      description: RoomSpaceClosed to update
+      schema:
+        $ref: '#/definitions/RoomSpaceClosedItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/RoomSpaceClosedItem'
+    400:
+      description: Invalid Input, Object Invalid.

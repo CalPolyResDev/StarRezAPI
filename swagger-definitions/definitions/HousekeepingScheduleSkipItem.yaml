@@ -1,0 +1,39 @@
+type: object
+#required:
+properties:
+  HousekeepingScheduleSkipID:
+    type: integer
+    format: int32
+    description: Housekeeping Schedule Skip
+  HousekeepingID:
+    type: integer
+    format: int32
+    description: Housekeeping
+  RoomServiceLevel:
+    type: integer
+    format: int32
+    description: Room Service Level
+  ScheduleEnum:
+    type: string
+    format: enum
+    description: Schedule
+  ScheduleInterval:
+    type: integer
+    format: int32
+    description: Schedule Interval
+  Schedule_DayInWeekEnum:
+    type: string
+    format: enum
+    description: Schedule Day In Week
+  SkipDays:
+    type: integer
+    format: int32
+    description: Skip Days
+  Comments:
+    type: string
+    maxLength: 250
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

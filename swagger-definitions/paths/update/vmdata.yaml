@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateVMData
+  description: Updates an VMData in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: VMDataID
+      type: integer
+      required: true
+      description: Numeric value of the vmdataID
+    - in: body
+      name: VMDataItem
+      required: true
+      description: VMData to update
+      schema:
+        $ref: '#/definitions/VMDataItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/VMDataItem'
+    400:
+      description: Invalid Input, Object Invalid.

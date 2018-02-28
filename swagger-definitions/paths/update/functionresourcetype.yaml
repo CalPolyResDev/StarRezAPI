@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateFunctionResourceType
+  description: Updates an FunctionResourceType in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: FunctionResourceTypeID
+      type: integer
+      required: true
+      description: Numeric value of the functionresourcetypeID
+    - in: body
+      name: FunctionResourceTypeItem
+      required: true
+      description: FunctionResourceType to update
+      schema:
+        $ref: '#/definitions/FunctionResourceTypeItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/FunctionResourceTypeItem'
+    400:
+      description: Invalid Input, Object Invalid.

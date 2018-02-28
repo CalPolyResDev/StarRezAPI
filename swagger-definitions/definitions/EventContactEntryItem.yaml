@@ -1,0 +1,27 @@
+type: object
+#required:
+properties:
+  EventContactEntryID:
+    type: integer
+    format: int32
+    description: Event Contact Entry
+  EventID:
+    type: integer
+    format: int32
+    description: Event
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  Responsibilities:
+    type: string
+    maxLength: 100
+    description: Responsibilities
+  Comments:
+    type: string
+    maxLength: 1000
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

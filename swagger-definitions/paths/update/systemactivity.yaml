@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateSystemActivity
+  description: Updates an SystemActivity in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: SystemActivityID
+      type: integer
+      required: true
+      description: Numeric value of the systemactivityID
+    - in: body
+      name: SystemActivityItem
+      required: true
+      description: SystemActivity to update
+      schema:
+        $ref: '#/definitions/SystemActivityItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/SystemActivityItem'
+    400:
+      description: Invalid Input, Object Invalid.

@@ -1,0 +1,64 @@
+type: object
+#required:
+#  - Description
+properties:
+  PreferenceID:
+    type: integer
+    format: int32
+    description: Preference
+  Description:
+    type: string
+    maxLength: 60
+    description: Description
+  Comments:
+    type: string
+    maxLength: 200
+    description: Comments
+  EmailAddress:
+    type: string
+    maxLength: 50
+    description: Email Address
+  CategoryID:
+    type: integer
+    format: int32
+    description: Category
+  CustomBit1:
+    type: boolean
+    description: Freshman
+  CustomBit2:
+    type: boolean
+    description: Continuing/Transfer
+  CustomString1:
+    type: string
+    maxLength: 50
+    description: Custom String 1
+  CustomString2:
+    type: string
+    maxLength: 50
+    description: Custom String 2
+  CustomString3:
+    type: string
+    maxLength: 50
+    description: Custom String 3
+  CustomString4:
+    type: string
+    maxLength: 50
+    description: Custom String 4
+  CustomString5:
+    type: string
+    maxLength: 50
+    description: Custom String 5
+  CustomString6:
+    type: string
+    maxLength: 50
+    description: Custom String 6
+  CustomDate1:
+    type: string
+    description: Custom Date 1
+  CustomDate2:
+    type: string
+    description: Custom Date 2
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

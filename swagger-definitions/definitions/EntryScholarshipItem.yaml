@@ -1,0 +1,37 @@
+type: object
+#required:
+properties:
+  EntryScholarshipID:
+    type: integer
+    format: int32
+    description: Entry Scholarship
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  ScholarshipType:
+    type: string
+    maxLength: 50
+    description: Scholarship Type
+  ScholarshipDateStart:
+    type: string
+    description: Scholarship Date Start
+  ScholarshipDateEnd:
+    type: string
+    description: Scholarship Date End
+  ScholarshipName:
+    type: string
+    maxLength: 50
+    description: Scholarship Name
+  Description:
+    type: string
+    maxLength: 255
+    description: Description
+  Amount:
+    type: string
+    format: money
+    description: Amount
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

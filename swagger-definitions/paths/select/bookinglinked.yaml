@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchBookingLinked
+  description: By passing in the appropriate options, you can search for a BookingLinked in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: BookingLinkedID
+      description: ID of the BookingLinked you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/BookingLinkedItem'
+    400:
+      description: Bad Request

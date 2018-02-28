@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateWorkflowPermission
+  description: Updates an WorkflowPermission in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: WorkflowPermissionID
+      type: integer
+      required: true
+      description: Numeric value of the workflowpermissionID
+    - in: body
+      name: WorkflowPermissionItem
+      required: true
+      description: WorkflowPermission to update
+      schema:
+        $ref: '#/definitions/WorkflowPermissionItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/WorkflowPermissionItem'
+    400:
+      description: Invalid Input, Object Invalid.

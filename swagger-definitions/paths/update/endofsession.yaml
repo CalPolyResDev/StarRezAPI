@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateEndOfSession
+  description: Updates an EndOfSession in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: EndOfSessionID
+      type: integer
+      required: true
+      description: Numeric value of the endofsessionID
+    - in: body
+      name: EndOfSessionItem
+      required: true
+      description: EndOfSession to update
+      schema:
+        $ref: '#/definitions/EndOfSessionItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EndOfSessionItem'
+    400:
+      description: Invalid Input, Object Invalid.

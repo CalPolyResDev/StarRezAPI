@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateRefundRequestConfiguration
+  description: Updates an RefundRequestConfiguration in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: RefundRequestConfigurationID
+      type: integer
+      required: true
+      description: Numeric value of the refundrequestconfigurationID
+    - in: body
+      name: RefundRequestConfigurationItem
+      required: true
+      description: RefundRequestConfiguration to update
+      schema:
+        $ref: '#/definitions/RefundRequestConfigurationItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/RefundRequestConfigurationItem'
+    400:
+      description: Invalid Input, Object Invalid.

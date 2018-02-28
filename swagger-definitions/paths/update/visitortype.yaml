@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateVisitorType
+  description: Updates an VisitorType in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: VisitorTypeID
+      type: integer
+      required: true
+      description: Numeric value of the visitortypeID
+    - in: body
+      name: VisitorTypeItem
+      required: true
+      description: VisitorType to update
+      schema:
+        $ref: '#/definitions/VisitorTypeItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/VisitorTypeItem'
+    400:
+      description: Invalid Input, Object Invalid.

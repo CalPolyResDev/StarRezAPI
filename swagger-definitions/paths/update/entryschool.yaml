@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateEntrySchool
+  description: Updates an EntrySchool in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: EntrySchoolID
+      type: integer
+      required: true
+      description: Numeric value of the entryschoolID
+    - in: body
+      name: EntrySchoolItem
+      required: true
+      description: EntrySchool to update
+      schema:
+        $ref: '#/definitions/EntrySchoolItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EntrySchoolItem'
+    400:
+      description: Invalid Input, Object Invalid.

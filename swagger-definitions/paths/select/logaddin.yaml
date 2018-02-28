@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchLogAddIn
+  description: By passing in the appropriate options, you can search for a LogAddIn in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: LogAddInID
+      description: ID of the LogAddIn you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/LogAddInItem'
+    400:
+      description: Bad Request

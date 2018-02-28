@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateEndOfSessionChargeGroup
+  description: Updates an EndOfSessionChargeGroup in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: EndOfSessionChargeGroupID
+      type: integer
+      required: true
+      description: Numeric value of the endofsessionchargegroupID
+    - in: body
+      name: EndOfSessionChargeGroupItem
+      required: true
+      description: EndOfSessionChargeGroup to update
+      schema:
+        $ref: '#/definitions/EndOfSessionChargeGroupItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EndOfSessionChargeGroupItem'
+    400:
+      description: Invalid Input, Object Invalid.

@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchWaitListEntryApplication
+  description: By passing in the appropriate options, you can search for a WaitListEntryApplication in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: WaitListEntryApplicationID
+      description: ID of the WaitListEntryApplication you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/WaitListEntryApplicationItem'
+    400:
+      description: Bad Request

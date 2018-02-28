@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchRoomSpaceInventoryType
+  description: By passing in the appropriate options, you can search for a RoomSpaceInventoryType in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: RoomSpaceInventoryTypeID
+      description: ID of the RoomSpaceInventoryType you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/RoomSpaceInventoryTypeItem'
+    400:
+      description: Bad Request

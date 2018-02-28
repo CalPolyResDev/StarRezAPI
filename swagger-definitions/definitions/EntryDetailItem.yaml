@@ -1,0 +1,271 @@
+type: object
+#required:
+properties:
+  EntryDetailID:
+    type: integer
+    format: int32
+    description: Entry Detail
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  PhotoPath:
+    type: string
+    maxLength: 200
+    description: Photo Path
+  PhotoImage:
+    type: string
+    description: Photo Image
+  StaffID:
+    type: integer
+    format: int32
+    description: Staff
+  ClassificationID:
+    type: integer
+    format: int32
+    description: Classification
+  AttendeeStatusEnum:
+    type: string
+    format: enum
+    description: Attendee Status
+  EventRegistrationFeeID:
+    type: integer
+    format: int32
+    description: Event Registration Fee
+  CountryOfBirth_CountryID:
+    type: integer
+    format: int32
+    description: Country Of Birth Country
+  CountryOfResidence_CountryID:
+    type: integer
+    format: int32
+    description: Country Of Residence Country
+  RegionOfBirthID:
+    type: integer
+    format: int32
+    description: Region Of Birth
+  NationalityID:
+    type: integer
+    format: int32
+    description: Nationality
+  Citizenship_CountryID:
+    type: integer
+    format: int32
+    description: Citizenship Country
+  International:
+    type: boolean
+    description: International
+  InternationalDetails:
+    type: string
+    maxLength: 50
+    description: International Details
+  Visa:
+    type: boolean
+    description: Visa
+  VisaDetails:
+    type: string
+    maxLength: 100
+    description: Visa Details
+  Religion:
+    type: string
+    maxLength: 20
+    description: Religion
+  Ethnicity:
+    type: string
+    maxLength: 50
+    description: Ethnicity
+  Medical:
+    type: string
+    maxLength: 5000
+    description: Medical
+  Disability:
+    type: string
+    maxLength: 500
+    description: Disability
+  Dietary:
+    type: string
+    maxLength: 500
+    description: Dietary
+  SpecialNeeds:
+    type: string
+    maxLength: 500
+    description: Special Needs
+  Married:
+    type: boolean
+    description: Married
+  Deceased:
+    type: boolean
+    description: Deceased
+  LivingWithDependents:
+    type: boolean
+    description: Living With Dependents
+  DateEntry:
+    type: string
+    description: Date Entry
+  DateExit:
+    type: string
+    description: Date Exit
+  ResidentYear:
+    type: string
+    format: short
+    description: Resident Year
+  ResidentStatus:
+    type: string
+    maxLength: 50
+    description: Resident Status
+  Occupation:
+    type: string
+    maxLength: 50
+    description: Occupation
+  HearAboutUs:
+    type: string
+    maxLength: 50
+    description: Hear About Us
+  VehicleRegistration:
+    type: string
+    maxLength: 20
+    description: Vehicle Registration
+  VehicleDetails:
+    type: string
+    maxLength: 250
+    description: Vehicle Details
+  VehiclePermit:
+    type: string
+    maxLength: 30
+    description: Vehicle Permit
+  PreviousMembership:
+    type: string
+    maxLength: 50
+    description: Previous Membership
+  PreviousMembershipYears:
+    type: string
+    maxLength: 9
+    description: Previous Membership Years
+  PreviousMemberName:
+    type: string
+    maxLength: 50
+    description: Previous Member Name
+  PreviousMemberYears:
+    type: string
+    maxLength: 9
+    description: Previous Member Years
+  PreviousMemberRelationship:
+    type: string
+    maxLength: 20
+    description: Previous Member Relationship
+  AccountHold:
+    type: boolean
+    description: Account Hold
+  AccountCode:
+    type: string
+    maxLength: 20
+    description: Account Code
+  AccountComments:
+    type: string
+    maxLength: 1000
+    description: Account Comments
+  AccountDueDate:
+    type: string
+    description: Account Due Date
+  Account_PaymentTypeID:
+    type: integer
+    format: int32
+    description: Account Payment Type
+  AccountBankName:
+    type: string
+    format: binary
+    maxLength: 40
+    description: Account Bank Name
+  AccountBankNumber:
+    type: string
+    format: binary
+    maxLength: 25
+    description: Account Bank Number
+  AccountDetail1:
+    type: string
+    format: binary
+    maxLength: 40
+    description: Account 1
+  AccountDetail2:
+    type: string
+    format: binary
+    maxLength: 25
+    description: Account 2
+  AccountDetail3:
+    type: string
+    format: binary
+    maxLength: 10
+    description: Account 3
+  AccountDetail4:
+    type: string
+    format: binary
+    maxLength: 10
+    description: Account 4
+  FinancialSupportID:
+    type: integer
+    format: int32
+    description: Financial Support
+  FinancialComments:
+    type: string
+    maxLength: 200
+    description: Financial Comments
+  EnrollmentClass:
+    type: string
+    maxLength: 50
+    description: Enrollment Class
+  EnrollmentTerm:
+    type: string
+    maxLength: 50
+    description: Enrollment Term
+  EnrollmentLevel:
+    type: string
+    maxLength: 50
+    description: Enrollment Level
+  EnrollmentStatus:
+    type: string
+    maxLength: 50
+    description: Enrollment Status
+  EnrollmentYear:
+    type: string
+    format: short
+    description: Enrollment Year
+  ProfileInterests:
+    type: string
+    maxLength: 500
+    description: Profile Interests
+  Career:
+    type: string
+    maxLength: 50
+    description: Career
+  CareerComments:
+    type: string
+    maxLength: 100
+    description: Career Comments
+  EmploymentDetails:
+    type: string
+    maxLength: 100
+    description: Employment Details
+  IncidentHold:
+    type: boolean
+    description: Incident Hold
+  IncidentHoldComments:
+    type: string
+    maxLength: 100
+    description: Incident Hold Comments
+  Comments:
+    type: string
+    maxLength: 1000
+    description: Comments
+  DeceasedDate:
+    type: string
+    description: Deceased Date
+  VisitorHold:
+    type: boolean
+    description: Visitor Hold
+  UsesScreenReader:
+    type: boolean
+    description: Uses Screen Reader
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

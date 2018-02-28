@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateCountry
+  description: Updates an Country in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: CountryID
+      type: integer
+      required: true
+      description: Numeric value of the countryID
+    - in: body
+      name: CountryItem
+      required: true
+      description: Country to update
+      schema:
+        $ref: '#/definitions/CountryItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/CountryItem'
+    400:
+      description: Invalid Input, Object Invalid.

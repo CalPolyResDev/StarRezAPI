@@ -1,0 +1,70 @@
+type: object
+#required:
+#  - ActionTitle
+properties:
+  IncidentActionID:
+    type: integer
+    format: int32
+    description: Incident Action
+  IncidentID:
+    type: integer
+    format: int32
+    description: Incident
+  IncidentActionTypeID:
+    type: integer
+    format: int32
+    description: Incident Action Type
+  IncidentActionDate:
+    type: string
+    format: date-time
+    description: Incident Action Date
+  ActionTitle:
+    type: string
+    maxLength: 100
+    description: Action Title
+  ActionManager_EntryID:
+    type: integer
+    format: int32
+    description: Action Manager Entry
+  Attendees:
+    type: string
+    maxLength: 100
+    description: Attendees
+  Location:
+    type: string
+    maxLength: 100
+    description: Location
+  Description:
+    type: string
+    maxLength: 5000
+    description: Description
+  Comments:
+    type: string
+    format: longstring
+    description: Comments
+  DateDue:
+    type: string
+    description: Date Due
+  DateComplete:
+    type: string
+    description: Date Complete
+  Outcome:
+    type: string
+    format: longstring
+    description: Outcome
+  IncidentActionGUID:
+    type: string
+    format: guid
+    description: Incident Action GUID
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

@@ -1,0 +1,35 @@
+type: object
+#required:
+properties:
+  EndOfSessionID:
+    type: integer
+    format: int32
+    description: End Of Session
+  EndOfSessionTypeEnum:
+    type: string
+    format: enum
+    description: End Of Session Type
+  DateSession:
+    type: string
+    format: datetimeseconds
+    description: Date Session
+  Comments:
+    type: string
+    maxLength: 100
+    description: Comments
+  MachineName:
+    type: string
+    maxLength: 30
+    description: Machine Name
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

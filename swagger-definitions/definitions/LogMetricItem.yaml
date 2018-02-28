@@ -1,0 +1,19 @@
+type: object
+#required:
+properties:
+  LogMetricID:
+    type: integer
+    format: int32
+    description: Log Metric
+  ObjectName:
+    type: string
+    maxLength: 200
+    description: Object Name
+  Count:
+    type: integer
+    format: int32
+    description: Count
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

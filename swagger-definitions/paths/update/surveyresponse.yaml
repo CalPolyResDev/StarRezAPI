@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateSurveyResponse
+  description: Updates an SurveyResponse in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: SurveyResponseID
+      type: integer
+      required: true
+      description: Numeric value of the surveyresponseID
+    - in: body
+      name: SurveyResponseItem
+      required: true
+      description: SurveyResponse to update
+      schema:
+        $ref: '#/definitions/SurveyResponseItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/SurveyResponseItem'
+    400:
+      description: Invalid Input, Object Invalid.

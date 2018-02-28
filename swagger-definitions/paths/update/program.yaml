@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateProgram
+  description: Updates an Program in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: ProgramID
+      type: integer
+      required: true
+      description: Numeric value of the programID
+    - in: body
+      name: ProgramItem
+      required: true
+      description: Program to update
+      schema:
+        $ref: '#/definitions/ProgramItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ProgramItem'
+    400:
+      description: Invalid Input, Object Invalid.

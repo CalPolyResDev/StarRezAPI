@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateProgramSubType
+  description: Updates an ProgramSubType in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: ProgramSubTypeID
+      type: integer
+      required: true
+      description: Numeric value of the programsubtypeID
+    - in: body
+      name: ProgramSubTypeItem
+      required: true
+      description: ProgramSubType to update
+      schema:
+        $ref: '#/definitions/ProgramSubTypeItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ProgramSubTypeItem'
+    400:
+      description: Invalid Input, Object Invalid.

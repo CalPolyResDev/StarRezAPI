@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateRoomBaseGender
+  description: Updates an RoomBaseGender in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: RoomBaseGenderID
+      type: integer
+      required: true
+      description: Numeric value of the roombasegenderID
+    - in: body
+      name: RoomBaseGenderItem
+      required: true
+      description: RoomBaseGender to update
+      schema:
+        $ref: '#/definitions/RoomBaseGenderItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/RoomBaseGenderItem'
+    400:
+      description: Invalid Input, Object Invalid.

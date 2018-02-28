@@ -1,0 +1,40 @@
+type: object
+#required:
+#  - Description
+properties:
+  RoomTypeCapacityID:
+    type: integer
+    format: int32
+    description: Room Type Capacity
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  RoomTypeID:
+    type: integer
+    format: int32
+    description: Room Type
+  Description:
+    type: string
+    maxLength: 25
+    description: Description
+  Capacity:
+    type: integer
+    format: int32
+    description: Capacity
+  DateStart:
+    type: string
+    format: date
+    description: Date Start
+  DateEnd:
+    type: string
+    format: date
+    description: Date End
+  Comments:
+    type: string
+    maxLength: 100
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

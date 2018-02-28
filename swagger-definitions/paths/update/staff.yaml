@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateStaff
+  description: Updates an Staff in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: StaffID
+      type: integer
+      required: true
+      description: Numeric value of the staffID
+    - in: body
+      name: StaffItem
+      required: true
+      description: Staff to update
+      schema:
+        $ref: '#/definitions/StaffItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/StaffItem'
+    400:
+      description: Invalid Input, Object Invalid.

@@ -1,0 +1,60 @@
+type: object
+#required:
+#  - ChargeItemID
+properties:
+  RoomRateRoomTypeLocationID:
+    type: integer
+    format: int32
+    description: Room Rate Room Type Location
+  RoomRateSessionID:
+    type: integer
+    format: int32
+    description: Room Rate Session
+  RoomTypeID:
+    type: integer
+    format: int32
+    description: Room Type
+  RoomLocationID:
+    type: integer
+    format: int32
+    description: Room Location
+  ChargeItemID:
+    type: integer
+    format: int32
+    description: Charge Item
+  Amount:
+    type: string
+    format: money
+    description: Amount
+  AmountDouble:
+    type: string
+    format: money
+    description: Amount Double
+  AmountExtra:
+    type: string
+    format: money
+    description: Amount Extra
+  AmountChildren:
+    type: string
+    format: money
+    description: Amount Children
+  AmountCost:
+    type: string
+    format: money
+    description: Amount Cost
+  AmountDoubleCost:
+    type: string
+    format: money
+    description: Amount Double Cost
+  AmountExtraCost:
+    type: string
+    format: money
+    description: Amount Extra Cost
+  AmountChildrenCost:
+    type: string
+    format: money
+    description: Amount Children Cost
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

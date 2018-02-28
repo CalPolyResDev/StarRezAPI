@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateTransactionLink
+  description: Updates an TransactionLink in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: TransactionLinkID
+      type: integer
+      required: true
+      description: Numeric value of the transactionlinkID
+    - in: body
+      name: TransactionLinkItem
+      required: true
+      description: TransactionLink to update
+      schema:
+        $ref: '#/definitions/TransactionLinkItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/TransactionLinkItem'
+    400:
+      description: Invalid Input, Object Invalid.

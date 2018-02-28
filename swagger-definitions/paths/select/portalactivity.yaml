@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchPortalActivity
+  description: By passing in the appropriate options, you can search for a PortalActivity in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: PortalActivityID
+      description: ID of the PortalActivity you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/PortalActivityItem'
+    400:
+      description: Bad Request

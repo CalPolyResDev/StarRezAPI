@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateCategoryPermission
+  description: Updates an CategoryPermission in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: CategoryPermissionID
+      type: integer
+      required: true
+      description: Numeric value of the categorypermissionID
+    - in: body
+      name: CategoryPermissionItem
+      required: true
+      description: CategoryPermission to update
+      schema:
+        $ref: '#/definitions/CategoryPermissionItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/CategoryPermissionItem'
+    400:
+      description: Invalid Input, Object Invalid.

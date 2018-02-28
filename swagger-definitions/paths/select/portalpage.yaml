@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchPortalPage
+  description: By passing in the appropriate options, you can search for a PortalPage in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: PortalPageID
+      description: ID of the PortalPage you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/PortalPageItem'
+    400:
+      description: Bad Request

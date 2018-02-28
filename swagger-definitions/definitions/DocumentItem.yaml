@@ -1,0 +1,40 @@
+type: object
+#required:
+#  - Description
+properties:
+  DocumentID:
+    type: integer
+    format: int32
+    description: Document
+  Description:
+    type: string
+    maxLength: 200
+    description: Description
+  DocumentTypeDescription:
+    type: string
+    maxLength: 50
+    description: Document Type Description
+  DateExpiry:
+    type: string
+    maxLength: 50
+    description: Date Expiry
+  Comments:
+    type: string
+    maxLength: 200
+    description: Comments
+  Tag:
+    type: string
+    maxLength: 50
+    description: Tag
+  CreatedBy_SecurityUserID:
+    type: integer
+    format: int32
+    description: Created By Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

@@ -1,0 +1,19 @@
+type: object
+#required:
+properties:
+  RoomConfigurationProfileID:
+    type: integer
+    format: int32
+    description: Room Configuration Profile
+  RoomConfigurationID:
+    type: integer
+    format: int32
+    description: Room Configuration
+  ProfileItemID:
+    type: integer
+    format: int32
+    description: Profile Item
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

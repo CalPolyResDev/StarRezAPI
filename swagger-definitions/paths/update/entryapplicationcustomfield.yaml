@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateEntryApplicationCustomField
+  description: Updates an EntryApplicationCustomField in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: EntryApplicationCustomFieldID
+      type: integer
+      required: true
+      description: Numeric value of the entryapplicationcustomfieldID
+    - in: body
+      name: EntryApplicationCustomFieldItem
+      required: true
+      description: EntryApplicationCustomField to update
+      schema:
+        $ref: '#/definitions/EntryApplicationCustomFieldItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EntryApplicationCustomFieldItem'
+    400:
+      description: Invalid Input, Object Invalid.

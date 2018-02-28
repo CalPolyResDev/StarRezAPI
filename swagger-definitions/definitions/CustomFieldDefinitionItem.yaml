@@ -1,0 +1,43 @@
+type: object
+#required:
+properties:
+  CustomFieldDefinitionID:
+    type: integer
+    format: int32
+    description: Custom Field Definition
+  TableName:
+    type: string
+    maxLength: 50
+    description: Table Name
+  FieldDataTypeEnum:
+    type: string
+    format: enum
+    description: Field Data Type
+  Description:
+    type: string
+    maxLength: 50
+    description: Description
+  Code:
+    type: string
+    maxLength: 10
+    description: Code
+  CustomFieldOrder:
+    type: integer
+    format: int32
+    description: Custom Field Order
+  CustomFieldGroup:
+    type: string
+    maxLength: 50
+    description: Custom Field Group
+  CustomFieldSection:
+    type: string
+    maxLength: 20
+    description: Custom Field Section
+  Comments:
+    type: string
+    maxLength: 500
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

@@ -1,0 +1,41 @@
+type: object
+#required:
+properties:
+  BookingCustomFieldID:
+    type: integer
+    format: int32
+    description: Booking Custom Field
+  BookingID:
+    type: integer
+    format: int32
+    description: Booking
+  CustomFieldDefinitionID:
+    type: integer
+    format: int32
+    description: Custom Field Definition
+  FieldDataTypeEnum:
+    type: string
+    format: enum
+    description: Field Data Type
+  ValueString:
+    type: string
+    maxLength: 5000
+    description: Value String
+  ValueDate:
+    type: string
+    description: Value Date
+  ValueBoolean:
+    type: boolean
+    description: Value Boolean
+  ValueInteger:
+    type: integer
+    format: int32
+    description: Value Integer
+  ValueMoney:
+    type: string
+    format: money
+    description: Value Money
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

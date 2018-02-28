@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateElectronicIdentityType
+  description: Updates an ElectronicIdentityType in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: ElectronicIdentityTypeID
+      type: integer
+      required: true
+      description: Numeric value of the electronicidentitytypeID
+    - in: body
+      name: ElectronicIdentityTypeItem
+      required: true
+      description: ElectronicIdentityType to update
+      schema:
+        $ref: '#/definitions/ElectronicIdentityTypeItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ElectronicIdentityTypeItem'
+    400:
+      description: Invalid Input, Object Invalid.

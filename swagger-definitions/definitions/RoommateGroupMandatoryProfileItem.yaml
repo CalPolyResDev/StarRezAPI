@@ -1,0 +1,19 @@
+type: object
+#required:
+properties:
+  RoommateGroupMandatoryProfileID:
+    type: integer
+    format: int32
+    description: Roommate Group Mandatory Profile
+  RoommateGroupID:
+    type: integer
+    format: int32
+    description: Roommate Group
+  ProfileItemID:
+    type: integer
+    format: int32
+    description: Profile Item
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

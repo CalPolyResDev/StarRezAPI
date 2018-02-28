@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchVMGroupMessage
+  description: By passing in the appropriate options, you can search for a VMGroupMessage in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: VMGroupMessageID
+      description: ID of the VMGroupMessage you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/VMGroupMessageItem'
+    400:
+      description: Bad Request

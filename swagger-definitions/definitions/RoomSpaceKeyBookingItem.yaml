@@ -1,0 +1,47 @@
+type: object
+#required:
+properties:
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  RoomSpaceKeyBookingID:
+    type: integer
+    format: int32
+    description: Room Space Key Booking
+  RoomSpaceKeyID:
+    type: integer
+    format: int32
+    description: Room Space Key
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  RoomSpaceKeyStatusEnum:
+    type: string
+    format: enum
+    description: Room Space Key Status
+  EntryName:
+    type: string
+    maxLength: 40
+    description: Entry Name
+  DateStart:
+    type: string
+    format: date-time
+    description: Date Start
+  DateEnd:
+    type: string
+    format: date-time
+    description: Date End
+  Comments:
+    type: string
+    maxLength: 250
+    description: Comments
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateTask
+  description: Updates an Task in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: TaskID
+      type: integer
+      required: true
+      description: Numeric value of the taskID
+    - in: body
+      name: TaskItem
+      required: true
+      description: Task to update
+      schema:
+        $ref: '#/definitions/TaskItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/TaskItem'
+    400:
+      description: Invalid Input, Object Invalid.

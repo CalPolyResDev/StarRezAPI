@@ -1,0 +1,65 @@
+type: object
+#required:
+#  - ChargeItemID
+#  - Description
+properties:
+  EventRegistrationFeeID:
+    type: integer
+    format: int32
+    description: Event Registration Fee
+  EventID:
+    type: integer
+    format: int32
+    description: Event
+  ChargeToEntry:
+    type: boolean
+    description: Charge To Entry
+  ChargeItemID:
+    type: integer
+    format: int32
+    description: Charge Item
+  Description:
+    type: string
+    maxLength: 100
+    description: Description
+  DateStart:
+    type: string
+    description: Date Start
+  DateEnd:
+    type: string
+    description: Date End
+  Amount:
+    type: string
+    format: money
+    description: Amount
+  Comments:
+    type: string
+    maxLength: 250
+    description: Comments
+  RegistrationCode:
+    type: string
+    maxLength: 100
+    description: Registration Code
+  MaxRegistrations:
+    type: integer
+    format: int32
+    description: Max Registrations
+  ViewOnWeb:
+    type: boolean
+    description: View On Web
+  WebDescription:
+    type: string
+    maxLength: 1000
+    description: Web Description
+  WebOrder:
+    type: integer
+    format: int32
+    description: Web Order
+  WebComments:
+    type: string
+    format: longstring
+    description: Web Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

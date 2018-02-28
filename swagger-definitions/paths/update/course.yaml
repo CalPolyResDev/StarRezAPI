@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateCourse
+  description: Updates an Course in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: CourseID
+      type: integer
+      required: true
+      description: Numeric value of the courseID
+    - in: body
+      name: CourseItem
+      required: true
+      description: Course to update
+      schema:
+        $ref: '#/definitions/CourseItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/CourseItem'
+    400:
+      description: Invalid Input, Object Invalid.

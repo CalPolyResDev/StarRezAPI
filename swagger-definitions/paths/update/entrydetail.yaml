@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateEntryDetail
+  description: Updates an EntryDetail in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: EntryDetailID
+      type: integer
+      required: true
+      description: Numeric value of the entrydetailID
+    - in: body
+      name: EntryDetailItem
+      required: true
+      description: EntryDetail to update
+      schema:
+        $ref: '#/definitions/EntryDetailItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EntryDetailItem'
+    400:
+      description: Invalid Input, Object Invalid.

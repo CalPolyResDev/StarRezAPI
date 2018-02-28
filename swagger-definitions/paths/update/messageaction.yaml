@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateMessageAction
+  description: Updates an MessageAction in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: MessageActionID
+      type: integer
+      required: true
+      description: Numeric value of the messageactionID
+    - in: body
+      name: MessageActionItem
+      required: true
+      description: MessageAction to update
+      schema:
+        $ref: '#/definitions/MessageActionItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/MessageActionItem'
+    400:
+      description: Invalid Input, Object Invalid.

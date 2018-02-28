@@ -1,0 +1,23 @@
+type: object
+#required:
+properties:
+  DashboardPanelSettingID:
+    type: integer
+    format: int32
+    description: Dashboard Panel Setting
+  DashboardPanelID:
+    type: integer
+    format: int32
+    description: Dashboard Panel
+  SettingName:
+    type: string
+    maxLength: 250
+    description: Setting Name
+  SettingValue:
+    type: string
+    format: longstring
+    description: Setting Value
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

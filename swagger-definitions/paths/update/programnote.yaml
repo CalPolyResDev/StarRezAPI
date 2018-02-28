@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateProgramNote
+  description: Updates an ProgramNote in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: ProgramNoteID
+      type: integer
+      required: true
+      description: Numeric value of the programnoteID
+    - in: body
+      name: ProgramNoteItem
+      required: true
+      description: ProgramNote to update
+      schema:
+        $ref: '#/definitions/ProgramNoteItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ProgramNoteItem'
+    400:
+      description: Invalid Input, Object Invalid.

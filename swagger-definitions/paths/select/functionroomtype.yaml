@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchFunctionRoomType
+  description: By passing in the appropriate options, you can search for a FunctionRoomType in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: FunctionRoomTypeID
+      description: ID of the FunctionRoomType you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/FunctionRoomTypeItem'
+    400:
+      description: Bad Request

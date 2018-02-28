@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updatePortalPage
+  description: Updates an PortalPage in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: PortalPageID
+      type: integer
+      required: true
+      description: Numeric value of the portalpageID
+    - in: body
+      name: PortalPageItem
+      required: true
+      description: PortalPage to update
+      schema:
+        $ref: '#/definitions/PortalPageItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/PortalPageItem'
+    400:
+      description: Invalid Input, Object Invalid.

@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateReportSchedule
+  description: Updates an ReportSchedule in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: ReportScheduleID
+      type: integer
+      required: true
+      description: Numeric value of the reportscheduleID
+    - in: body
+      name: ReportScheduleItem
+      required: true
+      description: ReportSchedule to update
+      schema:
+        $ref: '#/definitions/ReportScheduleItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ReportScheduleItem'
+    400:
+      description: Invalid Input, Object Invalid.

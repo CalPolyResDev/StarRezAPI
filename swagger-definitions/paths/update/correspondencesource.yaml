@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateCorrespondenceSource
+  description: Updates an CorrespondenceSource in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: CorrespondenceSourceID
+      type: integer
+      required: true
+      description: Numeric value of the correspondencesourceID
+    - in: body
+      name: CorrespondenceSourceItem
+      required: true
+      description: CorrespondenceSource to update
+      schema:
+        $ref: '#/definitions/CorrespondenceSourceItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/CorrespondenceSourceItem'
+    400:
+      description: Invalid Input, Object Invalid.

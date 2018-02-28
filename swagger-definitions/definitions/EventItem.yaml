@@ -1,0 +1,181 @@
+type: object
+#required:
+#  - Description
+properties:
+  EventID:
+    type: integer
+    format: int32
+    description: Event
+  EventStatusEnum:
+    type: string
+    format: enum
+    description: Event Status
+  EventCode:
+    type: string
+    maxLength: 50
+    description: Event Code
+  Description:
+    type: string
+    maxLength: 100
+    description: Description
+  EventTypeID:
+    type: integer
+    format: int32
+    description: Event Type
+  ContactID:
+    type: integer
+    format: int32
+    description: Contact
+  CategoryID:
+    type: integer
+    format: int32
+    description: Category
+  TermSessionID:
+    type: integer
+    format: int32
+    description: Term Session
+  DateStart:
+    type: string
+    format: date-time
+    description: Date Start
+  DateEnd:
+    type: string
+    format: date-time
+    description: Date End
+  ActiveDateStart:
+    type: string
+    description: Active Date Start
+  ActiveDateEnd:
+    type: string
+    description: Active Date End
+  AttendeeGuarantee:
+    type: string
+    format: short
+    description: Attendee Guarantee
+  AttendeeEstimate:
+    type: string
+    format: short
+    description: Attendee Estimate
+  AttendeeMaximum:
+    type: string
+    format: short
+    description: Attendee Maximum
+  GroupID:
+    type: integer
+    format: int32
+    description: Group
+  Deposit:
+    type: string
+    format: money
+    description: Deposit
+  DepositDueDate:
+    type: string
+    format: date-time
+    description: Deposit Due Date
+  DepositPaid:
+    type: boolean
+    description: Deposit Paid
+  Deposit_TransactionID:
+    type: integer
+    format: int32
+    description: Deposit Transaction
+  ChargeComments:
+    type: string
+    maxLength: 500
+    description: Charge Comments
+  Assigned_SecurityUserID:
+    type: integer
+    format: int32
+    description: Assigned Security User
+  Comments:
+    type: string
+    maxLength: 1000
+    description: Comments
+  ViewOnWeb:
+    type: boolean
+    description: View On Web
+  WebDescription:
+    type: string
+    maxLength: 1000
+    description: Web Description
+  WebOrder:
+    type: integer
+    format: int32
+    description: Web Order
+  WebComments:
+    type: string
+    format: longstring
+    description: Web Comments
+  ConferenceFullMessage:
+    type: string
+    maxLength: 500
+    description: Conference Full Message
+  WebHeader:
+    type: string
+    format: longstring
+    description: Web Header
+  DefaultFunctionDuration:
+    type: string
+    format: duration
+    description: Default Function Duration
+  MinimumNightStay:
+    type: integer
+    format: int32
+    description: Minimum Night Stay
+  MinimumCheckInDate:
+    type: string
+    description: Minimum Check In Date
+  MaximumCheckInDate:
+    type: string
+    description: Maximum Check In Date
+  MinimumCheckOutDate:
+    type: string
+    description: Minimum Check Out Date
+  MaximumCheckOutDate:
+    type: string
+    description: Maximum Check Out Date
+  RegisterViaPortal:
+    type: boolean
+    description: Register Via Portal
+  RegisterViaAdminUpload:
+    type: boolean
+    description: Register Via Admin Upload
+  RequireFunctions:
+    type: boolean
+    description: Require Functions
+  RequireHousing:
+    type: boolean
+    description: Require Housing
+  RequireMealPlans:
+    type: boolean
+    description: Require Meal Plans
+  RequireDeposit:
+    type: boolean
+    description: Require Deposit
+  RequireAttendees:
+    type: boolean
+    description: Require Attendees
+  RequireTasks:
+    type: boolean
+    description: Require Tasks
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  CreatedBy_SecurityUserID:
+    type: integer
+    format: int32
+    description: Created By Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  timestamp:
+    type: string
+    format: timestamp
+    maxLength: 8
+    description: Timestamp
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

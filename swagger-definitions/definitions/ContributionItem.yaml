@@ -1,0 +1,99 @@
+type: object
+#required:
+#  - Description
+properties:
+  ContributionID:
+    type: integer
+    format: int32
+    description: Contribution
+  CategoryID:
+    type: integer
+    format: int32
+    description: Category
+  ContributionDate:
+    type: string
+    format: date-time
+    description: Contribution Date
+  RoomLocationID:
+    type: integer
+    format: int32
+    description: Room Location
+  Description:
+    type: string
+    format: longstring
+    description: Description
+  LocationComments:
+    type: string
+    maxLength: 100
+    description: Location Comments
+  ContributionTypeID:
+    type: integer
+    format: int32
+    description: Contribution Type
+  ContributionSubTypeID:
+    type: integer
+    format: int32
+    description: Contribution Sub Type
+  ReportNumber:
+    type: string
+    maxLength: 50
+    description: Report Number
+  Comments:
+    type: string
+    format: longstring
+    description: Comments
+  Resolution:
+    type: string
+    format: longstring
+    description: Resolution
+  WorkflowStepID:
+    type: integer
+    format: int32
+    description: Workflow Step
+  AssignedTo_SecurityUserID:
+    type: integer
+    format: int32
+    description: Assigned To Security User
+  Current_WorkflowHistoryID:
+    type: integer
+    format: int32
+    description: Current Workflow History
+  Previous_WorkflowHistoryID:
+    type: integer
+    format: int32
+    description: Previous Workflow History
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  CreatedBy_SecurityUserID:
+    type: integer
+    format: int32
+    description: Created By Security User
+  ReportedByName:
+    type: string
+    maxLength: 50
+    description: Reported By Name
+  ReportedByEmail:
+    type: string
+    maxLength: 255
+    description: Reported By Email
+  ReportedByPhone:
+    type: string
+    maxLength: 20
+    description: Reported By Phone
+  ReportedByRelationship:
+    type: string
+    maxLength: 50
+    description: Reported By Relationship
+  ReportedByContact:
+    type: boolean
+    description: Reported By Contact
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

@@ -1,0 +1,58 @@
+type: object
+#required:
+#  - Description
+properties:
+  SDASChargeRateID:
+    type: integer
+    format: int32
+    description: SDAS Charge Rate
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  Description:
+    type: string
+    maxLength: 20
+    description: Description
+  Comments:
+    type: string
+    maxLength: 100
+    description: Comments
+  ChargePerMb:
+    type: string
+    format: money
+    description: Charge Per Mb
+  ChargeMinimum:
+    type: string
+    format: money
+    description: Charge Minimum
+  MonthlyAllowance:
+    type: string
+    format: money
+    description: Monthly Allowance
+  AccessLevel:
+    type: string
+    format: money
+    description: Access Level
+  IsPlan:
+    type: boolean
+    description: Is Plan
+  ChargeItemID:
+    type: integer
+    format: int32
+    description: Charge Item
+  TransactionTemplateID:
+    type: integer
+    format: int32
+    description: Transaction Template
+  PlanAllowance:
+    type: string
+    format: short
+    description: Plan Allowance
+  ResidentSelectable:
+    type: boolean
+    description: Resident Selectable
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

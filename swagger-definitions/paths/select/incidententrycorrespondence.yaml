@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchIncidentEntryCorrespondence
+  description: By passing in the appropriate options, you can search for a IncidentEntryCorrespondence in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: IncidentEntryCorrespondenceID
+      description: ID of the IncidentEntryCorrespondence you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/IncidentEntryCorrespondenceItem'
+    400:
+      description: Bad Request

@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updatePortalAction
+  description: Updates an PortalAction in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: PortalActionID
+      type: integer
+      required: true
+      description: Numeric value of the portalactionID
+    - in: body
+      name: PortalActionItem
+      required: true
+      description: PortalAction to update
+      schema:
+        $ref: '#/definitions/PortalActionItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/PortalActionItem'
+    400:
+      description: Invalid Input, Object Invalid.

@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateIncidentCustomField
+  description: Updates an IncidentCustomField in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: IncidentCustomFieldID
+      type: integer
+      required: true
+      description: Numeric value of the incidentcustomfieldID
+    - in: body
+      name: IncidentCustomFieldItem
+      required: true
+      description: IncidentCustomField to update
+      schema:
+        $ref: '#/definitions/IncidentCustomFieldItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/IncidentCustomFieldItem'
+    400:
+      description: Invalid Input, Object Invalid.

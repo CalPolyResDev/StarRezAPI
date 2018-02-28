@@ -1,0 +1,58 @@
+type: object
+#required:
+properties:
+  RoomConfigurationID:
+    type: integer
+    format: int32
+    description: Room Configuration
+  DateStart:
+    type: string
+    description: Date Start
+  DateEnd:
+    type: string
+    description: Date End
+  RoomBaseID:
+    type: integer
+    format: int32
+    description: Room Base
+  GenderTypeEnum:
+    type: string
+    format: enum
+    description: Gender Type
+  RoomTypeID:
+    type: integer
+    format: int32
+    description: Room Type
+  ViewOnWebMaintenance:
+    type: boolean
+    description: View On Web Maintenance
+  ViewOnWebInventory:
+    type: boolean
+    description: View On Web Inventory
+  ViewOnWeb:
+    type: boolean
+    description: View On Web
+  WebImageLocation:
+    type: string
+    maxLength: 200
+    description: Web Image Location
+  WebDescription:
+    type: string
+    maxLength: 1000
+    description: Web Description
+  WebComments:
+    type: string
+    format: longstring
+    description: Web Comments
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

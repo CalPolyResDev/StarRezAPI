@@ -1,0 +1,31 @@
+type: object
+#required:
+properties:
+  GLPostingID:
+    type: integer
+    format: int32
+    description: GL Posting
+  GLPostingTypeEnum:
+    type: string
+    format: enum
+    description: GL Posting Type
+  Description:
+    type: string
+    maxLength: 50
+    description: Description
+  GLNumber:
+    type: string
+    maxLength: 50
+    description: GL Number
+  Comments:
+    type: string
+    maxLength: 100
+    description: Comments
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

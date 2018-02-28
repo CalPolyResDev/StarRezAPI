@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateGenericTableData
+  description: Updates an GenericTableData in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: GenericTableDataID
+      type: integer
+      required: true
+      description: Numeric value of the generictabledataID
+    - in: body
+      name: GenericTableDataItem
+      required: true
+      description: GenericTableData to update
+      schema:
+        $ref: '#/definitions/GenericTableDataItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/GenericTableDataItem'
+    400:
+      description: Invalid Input, Object Invalid.

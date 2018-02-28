@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchDashboardSharing
+  description: By passing in the appropriate options, you can search for a DashboardSharing in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: DashboardSharingID
+      description: ID of the DashboardSharing you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/DashboardSharingItem'
+    400:
+      description: Bad Request

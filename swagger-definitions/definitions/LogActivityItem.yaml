@@ -1,0 +1,47 @@
+type: object
+#required:
+properties:
+  LogActivityID:
+    type: integer
+    format: int32
+    description: Log Activity
+  ParentID:
+    type: integer
+    format: int32
+    description: Parent
+  LogDate:
+    type: string
+    format: datetimeseconds
+    description: Log Date
+  Machine:
+    type: string
+    maxLength: 40
+    description: Machine
+  UserName:
+    type: string
+    maxLength: 30
+    description: User Name
+  LogActivityEnum:
+    type: string
+    format: enum
+    description: Log Activity
+  TableName:
+    type: string
+    maxLength: 50
+    description: Table Name
+  TableID:
+    type: integer
+    format: int32
+    description: Table
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  Description:
+    type: string
+    maxLength: 5000
+    description: Description
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

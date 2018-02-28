@@ -1,0 +1,28 @@
+type: object
+#required:
+#  - Description
+properties:
+  RoomSpaceMaintenanceMaterialsID:
+    type: integer
+    format: int32
+    description: Room Space Maintenance Materials
+  RoomSpaceMaintenanceID:
+    type: integer
+    format: int32
+    description: Room Space Maintenance
+  Type:
+    type: string
+    maxLength: 100
+    description: Type
+  Description:
+    type: string
+    maxLength: 1000
+    description: Description
+  Quantity:
+    type: integer
+    format: int32
+    description: Quantity
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

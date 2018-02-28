@@ -1,0 +1,22 @@
+type: object
+#required:
+properties:
+  TransactionLinkItemID:
+    type: integer
+    format: int32
+    description: Transaction Link Item
+  TransactionLinkID:
+    type: integer
+    format: int32
+    description: Transaction Link
+  TransactionID:
+    type: integer
+    format: int32
+    description: Transaction
+  Parent:
+    type: boolean
+    description: Parent
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

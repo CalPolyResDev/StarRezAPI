@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateWebSite
+  description: Updates an WebSite in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: WebSiteID
+      type: integer
+      required: true
+      description: Numeric value of the websiteID
+    - in: body
+      name: WebSiteItem
+      required: true
+      description: WebSite to update
+      schema:
+        $ref: '#/definitions/WebSiteItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/WebSiteItem'
+    400:
+      description: Invalid Input, Object Invalid.

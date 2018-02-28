@@ -1,0 +1,30 @@
+type: object
+#required:
+properties:
+  IncidentViolationID:
+    type: integer
+    format: int32
+    description: Incident Violation
+  IncidentID:
+    type: integer
+    format: int32
+    description: Incident
+  IncidentTypeID:
+    type: integer
+    format: int32
+    description: Incident Type
+  IncidentSubTypeID:
+    type: integer
+    format: int32
+    description: Incident Sub Type
+  IncidentSeverityID:
+    type: integer
+    format: int32
+    description: Incident Severity
+  Clery:
+    type: boolean
+    description: Clery
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

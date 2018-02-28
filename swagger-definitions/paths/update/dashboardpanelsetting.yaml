@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateDashboardPanelSetting
+  description: Updates an DashboardPanelSetting in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: DashboardPanelSettingID
+      type: integer
+      required: true
+      description: Numeric value of the dashboardpanelsettingID
+    - in: body
+      name: DashboardPanelSettingItem
+      required: true
+      description: DashboardPanelSetting to update
+      schema:
+        $ref: '#/definitions/DashboardPanelSettingItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/DashboardPanelSettingItem'
+    400:
+      description: Invalid Input, Object Invalid.

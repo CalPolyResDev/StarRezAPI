@@ -1,0 +1,15 @@
+type: object
+#required:
+properties:
+  RoomClassificationID:
+    type: integer
+    format: int32
+    description: Room Classification
+  RoomID:
+    type: integer
+    format: int32
+    description: Room
+  ClassificationID:
+    type: integer
+    format: int32
+    description: Classification

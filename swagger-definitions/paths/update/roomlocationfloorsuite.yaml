@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateRoomLocationFloorSuite
+  description: Updates an RoomLocationFloorSuite in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: RoomLocationFloorSuiteID
+      type: integer
+      required: true
+      description: Numeric value of the roomlocationfloorsuiteID
+    - in: body
+      name: RoomLocationFloorSuiteItem
+      required: true
+      description: RoomLocationFloorSuite to update
+      schema:
+        $ref: '#/definitions/RoomLocationFloorSuiteItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/RoomLocationFloorSuiteItem'
+    400:
+      description: Invalid Input, Object Invalid.

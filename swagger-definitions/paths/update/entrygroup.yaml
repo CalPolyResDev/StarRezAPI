@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateEntryGroup
+  description: Updates an EntryGroup in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: EntryGroupID
+      type: integer
+      required: true
+      description: Numeric value of the entrygroupID
+    - in: body
+      name: EntryGroupItem
+      required: true
+      description: EntryGroup to update
+      schema:
+        $ref: '#/definitions/EntryGroupItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EntryGroupItem'
+    400:
+      description: Invalid Input, Object Invalid.

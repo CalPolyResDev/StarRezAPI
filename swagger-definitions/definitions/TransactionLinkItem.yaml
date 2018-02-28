@@ -1,0 +1,23 @@
+type: object
+#required:
+properties:
+  TransactionLinkID:
+    type: integer
+    format: int32
+    description: Transaction Link
+  TransactionLinkTypeEnum:
+    type: string
+    format: enum
+    description: Transaction Link Type
+  TransactionLinkDate:
+    type: string
+    format: date-time
+    description: Transaction Link Date
+  Comments:
+    type: string
+    maxLength: 100
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

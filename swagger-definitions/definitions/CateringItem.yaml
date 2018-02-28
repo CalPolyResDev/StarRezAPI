@@ -1,0 +1,56 @@
+type: object
+#required:
+#  - CateringDescription
+properties:
+  CateringID:
+    type: integer
+    format: int32
+    description: Catering
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  Description:
+    type: string
+    maxLength: 100
+    description: Description
+  CategoryID:
+    type: integer
+    format: int32
+    description: Category
+  CateringDescription:
+    type: string
+    maxLength: 2000
+    description: Catering Description
+  ServingDuration:
+    type: string
+    format: short
+    description: Serving Duration
+  ContactID:
+    type: integer
+    format: int32
+    description: Contact
+  CateringTypeID:
+    type: integer
+    format: int32
+    description: Catering Type
+  ChargeItemID:
+    type: integer
+    format: int32
+    description: Charge Item
+  AmountCost:
+    type: string
+    format: money
+    description: Amount Cost
+  Amount:
+    type: string
+    format: money
+    description: Amount
+  Comments:
+    type: string
+    maxLength: 2000
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

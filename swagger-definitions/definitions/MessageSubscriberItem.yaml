@@ -1,0 +1,15 @@
+type: object
+#required:
+properties:
+  MessageSubscriberID:
+    type: integer
+    format: int32
+    description: Message Subscriber
+  Description:
+    type: string
+    maxLength: 50
+    description: Description
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

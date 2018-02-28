@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchRoomBaseGender
+  description: By passing in the appropriate options, you can search for a RoomBaseGender in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: RoomBaseGenderID
+      description: ID of the RoomBaseGender you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/RoomBaseGenderItem'
+    400:
+      description: Bad Request

@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchEndOfSession
+  description: By passing in the appropriate options, you can search for a EndOfSession in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: EndOfSessionID
+      description: ID of the EndOfSession you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EndOfSessionItem'
+    400:
+      description: Bad Request

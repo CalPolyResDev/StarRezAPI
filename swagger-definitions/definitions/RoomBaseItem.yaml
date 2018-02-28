@@ -1,0 +1,107 @@
+type: object
+#required:
+#  - Description
+properties:
+  RoomBaseID:
+    type: integer
+    format: int32
+    description: Room Base
+  RoomLocationID:
+    type: integer
+    format: int32
+    description: Room Location
+  RoomLocationFloorSuiteID:
+    type: integer
+    format: int32
+    description: Room Location Floor Suite
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  Description:
+    type: string
+    maxLength: 30
+    description: Description
+  RoomManagerID:
+    type: integer
+    format: int32
+    description: Room Manager
+  Comments:
+    type: string
+    maxLength: 100
+    description: Comments
+  AllocateSortOrder:
+    type: integer
+    format: int32
+    description: Allocate Sort Order
+  DisabledAccess:
+    type: boolean
+    description: Disabled Access
+  Area:
+    type: string
+    format: short
+    description: Area
+  Bathrooms:
+    type: string
+    format: short
+    description: Bathrooms
+  Furniture:
+    type: string
+    maxLength: 50
+    description: Furniture
+  Flooring:
+    type: string
+    maxLength: 20
+    description: Flooring
+  BedCapacity:
+    type: string
+    format: short
+    description: Bed Capacity
+  BookingHoldDateTime:
+    type: string
+    format: datetimeseconds
+    description: Booking Hold Date Time
+  BookingHold_EntryID:
+    type: integer
+    format: int32
+    description: Booking Hold Entry
+  CustomBit1:
+    type: boolean
+    description: Custom Flag 1
+  CustomBit2:
+    type: boolean
+    description: Custom Flag 2
+  CustomString1:
+    type: string
+    maxLength: 50
+    description: Custom String 1
+  CustomString2:
+    type: string
+    maxLength: 50
+    description: Custom String 2
+  CustomString3:
+    type: string
+    maxLength: 50
+    description: Custom String 3
+  CustomString4:
+    type: string
+    maxLength: 50
+    description: Custom String 4
+  CustomString5:
+    type: string
+    maxLength: 50
+    description: Custom String 5
+  CustomString6:
+    type: string
+    maxLength: 50
+    description: Custom String 6
+  CustomDate1:
+    type: string
+    description: Custom Date 1
+  CustomDate2:
+    type: string
+    description: Custom Date 2
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

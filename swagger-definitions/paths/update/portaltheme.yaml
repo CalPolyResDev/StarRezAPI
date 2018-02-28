@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updatePortalTheme
+  description: Updates an PortalTheme in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: PortalThemeID
+      type: integer
+      required: true
+      description: Numeric value of the portalthemeID
+    - in: body
+      name: PortalThemeItem
+      required: true
+      description: PortalTheme to update
+      schema:
+        $ref: '#/definitions/PortalThemeItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/PortalThemeItem'
+    400:
+      description: Invalid Input, Object Invalid.

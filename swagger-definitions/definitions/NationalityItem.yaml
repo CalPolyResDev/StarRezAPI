@@ -1,0 +1,20 @@
+type: object
+#required:
+#  - Description
+properties:
+  NationalityID:
+    type: integer
+    format: int32
+    description: Nationality
+  Description:
+    type: string
+    maxLength: 50
+    description: Description
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

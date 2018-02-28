@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchEmailOutbox
+  description: By passing in the appropriate options, you can search for a EmailOutbox in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: EmailOutboxID
+      description: ID of the EmailOutbox you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EmailOutboxItem'
+    400:
+      description: Bad Request

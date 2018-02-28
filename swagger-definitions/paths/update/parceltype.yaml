@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateParcelType
+  description: Updates an ParcelType in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: ParcelTypeID
+      type: integer
+      required: true
+      description: Numeric value of the parceltypeID
+    - in: body
+      name: ParcelTypeItem
+      required: true
+      description: ParcelType to update
+      schema:
+        $ref: '#/definitions/ParcelTypeItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ParcelTypeItem'
+    400:
+      description: Invalid Input, Object Invalid.

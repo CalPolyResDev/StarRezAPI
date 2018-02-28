@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateGroupRoomTypeAndRates
+  description: Updates an GroupRoomTypeAndRates in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: GroupRoomTypeAndRatesID
+      type: integer
+      required: true
+      description: Numeric value of the grouproomtypeandratesID
+    - in: body
+      name: GroupRoomTypeAndRatesItem
+      required: true
+      description: GroupRoomTypeAndRates to update
+      schema:
+        $ref: '#/definitions/GroupRoomTypeAndRatesItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/GroupRoomTypeAndRatesItem'
+    400:
+      description: Invalid Input, Object Invalid.

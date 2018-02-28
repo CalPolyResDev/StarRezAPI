@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchIncidentStatus
+  description: By passing in the appropriate options, you can search for a IncidentStatus in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: IncidentStatusID
+      description: ID of the IncidentStatus you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/IncidentStatusItem'
+    400:
+      description: Bad Request

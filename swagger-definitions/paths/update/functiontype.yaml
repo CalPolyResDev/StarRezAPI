@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateFunctionType
+  description: Updates an FunctionType in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: FunctionTypeID
+      type: integer
+      required: true
+      description: Numeric value of the functiontypeID
+    - in: body
+      name: FunctionTypeItem
+      required: true
+      description: FunctionType to update
+      schema:
+        $ref: '#/definitions/FunctionTypeItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/FunctionTypeItem'
+    400:
+      description: Invalid Input, Object Invalid.

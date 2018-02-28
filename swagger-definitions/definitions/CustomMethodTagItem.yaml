@@ -1,0 +1,39 @@
+type: object
+#required:
+properties:
+  CustomMethodTagID:
+    type: integer
+    format: int32
+    description: Custom Method Tag
+  MethodName:
+    type: string
+    maxLength: 100
+    description: Method Name
+  AddinFilename:
+    type: string
+    maxLength: 255
+    description: Addin Filename
+  SessionTag:
+    type: integer
+    format: int32
+    description: Session Tag
+  DateLastRan:
+    type: string
+    format: datetimeseconds
+    description: Date Last Ran
+  BatchNumber:
+    type: integer
+    format: int32
+    description: Batch Number
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

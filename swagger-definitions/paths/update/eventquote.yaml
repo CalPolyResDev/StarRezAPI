@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateEventQuote
+  description: Updates an EventQuote in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: EventQuoteID
+      type: integer
+      required: true
+      description: Numeric value of the eventquoteID
+    - in: body
+      name: EventQuoteItem
+      required: true
+      description: EventQuote to update
+      schema:
+        $ref: '#/definitions/EventQuoteItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EventQuoteItem'
+    400:
+      description: Invalid Input, Object Invalid.

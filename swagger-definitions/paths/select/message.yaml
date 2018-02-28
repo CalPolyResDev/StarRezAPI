@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchMessage
+  description: By passing in the appropriate options, you can search for a Message in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: MessageID
+      description: ID of the Message you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/MessageItem'
+    400:
+      description: Bad Request

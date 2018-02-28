@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchPortalChoice
+  description: By passing in the appropriate options, you can search for a PortalChoice in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: PortalChoiceID
+      description: ID of the PortalChoice you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/PortalChoiceItem'
+    400:
+      description: Bad Request

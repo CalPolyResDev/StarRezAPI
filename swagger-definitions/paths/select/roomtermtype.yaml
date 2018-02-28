@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchRoomTermType
+  description: By passing in the appropriate options, you can search for a RoomTermType in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: RoomTermTypeID
+      description: ID of the RoomTermType you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/RoomTermTypeItem'
+    400:
+      description: Bad Request

@@ -1,0 +1,35 @@
+type: object
+#required:
+properties:
+  MealPricingID:
+    type: integer
+    format: int32
+    description: Meal Pricing
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  Description:
+    type: string
+    maxLength: 25
+    description: Description
+  AllowanceARate:
+    type: string
+    format: money
+    description: Allowance A Rate
+  AllowanceBRate:
+    type: string
+    format: money
+    description: Allowance B Rate
+  AllowanceCRate:
+    type: string
+    format: money
+    description: Allowance C Rate
+  Comments:
+    type: string
+    maxLength: 200
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

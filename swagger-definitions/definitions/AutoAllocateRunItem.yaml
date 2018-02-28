@@ -1,0 +1,52 @@
+type: object
+#required:
+properties:
+  AutoAllocateRunID:
+    type: integer
+    format: int32
+    description: Auto Allocate Run
+  Description:
+    type: string
+    maxLength: 50
+    description: Description
+  AutoAllocateObject:
+    type: string
+    format: binary
+    description: Auto Allocate Object
+  AutoAllocateResults:
+    type: string
+    format: longstring
+    description: Auto Allocate Results
+  LastRan_SecurityUserID:
+    type: integer
+    format: int32
+    description: Last Ran Security User
+  LastRanDate:
+    type: string
+    description: Last Ran Date
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  CreatedBy_SecurityUserID:
+    type: integer
+    format: int32
+    description: Created By Security User
+  Enabled:
+    type: boolean
+    description: Enabled
+  OverrideEntryIDs:
+    type: string
+    format: longstring
+    description: Override Entry IDs
+  IsCommitted:
+    type: boolean
+    description: Is Committed
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

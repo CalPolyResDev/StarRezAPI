@@ -1,0 +1,46 @@
+type: object
+#required:
+properties:
+  TaskTemplateItemID:
+    type: integer
+    format: int32
+    description: Task Template Item
+  TaskTemplateID:
+    type: integer
+    format: int32
+    description: Task Template
+  Description:
+    type: string
+    maxLength: 100
+    description: Description
+  HoursStartFromFirst:
+    type: integer
+    format: int32
+    description: Hours Start From First
+  ExpectedDuration:
+    type: integer
+    format: int32
+    description: Expected Duration
+  PriorityID:
+    type: integer
+    format: int32
+    description: Priority
+  TaskStatusID:
+    type: integer
+    format: int32
+    description: Task Status
+  TaskTypeID:
+    type: integer
+    format: int32
+    description: Task Type
+  Reminder:
+    type: boolean
+    description: Reminder
+  Comments:
+    type: string
+    maxLength: 2000
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

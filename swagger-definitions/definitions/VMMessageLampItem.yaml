@@ -1,0 +1,22 @@
+type: object
+#required:
+properties:
+  VMMessageLampID:
+    type: integer
+    format: int32
+    description: VM Message Lamp
+  SiteID:
+    type: integer
+    format: int32
+    description: Site
+  Extension:
+    type: integer
+    format: int32
+    description: Extension
+  LampOn:
+    type: boolean
+    description: Lamp On
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

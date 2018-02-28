@@ -1,0 +1,65 @@
+type: object
+#required:
+properties:
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  From_EntryID:
+    type: integer
+    format: int32
+    description: From Entry
+  EntryCorrespondenceID:
+    type: integer
+    format: int32
+    description: Entry Correspondence
+  CorrespondenceSourceID:
+    type: integer
+    format: int32
+    description: Correspondence Source
+  CorrespondenceDate:
+    type: string
+    format: datetimeseconds
+    description: Correspondence Date
+  Description:
+    type: string
+    maxLength: 100
+    description: Description
+  Comments:
+    type: string
+    format: longstring
+    description: Comments
+  DocumentPath:
+    type: string
+    maxLength: 1000
+    description: Document Path
+  FromEmail:
+    type: string
+    maxLength: 100
+    description: From Email
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  CreatedBy_SecurityUserID:
+    type: integer
+    format: int32
+    description: Created By Security User
+  ViewOnWeb:
+    type: boolean
+    description: View On Web
+  ViewedDate:
+    type: string
+    description: Viewed Date
+  CorrespondenceStatusEnum:
+    type: string
+    format: enum
+    description: Correspondence Status
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

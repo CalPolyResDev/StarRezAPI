@@ -1,0 +1,35 @@
+type: object
+#required:
+properties:
+  PortalActivityID:
+    type: integer
+    format: int32
+    description: Portal Activity
+  PortalSiteID:
+    type: integer
+    format: int32
+    description: Portal Site
+  WebServerName:
+    type: string
+    maxLength: 250
+    description: Web Server Name
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  LoggedInUsers:
+    type: integer
+    format: int32
+    description: Logged In Users
+  ActiveUsers:
+    type: integer
+    format: int32
+    description: Active Users
+  Total_PortalActivityID:
+    type: integer
+    format: int32
+    description: Total Portal Activity
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

@@ -1,0 +1,35 @@
+type: object
+#required:
+#  - Description
+properties:
+  TransactionTemplateID:
+    type: integer
+    format: int32
+    description: Transaction Template
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  Description:
+    type: string
+    maxLength: 100
+    description: Description
+  PaymentOrRefund:
+    type: boolean
+    description: Payment Or Refund
+  AutoPayMaximum:
+    type: string
+    format: money
+    description: Auto Pay Maximum
+  PaymentTypeID:
+    type: integer
+    format: int32
+    description: Payment Type
+  Comments:
+    type: string
+    maxLength: 200
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

@@ -1,0 +1,59 @@
+type: object
+#required:
+properties:
+  FunctionRoomBookingID:
+    type: integer
+    format: int32
+    description: Function Room Booking
+  FunctionRoomID:
+    type: integer
+    format: int32
+    description: Function Room
+  FunctionBookingID:
+    type: integer
+    format: int32
+    description: Function Booking
+  FunctionRoomSetupID:
+    type: integer
+    format: int32
+    description: Function Room Setup
+  FunctionRoomRateID:
+    type: integer
+    format: int32
+    description: Function Room Rate
+  FunctionRoomBookingStatusEnum:
+    type: string
+    format: enum
+    description: Function Room Booking Status
+  FunctionRoomRateAmount:
+    type: string
+    format: money
+    description: Function Room Rate Amount
+  FunctionRoomRateAmountCost:
+    type: string
+    format: money
+    description: Function Room Rate Amount Cost
+  SetupNotes:
+    type: string
+    maxLength: 1000
+    description: Setup Notes
+  Comments:
+    type: string
+    maxLength: 1000
+    description: Comments
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  CreatedBy_SecurityUserID:
+    type: integer
+    format: int32
+    description: Created By Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

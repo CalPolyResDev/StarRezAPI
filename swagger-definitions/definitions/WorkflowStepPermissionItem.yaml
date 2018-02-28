@@ -1,0 +1,23 @@
+type: object
+#required:
+properties:
+  WorkflowStepPermissionID:
+    type: integer
+    format: int32
+    description: Workflow Step Permission
+  WorkflowStepID:
+    type: integer
+    format: int32
+    description: Workflow Step
+  AccessTypeEnum:
+    type: string
+    format: enum
+    description: Access Type
+  SecurityGroupID:
+    type: integer
+    format: int32
+    description: Security Group
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

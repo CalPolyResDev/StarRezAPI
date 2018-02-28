@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateLogMetric
+  description: Updates an LogMetric in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: LogMetricID
+      type: integer
+      required: true
+      description: Numeric value of the logmetricID
+    - in: body
+      name: LogMetricItem
+      required: true
+      description: LogMetric to update
+      schema:
+        $ref: '#/definitions/LogMetricItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/LogMetricItem'
+    400:
+      description: Invalid Input, Object Invalid.

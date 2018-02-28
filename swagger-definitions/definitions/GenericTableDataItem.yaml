@@ -1,0 +1,27 @@
+type: object
+#required:
+properties:
+  GenericTableDataID:
+    type: integer
+    format: int32
+    description: Generic Table Data
+  GenericTableDefinitionID:
+    type: integer
+    format: int32
+    description: Generic Table Definition
+  TableID:
+    type: integer
+    format: int32
+    description: Table
+  Description:
+    type: string
+    maxLength: 100
+    description: Description
+  Comments:
+    type: string
+    maxLength: 500
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

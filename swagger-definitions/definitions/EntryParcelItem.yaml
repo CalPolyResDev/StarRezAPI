@@ -1,0 +1,101 @@
+type: object
+#required:
+properties:
+  EntryParcelID:
+    type: integer
+    format: int32
+    description: Entry Parcel
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  ParcelTypeID:
+    type: integer
+    format: int32
+    description: Parcel Type
+  ShippingTypeID:
+    type: integer
+    format: int32
+    description: Shipping Type
+  AddressTypeID:
+    type: integer
+    format: int32
+    description: Address Type
+  ParcelStatusEnum:
+    type: string
+    format: enum
+    description: Parcel Status
+  ElectronicIdentityTypeID:
+    type: integer
+    format: int32
+    description: Electronic Identity Type
+  ElectronicIdentity:
+    type: string
+    maxLength: 500
+    description: Electronic Identity
+  Description:
+    type: string
+    maxLength: 100
+    description: Description
+  TrackingNumber:
+    type: string
+    maxLength: 100
+    description: Tracking Number
+  ReceiptDate:
+    type: string
+    description: Receipt Date
+  IssueDate:
+    type: string
+    description: Issue Date
+  Comments:
+    type: string
+    maxLength: 1000
+    description: Comments
+  CustomBit1:
+    type: boolean
+    description: Custom Flag 1
+  CustomBit2:
+    type: boolean
+    description: Custom Flag 2
+  CustomString1:
+    type: string
+    maxLength: 50
+    description: Custom String 1
+  CustomString2:
+    type: string
+    maxLength: 50
+    description: Custom String 2
+  CustomString3:
+    type: string
+    maxLength: 50
+    description: Custom String 3
+  CustomString4:
+    type: string
+    maxLength: 50
+    description: Custom String 4
+  CustomString5:
+    type: string
+    maxLength: 50
+    description: Custom String 5
+  CustomString6:
+    type: string
+    maxLength: 50
+    description: Custom String 6
+  CustomDate1:
+    type: string
+    description: Custom Date 1
+  CustomDate2:
+    type: string
+    description: Custom Date 2
+  CreatedBy_SecurityUserID:
+    type: integer
+    format: int32
+    description: Created By Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

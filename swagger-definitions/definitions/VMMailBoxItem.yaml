@@ -1,0 +1,97 @@
+type: object
+#required:
+properties:
+  VMMailBoxID:
+    type: integer
+    format: int32
+    description: VM Mail Box
+  VMMailBoxTypeID:
+    type: integer
+    format: int32
+    description: VM Mail Box Type
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  ExtensionID:
+    type: integer
+    format: int32
+    description: Extension
+  Enabled:
+    type: boolean
+    description: Enabled
+  PinNumber:
+    type: integer
+    format: int32
+    description: Pin Number
+  AutoPlay:
+    type: boolean
+    description: Auto Play
+  AlternateGreeting:
+    type: boolean
+    description: Alternate Greeting
+  AlternateGreetingStartMinute:
+    type: string
+    format: short
+    description: Alternate Greeting Start Minute
+  AlternateGreetingEndMinute:
+    type: string
+    format: short
+    description: Alternate Greeting End Minute
+  AlternateGreetingDays:
+    type: string
+    maxLength: 15
+    description: Alternate Greeting Days
+  AlternateDivertNumber:
+    type: string
+    maxLength: 30
+    description: Alternate Divert Number
+  AlternateDivertType:
+    type: string
+    format: byte
+    description: Alternate Divert Type
+  MailBoxAction:
+    type: string
+    format: byte
+    description: Mail Box Action
+  DivertNumber:
+    type: string
+    maxLength: 30
+    description: Divert Number
+  DivertType:
+    type: string
+    format: byte
+    description: Divert Type
+  MessageTimeStamp:
+    type: boolean
+    description: Message Time Stamp
+  MessageAutoDelete:
+    type: boolean
+    description: Message Auto Delete
+  VMMailBoxName:
+    type: string
+    maxLength: 50
+    description: VM Mail Box Name
+  MessageDelivery:
+    type: string
+    format: byte
+    description: Message Delivery
+  Emailaddress:
+    type: string
+    maxLength: 100
+    description: Emailaddress
+  SecondsBeforeAnswer:
+    type: string
+    format: short
+    description: Seconds Before Answer
+  CLINumberOverride:
+    type: string
+    maxLength: 20
+    description: CLI Number Override
+  FixedSharedGreeting:
+    type: boolean
+    description: Fixed Shared Greeting
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

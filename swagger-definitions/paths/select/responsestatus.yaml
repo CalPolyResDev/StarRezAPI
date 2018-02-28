@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchResponseStatus
+  description: By passing in the appropriate options, you can search for a ResponseStatus in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: ResponseStatusID
+      description: ID of the ResponseStatus you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ResponseStatusItem'
+    400:
+      description: Bad Request

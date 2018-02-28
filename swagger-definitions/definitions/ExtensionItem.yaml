@@ -1,0 +1,48 @@
+type: object
+#required:
+properties:
+  ExtensionID:
+    type: integer
+    format: int32
+    description: Extension
+  Description:
+    type: string
+    maxLength: 10
+    description: Description
+  Virtual:
+    type: string
+    maxLength: 10
+    description: Virtual
+  SiteID:
+    type: integer
+    format: int32
+    description: Site
+  PhoneNumber:
+    type: string
+    format: enum
+    maxLength: 20
+    description: Phone Number
+  EquipmentNumber1:
+    type: string
+    maxLength: 30
+    description: Equipment Number 1
+  EquipmentNumber2:
+    type: string
+    maxLength: 30
+    description: Equipment Number 2
+  EquipmentNumber3:
+    type: string
+    maxLength: 30
+    description: Equipment Number 3
+  EquipmentComments:
+    type: string
+    maxLength: 30
+    description: Equipment Comments
+  Comments:
+    type: string
+    maxLength: 100
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

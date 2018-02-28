@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateEntryApplicationRoomMate
+  description: Updates an EntryApplicationRoomMate in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: EntryApplicationRoomMateID
+      type: integer
+      required: true
+      description: Numeric value of the entryapplicationroommateID
+    - in: body
+      name: EntryApplicationRoomMateItem
+      required: true
+      description: EntryApplicationRoomMate to update
+      schema:
+        $ref: '#/definitions/EntryApplicationRoomMateItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EntryApplicationRoomMateItem'
+    400:
+      description: Invalid Input, Object Invalid.

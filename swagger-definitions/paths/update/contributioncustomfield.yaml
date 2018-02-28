@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateContributionCustomField
+  description: Updates an ContributionCustomField in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: ContributionCustomFieldID
+      type: integer
+      required: true
+      description: Numeric value of the contributioncustomfieldID
+    - in: body
+      name: ContributionCustomFieldItem
+      required: true
+      description: ContributionCustomField to update
+      schema:
+        $ref: '#/definitions/ContributionCustomFieldItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ContributionCustomFieldItem'
+    400:
+      description: Invalid Input, Object Invalid.

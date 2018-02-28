@@ -1,0 +1,82 @@
+type: object
+#required:
+#  - Description
+properties:
+  RoomLocationAreaID:
+    type: integer
+    format: int32
+    description: Room Location Area
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  NonResidential:
+    type: boolean
+    description: Non Residential
+  Description:
+    type: string
+    maxLength: 35
+    description: Description
+  Comments:
+    type: string
+    maxLength: 200
+    description: Comments
+  GenderTypeEnum:
+    type: string
+    format: enum
+    description: Gender Type
+  CustomBit1:
+    type: boolean
+    description: Custom Flag 1
+  CustomBit2:
+    type: boolean
+    description: Custom Flag 2
+  CustomString1:
+    type: string
+    maxLength: 50
+    description: Address 1
+  CustomString2:
+    type: string
+    maxLength: 50
+    description: Custom String 2
+  CustomString3:
+    type: string
+    maxLength: 50
+    description: Custom String 3
+  CustomString4:
+    type: string
+    maxLength: 50
+    description: Custom String 4
+  CustomString5:
+    type: string
+    maxLength: 50
+    description: Custom String 5
+  CustomString6:
+    type: string
+    maxLength: 50
+    description: Custom String 6
+  CustomDate1:
+    type: string
+    description: Custom Date 1
+  CustomDate2:
+    type: string
+    description: Custom Date 2
+  ViewOnWeb:
+    type: boolean
+    description: View On Web
+  WebImageLocation:
+    type: string
+    maxLength: 200
+    description: Web Image Location
+  WebDescription:
+    type: string
+    maxLength: 1000
+    description: Web Description
+  WebComments:
+    type: string
+    format: longstring
+    description: Web Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

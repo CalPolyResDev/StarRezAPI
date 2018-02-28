@@ -1,0 +1,38 @@
+type: object
+#required:
+#  - Description
+properties:
+  FunctionResourceTypeID:
+    type: integer
+    format: int32
+    description: Function Resource Type
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  Description:
+    type: string
+    maxLength: 25
+    description: Description
+  FunctionChargeTypeEnum:
+    type: string
+    format: enum
+    description: Function Charge Type
+  PerEntry:
+    type: boolean
+    description: Per Entry
+  ChargeItemID:
+    type: integer
+    format: int32
+    description: Charge Item
+  Comments:
+    type: string
+    maxLength: 250
+    description: Comments
+  CheckAvailability:
+    type: boolean
+    description: Check Availability
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

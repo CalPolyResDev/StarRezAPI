@@ -1,0 +1,23 @@
+type: object
+#required:
+properties:
+  IncidentCleryGeographyID:
+    type: integer
+    format: int32
+    description: Incident Clery Geography
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  Description:
+    type: string
+    maxLength: 50
+    description: Description
+  Comments:
+    type: string
+    maxLength: 1000
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

@@ -1,0 +1,73 @@
+type: object
+#required:
+properties:
+  EventQuoteID:
+    type: integer
+    format: int32
+    description: Event Quote
+  EventID:
+    type: integer
+    format: int32
+    description: Event
+  Description:
+    type: string
+    maxLength: 100
+    description: Description
+  RateDescription:
+    type: string
+    maxLength: 100
+    description: Rate Description
+  QuoteGroup:
+    type: string
+    maxLength: 100
+    description: Quote Group
+  ChargeItemID:
+    type: integer
+    format: int32
+    description: Charge Item
+  TransactionTypeEnum:
+    type: string
+    format: enum
+    description: Transaction Type
+  Amount:
+    type: string
+    format: money
+    description: Amount
+  AmountCost:
+    type: string
+    format: money
+    description: Amount Cost
+  TaxAmount:
+    type: string
+    format: money
+    description: Tax Amount
+  TaxAmount2:
+    type: string
+    format: money
+    description: Tax Amount 2
+  TaxAmount3:
+    type: string
+    format: money
+    description: Tax Amount 3
+  Comments:
+    type: string
+    maxLength: 250
+    description: Comments
+  TableName:
+    type: string
+    maxLength: 50
+    description: Table Name
+  TableID:
+    type: integer
+    format: int32
+    description: Table
+  PerEntry:
+    type: boolean
+    description: Per Entry
+  ChargeToEntry:
+    type: boolean
+    description: Charge To Entry
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

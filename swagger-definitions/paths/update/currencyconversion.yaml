@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateCurrencyConversion
+  description: Updates an CurrencyConversion in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: CurrencyConversionID
+      type: integer
+      required: true
+      description: Numeric value of the currencyconversionID
+    - in: body
+      name: CurrencyConversionItem
+      required: true
+      description: CurrencyConversion to update
+      schema:
+        $ref: '#/definitions/CurrencyConversionItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/CurrencyConversionItem'
+    400:
+      description: Invalid Input, Object Invalid.

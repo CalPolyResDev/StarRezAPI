@@ -1,0 +1,39 @@
+type: object
+#required:
+#  - TableName
+properties:
+  WebRuleLinkID:
+    type: integer
+    format: int32
+    description: Web Rule Link
+  WebRuleID:
+    type: integer
+    format: int32
+    description: Web Rule
+  TableID:
+    type: integer
+    format: int32
+    description: Table
+  TableName:
+    type: string
+    maxLength: 20
+    description: Table Name
+  Active:
+    type: boolean
+    description: Active
+  RuleLinkOrder:
+    type: integer
+    format: int32
+    description: Rule Link Order
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

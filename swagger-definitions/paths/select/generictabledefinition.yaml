@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchGenericTableDefinition
+  description: By passing in the appropriate options, you can search for a GenericTableDefinition in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: GenericTableDefinitionID
+      description: ID of the GenericTableDefinition you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/GenericTableDefinitionItem'
+    400:
+      description: Bad Request

@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchTransactionDisputeItem
+  description: By passing in the appropriate options, you can search for a TransactionDisputeItem in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: TransactionDisputeItemID
+      description: ID of the TransactionDisputeItem you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/TransactionDisputeItemItem'
+    400:
+      description: Bad Request

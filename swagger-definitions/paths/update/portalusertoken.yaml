@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updatePortalUserToken
+  description: Updates an PortalUserToken in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: PortalUserTokenID
+      type: integer
+      required: true
+      description: Numeric value of the portalusertokenID
+    - in: body
+      name: PortalUserTokenItem
+      required: true
+      description: PortalUserToken to update
+      schema:
+        $ref: '#/definitions/PortalUserTokenItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/PortalUserTokenItem'
+    400:
+      description: Invalid Input, Object Invalid.

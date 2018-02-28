@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchTaskStatus
+  description: By passing in the appropriate options, you can search for a TaskStatus in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: TaskStatusID
+      description: ID of the TaskStatus you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/TaskStatusItem'
+    400:
+      description: Bad Request

@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateTermSession
+  description: Updates an TermSession in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: TermSessionID
+      type: integer
+      required: true
+      description: Numeric value of the termsessionID
+    - in: body
+      name: TermSessionItem
+      required: true
+      description: TermSession to update
+      schema:
+        $ref: '#/definitions/TermSessionItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/TermSessionItem'
+    400:
+      description: Invalid Input, Object Invalid.

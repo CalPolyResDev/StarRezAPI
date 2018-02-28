@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateEntryNote
+  description: Updates an EntryNote in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: EntryNoteID
+      type: integer
+      required: true
+      description: Numeric value of the entrynoteID
+    - in: body
+      name: EntryNoteItem
+      required: true
+      description: EntryNote to update
+      schema:
+        $ref: '#/definitions/EntryNoteItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EntryNoteItem'
+    400:
+      description: Invalid Input, Object Invalid.

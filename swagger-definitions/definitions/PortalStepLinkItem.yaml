@@ -1,0 +1,35 @@
+type: object
+#required:
+properties:
+  PortalStepLinkID:
+    type: integer
+    format: int32
+    description: Portal Step Link
+  PortalStepID:
+    type: integer
+    format: int32
+    description: Portal Step
+  Next_PortalStepID:
+    type: integer
+    format: int32
+    description: Next Portal Step
+  CheckOrder:
+    type: integer
+    format: int32
+    description: Check Order
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

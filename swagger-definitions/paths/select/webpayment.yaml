@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchWebPayment
+  description: By passing in the appropriate options, you can search for a WebPayment in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: WebPaymentID
+      description: ID of the WebPayment you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/WebPaymentItem'
+    400:
+      description: Bad Request

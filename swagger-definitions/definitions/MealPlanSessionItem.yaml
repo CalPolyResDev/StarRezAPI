@@ -1,0 +1,24 @@
+type: object
+#required:
+properties:
+  MealPlanSessionID:
+    type: integer
+    format: int32
+    description: Meal Plan Session
+  MealPlanID:
+    type: integer
+    format: int32
+    description: Meal Plan
+  DateStart:
+    type: string
+    description: Date Start
+  DateEnd:
+    type: string
+    description: Date End
+  TransactionDateDue:
+    type: string
+    description: Transaction Date Due
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

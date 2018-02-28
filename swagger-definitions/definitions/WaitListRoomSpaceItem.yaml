@@ -1,0 +1,23 @@
+type: object
+#required:
+properties:
+  WaitListRoomSpaceID:
+    type: integer
+    format: int32
+    description: Wait List Room Space
+  WaitListID:
+    type: integer
+    format: int32
+    description: Wait List
+  RoomSpaceID:
+    type: integer
+    format: int32
+    description: Room Space
+  WaitListOrder:
+    type: string
+    format: short
+    description: Wait List Order
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

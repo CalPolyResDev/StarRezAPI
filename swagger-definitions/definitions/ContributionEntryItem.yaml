@@ -1,0 +1,43 @@
+type: object
+#required:
+properties:
+  ContributionEntryID:
+    type: integer
+    format: int32
+    description: Contribution Entry
+  ContributionID:
+    type: integer
+    format: int32
+    description: Contribution
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  InvolvementType:
+    type: string
+    maxLength: 50
+    description: Involvement Type
+  InvolvementComments:
+    type: string
+    format: longstring
+    description: Involvement Comments
+  WorkflowStepID:
+    type: integer
+    format: int32
+    description: Workflow Step
+  AssignedTo_SecurityUserID:
+    type: integer
+    format: int32
+    description: Assigned To Security User
+  Current_WorkflowHistoryID:
+    type: integer
+    format: int32
+    description: Current Workflow History
+  Previous_WorkflowHistoryID:
+    type: integer
+    format: int32
+    description: Previous Workflow History
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

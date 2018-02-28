@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateEventContactEntry
+  description: Updates an EventContactEntry in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: EventContactEntryID
+      type: integer
+      required: true
+      description: Numeric value of the eventcontactentryID
+    - in: body
+      name: EventContactEntryItem
+      required: true
+      description: EventContactEntry to update
+      schema:
+        $ref: '#/definitions/EventContactEntryItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EventContactEntryItem'
+    400:
+      description: Invalid Input, Object Invalid.

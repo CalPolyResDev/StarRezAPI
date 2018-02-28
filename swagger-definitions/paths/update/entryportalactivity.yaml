@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateEntryPortalActivity
+  description: Updates an EntryPortalActivity in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: EntryPortalActivityID
+      type: integer
+      required: true
+      description: Numeric value of the entryportalactivityID
+    - in: body
+      name: EntryPortalActivityItem
+      required: true
+      description: EntryPortalActivity to update
+      schema:
+        $ref: '#/definitions/EntryPortalActivityItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EntryPortalActivityItem'
+    400:
+      description: Invalid Input, Object Invalid.

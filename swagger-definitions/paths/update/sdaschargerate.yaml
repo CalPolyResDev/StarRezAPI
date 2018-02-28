@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateSDASChargeRate
+  description: Updates an SDASChargeRate in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: SDASChargeRateID
+      type: integer
+      required: true
+      description: Numeric value of the sdaschargerateID
+    - in: body
+      name: SDASChargeRateItem
+      required: true
+      description: SDASChargeRate to update
+      schema:
+        $ref: '#/definitions/SDASChargeRateItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/SDASChargeRateItem'
+    400:
+      description: Invalid Input, Object Invalid.

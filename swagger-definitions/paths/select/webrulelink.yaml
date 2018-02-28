@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchWebRuleLink
+  description: By passing in the appropriate options, you can search for a WebRuleLink in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: WebRuleLinkID
+      description: ID of the WebRuleLink you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/WebRuleLinkItem'
+    400:
+      description: Bad Request

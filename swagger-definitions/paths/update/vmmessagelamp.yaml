@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateVMMessageLamp
+  description: Updates an VMMessageLamp in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: VMMessageLampID
+      type: integer
+      required: true
+      description: Numeric value of the vmmessagelampID
+    - in: body
+      name: VMMessageLampItem
+      required: true
+      description: VMMessageLamp to update
+      schema:
+        $ref: '#/definitions/VMMessageLampItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/VMMessageLampItem'
+    400:
+      description: Invalid Input, Object Invalid.

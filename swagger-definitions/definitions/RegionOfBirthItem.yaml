@@ -1,0 +1,20 @@
+type: object
+#required:
+#  - Description
+properties:
+  RegionOfBirthID:
+    type: integer
+    format: int32
+    description: Region Of Birth
+  Description:
+    type: string
+    maxLength: 50
+    description: Description
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

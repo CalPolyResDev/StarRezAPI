@@ -1,0 +1,29 @@
+type: object
+#required:
+properties:
+  SurveyResponseID:
+    type: integer
+    format: int32
+    description: Survey Response
+  SurveyID:
+    type: integer
+    format: int32
+    description: Survey
+  DateStart:
+    type: string
+    description: Date Start
+  DateComplete:
+    type: string
+    description: Date Complete
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  ResponseStatusID:
+    type: integer
+    format: int32
+    description: Response Status
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

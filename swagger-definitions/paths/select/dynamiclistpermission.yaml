@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchDynamicListPermission
+  description: By passing in the appropriate options, you can search for a DynamicListPermission in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: DynamicListPermissionID
+      description: ID of the DynamicListPermission you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/DynamicListPermissionItem'
+    400:
+      description: Bad Request

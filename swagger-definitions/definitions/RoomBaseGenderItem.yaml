@@ -1,0 +1,25 @@
+type: object
+#required:
+properties:
+  RoomBaseGenderID:
+    type: integer
+    format: int32
+    description: Room Base Gender
+  DateStart:
+    type: string
+    description: Date Start
+  DateEnd:
+    type: string
+    description: Date End
+  RoomBaseID:
+    type: integer
+    format: int32
+    description: Room Base
+  GenderTypeEnum:
+    type: string
+    format: enum
+    description: Gender Type
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

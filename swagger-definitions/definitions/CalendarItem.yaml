@@ -1,0 +1,15 @@
+type: object
+#required:
+properties:
+  CalendarID:
+    type: integer
+    format: int32
+    description: Calendar
+  CalendarDate:
+    type: string
+    format: date
+    description: Calendar Date
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

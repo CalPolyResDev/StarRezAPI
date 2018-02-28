@@ -1,0 +1,28 @@
+type: object
+#required:
+#  - TableName
+properties:
+  PromoCodeRecordID:
+    type: integer
+    format: int32
+    description: Promo Code Record
+  PromoCodeID:
+    type: integer
+    format: int32
+    description: Promo Code
+  TableID:
+    type: integer
+    format: int32
+    description: Table
+  TableName:
+    type: string
+    maxLength: 100
+    description: Table Name
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

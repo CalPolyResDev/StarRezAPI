@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateEntryMembership
+  description: Updates an EntryMembership in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: EntryMembershipID
+      type: integer
+      required: true
+      description: Numeric value of the entrymembershipID
+    - in: body
+      name: EntryMembershipItem
+      required: true
+      description: EntryMembership to update
+      schema:
+        $ref: '#/definitions/EntryMembershipItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EntryMembershipItem'
+    400:
+      description: Invalid Input, Object Invalid.

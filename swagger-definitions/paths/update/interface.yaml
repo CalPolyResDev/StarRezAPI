@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateInterface
+  description: Updates an Interface in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: InterfaceID
+      type: integer
+      required: true
+      description: Numeric value of the interfaceID
+    - in: body
+      name: InterfaceItem
+      required: true
+      description: Interface to update
+      schema:
+        $ref: '#/definitions/InterfaceItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/InterfaceItem'
+    400:
+      description: Invalid Input, Object Invalid.

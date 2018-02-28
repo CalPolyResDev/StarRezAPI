@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateTaskStatus
+  description: Updates an TaskStatus in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: TaskStatusID
+      type: integer
+      required: true
+      description: Numeric value of the taskstatusID
+    - in: body
+      name: TaskStatusItem
+      required: true
+      description: TaskStatus to update
+      schema:
+        $ref: '#/definitions/TaskStatusItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/TaskStatusItem'
+    400:
+      description: Invalid Input, Object Invalid.

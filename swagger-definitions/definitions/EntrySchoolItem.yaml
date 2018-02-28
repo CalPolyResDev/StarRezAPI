@@ -1,0 +1,56 @@
+type: object
+#required:
+properties:
+  EntrySchoolID:
+    type: integer
+    format: int32
+    description: Entry School
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  SchoolName:
+    type: string
+    maxLength: 50
+    description: School Name
+  SchoolType:
+    type: string
+    maxLength: 50
+    description: School Type
+  SchoolYears:
+    type: string
+    maxLength: 10
+    description: School Years
+  SchoolLocation:
+    type: string
+    maxLength: 50
+    description: School Location
+  SchoolGeographicLocation:
+    type: string
+    maxLength: 50
+    description: School Geographic Location
+  SchoolCandidateNumber:
+    type: string
+    format: enum
+    maxLength: 10
+    description: School Candidate Number
+  SchoolFinalYear:
+    type: string
+    maxLength: 10
+    description: School Final Year
+  SchoolFinalYearScore:
+    type: string
+    maxLength: 10
+    description: School Final Year Score
+  SchoolFinalYearSubjects:
+    type: string
+    maxLength: 250
+    description: School Final Year Subjects
+  SchoolComments:
+    type: string
+    maxLength: 100
+    description: School Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

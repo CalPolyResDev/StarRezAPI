@@ -1,0 +1,45 @@
+type: object
+#required:
+#  - Description
+properties:
+  DynamicListID:
+    type: integer
+    format: int32
+    description: Dynamic List
+  Description:
+    type: string
+    maxLength: 50
+    description: Description
+  ParentID:
+    type: integer
+    format: int32
+    description: Parent
+  Folder:
+    type: boolean
+    description: Folder
+  TableName:
+    type: string
+    maxLength: 50
+    description: Table Name
+  ReportDataSourceObject:
+    type: string
+    description: Report Data Source Object
+  DisplayInDetailForm:
+    type: boolean
+    description: Display In Detail Form
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

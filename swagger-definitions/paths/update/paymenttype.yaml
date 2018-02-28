@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updatePaymentType
+  description: Updates an PaymentType in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: PaymentTypeID
+      type: integer
+      required: true
+      description: Numeric value of the paymenttypeID
+    - in: body
+      name: PaymentTypeItem
+      required: true
+      description: PaymentType to update
+      schema:
+        $ref: '#/definitions/PaymentTypeItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/PaymentTypeItem'
+    400:
+      description: Invalid Input, Object Invalid.

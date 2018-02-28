@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchIncidentActionEntry
+  description: By passing in the appropriate options, you can search for a IncidentActionEntry in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: IncidentActionEntryID
+      description: ID of the IncidentActionEntry you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/IncidentActionEntryItem'
+    400:
+      description: Bad Request

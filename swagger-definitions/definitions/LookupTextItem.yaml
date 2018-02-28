@@ -1,0 +1,23 @@
+type: object
+#required:
+properties:
+  LookupTextID:
+    type: integer
+    format: int32
+    description: Lookup Text
+  LookupID:
+    type: integer
+    format: int32
+    description: Lookup
+  LookupText:
+    type: string
+    maxLength: 1000
+    description: Lookup Text
+  LookupValue:
+    type: string
+    maxLength: 5000
+    description: Lookup Value
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

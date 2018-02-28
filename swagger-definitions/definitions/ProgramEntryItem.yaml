@@ -1,0 +1,53 @@
+type: object
+#required:
+properties:
+  ProgramEntryID:
+    type: integer
+    format: int32
+    description: Program Entry
+  ProgramID:
+    type: integer
+    format: int32
+    description: Program
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  ProgramEntryStatusEnum:
+    type: string
+    format: enum
+    description: Program Entry Status
+  CheckInDate:
+    type: string
+    description: Check In Date
+  CheckOutDate:
+    type: string
+    description: Check Out Date
+  WorkflowStepID:
+    type: integer
+    format: int32
+    description: Workflow Step
+  AssignedTo_SecurityUserID:
+    type: integer
+    format: int32
+    description: Assigned To Security User
+  Current_WorkflowHistoryID:
+    type: integer
+    format: int32
+    description: Current Workflow History
+  Previous_WorkflowHistoryID:
+    type: integer
+    format: int32
+    description: Previous Workflow History
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  ProgramEntryGUID:
+    type: string
+    format: guid
+    description: Program Entry GUID
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

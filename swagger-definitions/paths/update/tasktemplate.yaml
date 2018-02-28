@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateTaskTemplate
+  description: Updates an TaskTemplate in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: TaskTemplateID
+      type: integer
+      required: true
+      description: Numeric value of the tasktemplateID
+    - in: body
+      name: TaskTemplateItem
+      required: true
+      description: TaskTemplate to update
+      schema:
+        $ref: '#/definitions/TaskTemplateItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/TaskTemplateItem'
+    400:
+      description: Invalid Input, Object Invalid.

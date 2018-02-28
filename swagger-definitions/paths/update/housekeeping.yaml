@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateHousekeeping
+  description: Updates an Housekeeping in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: HousekeepingID
+      type: integer
+      required: true
+      description: Numeric value of the housekeepingID
+    - in: body
+      name: HousekeepingItem
+      required: true
+      description: Housekeeping to update
+      schema:
+        $ref: '#/definitions/HousekeepingItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/HousekeepingItem'
+    400:
+      description: Invalid Input, Object Invalid.

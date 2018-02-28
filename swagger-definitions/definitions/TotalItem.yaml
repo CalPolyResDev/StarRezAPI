@@ -1,0 +1,39 @@
+type: object
+#required:
+properties:
+  TotalID:
+    type: integer
+    format: int32
+    description: Total
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  ChargeGroupID:
+    type: integer
+    format: int32
+    description: Charge Group
+  TotalCount:
+    type: integer
+    format: int32
+    description: Total Count
+  TotalAmount:
+    type: string
+    format: money
+    description: Total Amount
+  TotalTaxAmount:
+    type: string
+    format: money
+    description: Total Tax Amount
+  TotalTaxAmount2:
+    type: string
+    format: money
+    description: Total Tax Amount 2
+  TotalTaxAmount3:
+    type: string
+    format: money
+    description: Total Tax Amount 3
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

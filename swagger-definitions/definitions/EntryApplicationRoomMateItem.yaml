@@ -1,0 +1,37 @@
+type: object
+#required:
+properties:
+  EntryApplicationRoomMateID:
+    type: integer
+    format: int32
+    description: Entry Application Room Mate
+  EntryApplicationID:
+    type: integer
+    format: int32
+    description: Entry Application
+  SortOrder:
+    type: integer
+    format: int32
+    description: Sort Order
+  RoomMate_EntryApplicationID:
+    type: integer
+    format: int32
+    description: Room Mate Entry Application
+  Confirmed:
+    type: boolean
+    description: Confirmed
+  Enforce:
+    type: boolean
+    description: Enforce
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  Comments:
+    type: string
+    maxLength: 500
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

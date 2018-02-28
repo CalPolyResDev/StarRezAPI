@@ -1,0 +1,19 @@
+type: object
+#required:
+properties:
+  VMGroupMailBoxID:
+    type: integer
+    format: int32
+    description: VM Group Mail Box
+  VMGroupID:
+    type: integer
+    format: int32
+    description: VM Group
+  VMMailBoxID:
+    type: integer
+    format: int32
+    description: VM Mail Box
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

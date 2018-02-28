@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchElectronicIdentityType
+  description: By passing in the appropriate options, you can search for a ElectronicIdentityType in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: ElectronicIdentityTypeID
+      description: ID of the ElectronicIdentityType you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ElectronicIdentityTypeItem'
+    400:
+      description: Bad Request

@@ -1,0 +1,23 @@
+type: object
+#required:
+properties:
+  RoomSpaceSwapPreferenceID:
+    type: integer
+    format: int32
+    description: Room Space Swap Preference
+  BookingID:
+    type: integer
+    format: int32
+    description: Booking
+  RoomPreferenceID:
+    type: integer
+    format: int32
+    description: Room Preference
+  Preference:
+    type: string
+    format: byte
+    description: Preference
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

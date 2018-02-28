@@ -1,0 +1,43 @@
+type: object
+#required:
+#  - Description
+properties:
+  SavedListID:
+    type: integer
+    format: int32
+    description: Saved List
+  Description:
+    type: string
+    maxLength: 50
+    description: Description
+  ParentID:
+    type: integer
+    format: int32
+    description: Parent
+  Folder:
+    type: boolean
+    description: Folder
+  Comments:
+    type: string
+    maxLength: 250
+    description: Comments
+  TableName:
+    type: string
+    maxLength: 50
+    description: Table Name
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

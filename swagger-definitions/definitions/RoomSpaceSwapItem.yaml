@@ -1,0 +1,52 @@
+type: object
+#required:
+properties:
+  RoomSpaceSwapID:
+    type: integer
+    format: int32
+    description: Room Space Swap
+  InitiatedBy_BookingID:
+    type: integer
+    format: int32
+    description: Initiated By Booking
+  Offered_BookingID:
+    type: integer
+    format: int32
+    description: Offered Booking
+  Requested_BookingID:
+    type: integer
+    format: int32
+    description: Requested Booking
+  RoomSpaceSwapStatusEnum:
+    type: string
+    format: enum
+    description: Room Space Swap Status
+  AcceptedDate:
+    type: string
+    description: Accepted Date
+  ConfirmedDate:
+    type: string
+    description: Confirmed Date
+  WebComments:
+    type: string
+    maxLength: 4000
+    description: Web Comments
+  Interim:
+    type: boolean
+    description: Interim
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  CreatedBy_SecurityUserID:
+    type: integer
+    format: int32
+    description: Created By Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

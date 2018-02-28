@@ -1,0 +1,35 @@
+type: object
+#required:
+properties:
+  PortalStepID:
+    type: integer
+    format: int32
+    description: Portal Step
+  PortalProcessID:
+    type: integer
+    format: int32
+    description: Portal Process
+  TableID:
+    type: integer
+    format: int32
+    description: Table
+  TableName:
+    type: string
+    maxLength: 100
+    description: Table Name
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

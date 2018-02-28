@@ -1,0 +1,51 @@
+type: object
+#required:
+properties:
+  WebSiteID:
+    type: integer
+    format: int32
+    description: Web Site
+  SiteName:
+    type: string
+    maxLength: 100
+    description: Site Name
+  Description:
+    type: string
+    maxLength: 500
+    description: Description
+  URL:
+    type: string
+    maxLength: 255
+    description: URL
+  Header:
+    type: string
+    format: longstring
+    description: Header
+  Footer:
+    type: string
+    format: longstring
+    description: Footer
+  HeaderSQL:
+    type: string
+    maxLength: 5000
+    description: Header SQL
+  FooterSQL:
+    type: string
+    maxLength: 5000
+    description: Footer SQL
+  WebSiteStatusEnum:
+    type: string
+    format: enum
+    description: Web Site Status
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

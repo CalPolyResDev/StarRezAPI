@@ -1,0 +1,72 @@
+type: object
+#required:
+#  - Description
+properties:
+  RefundRequestConfigurationID:
+    type: integer
+    format: int32
+    description: Refund Request Configuration
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  Description:
+    type: string
+    maxLength: 200
+    description: Description
+  CategoryID:
+    type: integer
+    format: int32
+    description: Category
+  PaymentTypeID:
+    type: integer
+    format: int32
+    description: Payment Type
+  ChargeGroupID:
+    type: integer
+    format: int32
+    description: Charge Group
+  AmountMin:
+    type: string
+    format: money
+    description: Amount Min
+  AmountMax:
+    type: string
+    format: money
+    description: Amount Max
+  WorkflowID:
+    type: integer
+    format: int32
+    description: Workflow
+  EntryEmail_TemplateID:
+    type: integer
+    format: int32
+    description: Entry Email Template
+  RequesterEmail_TemplateID:
+    type: integer
+    format: int32
+    description: Requester Email Template
+  ApproverEmail_TemplateID:
+    type: integer
+    format: int32
+    description: Approver Email Template
+  Comments:
+    type: string
+    maxLength: 300
+    description: Comments
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  CreatedBy_SecurityUserID:
+    type: integer
+    format: int32
+    description: Created By Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

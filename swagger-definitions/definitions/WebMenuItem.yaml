@@ -1,0 +1,36 @@
+type: object
+#required:
+#  - Description
+properties:
+  WebMenuID:
+    type: integer
+    format: int32
+    description: Web Menu
+  WebModuleID:
+    type: integer
+    format: int32
+    description: Web Module
+  Description:
+    type: string
+    maxLength: 100
+    description: Description
+  MenuOrder:
+    type: integer
+    format: int32
+    description: Menu Order
+  Comments:
+    type: string
+    maxLength: 2000
+    description: Comments
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

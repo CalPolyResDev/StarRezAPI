@@ -1,0 +1,84 @@
+type: object
+#required:
+properties:
+  ReportScheduleID:
+    type: integer
+    format: int32
+    description: Report Schedule
+  ReportID:
+    type: integer
+    format: int32
+    description: Report
+  ReportDestinationEnum:
+    type: string
+    format: enum
+    description: Report Destination
+  ReportExportTypeEnum:
+    type: string
+    format: enum
+    description: Report Export Type
+  ScheduleEnum:
+    type: string
+    format: enum
+    description: Schedule
+  ScheduleInterval:
+    type: integer
+    format: int32
+    description: Schedule Interval
+  ScheduleTimeOfDay:
+    type: integer
+    format: int32
+    description: Schedule Time Of Day
+  Schedule_DayInWeekEnum:
+    type: string
+    format: enum
+    description: Schedule Day In Week
+  ScheduleDateStart:
+    type: string
+    description: Schedule Date Start
+  ScheduleDateEnd:
+    type: string
+    description: Schedule Date End
+  ScheduleDateLastStart:
+    type: string
+    description: Schedule Date Last Start
+  ScheduleDateLastEnd:
+    type: string
+    description: Schedule Date Last End
+  ScheduleRangeStartObject:
+    type: string
+    description: Schedule Range Start Object
+  FirstRunDate:
+    type: string
+    description: First Run Date
+  ScheduleResultEnum:
+    type: string
+    format: enum
+    description: Schedule Result
+  EmailAddress:
+    type: string
+    maxLength: 255
+    description: Email Address
+  ExportPath:
+    type: string
+    maxLength: 255
+    description: Export Path
+  ExportFileNameFormat:
+    type: string
+    maxLength: 255
+    description: Export File Name Format
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  ScheduleRangeEndObject:
+    type: string
+    description: Schedule Range End Object
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

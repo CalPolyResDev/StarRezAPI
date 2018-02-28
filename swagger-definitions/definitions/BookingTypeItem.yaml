@@ -1,0 +1,24 @@
+type: object
+#required:
+#  - Description
+properties:
+  BookingTypeID:
+    type: integer
+    format: int32
+    description: Booking Type
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  Description:
+    type: string
+    maxLength: 25
+    description: Description
+  Comments:
+    type: string
+    maxLength: 100
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

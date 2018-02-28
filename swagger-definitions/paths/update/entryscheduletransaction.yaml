@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateEntryScheduleTransaction
+  description: Updates an EntryScheduleTransaction in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: EntryScheduleTransactionID
+      type: integer
+      required: true
+      description: Numeric value of the entryscheduletransactionID
+    - in: body
+      name: EntryScheduleTransactionItem
+      required: true
+      description: EntryScheduleTransaction to update
+      schema:
+        $ref: '#/definitions/EntryScheduleTransactionItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EntryScheduleTransactionItem'
+    400:
+      description: Invalid Input, Object Invalid.

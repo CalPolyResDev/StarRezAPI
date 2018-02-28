@@ -1,0 +1,36 @@
+type: object
+#required:
+#  - Description
+properties:
+  CourseID:
+    type: integer
+    format: int32
+    description: Course
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  Description:
+    type: string
+    maxLength: 100
+    description: Description
+  CourseCode:
+    type: string
+    maxLength: 30
+    description: Course Code
+  EffectiveDate:
+    type: string
+    format: datetimeseconds
+    description: Effective Date
+  Status:
+    type: string
+    maxLength: 20
+    description: Status
+  Comments:
+    type: string
+    maxLength: 250
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

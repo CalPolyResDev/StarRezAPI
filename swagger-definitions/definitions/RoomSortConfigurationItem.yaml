@@ -1,0 +1,39 @@
+type: object
+#required:
+properties:
+  RoomSortConfigurationID:
+    type: integer
+    format: int32
+    description: Room Sort Configuration
+  RoomLocationAreaID:
+    type: integer
+    format: int32
+    description: Room Location Area
+  RoomLocationID:
+    type: integer
+    format: int32
+    description: Room Location
+  RoomTypeID:
+    type: integer
+    format: int32
+    description: Room Type
+  ProfileItemID:
+    type: integer
+    format: int32
+    description: Profile Item
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  CreatedBy_SecurityUserID:
+    type: integer
+    format: int32
+    description: Created By Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

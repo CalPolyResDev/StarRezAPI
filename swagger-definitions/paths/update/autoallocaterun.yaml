@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateAutoAllocateRun
+  description: Updates an AutoAllocateRun in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: AutoAllocateRunID
+      type: integer
+      required: true
+      description: Numeric value of the autoallocaterunID
+    - in: body
+      name: AutoAllocateRunItem
+      required: true
+      description: AutoAllocateRun to update
+      schema:
+        $ref: '#/definitions/AutoAllocateRunItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/AutoAllocateRunItem'
+    400:
+      description: Invalid Input, Object Invalid.

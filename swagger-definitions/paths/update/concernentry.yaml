@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateConcernEntry
+  description: Updates an ConcernEntry in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: ConcernEntryID
+      type: integer
+      required: true
+      description: Numeric value of the concernentryID
+    - in: body
+      name: ConcernEntryItem
+      required: true
+      description: ConcernEntry to update
+      schema:
+        $ref: '#/definitions/ConcernEntryItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ConcernEntryItem'
+    400:
+      description: Invalid Input, Object Invalid.

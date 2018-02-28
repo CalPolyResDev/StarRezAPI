@@ -1,0 +1,23 @@
+type: object
+#required:
+properties:
+  EntryElectronicIdentityID:
+    type: integer
+    format: int32
+    description: Entry Electronic Identity
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  ElectronicIdentityTypeID:
+    type: integer
+    format: int32
+    description: Electronic Identity Type
+  ElectronicIdentity:
+    type: string
+    maxLength: 500
+    description: Electronic Identity
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

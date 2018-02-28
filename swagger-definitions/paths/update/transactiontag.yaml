@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateTransactionTag
+  description: Updates an TransactionTag in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: TransactionTagID
+      type: integer
+      required: true
+      description: Numeric value of the transactiontagID
+    - in: body
+      name: TransactionTagItem
+      required: true
+      description: TransactionTag to update
+      schema:
+        $ref: '#/definitions/TransactionTagItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/TransactionTagItem'
+    400:
+      description: Invalid Input, Object Invalid.

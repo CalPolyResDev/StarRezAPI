@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateEventCharge
+  description: Updates an EventCharge in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: EventChargeID
+      type: integer
+      required: true
+      description: Numeric value of the eventchargeID
+    - in: body
+      name: EventChargeItem
+      required: true
+      description: EventCharge to update
+      schema:
+        $ref: '#/definitions/EventChargeItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EventChargeItem'
+    400:
+      description: Invalid Input, Object Invalid.

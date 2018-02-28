@@ -1,0 +1,22 @@
+type: object
+#required:
+properties:
+  RoomConfigurationRoomSortID:
+    type: integer
+    format: int32
+    description: Room Configuration Room Sort
+  IsBestMatchWhenNoRoomProfile:
+    type: boolean
+    description: Is Best Match When No Room Profile
+  RoomConfigurationID:
+    type: integer
+    format: int32
+    description: Room Configuration
+  RoomSortProfileItemID:
+    type: integer
+    format: int32
+    description: Room Sort Profile Item
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

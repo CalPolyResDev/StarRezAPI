@@ -1,0 +1,31 @@
+type: object
+#required:
+properties:
+  VMMCIID:
+    type: integer
+    format: int32
+    description: VMMCI
+  SiteID:
+    type: integer
+    format: int32
+    description: Site
+  ChannelNumber:
+    type: integer
+    format: int32
+    description: Channel Number
+  CallReason:
+    type: integer
+    format: int32
+    description: Call Reason
+  CallOriginator:
+    type: integer
+    format: int32
+    description: Call Originator
+  DivertingExtension:
+    type: integer
+    format: int32
+    description: Diverting Extension
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

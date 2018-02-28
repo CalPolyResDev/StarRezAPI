@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchSurveyType
+  description: By passing in the appropriate options, you can search for a SurveyType in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: SurveyTypeID
+      description: ID of the SurveyType you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/SurveyTypeItem'
+    400:
+      description: Bad Request

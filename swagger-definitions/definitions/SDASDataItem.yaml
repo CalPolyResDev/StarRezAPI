@@ -1,0 +1,43 @@
+type: object
+#required:
+properties:
+  SDASDataID:
+    type: integer
+    format: int32
+    description: SDAS Data
+  SDASDataDate:
+    type: string
+    format: datetimeseconds
+    description: SDAS Data Date
+  IPAddress:
+    type: string
+    maxLength: 15
+    description: IP Address
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  Duration:
+    type: integer
+    format: int32
+    description: Duration
+  Megabyte:
+    type: string
+    format: decimal
+    description: Megabyte
+  Charge:
+    type: string
+    format: money
+    description: Charge
+  Allowance:
+    type: string
+    format: money
+    description: Allowance
+  PlanAllowance:
+    type: string
+    format: decimal
+    description: Plan Allowance
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

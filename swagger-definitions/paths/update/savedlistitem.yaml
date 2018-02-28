@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateSavedListItem
+  description: Updates an SavedListItem in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: SavedListItemID
+      type: integer
+      required: true
+      description: Numeric value of the savedlistitemID
+    - in: body
+      name: SavedListItemItem
+      required: true
+      description: SavedListItem to update
+      schema:
+        $ref: '#/definitions/SavedListItemItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/SavedListItemItem'
+    400:
+      description: Invalid Input, Object Invalid.

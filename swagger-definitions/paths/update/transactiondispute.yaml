@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateTransactionDispute
+  description: Updates an TransactionDispute in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: TransactionDisputeID
+      type: integer
+      required: true
+      description: Numeric value of the transactiondisputeID
+    - in: body
+      name: TransactionDisputeItem
+      required: true
+      description: TransactionDispute to update
+      schema:
+        $ref: '#/definitions/TransactionDisputeItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/TransactionDisputeItem'
+    400:
+      description: Invalid Input, Object Invalid.

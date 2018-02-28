@@ -1,0 +1,51 @@
+type: object
+#required:
+properties:
+  MealPlanDetailID:
+    type: integer
+    format: int32
+    description: Meal Plan Detail
+  MealPlanID:
+    type: integer
+    format: int32
+    description: Meal Plan
+  DayInWeekEnum:
+    type: string
+    format: enum
+    description: Day In Week
+  MealPlanDate:
+    type: string
+    format: date-time
+    description: Meal Plan Date
+  Breakfast:
+    type: string
+    format: short
+    description: Breakfast
+  Lunch:
+    type: string
+    format: short
+    description: Lunch
+  Dinner:
+    type: string
+    format: short
+    description: Dinner
+  Other:
+    type: string
+    format: short
+    description: Other
+  Breakfast_MealPlanDiningHallID:
+    type: integer
+    format: int32
+    description: Breakfast Meal Plan Dining Hall
+  Lunch_MealPlanDiningHallID:
+    type: integer
+    format: int32
+    description: Lunch Meal Plan Dining Hall
+  Dinner_MealPlanDiningHallID:
+    type: integer
+    format: int32
+    description: Dinner Meal Plan Dining Hall
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

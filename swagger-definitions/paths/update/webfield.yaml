@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateWebField
+  description: Updates an WebField in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: WebFieldID
+      type: integer
+      required: true
+      description: Numeric value of the webfieldID
+    - in: body
+      name: WebFieldItem
+      required: true
+      description: WebField to update
+      schema:
+        $ref: '#/definitions/WebFieldItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/WebFieldItem'
+    400:
+      description: Invalid Input, Object Invalid.

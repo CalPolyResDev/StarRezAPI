@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchRoomConfiguration
+  description: By passing in the appropriate options, you can search for a RoomConfiguration in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: RoomConfigurationID
+      description: ID of the RoomConfiguration you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/RoomConfigurationItem'
+    400:
+      description: Bad Request

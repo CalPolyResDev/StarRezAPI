@@ -1,0 +1,190 @@
+type: object
+#required:
+#  - Title
+#  - ProgramTypeID
+#  - ProgramSubTypeID
+#  - DateStart
+properties:
+  ProgramID:
+    type: integer
+    format: int32
+    description: Program
+  Title:
+    type: string
+    maxLength: 100
+    description: Title
+  Description:
+    type: string
+    format: longstring
+    description: Description
+  Goal:
+    type: string
+    format: longstring
+    description: Goal
+  Purpose:
+    type: string
+    format: longstring
+    description: Purpose
+  Benefit:
+    type: string
+    format: longstring
+    description: Benefit
+  Community:
+    type: string
+    maxLength: 100
+    description: Community
+  ProgramCost:
+    type: string
+    format: money
+    description: Program Cost
+  AmountChargeToEntry:
+    type: string
+    format: money
+    description: Amount Charge To Entry
+  ChargeItemID:
+    type: integer
+    format: int32
+    description: Charge Item
+  TermSessionID:
+    type: integer
+    format: int32
+    description: Term Session
+  CategoryID:
+    type: integer
+    format: int32
+    description: Category
+  ProgramTypeID:
+    type: integer
+    format: int32
+    description: Program Type
+  ProgramSubTypeID:
+    type: integer
+    format: int32
+    description: Program Sub Type
+  DateStart:
+    type: string
+    format: date-time
+    description: Date Start
+  DateEnd:
+    type: string
+    format: date-time
+    description: Date End
+  DateApproved:
+    type: string
+    description: Date Approved
+  AttendeeEstimate:
+    type: integer
+    format: int32
+    description: Attendee Estimate
+  AttendeeMaximum:
+    type: integer
+    format: int32
+    description: Attendee Maximum
+  MaxItemsPerEntry:
+    type: integer
+    format: int32
+    description: Max Items Per Entry
+  ProgramEvaluationTypeID:
+    type: integer
+    format: int32
+    description: Program Evaluation Type
+  AttendeeActual:
+    type: integer
+    format: int32
+    description: Attendee Actual
+  EvaluationHighlight:
+    type: string
+    format: longstring
+    description: Evaluation Highlight
+  EvaluationImprovements:
+    type: string
+    format: longstring
+    description: Evaluation Improvements
+  ViewOnWeb:
+    type: boolean
+    description: View On Web
+  WebImageLocation:
+    type: string
+    maxLength: 200
+    description: Web Image Location
+  WebDescription:
+    type: string
+    maxLength: 1000
+    description: Web Description
+  WebComments:
+    type: string
+    format: longstring
+    description: Web Comments
+  ActiveDateStart:
+    type: string
+    description: Active Date Start
+  ActiveDateEnd:
+    type: string
+    description: Active Date End
+  RoomLocationID:
+    type: integer
+    format: int32
+    description: Room Location
+  RoomLocationFloorSuiteID:
+    type: integer
+    format: int32
+    description: Room Location Floor Suite
+  RoomBaseID:
+    type: integer
+    format: int32
+    description: Room Base
+  LocationComments:
+    type: string
+    maxLength: 100
+    description: Location Comments
+  PrintReportOnCheckIn:
+    type: boolean
+    description: Print Report On Check In
+  CheckIn_ReportID:
+    type: integer
+    format: int32
+    description: Check In Report
+  Comments:
+    type: string
+    format: longstring
+    description: Comments
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  CreatedBy_SecurityUserID:
+    type: integer
+    format: int32
+    description: Created By Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  timestamp:
+    type: string
+    format: timestamp
+    maxLength: 8
+    description: Timestamp
+  WorkflowStepID:
+    type: integer
+    format: int32
+    description: Workflow Step
+  AssignedTo_SecurityUserID:
+    type: integer
+    format: int32
+    description: Assigned To Security User
+  Current_WorkflowHistoryID:
+    type: integer
+    format: int32
+    description: Current Workflow History
+  Previous_WorkflowHistoryID:
+    type: integer
+    format: int32
+    description: Previous Workflow History
+  OnlyAttendeesCanCheckIn:
+    type: boolean
+    description: Only Attendees Can Check In
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

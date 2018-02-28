@@ -1,0 +1,31 @@
+type: object
+#required:
+properties:
+  EntryProfileID:
+    type: integer
+    format: int32
+    description: Entry Profile
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  ProfileTypeID:
+    type: integer
+    format: int32
+    description: Profile Type
+  ProfileItemID:
+    type: integer
+    format: int32
+    description: Profile Item
+  ProfileWeightEnum:
+    type: string
+    format: enum
+    description: Profile Weight
+  Comments:
+    type: string
+    maxLength: 100
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

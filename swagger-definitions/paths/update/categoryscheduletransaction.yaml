@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateCategoryScheduleTransaction
+  description: Updates an CategoryScheduleTransaction in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: CategoryScheduleTransactionID
+      type: integer
+      required: true
+      description: Numeric value of the categoryscheduletransactionID
+    - in: body
+      name: CategoryScheduleTransactionItem
+      required: true
+      description: CategoryScheduleTransaction to update
+      schema:
+        $ref: '#/definitions/CategoryScheduleTransactionItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/CategoryScheduleTransactionItem'
+    400:
+      description: Invalid Input, Object Invalid.

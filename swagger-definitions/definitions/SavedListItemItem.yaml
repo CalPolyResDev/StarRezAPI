@@ -1,0 +1,19 @@
+type: object
+#required:
+properties:
+  SavedListItemID:
+    type: integer
+    format: int32
+    description: Saved List Item
+  SavedListID:
+    type: integer
+    format: int32
+    description: Saved List
+  ItemID:
+    type: integer
+    format: int32
+    description: Item
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

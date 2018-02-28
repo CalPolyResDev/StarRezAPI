@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateIncidentSeverity
+  description: Updates an IncidentSeverity in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: IncidentSeverityID
+      type: integer
+      required: true
+      description: Numeric value of the incidentseverityID
+    - in: body
+      name: IncidentSeverityItem
+      required: true
+      description: IncidentSeverity to update
+      schema:
+        $ref: '#/definitions/IncidentSeverityItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/IncidentSeverityItem'
+    400:
+      description: Invalid Input, Object Invalid.

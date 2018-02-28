@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchProcess
+  description: By passing in the appropriate options, you can search for a Process in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: ProcessID
+      description: ID of the Process you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ProcessItem'
+    400:
+      description: Bad Request

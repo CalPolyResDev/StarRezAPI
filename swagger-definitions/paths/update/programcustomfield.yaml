@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateProgramCustomField
+  description: Updates an ProgramCustomField in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: ProgramCustomFieldID
+      type: integer
+      required: true
+      description: Numeric value of the programcustomfieldID
+    - in: body
+      name: ProgramCustomFieldItem
+      required: true
+      description: ProgramCustomField to update
+      schema:
+        $ref: '#/definitions/ProgramCustomFieldItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ProgramCustomFieldItem'
+    400:
+      description: Invalid Input, Object Invalid.

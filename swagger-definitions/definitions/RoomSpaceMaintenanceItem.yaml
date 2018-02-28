@@ -1,0 +1,211 @@
+type: object
+#required:
+#  - RoomSpaceID
+#  - RoomSpaceMaintenanceCategoryID
+#  - RoomSpaceMaintenanceItemID
+#  - Description
+properties:
+  RoomSpaceMaintenanceID:
+    type: integer
+    format: int32
+    description: Room Space Maintenance
+  RoomSpaceID:
+    type: integer
+    format: int32
+    description: Room Space
+  DateReported:
+    type: string
+    format: date-time
+    description: Date Reported
+  DateDue:
+    type: string
+    description: Date Due
+  JobStatus:
+    type: string
+    maxLength: 25
+    description: Job Status
+  OtherServiceNumber:
+    type: string
+    format: enum
+    maxLength: 20
+    description: Other Service Number
+  RoomSpaceMaintenanceCategoryID:
+    type: integer
+    format: int32
+    description: Room Space Maintenance Category
+  RoomSpaceMaintenanceItemID:
+    type: integer
+    format: int32
+    description: Room Space Maintenance Item
+  ReportedByName:
+    type: string
+    maxLength: 40
+    description: Reported By Name
+  ReportedByPhone:
+    type: string
+    maxLength: 40
+    description: Reported By Phone
+  Occupant_EntryID:
+    type: integer
+    format: int32
+    description: Occupant Entry
+  OccupantEntryName:
+    type: string
+    maxLength: 40
+    description: Occupant Entry Name
+  OccupantPresent:
+    type: boolean
+    description: Occupant Present
+  OccupantPresentReason:
+    type: string
+    maxLength: 40
+    description: Occupant Present Reason
+  JobSent:
+    type: boolean
+    description: Job Sent
+  Status:
+    type: string
+    maxLength: 40
+    description: Status
+  Location:
+    type: string
+    maxLength: 100
+    description: Location
+  Description:
+    type: string
+    maxLength: 2000
+    description: Description
+  PriorityID:
+    type: integer
+    format: int32
+    description: Priority
+  Technician:
+    type: string
+    maxLength: 40
+    description: Technician
+  StartDate:
+    type: string
+    description: Start Date
+  CompleteDate:
+    type: string
+    description: Complete Date
+  RoomSpaceClosedID:
+    type: integer
+    format: int32
+    description: Room Space Closed
+  RepairDescription:
+    type: string
+    maxLength: 1000
+    description: Repair Description
+  ContactID:
+    type: integer
+    format: int32
+    description: Contact
+  ContractorDate:
+    type: string
+    description: Contractor Date
+  ContractorETA:
+    type: string
+    maxLength: 15
+    description: Contractor ETA
+  ContractorOrderNumber:
+    type: string
+    maxLength: 20
+    description: Contractor Order Number
+  ContractorCostEstimate:
+    type: string
+    format: money
+    description: Contractor Cost Estimate
+  ContractorCost:
+    type: string
+    format: money
+    description: Contractor Cost
+  Cause:
+    type: string
+    maxLength: 100
+    description: Cause
+  ChargeType:
+    type: string
+    maxLength: 20
+    description: Charge Type
+  AccountCode:
+    type: string
+    maxLength: 20
+    description: Account Code
+  Charge:
+    type: boolean
+    description: Charge
+  ContractDate:
+    type: string
+    description: Contract Date
+  Charge_EntryID:
+    type: integer
+    format: int32
+    description: Charge Entry
+  ChargeAmount:
+    type: string
+    format: money
+    description: Charge Amount
+  ChargeInvoiced:
+    type: boolean
+    description: Charge Invoiced
+  ChargeInvoiceNumber:
+    type: string
+    format: enum
+    maxLength: 15
+    description: Charge Invoice Number
+  ViewOnWeb:
+    type: boolean
+    description: View On Web
+  CustomBit1:
+    type: boolean
+    description: Custom Flag 1
+  CustomBit2:
+    type: boolean
+    description: Custom Flag 2
+  CustomString1:
+    type: string
+    maxLength: 50
+    description: Custom String 1
+  CustomString2:
+    type: string
+    maxLength: 50
+    description: Custom String 2
+  CustomString3:
+    type: string
+    maxLength: 50
+    description: Custom String 3
+  CustomString4:
+    type: string
+    maxLength: 50
+    description: Custom String 4
+  CustomString5:
+    type: string
+    maxLength: 50
+    description: Custom String 5
+  CustomString6:
+    type: string
+    maxLength: 50
+    description: Custom String 6
+  CustomDate1:
+    type: string
+    description: Custom Date 1
+  CustomDate2:
+    type: string
+    description: Custom Date 2
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  CreatedBy_SecurityUserID:
+    type: integer
+    format: int32
+    description: Created By Security User
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

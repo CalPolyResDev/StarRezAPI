@@ -1,0 +1,77 @@
+type: object
+#required:
+properties:
+  EntryApplicationProxyID:
+    type: integer
+    format: int32
+    description: Entry Application Proxy
+  EntryApplicationID:
+    type: integer
+    format: int32
+    description: Entry Application
+  NameFirst:
+    type: string
+    maxLength: 40
+    description: Name First
+  NameLast:
+    type: string
+    maxLength: 40
+    description: Name Last
+  Email:
+    type: string
+    maxLength: 100
+    description: Email
+  Relationship:
+    type: string
+    maxLength: 50
+    description: Relationship
+  PinNumber:
+    type: integer
+    format: int32
+    description: Pin Number
+  DateExpiry:
+    type: string
+    description: Date Expiry
+  DateComplete:
+    type: string
+    description: Date Complete
+  CustomBit1:
+    type: boolean
+    description: Custom Flag 1
+  CustomBit2:
+    type: boolean
+    description: Custom Flag 2
+  CustomString1:
+    type: string
+    maxLength: 50
+    description: Custom String 1
+  CustomString2:
+    type: string
+    maxLength: 50
+    description: Custom String 2
+  CustomString3:
+    type: string
+    maxLength: 50
+    description: Custom String 3
+  CustomString4:
+    type: string
+    maxLength: 50
+    description: Custom String 4
+  CustomString5:
+    type: string
+    maxLength: 50
+    description: Custom String 5
+  CustomString6:
+    type: string
+    maxLength: 50
+    description: Custom String 6
+  CustomDate1:
+    type: string
+    description: Custom Date 1
+  CustomDate2:
+    type: string
+    description: Custom Date 2
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

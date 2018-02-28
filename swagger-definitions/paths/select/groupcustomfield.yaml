@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchGroupCustomField
+  description: By passing in the appropriate options, you can search for a GroupCustomField in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: GroupCustomFieldID
+      description: ID of the GroupCustomField you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/GroupCustomFieldItem'
+    400:
+      description: Bad Request

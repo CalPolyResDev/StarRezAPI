@@ -1,0 +1,23 @@
+type: object
+#required:
+properties:
+  ReportSettingID:
+    type: integer
+    format: int32
+    description: Report Setting
+  ReportID:
+    type: integer
+    format: int32
+    description: Report
+  ControlName:
+    type: string
+    maxLength: 1000
+    description: Control Name
+  SettingValue:
+    type: string
+    format: longstring
+    description: Setting Value
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

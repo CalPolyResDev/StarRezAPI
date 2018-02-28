@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateTimeSlot
+  description: Updates an TimeSlot in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: TimeSlotID
+      type: integer
+      required: true
+      description: Numeric value of the timeslotID
+    - in: body
+      name: TimeSlotItem
+      required: true
+      description: TimeSlot to update
+      schema:
+        $ref: '#/definitions/TimeSlotItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/TimeSlotItem'
+    400:
+      description: Invalid Input, Object Invalid.

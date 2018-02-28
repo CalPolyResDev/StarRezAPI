@@ -1,0 +1,19 @@
+type: object
+#required:
+properties:
+  WaitListProfileID:
+    type: integer
+    format: int32
+    description: Wait List Profile
+  WaitListID:
+    type: integer
+    format: int32
+    description: Wait List
+  ProfileItemID:
+    type: integer
+    format: int32
+    description: Profile Item
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

@@ -1,0 +1,71 @@
+type: object
+#required:
+#  - CateringDescription
+#  - ChargeItemID
+properties:
+  FunctionBookingCateringID:
+    type: integer
+    format: int32
+    description: Function Booking Catering
+  FunctionBookingID:
+    type: integer
+    format: int32
+    description: Function Booking
+  CateringID:
+    type: integer
+    format: int32
+    description: Catering
+  FunctionChargeTypeEnum:
+    type: string
+    format: enum
+    description: Function Charge Type
+  ChargeToEntry:
+    type: boolean
+    description: Charge To Entry
+  PerEntry:
+    type: boolean
+    description: Per Entry
+  Description:
+    type: string
+    maxLength: 100
+    description: Description
+  CateringDescription:
+    type: string
+    maxLength: 2000
+    description: Catering Description
+  ServingTime:
+    type: string
+    format: date-time
+    description: Serving Time
+  ServingDuration:
+    type: string
+    format: short
+    description: Serving Duration
+  Location:
+    type: string
+    maxLength: 100
+    description: Location
+  FunctionRoomID:
+    type: integer
+    format: int32
+    description: Function Room
+  Amount:
+    type: string
+    format: money
+    description: Amount
+  AmountCost:
+    type: string
+    format: money
+    description: Amount Cost
+  ChargeItemID:
+    type: integer
+    format: int32
+    description: Charge Item
+  Comments:
+    type: string
+    maxLength: 2000
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

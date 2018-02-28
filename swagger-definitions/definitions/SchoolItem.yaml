@@ -1,0 +1,80 @@
+type: object
+#required:
+#  - Description
+properties:
+  SchoolID:
+    type: integer
+    format: int32
+    description: School
+  Description:
+    type: string
+    maxLength: 50
+    description: Description
+  SchoolType:
+    type: string
+    maxLength: 50
+    description: School Type
+  Location:
+    type: string
+    maxLength: 50
+    description: Location
+  GeographicLocation:
+    type: string
+    maxLength: 50
+    description: Geographic Location
+  Comments:
+    type: string
+    maxLength: 200
+    description: Comments
+  ContactName:
+    type: string
+    maxLength: 50
+    description: Contact Name
+  Street:
+    type: string
+    maxLength: 80
+    description: Street
+  Street2:
+    type: string
+    maxLength: 80
+    description: Street 2
+  City:
+    type: string
+    maxLength: 60
+    description: City
+  CountryID:
+    type: integer
+    format: int32
+    description: Country
+  StateProvince:
+    type: string
+    maxLength: 60
+    description: State Province
+  ZipPostcode:
+    type: string
+    maxLength: 15
+    description: Zip Postcode
+  Phone:
+    type: string
+    maxLength: 25
+    description: Phone
+  PhoneMobileCell:
+    type: string
+    maxLength: 25
+    description: Phone Mobile Cell
+  PhoneOther:
+    type: string
+    maxLength: 25
+    description: Phone Other
+  PhoneOther2:
+    type: string
+    maxLength: 25
+    description: Phone Other 2
+  Email:
+    type: string
+    maxLength: 100
+    description: Email
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

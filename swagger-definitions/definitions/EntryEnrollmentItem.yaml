@@ -1,0 +1,133 @@
+type: object
+#required:
+properties:
+  EntryEnrollmentID:
+    type: integer
+    format: int32
+    description: Entry Enrollment
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  EnrollmentTypeEnum:
+    type: string
+    format: enum
+    description: Enrollment Type
+  CourseID:
+    type: integer
+    format: int32
+    description: Course
+  TermID:
+    type: integer
+    format: int32
+    description: Term
+  EnrollmentOrder:
+    type: integer
+    format: int32
+    description: Enrollment Order
+  EnrollmentField:
+    type: string
+    maxLength: 20
+    description: Enrollment Field
+  Sequence:
+    type: integer
+    format: int32
+    description: Sequence
+  Institution:
+    type: string
+    maxLength: 50
+    description: Institution
+  Campus:
+    type: string
+    maxLength: 50
+    description: Campus
+  Faculty:
+    type: string
+    maxLength: 50
+    description: Faculty
+  Department:
+    type: string
+    maxLength: 50
+    description: Department
+  Major:
+    type: string
+    maxLength: 50
+    description: Major
+  MajorCategory:
+    type: string
+    maxLength: 50
+    description: Major Category
+  Minor:
+    type: string
+    maxLength: 50
+    description: Minor
+  IsEnrolled:
+    type: boolean
+    description: Is Enrolled
+  FullTime:
+    type: boolean
+    description: Full Time
+  PostGrad:
+    type: boolean
+    description: Post Grad
+  GraduationDate:
+    type: string
+    description: Graduation Date
+  Subjects:
+    type: string
+    maxLength: 250
+    description: Subjects
+  Years:
+    type: string
+    maxLength: 10
+    description: Years
+  Comments:
+    type: string
+    maxLength: 200
+    description: Comments
+  DateStart:
+    type: string
+    description: Date Start
+  DateEnd:
+    type: string
+    description: Date End
+  CustomBit1:
+    type: boolean
+    description: Custom Flag 1
+  CustomBit2:
+    type: boolean
+    description: Custom Flag 2
+  CustomString1:
+    type: string
+    maxLength: 50
+    description: Custom String 1
+  CustomString2:
+    type: string
+    maxLength: 50
+    description: Custom String 2
+  CustomString3:
+    type: string
+    maxLength: 50
+    description: Custom String 3
+  CustomString4:
+    type: string
+    maxLength: 50
+    description: Custom String 4
+  CustomString5:
+    type: string
+    maxLength: 50
+    description: Custom String 5
+  CustomString6:
+    type: string
+    maxLength: 50
+    description: Custom String 6
+  CustomDate1:
+    type: string
+    description: Custom Date 1
+  CustomDate2:
+    type: string
+    description: Custom Date 2
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

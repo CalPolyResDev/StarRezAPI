@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateMembershipType
+  description: Updates an MembershipType in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: MembershipTypeID
+      type: integer
+      required: true
+      description: Numeric value of the membershiptypeID
+    - in: body
+      name: MembershipTypeItem
+      required: true
+      description: MembershipType to update
+      schema:
+        $ref: '#/definitions/MembershipTypeItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/MembershipTypeItem'
+    400:
+      description: Invalid Input, Object Invalid.

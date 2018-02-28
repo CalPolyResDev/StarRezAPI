@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateTermSessionFree
+  description: Updates an TermSessionFree in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: TermSessionFreeID
+      type: integer
+      required: true
+      description: Numeric value of the termsessionfreeID
+    - in: body
+      name: TermSessionFreeItem
+      required: true
+      description: TermSessionFree to update
+      schema:
+        $ref: '#/definitions/TermSessionFreeItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/TermSessionFreeItem'
+    400:
+      description: Invalid Input, Object Invalid.

@@ -1,0 +1,26 @@
+type: object
+#required:
+properties:
+  IncidentFindingID:
+    type: integer
+    format: int32
+    description: Incident Finding
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  Description:
+    type: string
+    maxLength: 50
+    description: Description
+  Comments:
+    type: string
+    maxLength: 100
+    description: Comments
+  IsResponsible:
+    type: boolean
+    description: Is Responsible
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

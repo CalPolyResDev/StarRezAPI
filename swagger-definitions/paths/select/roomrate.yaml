@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchRoomRate
+  description: By passing in the appropriate options, you can search for a RoomRate in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: RoomRateID
+      description: ID of the RoomRate you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/RoomRateItem'
+    400:
+      description: Bad Request

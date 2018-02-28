@@ -1,0 +1,16 @@
+type: object
+#required:
+#  - Description
+properties:
+  ResponseStatusID:
+    type: integer
+    format: int32
+    description: Response Status
+  Description:
+    type: string
+    maxLength: 25
+    description: Description
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

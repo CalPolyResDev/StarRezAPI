@@ -1,0 +1,26 @@
+type: object
+#required:
+properties:
+  VMGroupID:
+    type: integer
+    format: int32
+    description: VM Group
+  GroupNumber:
+    type: integer
+    format: int32
+    description: Group Number
+  VMGroupName:
+    type: string
+    maxLength: 50
+    description: VM Group Name
+  ExtensionType:
+    type: boolean
+    description: Extension Type
+  Description:
+    type: string
+    maxLength: 100
+    description: Description
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

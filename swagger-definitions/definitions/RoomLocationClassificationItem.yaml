@@ -1,0 +1,27 @@
+type: object
+#required:
+properties:
+  RoomLocationClassificationID:
+    type: integer
+    format: int32
+    description: Room Location Classification
+  RoomLocationID:
+    type: integer
+    format: int32
+    description: Room Location
+  ClassificationID:
+    type: integer
+    format: int32
+    description: Classification
+  MaximumBookings:
+    type: integer
+    format: int32
+    description: Maximum Bookings
+  RoomSpacesUsed:
+    type: integer
+    format: int32
+    description: Room Spaces Used
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

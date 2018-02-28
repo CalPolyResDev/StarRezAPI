@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateRoomSpaceSwap
+  description: Updates an RoomSpaceSwap in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: RoomSpaceSwapID
+      type: integer
+      required: true
+      description: Numeric value of the roomspaceswapID
+    - in: body
+      name: RoomSpaceSwapItem
+      required: true
+      description: RoomSpaceSwap to update
+      schema:
+        $ref: '#/definitions/RoomSpaceSwapItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/RoomSpaceSwapItem'
+    400:
+      description: Invalid Input, Object Invalid.

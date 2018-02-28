@@ -1,0 +1,58 @@
+type: object
+#required:
+properties:
+  ResourceBookingID:
+    type: integer
+    format: int32
+    description: Resource Booking
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  ResourceID:
+    type: integer
+    format: int32
+    description: Resource
+  DateStart:
+    type: string
+    format: date-time
+    description: Date Start
+  DateEnd:
+    type: string
+    format: date-time
+    description: Date End
+  Description:
+    type: string
+    maxLength: 50
+    description: Description
+  BookingID:
+    type: integer
+    format: int32
+    description: Booking
+  AutoAssigned:
+    type: boolean
+    description: Auto Assigned
+  ResourceBookingStatusEnum:
+    type: string
+    format: enum
+    description: Resource Booking Status
+  Comments:
+    type: string
+    maxLength: 200
+    description: Comments
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  ProgramID:
+    type: integer
+    format: int32
+    description: Program
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

@@ -1,0 +1,82 @@
+type: object
+#required:
+properties:
+  WebPaymentID:
+    type: integer
+    format: int32
+    description: Web Payment
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  PaymentDate:
+    type: string
+    format: datetimeseconds
+    description: Payment Date
+  Description:
+    type: string
+    maxLength: 100
+    description: Description
+  Successful:
+    type: boolean
+    description: Successful
+  Amount:
+    type: string
+    format: money
+    description: Amount
+  AmountPaid:
+    type: string
+    format: money
+    description: Amount Paid
+  InvoiceNumber:
+    type: string
+    format: enum
+    maxLength: 200
+    description: Invoice Number
+  ReceiptValues:
+    type: string
+    maxLength: 5000
+    description: Receipt Values
+  PaymentID:
+    type: integer
+    format: int32
+    description: Payment
+  RequestData:
+    type: string
+    maxLength: 5000
+    description: Request Data
+  ResponseData:
+    type: string
+    maxLength: 5000
+    description: Response Data
+  CustomString1:
+    type: string
+    maxLength: 5000
+    description: Custom String 1
+  CustomString2:
+    type: string
+    maxLength: 5000
+    description: Custom String 2
+  ProcessedDate:
+    type: string
+    description: Processed Date
+  WebSectionID:
+    type: integer
+    format: int32
+    description: Web Section
+  Source_WebModuleID:
+    type: integer
+    format: int32
+    description: Source Web Module
+  EntryApplicationID:
+    type: integer
+    format: int32
+    description: Entry Application
+  InvoiceID:
+    type: integer
+    format: int32
+    description: Invoice
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

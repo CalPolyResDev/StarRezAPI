@@ -1,0 +1,31 @@
+type: object
+#required:
+properties:
+  GroupRoomSpaceID:
+    type: integer
+    format: int32
+    description: Group Room Space
+  GroupID:
+    type: integer
+    format: int32
+    description: Group
+  RoomSpaceID:
+    type: integer
+    format: int32
+    description: Room Space
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  CreatedBy_SecurityUserID:
+    type: integer
+    format: int32
+    description: Created By Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

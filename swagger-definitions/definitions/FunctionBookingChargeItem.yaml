@@ -1,0 +1,58 @@
+type: object
+#required:
+#  - Description
+#  - ChargeItemID
+properties:
+  FunctionBookingChargeID:
+    type: integer
+    format: int32
+    description: Function Booking Charge
+  FunctionBookingID:
+    type: integer
+    format: int32
+    description: Function Booking
+  Description:
+    type: string
+    maxLength: 100
+    description: Description
+  FunctionChargeTypeEnum:
+    type: string
+    format: enum
+    description: Function Charge Type
+  ChargeToEntry:
+    type: boolean
+    description: Charge To Entry
+  PerEntry:
+    type: boolean
+    description: Per Entry
+  ChargeItemID:
+    type: integer
+    format: int32
+    description: Charge Item
+  TransactionTypeEnum:
+    type: string
+    format: enum
+    description: Transaction Type
+  TermSessionID:
+    type: integer
+    format: int32
+    description: Term Session
+  Amount:
+    type: string
+    format: money
+    description: Amount
+  AmountCost:
+    type: string
+    format: money
+    description: Amount Cost
+  Comments:
+    type: string
+    maxLength: 250
+    description: Comments
+  Posted:
+    type: boolean
+    description: Posted
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

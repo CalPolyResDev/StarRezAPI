@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateDynamicListPermission
+  description: Updates an DynamicListPermission in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: DynamicListPermissionID
+      type: integer
+      required: true
+      description: Numeric value of the dynamiclistpermissionID
+    - in: body
+      name: DynamicListPermissionItem
+      required: true
+      description: DynamicListPermission to update
+      schema:
+        $ref: '#/definitions/DynamicListPermissionItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/DynamicListPermissionItem'
+    400:
+      description: Invalid Input, Object Invalid.

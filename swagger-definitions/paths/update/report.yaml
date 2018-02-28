@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateReport
+  description: Updates an Report in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: ReportID
+      type: integer
+      required: true
+      description: Numeric value of the reportID
+    - in: body
+      name: ReportItem
+      required: true
+      description: Report to update
+      schema:
+        $ref: '#/definitions/ReportItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ReportItem'
+    400:
+      description: Invalid Input, Object Invalid.

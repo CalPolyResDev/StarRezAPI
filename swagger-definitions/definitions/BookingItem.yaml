@@ -1,0 +1,219 @@
+type: object
+#required:
+properties:
+  BookingID:
+    type: integer
+    format: int32
+    description: Booking
+  RoomSpaceID:
+    type: integer
+    format: int32
+    description: Room Space
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  EntryStatusEnum:
+    type: string
+    format: enum
+    description: Entry Status
+  RoomTypeID:
+    type: integer
+    format: int32
+    description: Room Type
+  GroupID:
+    type: integer
+    format: int32
+    description: Group
+  RoomLocationID:
+    type: integer
+    format: int32
+    description: Room Location
+  Start_BookingReasonID:
+    type: integer
+    format: int32
+    description: Start Booking Reason
+  End_BookingReasonID:
+    type: integer
+    format: int32
+    description: End Booking Reason
+  BookingTypeID:
+    type: integer
+    format: int32
+    description: Booking Type
+  RoomRateID:
+    type: integer
+    format: int32
+    description: Room Rate
+  BookingLinkTypeEnum:
+    type: string
+    format: enum
+    description: Booking Link Type
+  TermSessionID:
+    type: integer
+    format: int32
+    description: Term Session
+  HousekeepingID:
+    type: integer
+    format: int32
+    description: Housekeeping
+  EntryInvitationID:
+    type: integer
+    format: int32
+    description: Entry Invitation
+  RoomLocationFixed:
+    type: boolean
+    description: Room Location Fixed
+  RoomRateAmount:
+    type: string
+    format: money
+    description: Room Rate Amount
+  CheckInDate:
+    type: string
+    format: date
+    description: Check In Date
+  CheckOutDate:
+    type: string
+    format: date
+    description: Check Out Date
+  ETA:
+    type: string
+    format: minutessincemidnight
+    description: ETA
+  ETD:
+    type: string
+    format: minutessincemidnight
+    description: ETD
+  CheckInDateActual:
+    type: string
+    description: Check In Date Actual
+  CheckOutDateActual:
+    type: string
+    description: Check Out Date Actual
+  DateChargedTo:
+    type: string
+    format: date
+    description: Date Charged To
+  ContractDateStart:
+    type: string
+    format: date
+    description: Contract Date Start
+  ContractDateEnd:
+    type: string
+    format: date
+    description: Contract Date End
+  ResvChargeToEntry:
+    type: boolean
+    description: Resv Charge To Entry
+  NumberOfGuests:
+    type: string
+    format: byte
+    description: Number Of Guests
+  NumberOfGuestsFree:
+    type: string
+    format: byte
+    description: Number Of Guests Free
+  NumberOfChildren:
+    type: string
+    format: byte
+    description: Number Of Children
+  NumberOfChildrenFree:
+    type: string
+    format: byte
+    description: Number Of Children Free
+  SpecialRequirement:
+    type: string
+    maxLength: 100
+    description: Special Requirement
+  Comments:
+    type: string
+    maxLength: 1000
+    description: Comments
+  DateBilled:
+    type: string
+    description: Date Billed
+  CustomBit1:
+    type: boolean
+    description: Custom Flag 1
+  CustomBit2:
+    type: boolean
+    description: Custom Flag 2
+  CustomBit3:
+    type: boolean
+    description: Custom Flag 3
+  CustomBit4:
+    type: boolean
+    description: Custom Flag 4
+  CustomString1:
+    type: string
+    maxLength: 200
+    description: Custom String 1
+  CustomString2:
+    type: string
+    maxLength: 200
+    description: Custom String 2
+  CustomString3:
+    type: string
+    maxLength: 200
+    description: Custom String 3
+  CustomString4:
+    type: string
+    maxLength: 200
+    description: Custom String 4
+  CustomString5:
+    type: string
+    maxLength: 200
+    description: Custom String 5
+  CustomString6:
+    type: string
+    maxLength: 200
+    description: Custom String 6
+  CustomString7:
+    type: string
+    maxLength: 200
+    description: Custom String 7
+  CustomString8:
+    type: string
+    maxLength: 200
+    description: Custom String 8
+  CustomString9:
+    type: string
+    maxLength: 200
+    description: Custom String 9
+  CustomString10:
+    type: string
+    maxLength: 200
+    description: Custom String 10
+  CustomDate1:
+    type: string
+    description: Custom Date 1
+  CustomDate2:
+    type: string
+    description: Custom Date 2
+  CustomDate3:
+    type: string
+    description: Custom Date 3
+  CustomDate4:
+    type: string
+    description: Custom Date 4
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  DateModifiedBilling:
+    type: string
+    format: datetimeseconds
+    description: Date Modified Billing
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  timestamp:
+    type: string
+    format: timestamp
+    maxLength: 8
+    description: Timestamp
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

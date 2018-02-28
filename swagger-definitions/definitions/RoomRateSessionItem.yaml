@@ -1,0 +1,72 @@
+type: object
+#required:
+properties:
+  RoomRateSessionID:
+    type: integer
+    format: int32
+    description: Room Rate Session
+  RoomRateID:
+    type: integer
+    format: int32
+    description: Room Rate
+  Description:
+    type: string
+    maxLength: 30
+    description: Description
+  TermSessionID:
+    type: integer
+    format: int32
+    description: Term Session
+  SessionOrder:
+    type: integer
+    format: int32
+    description: Session Order
+  DateStart:
+    type: string
+    description: Date Start
+  RoomRateDurationEnum:
+    type: string
+    format: enum
+    description: Room Rate Duration
+  RoomRateDurationNumber:
+    type: string
+    format: short
+    description: Room Rate Duration Number
+  RoomRateDurationNights:
+    type: string
+    format: short
+    description: Room Rate Duration Nights
+  MinimumNights:
+    type: string
+    format: short
+    description: Minimum Nights
+  MaximumNights:
+    type: string
+    format: short
+    description: Maximum Nights
+  RolloverDurationEnum:
+    type: string
+    format: enum
+    description: Rollover Duration
+  RolloverDurationNumber:
+    type: string
+    format: short
+    description: Rollover Duration Number
+  PercentageCharges:
+    type: boolean
+    description: Percentage Charges
+  TransactionDateDue:
+    type: string
+    description: Transaction Date Due
+  Comments:
+    type: string
+    maxLength: 100
+    description: Comments
+  DayInWeekEnum:
+    type: string
+    format: enum
+    description: Day In Week
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

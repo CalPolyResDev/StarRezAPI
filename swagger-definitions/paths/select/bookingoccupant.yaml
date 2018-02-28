@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchBookingOccupant
+  description: By passing in the appropriate options, you can search for a BookingOccupant in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: BookingOccupantID
+      description: ID of the BookingOccupant you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/BookingOccupantItem'
+    400:
+      description: Bad Request

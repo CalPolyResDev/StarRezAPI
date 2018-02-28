@@ -1,0 +1,110 @@
+type: object
+#required:
+#  - Description
+properties:
+  ChargeItemID:
+    type: integer
+    format: int32
+    description: Charge Item
+  ChargeGroupID:
+    type: integer
+    format: int32
+    description: Charge Group
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  Abbreviation:
+    type: string
+    maxLength: 6
+    description: Abbreviation
+  Description:
+    type: string
+    maxLength: 35
+    description: Description
+  GLNumber:
+    type: string
+    maxLength: 40
+    description: GL Number
+  Tax_GLPostingID:
+    type: integer
+    format: int32
+    description: Tax GL Posting
+  AccountReceivable_GLPostingID:
+    type: integer
+    format: int32
+    description: Account Receivable GL Posting
+  DefaultAmount:
+    type: string
+    format: money
+    description: Default Amount
+  TaxRate:
+    type: string
+    format: bigdecimal
+    description: Tax Rate
+  TaxRate2:
+    type: string
+    format: bigdecimal
+    description: Tax Rate 2
+  TaxRate3:
+    type: string
+    format: bigdecimal
+    description: Tax Rate 3
+  AmountInputAsExTax:
+    type: boolean
+    description: Amount Input As Ex Tax
+  TaxOrderEnum:
+    type: string
+    format: enum
+    description: Tax Order
+  TaxCategoryEnum:
+    type: string
+    format: enum
+    description: Tax Category
+  UnearnedIncome_ChargeItemID:
+    type: integer
+    format: int32
+    description: Unearned Income Charge Item
+  Disputable:
+    type: boolean
+    description: Disputable
+  CustomBit1:
+    type: boolean
+    description: Custom Flag 1
+  CustomBit2:
+    type: boolean
+    description: Custom Flag 2
+  CustomString1:
+    type: string
+    maxLength: 50
+    description: Custom String 1
+  CustomString2:
+    type: string
+    maxLength: 50
+    description: Custom String 2
+  CustomString3:
+    type: string
+    maxLength: 50
+    description: Custom String 3
+  CustomString4:
+    type: string
+    maxLength: 50
+    description: Custom String 4
+  CustomString5:
+    type: string
+    maxLength: 50
+    description: Custom String 5
+  CustomString6:
+    type: string
+    maxLength: 50
+    description: Custom String 6
+  CustomDate1:
+    type: string
+    description: Custom Date 1
+  CustomDate2:
+    type: string
+    description: Custom Date 2
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

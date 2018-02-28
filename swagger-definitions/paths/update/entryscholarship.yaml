@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateEntryScholarship
+  description: Updates an EntryScholarship in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: EntryScholarshipID
+      type: integer
+      required: true
+      description: Numeric value of the entryscholarshipID
+    - in: body
+      name: EntryScholarshipItem
+      required: true
+      description: EntryScholarship to update
+      schema:
+        $ref: '#/definitions/EntryScholarshipItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EntryScholarshipItem'
+    400:
+      description: Invalid Input, Object Invalid.

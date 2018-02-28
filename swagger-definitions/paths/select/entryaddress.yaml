@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchEntryAddress
+  description: By passing in the appropriate options, you can search for a EntryAddress in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: EntryAddressID
+      description: ID of the EntryAddress you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EntryAddressItem'
+    400:
+      description: Bad Request

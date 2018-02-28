@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateEntryMealTag
+  description: Updates an EntryMealTag in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: EntryMealTagID
+      type: integer
+      required: true
+      description: Numeric value of the entrymealtagID
+    - in: body
+      name: EntryMealTagItem
+      required: true
+      description: EntryMealTag to update
+      schema:
+        $ref: '#/definitions/EntryMealTagItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EntryMealTagItem'
+    400:
+      description: Invalid Input, Object Invalid.

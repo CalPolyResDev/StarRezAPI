@@ -1,0 +1,50 @@
+type: object
+#required:
+#  - Description
+properties:
+  FunctionRoomRateID:
+    type: integer
+    format: int32
+    description: Function Room Rate
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  FunctionChargeTypeEnum:
+    type: string
+    format: enum
+    description: Function Charge Type
+  ChargeToEntry:
+    type: boolean
+    description: Charge To Entry
+  PerEntry:
+    type: boolean
+    description: Per Entry
+  ChargeItemID:
+    type: integer
+    format: int32
+    description: Charge Item
+  FunctionRoomTypeID:
+    type: integer
+    format: int32
+    description: Function Room Type
+  Description:
+    type: string
+    maxLength: 100
+    description: Description
+  Amount:
+    type: string
+    format: money
+    description: Amount
+  AmountCost:
+    type: string
+    format: money
+    description: Amount Cost
+  Comments:
+    type: string
+    maxLength: 500
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

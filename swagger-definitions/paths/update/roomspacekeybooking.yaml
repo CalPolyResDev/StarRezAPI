@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateRoomSpaceKeyBooking
+  description: Updates an RoomSpaceKeyBooking in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: RoomSpaceKeyBookingID
+      type: integer
+      required: true
+      description: Numeric value of the roomspacekeybookingID
+    - in: body
+      name: RoomSpaceKeyBookingItem
+      required: true
+      description: RoomSpaceKeyBooking to update
+      schema:
+        $ref: '#/definitions/RoomSpaceKeyBookingItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/RoomSpaceKeyBookingItem'
+    400:
+      description: Invalid Input, Object Invalid.

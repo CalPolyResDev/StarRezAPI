@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateInterfaceSubscribe
+  description: Updates an InterfaceSubscribe in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: InterfaceSubscribeID
+      type: integer
+      required: true
+      description: Numeric value of the interfacesubscribeID
+    - in: body
+      name: InterfaceSubscribeItem
+      required: true
+      description: InterfaceSubscribe to update
+      schema:
+        $ref: '#/definitions/InterfaceSubscribeItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/InterfaceSubscribeItem'
+    400:
+      description: Invalid Input, Object Invalid.

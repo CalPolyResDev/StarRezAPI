@@ -1,0 +1,31 @@
+type: object
+#required:
+properties:
+  RefundRequestBatchConfigurationItemID:
+    type: integer
+    format: int32
+    description: Refund Request Batch Configuration Item
+  RefundRequestBatchConfigurationID:
+    type: integer
+    format: int32
+    description: Refund Request Batch Configuration
+  RefundRequestConfigurationID:
+    type: integer
+    format: int32
+    description: Refund Request Configuration
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  CreatedBy_SecurityUserID:
+    type: integer
+    format: int32
+    description: Created By Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

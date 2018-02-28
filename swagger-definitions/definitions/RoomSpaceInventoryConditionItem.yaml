@@ -1,0 +1,32 @@
+type: object
+#required:
+#  - Description
+properties:
+  RoomSpaceInventoryConditionID:
+    type: integer
+    format: int32
+    description: Room Space Inventory Condition
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  RoomSpaceInventoryTypeID:
+    type: integer
+    format: int32
+    description: Room Space Inventory Type
+  ConditionOrder:
+    type: string
+    format: byte
+    description: Condition Order
+  Description:
+    type: string
+    maxLength: 25
+    description: Description
+  Comments:
+    type: string
+    maxLength: 100
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

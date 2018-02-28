@@ -1,0 +1,99 @@
+type: object
+#required:
+properties:
+  VisitorID:
+    type: integer
+    format: int32
+    description: Visitor
+  Visitor_EntryID:
+    type: integer
+    format: int32
+    description: Visitor Entry
+  NameLast:
+    type: string
+    maxLength: 40
+    description: Name Last
+  NameFirst:
+    type: string
+    maxLength: 40
+    description: Name First
+  GenderEnum:
+    type: string
+    format: enum
+    description: Gender
+  ID1:
+    type: string
+    maxLength: 30
+    description: ID 1
+  IDType:
+    type: string
+    maxLength: 50
+    description: ID Type
+  IDNumber:
+    type: string
+    maxLength: 200
+    description: ID Number
+  PhoneNumber:
+    type: string
+    format: enum
+    maxLength: 25
+    description: Phone Number
+  Banned:
+    type: boolean
+    description: Banned
+  CustomBit1:
+    type: boolean
+    description: Custom Flag 1
+  CustomBit2:
+    type: boolean
+    description: Custom Flag 2
+  CustomString1:
+    type: string
+    maxLength: 50
+    description: Custom String 1
+  CustomString2:
+    type: string
+    maxLength: 50
+    description: Custom String 2
+  CustomString3:
+    type: string
+    maxLength: 50
+    description: Custom String 3
+  CustomString4:
+    type: string
+    maxLength: 50
+    description: Custom String 4
+  CustomString5:
+    type: string
+    maxLength: 50
+    description: Custom String 5
+  CustomString6:
+    type: string
+    maxLength: 50
+    description: Custom String 6
+  CustomDate1:
+    type: string
+    description: Custom Date 1
+  CustomDate2:
+    type: string
+    description: Custom Date 2
+  Comments:
+    type: string
+    maxLength: 200
+    description: Comments
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  CreatedBy_SecurityUserID:
+    type: integer
+    format: int32
+    description: Created By Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

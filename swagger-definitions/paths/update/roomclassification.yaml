@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateRoomClassification
+  description: Updates an RoomClassification in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: RoomClassificationID
+      type: integer
+      required: true
+      description: Numeric value of the roomclassificationID
+    - in: body
+      name: RoomClassificationItem
+      required: true
+      description: RoomClassification to update
+      schema:
+        $ref: '#/definitions/RoomClassificationItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/RoomClassificationItem'
+    400:
+      description: Invalid Input, Object Invalid.

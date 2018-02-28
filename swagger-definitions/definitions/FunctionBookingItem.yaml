@@ -1,0 +1,136 @@
+type: object
+#required:
+#  - Description
+properties:
+  FunctionBookingID:
+    type: integer
+    format: int32
+    description: Function Booking
+  EventID:
+    type: integer
+    format: int32
+    description: Event
+  FunctionTypeID:
+    type: integer
+    format: int32
+    description: Function Type
+  Description:
+    type: string
+    maxLength: 100
+    description: Description
+  DateStart:
+    type: string
+    format: date-time
+    description: Date Start
+  DateEnd:
+    type: string
+    format: date-time
+    description: Date End
+  ActiveDateStart:
+    type: string
+    description: Active Date Start
+  ActiveDateEnd:
+    type: string
+    description: Active Date End
+  Assigned_SecurityUserID:
+    type: integer
+    format: int32
+    description: Assigned Security User
+  AttendeeGuarantee:
+    type: string
+    format: short
+    description: Attendee Guarantee
+  AttendeeEstimate:
+    type: string
+    format: short
+    description: Attendee Estimate
+  AttendeeMaximum:
+    type: string
+    format: short
+    description: Attendee Maximum
+  AllowQuantity:
+    type: boolean
+    description: Allow Quantity
+  QuantityMaximum:
+    type: string
+    format: short
+    description: Quantity Maximum
+  ServiceFeePercentage:
+    type: integer
+    format: int32
+    description: Service Fee Percentage
+  SetupNotes:
+    type: string
+    maxLength: 2000
+    description: Setup Notes
+  Comments:
+    type: string
+    maxLength: 2000
+    description: Comments
+  CustomBit1:
+    type: boolean
+    description: Custom Flag 1
+  CustomBit2:
+    type: boolean
+    description: Custom Flag 2
+  CustomString1:
+    type: string
+    maxLength: 50
+    description: Custom String 1
+  CustomString2:
+    type: string
+    maxLength: 50
+    description: Custom String 2
+  CustomString3:
+    type: string
+    maxLength: 50
+    description: Custom String 3
+  CustomString4:
+    type: string
+    maxLength: 50
+    description: Custom String 4
+  CustomString5:
+    type: string
+    maxLength: 50
+    description: Custom String 5
+  CustomString6:
+    type: string
+    maxLength: 50
+    description: Custom String 6
+  CustomDate1:
+    type: string
+    description: Custom Date 1
+  CustomDate2:
+    type: string
+    description: Custom Date 2
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  CreatedBy_SecurityUserID:
+    type: integer
+    format: int32
+    description: Created By Security User
+  ViewOnWeb:
+    type: boolean
+    description: View On Web
+  WebDescription:
+    type: string
+    maxLength: 1000
+    description: Web Description
+  WebOrder:
+    type: integer
+    format: int32
+    description: Web Order
+  WebComments:
+    type: string
+    format: longstring
+    description: Web Comments
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

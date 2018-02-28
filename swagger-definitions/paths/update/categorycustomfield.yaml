@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateCategoryCustomField
+  description: Updates an CategoryCustomField in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: CategoryCustomFieldID
+      type: integer
+      required: true
+      description: Numeric value of the categorycustomfieldID
+    - in: body
+      name: CategoryCustomFieldItem
+      required: true
+      description: CategoryCustomField to update
+      schema:
+        $ref: '#/definitions/CategoryCustomFieldItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/CategoryCustomFieldItem'
+    400:
+      description: Invalid Input, Object Invalid.

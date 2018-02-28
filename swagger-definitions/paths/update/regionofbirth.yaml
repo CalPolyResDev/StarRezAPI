@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateRegionOfBirth
+  description: Updates an RegionOfBirth in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: RegionOfBirthID
+      type: integer
+      required: true
+      description: Numeric value of the regionofbirthID
+    - in: body
+      name: RegionOfBirthItem
+      required: true
+      description: RegionOfBirth to update
+      schema:
+        $ref: '#/definitions/RegionOfBirthItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/RegionOfBirthItem'
+    400:
+      description: Invalid Input, Object Invalid.

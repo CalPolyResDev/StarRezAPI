@@ -1,0 +1,92 @@
+type: object
+#required:
+#  - Description
+properties:
+  RoomSpaceKeyID:
+    type: integer
+    format: int32
+    description: Room Space Key
+  RoomSpaceID:
+    type: integer
+    format: int32
+    description: Room Space
+  RoomSpaceKeyTypeID:
+    type: integer
+    format: int32
+    description: Room Space Key Type
+  RoomSpaceKeyStatusEnum:
+    type: string
+    format: enum
+    description: Room Space Key Status
+  RoomSpaceKeyBookingID:
+    type: integer
+    format: int32
+    description: Room Space Key Booking
+  SerialNumber:
+    type: string
+    maxLength: 50
+    description: Serial Number
+  Description:
+    type: string
+    maxLength: 250
+    description: Description
+  Location:
+    type: string
+    maxLength: 50
+    description: Location
+  Store:
+    type: string
+    maxLength: 50
+    description: Store
+  Cut:
+    type: string
+    maxLength: 50
+    description: Cut
+  Details:
+    type: string
+    maxLength: 50
+    description: Details
+  CustomBit1:
+    type: boolean
+    description: Custom Flag 1
+  CustomBit2:
+    type: boolean
+    description: Custom Flag 2
+  CustomString1:
+    type: string
+    maxLength: 50
+    description: Custom String 1
+  CustomString2:
+    type: string
+    maxLength: 50
+    description: Custom String 2
+  CustomString3:
+    type: string
+    maxLength: 50
+    description: Custom String 3
+  CustomString4:
+    type: string
+    maxLength: 50
+    description: Custom String 4
+  CustomString5:
+    type: string
+    maxLength: 50
+    description: Custom String 5
+  CustomString6:
+    type: string
+    maxLength: 50
+    description: Custom String 6
+  CustomDate1:
+    type: string
+    description: Custom Date 1
+  CustomDate2:
+    type: string
+    description: Custom Date 2
+  Comments:
+    type: string
+    maxLength: 250
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

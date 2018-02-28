@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateFunctionBooking
+  description: Updates an FunctionBooking in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: FunctionBookingID
+      type: integer
+      required: true
+      description: Numeric value of the functionbookingID
+    - in: body
+      name: FunctionBookingItem
+      required: true
+      description: FunctionBooking to update
+      schema:
+        $ref: '#/definitions/FunctionBookingItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/FunctionBookingItem'
+    400:
+      description: Invalid Input, Object Invalid.

@@ -1,0 +1,41 @@
+type: object
+#required:
+properties:
+  ReportDetailID:
+    type: integer
+    format: int32
+    description: Report Detail
+  ReportID:
+    type: integer
+    format: int32
+    description: Report
+  ParentID:
+    type: integer
+    format: int32
+    description: Parent
+  ReportName:
+    type: string
+    maxLength: 255
+    description: Report Name
+  ReportNameExtra:
+    type: string
+    maxLength: 255
+    description: Report Name Extra
+  SubReportLinkField:
+    type: string
+    maxLength: 255
+    description: Sub Report Link Field
+  SubReportLinkBaseField:
+    type: string
+    maxLength: 255
+    description: Sub Report Link Base Field
+  ReportLayoutObject:
+    type: string
+    description: Report Layout Object
+  ReportDataSourceObject:
+    type: string
+    description: Report Data Source Object
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

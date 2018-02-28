@@ -1,0 +1,43 @@
+type: object
+#required:
+properties:
+  MessageID:
+    type: integer
+    format: int32
+    description: Message
+  MessageActionID:
+    type: integer
+    format: int32
+    description: Message Action
+  MessageSubscriptionID:
+    type: integer
+    format: int32
+    description: Message Subscription
+  MessageDate:
+    type: string
+    format: datetimeseconds
+    description: Message Date
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  MachineName:
+    type: string
+    maxLength: 30
+    description: Machine Name
+  ClassName:
+    type: string
+    maxLength: 250
+    description: Class Name
+  ExistingData:
+    type: string
+    format: longstring
+    description: Existing Data
+  NewData:
+    type: string
+    format: longstring
+    description: New Data
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

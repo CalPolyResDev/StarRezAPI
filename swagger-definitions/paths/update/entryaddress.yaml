@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateEntryAddress
+  description: Updates an EntryAddress in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: EntryAddressID
+      type: integer
+      required: true
+      description: Numeric value of the entryaddressID
+    - in: body
+      name: EntryAddressItem
+      required: true
+      description: EntryAddress to update
+      schema:
+        $ref: '#/definitions/EntryAddressItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EntryAddressItem'
+    400:
+      description: Invalid Input, Object Invalid.

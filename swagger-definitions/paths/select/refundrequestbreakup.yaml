@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchRefundRequestBreakUp
+  description: By passing in the appropriate options, you can search for a RefundRequestBreakUp in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: RefundRequestBreakUpID
+      description: ID of the RefundRequestBreakUp you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/RefundRequestBreakUpItem'
+    400:
+      description: Bad Request

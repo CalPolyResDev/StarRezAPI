@@ -1,0 +1,19 @@
+type: object
+#required:
+properties:
+  InterfaceSubscribeID:
+    type: integer
+    format: int32
+    description: Interface Subscribe
+  InterfaceApplicationID:
+    type: integer
+    format: int32
+    description: Interface Application
+  InterfaceActionEnum:
+    type: string
+    format: enum
+    description: Interface Action
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

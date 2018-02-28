@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateCalendar
+  description: Updates an Calendar in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: CalendarID
+      type: integer
+      required: true
+      description: Numeric value of the calendarID
+    - in: body
+      name: CalendarItem
+      required: true
+      description: Calendar to update
+      schema:
+        $ref: '#/definitions/CalendarItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/CalendarItem'
+    400:
+      description: Invalid Input, Object Invalid.

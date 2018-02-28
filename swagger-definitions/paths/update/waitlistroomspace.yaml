@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateWaitListRoomSpace
+  description: Updates an WaitListRoomSpace in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: WaitListRoomSpaceID
+      type: integer
+      required: true
+      description: Numeric value of the waitlistroomspaceID
+    - in: body
+      name: WaitListRoomSpaceItem
+      required: true
+      description: WaitListRoomSpace to update
+      schema:
+        $ref: '#/definitions/WaitListRoomSpaceItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/WaitListRoomSpaceItem'
+    400:
+      description: Invalid Input, Object Invalid.

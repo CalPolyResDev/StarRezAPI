@@ -1,0 +1,39 @@
+type: object
+#required:
+properties:
+  FunctionResourceBookingID:
+    type: integer
+    format: int32
+    description: Function Resource Booking
+  FunctionRoomBookingID:
+    type: integer
+    format: int32
+    description: Function Room Booking
+  FunctionResourceID:
+    type: integer
+    format: int32
+    description: Function Resource
+  Quantity:
+    type: integer
+    format: int32
+    description: Quantity
+  FunctionResourceAmount:
+    type: string
+    format: money
+    description: Function Resource Amount
+  FunctionResourceAmountCost:
+    type: string
+    format: money
+    description: Function Resource Amount Cost
+  SetupNotes:
+    type: string
+    maxLength: 1000
+    description: Setup Notes
+  Comments:
+    type: string
+    maxLength: 1000
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

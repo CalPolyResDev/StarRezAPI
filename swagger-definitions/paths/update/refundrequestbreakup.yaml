@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateRefundRequestBreakUp
+  description: Updates an RefundRequestBreakUp in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: RefundRequestBreakUpID
+      type: integer
+      required: true
+      description: Numeric value of the refundrequestbreakupID
+    - in: body
+      name: RefundRequestBreakUpItem
+      required: true
+      description: RefundRequestBreakUp to update
+      schema:
+        $ref: '#/definitions/RefundRequestBreakUpItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/RefundRequestBreakUpItem'
+    400:
+      description: Invalid Input, Object Invalid.

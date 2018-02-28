@@ -1,0 +1,58 @@
+type: object
+#required:
+properties:
+  InspectionRunTemplateID:
+    type: integer
+    format: int32
+    description: Inspection Run Template
+  Description:
+    type: string
+    maxLength: 100
+    description: Description
+  TermSessionID:
+    type: integer
+    format: int32
+    description: Term Session
+  CategoryID:
+    type: integer
+    format: int32
+    description: Category
+  ViewOnWeb:
+    type: boolean
+    description: View On Web
+  InitialInspectionStatusEnum:
+    type: string
+    format: enum
+    description: Initial Inspection Status
+  InspectionProcessEnum:
+    type: string
+    format: enum
+    description: Inspection Process
+  AutoCreateOnRoomSpaceAssigned_BooleanAskEnum:
+    type: string
+    format: enum
+    description: Auto Create On Room Space Assigned Boolean Ask
+  AutoCreateOnCheckOut_BooleanAskEnum:
+    type: string
+    format: enum
+    description: Auto Create On Check Out Boolean Ask
+  RoomLocationID:
+    type: integer
+    format: int32
+    description: Room Location
+  ChargeItemID:
+    type: integer
+    format: int32
+    description: Charge Item
+  ChargeDescription:
+    type: string
+    maxLength: 100
+    description: Charge Description
+  AssignedTo_SecurityUserID:
+    type: integer
+    format: int32
+    description: Assigned To Security User
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

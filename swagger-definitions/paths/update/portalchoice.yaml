@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updatePortalChoice
+  description: Updates an PortalChoice in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: PortalChoiceID
+      type: integer
+      required: true
+      description: Numeric value of the portalchoiceID
+    - in: body
+      name: PortalChoiceItem
+      required: true
+      description: PortalChoice to update
+      schema:
+        $ref: '#/definitions/PortalChoiceItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/PortalChoiceItem'
+    400:
+      description: Invalid Input, Object Invalid.

@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateTaskRunnerHistory
+  description: Updates an TaskRunnerHistory in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: TaskRunnerHistoryID
+      type: integer
+      required: true
+      description: Numeric value of the taskrunnerhistoryID
+    - in: body
+      name: TaskRunnerHistoryItem
+      required: true
+      description: TaskRunnerHistory to update
+      schema:
+        $ref: '#/definitions/TaskRunnerHistoryItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/TaskRunnerHistoryItem'
+    400:
+      description: Invalid Input, Object Invalid.

@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updatePhoneChargeType
+  description: Updates an PhoneChargeType in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: PhoneChargeTypeID
+      type: integer
+      required: true
+      description: Numeric value of the phonechargetypeID
+    - in: body
+      name: PhoneChargeTypeItem
+      required: true
+      description: PhoneChargeType to update
+      schema:
+        $ref: '#/definitions/PhoneChargeTypeItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/PhoneChargeTypeItem'
+    400:
+      description: Invalid Input, Object Invalid.

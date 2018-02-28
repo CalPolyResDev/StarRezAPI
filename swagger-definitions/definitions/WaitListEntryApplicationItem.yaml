@@ -1,0 +1,42 @@
+type: object
+#required:
+properties:
+  WaitListEntryApplicationID:
+    type: integer
+    format: int32
+    description: Wait List Entry Application
+  WaitListID:
+    type: integer
+    format: int32
+    description: Wait List
+  EntryApplicationID:
+    type: integer
+    format: int32
+    description: Entry Application
+  WaitListOrder:
+    type: string
+    format: short
+    description: Wait List Order
+  NumberOfBedrooms:
+    type: string
+    format: short
+    description: Number Of Bedrooms
+  NumberOfBathrooms:
+    type: string
+    format: short
+    description: Number Of Bathrooms
+  RentAmount:
+    type: string
+    format: money
+    description: Rent Amount
+  Active:
+    type: boolean
+    description: Active
+  Comments:
+    type: string
+    maxLength: 1000
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

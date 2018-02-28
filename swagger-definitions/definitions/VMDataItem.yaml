@@ -1,0 +1,31 @@
+type: object
+#required:
+properties:
+  VMDataID:
+    type: integer
+    format: int32
+    description: VM Data
+  VMDataDate:
+    type: string
+    format: date-time
+    description: VM Data Date
+  Duration:
+    type: integer
+    format: int32
+    description: Duration
+  ExtensionID:
+    type: integer
+    format: int32
+    description: Extension
+  VMMailBoxID:
+    type: integer
+    format: int32
+    description: VM Mail Box
+  VMGroupID:
+    type: integer
+    format: int32
+    description: VM Group
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

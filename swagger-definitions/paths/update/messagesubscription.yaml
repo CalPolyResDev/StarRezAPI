@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateMessageSubscription
+  description: Updates an MessageSubscription in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: MessageSubscriptionID
+      type: integer
+      required: true
+      description: Numeric value of the messagesubscriptionID
+    - in: body
+      name: MessageSubscriptionItem
+      required: true
+      description: MessageSubscription to update
+      schema:
+        $ref: '#/definitions/MessageSubscriptionItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/MessageSubscriptionItem'
+    400:
+      description: Invalid Input, Object Invalid.

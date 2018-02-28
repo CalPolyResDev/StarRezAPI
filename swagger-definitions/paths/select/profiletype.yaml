@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchProfileType
+  description: By passing in the appropriate options, you can search for a ProfileType in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: ProfileTypeID
+      description: ID of the ProfileType you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ProfileTypeItem'
+    400:
+      description: Bad Request

@@ -1,0 +1,53 @@
+type: object
+#required:
+properties:
+  RoomSpaceInventoryInspectionRunID:
+    type: integer
+    format: int32
+    description: Room Space Inventory Inspection Run
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  Date:
+    type: string
+    description: Date
+  Description:
+    type: string
+    maxLength: 100
+    description: Description
+  AssignedTo_SecurityUserID:
+    type: integer
+    format: int32
+    description: Assigned To Security User
+  TermSessionID:
+    type: integer
+    format: int32
+    description: Term Session
+  ChargeItemID:
+    type: integer
+    format: int32
+    description: Charge Item
+  CategoryID:
+    type: integer
+    format: int32
+    description: Category
+  InspectionProcessEnum:
+    type: string
+    format: enum
+    description: Inspection Process
+  ViewOnWeb:
+    type: boolean
+    description: View On Web
+  ChargeDescription:
+    type: string
+    maxLength: 100
+    description: Charge Description
+  Comments:
+    type: string
+    maxLength: 500
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

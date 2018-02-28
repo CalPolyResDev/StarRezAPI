@@ -1,0 +1,35 @@
+type: object
+#required:
+properties:
+  RefundRequestBreakUpID:
+    type: integer
+    format: int32
+    description: Refund Request Break Up
+  RefundRequestID:
+    type: integer
+    format: int32
+    description: Refund Request
+  ChargeGroupID:
+    type: integer
+    format: int32
+    description: Charge Group
+  Amount:
+    type: string
+    format: money
+    description: Amount
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  CreatedBy_SecurityUserID:
+    type: integer
+    format: int32
+    description: Created By Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

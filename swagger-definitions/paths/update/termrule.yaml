@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateTermRule
+  description: Updates an TermRule in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: TermRuleID
+      type: integer
+      required: true
+      description: Numeric value of the termruleID
+    - in: body
+      name: TermRuleItem
+      required: true
+      description: TermRule to update
+      schema:
+        $ref: '#/definitions/TermRuleItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/TermRuleItem'
+    400:
+      description: Invalid Input, Object Invalid.

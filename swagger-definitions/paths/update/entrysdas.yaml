@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateEntrySDAS
+  description: Updates an EntrySDAS in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: EntrySDASID
+      type: integer
+      required: true
+      description: Numeric value of the entrysdasID
+    - in: body
+      name: EntrySDASItem
+      required: true
+      description: EntrySDAS to update
+      schema:
+        $ref: '#/definitions/EntrySDASItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EntrySDASItem'
+    400:
+      description: Invalid Input, Object Invalid.

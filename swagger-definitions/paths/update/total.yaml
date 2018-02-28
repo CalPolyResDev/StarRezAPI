@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateTotal
+  description: Updates an Total in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: TotalID
+      type: integer
+      required: true
+      description: Numeric value of the totalID
+    - in: body
+      name: TotalItem
+      required: true
+      description: Total to update
+      schema:
+        $ref: '#/definitions/TotalItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/TotalItem'
+    400:
+      description: Invalid Input, Object Invalid.

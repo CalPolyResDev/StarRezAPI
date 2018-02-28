@@ -1,0 +1,159 @@
+type: object
+#required:
+#  - Description
+properties:
+  MealPlanID:
+    type: integer
+    format: int32
+    description: Meal Plan
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  TermSessionID:
+    type: integer
+    format: int32
+    description: Term Session
+  MealPlanDiningHallID:
+    type: integer
+    format: int32
+    description: Meal Plan Dining Hall
+  Description:
+    type: string
+    maxLength: 50
+    description: Description
+  Code:
+    type: string
+    maxLength: 20
+    description: Code
+  DateStart:
+    type: string
+    format: date-time
+    description: Date Start
+  DateEnd:
+    type: string
+    format: date-time
+    description: Date End
+  Active:
+    type: boolean
+    description: Active
+  MealSetupEnum:
+    type: string
+    format: enum
+    description: Meal Setup
+  ChargesNotAllowed:
+    type: boolean
+    description: Charges Not Allowed
+  MealPricingID:
+    type: integer
+    format: int32
+    description: Meal Pricing
+  NumberOfMeals:
+    type: string
+    format: short
+    description: Number Of Meals
+  NumberOfServings:
+    type: string
+    format: short
+    description: Number Of Servings
+  ChargeItemID:
+    type: integer
+    format: int32
+    description: Charge Item
+  AllowanceA:
+    type: string
+    format: decimal
+    description: Allowance A
+  AllowanceARate:
+    type: string
+    format: money
+    description: Allowance A Rate
+  AllowanceB:
+    type: string
+    format: decimal
+    description: Allowance B
+  AllowanceBRate:
+    type: string
+    format: money
+    description: Allowance B Rate
+  AllowanceC:
+    type: string
+    format: decimal
+    description: Allowance C
+  AllowanceCRate:
+    type: string
+    format: money
+    description: Allowance C Rate
+  TransactionDateDue:
+    type: string
+    description: Transaction Date Due
+  UpdateContractDatesWhenDatesChange:
+    type: boolean
+    description: Update Contract Dates When Dates Change
+  Comments:
+    type: string
+    maxLength: 200
+    description: Comments
+  CustomBit1:
+    type: boolean
+    description: Custom Flag 1
+  CustomBit2:
+    type: boolean
+    description: Custom Flag 2
+  CustomString1:
+    type: string
+    maxLength: 50
+    description: Custom String 1
+  CustomString2:
+    type: string
+    maxLength: 50
+    description: Custom String 2
+  CustomString3:
+    type: string
+    maxLength: 50
+    description: Custom String 3
+  CustomString4:
+    type: string
+    maxLength: 50
+    description: Custom String 4
+  CustomString5:
+    type: string
+    maxLength: 50
+    description: Custom String 5
+  CustomString6:
+    type: string
+    maxLength: 50
+    description: Custom String 6
+  CustomDate1:
+    type: string
+    description: Custom Date 1
+  CustomDate2:
+    type: string
+    description: Custom Date 2
+  ViewOnWeb:
+    type: boolean
+    description: View On Web
+  WebDescription:
+    type: string
+    maxLength: 1000
+    description: Web Description
+  WebOrder:
+    type: integer
+    format: int32
+    description: Web Order
+  WebComments:
+    type: string
+    format: longstring
+    description: Web Comments
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

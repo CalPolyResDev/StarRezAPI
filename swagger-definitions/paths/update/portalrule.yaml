@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updatePortalRule
+  description: Updates an PortalRule in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: PortalRuleID
+      type: integer
+      required: true
+      description: Numeric value of the portalruleID
+    - in: body
+      name: PortalRuleItem
+      required: true
+      description: PortalRule to update
+      schema:
+        $ref: '#/definitions/PortalRuleItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/PortalRuleItem'
+    400:
+      description: Invalid Input, Object Invalid.

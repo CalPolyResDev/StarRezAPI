@@ -1,0 +1,45 @@
+type: object
+#required:
+#  - Description
+#  - Code
+#  - Type
+#  - TableName
+properties:
+  PromoCodeID:
+    type: integer
+    format: int32
+    description: Promo Code
+  Description:
+    type: string
+    maxLength: 100
+    description: Description
+  Code:
+    type: string
+    maxLength: 20
+    description: Code
+  Type:
+    type: string
+    maxLength: 100
+    description: Type
+  ActiveDateStart:
+    type: string
+    description: Active Date Start
+  ActiveDateEnd:
+    type: string
+    description: Active Date End
+  UsageMaximum:
+    type: integer
+    format: int32
+    description: Usage Maximum
+  TableName:
+    type: string
+    maxLength: 100
+    description: Table Name
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

@@ -1,0 +1,26 @@
+type: object
+#required:
+properties:
+  RoomSpaceInventoryStatusID:
+    type: integer
+    format: int32
+    description: Room Space Inventory Status
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  Description:
+    type: string
+    maxLength: 100
+    description: Description
+  Comments:
+    type: string
+    maxLength: 500
+    description: Comments
+  Active:
+    type: boolean
+    description: Active
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

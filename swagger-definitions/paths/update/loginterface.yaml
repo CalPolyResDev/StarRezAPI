@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateLogInterface
+  description: Updates an LogInterface in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: LogInterfaceID
+      type: integer
+      required: true
+      description: Numeric value of the loginterfaceID
+    - in: body
+      name: LogInterfaceItem
+      required: true
+      description: LogInterface to update
+      schema:
+        $ref: '#/definitions/LogInterfaceItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/LogInterfaceItem'
+    400:
+      description: Invalid Input, Object Invalid.

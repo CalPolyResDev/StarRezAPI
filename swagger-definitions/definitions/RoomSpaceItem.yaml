@@ -1,0 +1,81 @@
+type: object
+#required:
+#  - Description
+properties:
+  RoomSpaceID:
+    type: integer
+    format: int32
+    description: Room Space
+  RoomBaseID:
+    type: integer
+    format: int32
+    description: Room Base
+  RoomSpaceTypeEnum:
+    type: string
+    format: enum
+    description: Room Space Type
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  RoomID:
+    type: integer
+    format: int32
+    description: Room
+  Description:
+    type: string
+    maxLength: 30
+    description: Description
+  WebDescription:
+    type: string
+    maxLength: 30
+    description: Web Description
+  ExtensionID:
+    type: integer
+    format: int32
+    description: Extension
+  SortOrder:
+    type: integer
+    format: int32
+    description: Sort Order
+  RoomRateID:
+    type: integer
+    format: int32
+    description: Room Rate
+  AllocateSortOrder:
+    type: integer
+    format: int32
+    description: Allocate Sort Order
+  AllocateExclude:
+    type: boolean
+    description: Allocate Exclude
+  Hold:
+    type: boolean
+    description: Hold
+  Networked:
+    type: boolean
+    description: Networked
+  BedCapacity:
+    type: string
+    format: short
+    description: Bed Capacity
+  Bathrooms:
+    type: string
+    format: short
+    description: Bathrooms
+  Street:
+    type: string
+    maxLength: 60
+    description: Street
+  Street2:
+    type: string
+    maxLength: 60
+    description: Street 2
+  Comments:
+    type: string
+    maxLength: 200
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

@@ -1,0 +1,38 @@
+type: object
+#required:
+#  - Description
+properties:
+  FunctionRoomSetupID:
+    type: integer
+    format: int32
+    description: Function Room Setup
+  FunctionRoomID:
+    type: integer
+    format: int32
+    description: Function Room
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  Description:
+    type: string
+    maxLength: 30
+    description: Description
+  Comments:
+    type: string
+    maxLength: 250
+    description: Comments
+  Capacity:
+    type: integer
+    format: int32
+    description: Capacity
+  DefaultSetup:
+    type: boolean
+    description: Default Setup
+  ViewOnWeb:
+    type: boolean
+    description: View On Web
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

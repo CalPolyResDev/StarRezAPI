@@ -1,0 +1,32 @@
+type: object
+#required:
+#  - Abbreviation
+#  - Description
+properties:
+  IncidentInvolvementID:
+    type: integer
+    format: int32
+    description: Incident Involvement
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  Abbreviation:
+    type: string
+    maxLength: 10
+    description: Abbreviation
+  Description:
+    type: string
+    maxLength: 50
+    description: Description
+  Comments:
+    type: string
+    maxLength: 100
+    description: Comments
+  IsManager:
+    type: boolean
+    description: Is Manager
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

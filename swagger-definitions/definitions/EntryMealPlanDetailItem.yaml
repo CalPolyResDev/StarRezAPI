@@ -1,0 +1,39 @@
+type: object
+#required:
+properties:
+  EntryMealPlanDetailID:
+    type: integer
+    format: int32
+    description: Entry Meal Plan Detail
+  EntryMealID:
+    type: integer
+    format: int32
+    description: Entry Meal
+  DayInWeekEnum:
+    type: string
+    format: enum
+    description: Day In Week
+  MealPlanDate:
+    type: string
+    format: datetimeseconds
+    description: Meal Plan Date
+  Breakfast:
+    type: string
+    format: short
+    description: Breakfast
+  Lunch:
+    type: string
+    format: short
+    description: Lunch
+  Dinner:
+    type: string
+    format: short
+    description: Dinner
+  Other:
+    type: string
+    format: short
+    description: Other
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

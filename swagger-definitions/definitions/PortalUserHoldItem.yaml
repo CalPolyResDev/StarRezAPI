@@ -1,0 +1,40 @@
+type: object
+#required:
+properties:
+  PortalUserHoldID:
+    type: integer
+    format: int32
+    description: Portal User Hold
+  PortalUserTokenID:
+    type: integer
+    format: int32
+    description: Portal User Token
+  HoldDateTime_Expire:
+    type: string
+    description: Hold Date Time Expire
+  TableName:
+    type: string
+    maxLength: 50
+    description: Table Name
+  TableID:
+    type: integer
+    format: int32
+    description: Table
+  Quantity:
+    type: integer
+    format: int32
+    description: Quantity
+  ApplicableDateStart:
+    type: string
+    description: Applicable Date Start
+  ApplicableDateEnd:
+    type: string
+    description: Applicable Date End
+  Data:
+    type: string
+    format: binary
+    description: Data
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

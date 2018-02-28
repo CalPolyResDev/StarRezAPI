@@ -1,0 +1,82 @@
+type: object
+#required:
+properties:
+  PhoneChargeTypeCallTypeID:
+    type: integer
+    format: int32
+    description: Phone Charge Type Call Type
+  PhoneChargeTypeID:
+    type: integer
+    format: int32
+    description: Phone Charge Type
+  CallTypeEnum:
+    type: string
+    format: enum
+    description: Call Type
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  ChargeItemID:
+    type: integer
+    format: int32
+    description: Charge Item
+  Cost1:
+    type: string
+    format: money
+    description: Cost 1
+  Markup1:
+    type: integer
+    format: int32
+    description: Markup 1
+  Cost2:
+    type: string
+    format: money
+    description: Cost 2
+  Markup2:
+    type: integer
+    format: int32
+    description: Markup 2
+  Cost3:
+    type: string
+    format: money
+    description: Cost 3
+  Markup3:
+    type: integer
+    format: int32
+    description: Markup 3
+  Cost4:
+    type: string
+    format: money
+    description: Cost 4
+  Markup4:
+    type: integer
+    format: int32
+    description: Markup 4
+  Cost5:
+    type: string
+    format: money
+    description: Cost 5
+  Markup5:
+    type: integer
+    format: int32
+    description: Markup 5
+  Round:
+    type: boolean
+    description: Round
+  RoundTo:
+    type: string
+    format: money
+    description: Round To
+  FixedCharge:
+    type: string
+    format: money
+    description: Fixed Charge
+  MaxCharge:
+    type: string
+    format: money
+    description: Max Charge
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

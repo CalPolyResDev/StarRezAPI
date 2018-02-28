@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchInterfaceSubscribe
+  description: By passing in the appropriate options, you can search for a InterfaceSubscribe in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: InterfaceSubscribeID
+      description: ID of the InterfaceSubscribe you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/InterfaceSubscribeItem'
+    400:
+      description: Bad Request

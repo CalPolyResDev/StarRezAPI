@@ -1,0 +1,30 @@
+type: object
+#required:
+properties:
+  MealPlanDiningHallID:
+    type: integer
+    format: int32
+    description: Meal Plan Dining Hall
+  Description:
+    type: string
+    maxLength: 100
+    description: Description
+  CapacityMin:
+    type: integer
+    format: int32
+    description: Capacity Min
+  CapacityMax:
+    type: integer
+    format: int32
+    description: Capacity Max
+  ViewOnWeb:
+    type: boolean
+    description: View On Web
+  ChargeItemID:
+    type: integer
+    format: int32
+    description: Charge Item
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

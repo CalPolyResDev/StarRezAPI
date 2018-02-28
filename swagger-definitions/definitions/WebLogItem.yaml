@@ -1,0 +1,47 @@
+type: object
+#required:
+properties:
+  WebLogID:
+    type: integer
+    format: int32
+    description: Web Log
+  LogDateTime:
+    type: string
+    format: datetimeseconds
+    description: Log Date Time
+  MachineName:
+    type: string
+    maxLength: 100
+    description: Machine Name
+  BaseURL:
+    type: string
+    maxLength: 100
+    description: Base URL
+  Duration:
+    type: integer
+    format: int32
+    description: Duration
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  ActiveUsers:
+    type: integer
+    format: int32
+    description: Active Users
+  LoggedInUsers:
+    type: integer
+    format: int32
+    description: Logged In Users
+  WebSectionID:
+    type: integer
+    format: int32
+    description: Web Section
+  Comments:
+    type: string
+    maxLength: 1000
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

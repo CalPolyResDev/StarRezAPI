@@ -1,0 +1,19 @@
+type: object
+#required:
+properties:
+  WaitListClassificationID:
+    type: integer
+    format: int32
+    description: Wait List Classification
+  WaitListID:
+    type: integer
+    format: int32
+    description: Wait List
+  ClassificationID:
+    type: integer
+    format: int32
+    description: Classification
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

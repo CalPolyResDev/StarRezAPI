@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchEndOfSessionChargeGroup
+  description: By passing in the appropriate options, you can search for a EndOfSessionChargeGroup in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: EndOfSessionChargeGroupID
+      description: ID of the EndOfSessionChargeGroup you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EndOfSessionChargeGroupItem'
+    400:
+      description: Bad Request

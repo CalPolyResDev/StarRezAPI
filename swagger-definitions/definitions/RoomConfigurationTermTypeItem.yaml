@@ -1,0 +1,19 @@
+type: object
+#required:
+properties:
+  RoomConfigurationTermTypeID:
+    type: integer
+    format: int32
+    description: Room Configuration Term Type
+  RoomConfigurationID:
+    type: integer
+    format: int32
+    description: Room Configuration
+  TermTypeID:
+    type: integer
+    format: int32
+    description: Term Type
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

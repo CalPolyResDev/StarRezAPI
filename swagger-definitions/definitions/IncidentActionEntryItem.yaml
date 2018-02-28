@@ -1,0 +1,19 @@
+type: object
+#required:
+properties:
+  IncidentActionEntryID:
+    type: integer
+    format: int32
+    description: Incident Action Entry
+  IncidentActionID:
+    type: integer
+    format: int32
+    description: Incident Action
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

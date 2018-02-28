@@ -1,0 +1,23 @@
+type: object
+#required:
+properties:
+  CurrencyConversionID:
+    type: integer
+    format: int32
+    description: Currency Conversion
+  Description:
+    type: string
+    maxLength: 50
+    description: Description
+  ConversionRate:
+    type: string
+    format: money
+    description: Conversion Rate
+  Comments:
+    type: string
+    maxLength: 200
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateWebPayment
+  description: Updates an WebPayment in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: WebPaymentID
+      type: integer
+      required: true
+      description: Numeric value of the webpaymentID
+    - in: body
+      name: WebPaymentItem
+      required: true
+      description: WebPayment to update
+      schema:
+        $ref: '#/definitions/WebPaymentItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/WebPaymentItem'
+    400:
+      description: Invalid Input, Object Invalid.

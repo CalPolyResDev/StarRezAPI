@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchEntryMeal
+  description: By passing in the appropriate options, you can search for a EntryMeal in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: EntryMealID
+      description: ID of the EntryMeal you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EntryMealItem'
+    400:
+      description: Bad Request

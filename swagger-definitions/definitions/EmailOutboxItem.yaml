@@ -1,0 +1,60 @@
+type: object
+#required:
+properties:
+  EmailOutboxID:
+    type: integer
+    format: int32
+    description: Email Outbox
+  AddressTo:
+    type: string
+    format: longstring
+    description: Address To
+  AddressCC:
+    type: string
+    format: longstring
+    description: Address CC
+  AddressBCC:
+    type: string
+    format: longstring
+    description: Address BCC
+  FromAddress:
+    type: string
+    maxLength: 200
+    description: From Address
+  FromName:
+    type: string
+    maxLength: 200
+    description: From Name
+  SmtpUsername:
+    type: string
+    maxLength: 50
+    description: Smtp Username
+  Subject:
+    type: string
+    format: longstring
+    description: Subject
+  Body:
+    type: string
+    format: longstring
+    description: Body
+  AttachmentPath:
+    type: string
+    maxLength: 500
+    description: Attachment Path
+  DateToSend:
+    type: string
+    format: datetimeseconds
+    description: Date To Send
+  Sent:
+    type: boolean
+    description: Sent
+  SentAt:
+    type: string
+    description: Sent At
+  Failed:
+    type: boolean
+    description: Failed
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

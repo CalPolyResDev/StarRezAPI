@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateEntryEvent
+  description: Updates an EntryEvent in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: EntryEventID
+      type: integer
+      required: true
+      description: Numeric value of the entryeventID
+    - in: body
+      name: EntryEventItem
+      required: true
+      description: EntryEvent to update
+      schema:
+        $ref: '#/definitions/EntryEventItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EntryEventItem'
+    400:
+      description: Invalid Input, Object Invalid.

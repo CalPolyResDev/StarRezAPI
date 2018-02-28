@@ -1,0 +1,91 @@
+type: object
+#required:
+properties:
+  PaymentID:
+    type: integer
+    format: int32
+    description: Payment
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  PaymentTypeID:
+    type: integer
+    format: int32
+    description: Payment Type
+  TransactionTypeEnum:
+    type: string
+    format: enum
+    description: Transaction Type
+  PaymentDate:
+    type: string
+    format: datetimeseconds
+    description: Payment Date
+  ProcessedDate:
+    type: string
+    format: datetimeseconds
+    description: Processed Date
+  Amount:
+    type: string
+    format: money
+    description: Amount
+  Drawer:
+    type: string
+    maxLength: 30
+    description: Drawer
+  Bank:
+    type: string
+    maxLength: 30
+    description: Bank
+  Branch:
+    type: string
+    maxLength: 30
+    description: Branch
+  AccountDetail1:
+    type: string
+    format: binary
+    maxLength: 40
+    description: Account 1
+  AccountDetail2:
+    type: string
+    format: binary
+    maxLength: 25
+    description: Account 2
+  AccountDetail3:
+    type: string
+    format: binary
+    maxLength: 10
+    description: Account 3
+  AccountDetail4:
+    type: string
+    format: binary
+    maxLength: 10
+    description: Account 4
+  Description:
+    type: string
+    maxLength: 100
+    description: Description
+  BankingID:
+    type: integer
+    format: int32
+    description: Banking
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  CreatedBy_SecurityUserID:
+    type: integer
+    format: int32
+    description: Created By Security User
+  MachineName:
+    type: string
+    maxLength: 20
+    description: Machine Name
+  Refund_PaymentID:
+    type: integer
+    format: int32
+    description: Refund Payment
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

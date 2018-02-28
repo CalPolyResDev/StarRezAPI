@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateRoomSpaceSwapPreference
+  description: Updates an RoomSpaceSwapPreference in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: RoomSpaceSwapPreferenceID
+      type: integer
+      required: true
+      description: Numeric value of the roomspaceswappreferenceID
+    - in: body
+      name: RoomSpaceSwapPreferenceItem
+      required: true
+      description: RoomSpaceSwapPreference to update
+      schema:
+        $ref: '#/definitions/RoomSpaceSwapPreferenceItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/RoomSpaceSwapPreferenceItem'
+    400:
+      description: Invalid Input, Object Invalid.

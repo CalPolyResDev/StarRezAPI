@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateHousekeepingSchedule
+  description: Updates an HousekeepingSchedule in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: HousekeepingScheduleID
+      type: integer
+      required: true
+      description: Numeric value of the housekeepingscheduleID
+    - in: body
+      name: HousekeepingScheduleItem
+      required: true
+      description: HousekeepingSchedule to update
+      schema:
+        $ref: '#/definitions/HousekeepingScheduleItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/HousekeepingScheduleItem'
+    400:
+      description: Invalid Input, Object Invalid.

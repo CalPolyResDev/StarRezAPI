@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchRoomSpaceKey
+  description: By passing in the appropriate options, you can search for a RoomSpaceKey in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: RoomSpaceKeyID
+      description: ID of the RoomSpaceKey you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/RoomSpaceKeyItem'
+    400:
+      description: Bad Request

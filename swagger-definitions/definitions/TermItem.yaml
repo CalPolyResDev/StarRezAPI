@@ -1,0 +1,49 @@
+type: object
+#required:
+#  - Description
+properties:
+  TermID:
+    type: integer
+    format: int32
+    description: Term
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  Description:
+    type: string
+    maxLength: 40
+    description: Description
+  WebDescription:
+    type: string
+    maxLength: 40
+    description: Web Description
+  CategoryID:
+    type: integer
+    format: int32
+    description: Category
+  TermCode:
+    type: string
+    maxLength: 40
+    description: Term Code
+  TermTypeID:
+    type: integer
+    format: int32
+    description: Term Type
+  Active:
+    type: boolean
+    description: Active
+  ActiveDateOpen:
+    type: string
+    description: Active Date Open
+  ActiveDateClose:
+    type: string
+    description: Active Date Close
+  Comments:
+    type: string
+    maxLength: 100
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

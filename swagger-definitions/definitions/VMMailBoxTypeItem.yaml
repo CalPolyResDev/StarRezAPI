@@ -1,0 +1,38 @@
+type: object
+#required:
+properties:
+  VMMailBoxTypeID:
+    type: integer
+    format: int32
+    description: VM Mail Box Type
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  Description:
+    type: string
+    maxLength: 25
+    description: Description
+  Comments:
+    type: string
+    maxLength: 100
+    description: Comments
+  AllowCallDelivery:
+    type: boolean
+    description: Allow Call Delivery
+  AllowGroupCreate:
+    type: boolean
+    description: Allow Group Create
+  AllowGroupMessage:
+    type: boolean
+    description: Allow Group Message
+  AllowShared:
+    type: boolean
+    description: Allow Shared
+  FixedSharedGreeting:
+    type: boolean
+    description: Fixed Shared Greeting
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

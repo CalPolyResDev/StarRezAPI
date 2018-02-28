@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateNoteType
+  description: Updates an NoteType in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: NoteTypeID
+      type: integer
+      required: true
+      description: Numeric value of the notetypeID
+    - in: body
+      name: NoteTypeItem
+      required: true
+      description: NoteType to update
+      schema:
+        $ref: '#/definitions/NoteTypeItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/NoteTypeItem'
+    400:
+      description: Invalid Input, Object Invalid.

@@ -1,0 +1,55 @@
+type: object
+#required:
+properties:
+  WorkflowStepID:
+    type: integer
+    format: int32
+    description: Workflow Step
+  WorkflowID:
+    type: integer
+    format: int32
+    description: Workflow
+  Description:
+    type: string
+    maxLength: 50
+    description: Description
+  StepOrder:
+    type: integer
+    format: int32
+    description: Step Order
+  TemplateID:
+    type: integer
+    format: int32
+    description: Template
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  CreatedBy_SecurityUserID:
+    type: integer
+    format: int32
+    description: Created By Security User
+  Comments:
+    type: string
+    maxLength: 1000
+    description: Comments
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  AssignToOptionEnum:
+    type: string
+    format: enum
+    description: Assign To Option
+  AssignTo_SecurityUserID:
+    type: integer
+    format: int32
+    description: Assign To Security User
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

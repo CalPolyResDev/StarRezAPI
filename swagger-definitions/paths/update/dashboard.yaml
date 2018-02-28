@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateDashboard
+  description: Updates an Dashboard in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: DashboardID
+      type: integer
+      required: true
+      description: Numeric value of the dashboardID
+    - in: body
+      name: DashboardItem
+      required: true
+      description: Dashboard to update
+      schema:
+        $ref: '#/definitions/DashboardItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/DashboardItem'
+    400:
+      description: Invalid Input, Object Invalid.

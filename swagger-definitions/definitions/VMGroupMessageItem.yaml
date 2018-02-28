@@ -1,0 +1,47 @@
+type: object
+#required:
+properties:
+  VMGroupMessageID:
+    type: integer
+    format: int32
+    description: VM Group Message
+  VMGroupID:
+    type: integer
+    format: int32
+    description: VM Group
+  VMGroupMessageDate:
+    type: string
+    format: datetimeseconds
+    description: VM Group Message Date
+  Duration:
+    type: integer
+    format: int32
+    description: Duration
+  Filename:
+    type: string
+    maxLength: 500
+    description: Filename
+  Subject:
+    type: string
+    maxLength: 30
+    description: Subject
+  SenderNumber:
+    type: string
+    maxLength: 30
+    description: Sender Number
+  Sender:
+    type: string
+    maxLength: 30
+    description: Sender
+  Priority:
+    type: string
+    format: byte
+    description: Priority
+  Status:
+    type: string
+    format: byte
+    description: Status
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

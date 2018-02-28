@@ -1,0 +1,27 @@
+type: object
+#required:
+#  - Description
+properties:
+  AddressTypeID:
+    type: integer
+    format: int32
+    description: Address Type
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  Description:
+    type: string
+    maxLength: 50
+    description: Description
+  IsEntryAddress:
+    type: boolean
+    description: Is Entry Address
+  Comments:
+    type: string
+    maxLength: 200
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

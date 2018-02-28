@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateConcernSubType
+  description: Updates an ConcernSubType in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: ConcernSubTypeID
+      type: integer
+      required: true
+      description: Numeric value of the concernsubtypeID
+    - in: body
+      name: ConcernSubTypeItem
+      required: true
+      description: ConcernSubType to update
+      schema:
+        $ref: '#/definitions/ConcernSubTypeItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ConcernSubTypeItem'
+    400:
+      description: Invalid Input, Object Invalid.

@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateRoomProfile
+  description: Updates an RoomProfile in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: RoomProfileID
+      type: integer
+      required: true
+      description: Numeric value of the roomprofileID
+    - in: body
+      name: RoomProfileItem
+      required: true
+      description: RoomProfile to update
+      schema:
+        $ref: '#/definitions/RoomProfileItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/RoomProfileItem'
+    400:
+      description: Invalid Input, Object Invalid.

@@ -1,0 +1,44 @@
+type: object
+#required:
+#  - EmailName
+properties:
+  WebEmailTextID:
+    type: integer
+    format: int32
+    description: Web Email Text
+  WebSectionID:
+    type: integer
+    format: int32
+    description: Web Section
+  EmailName:
+    type: string
+    maxLength: 100
+    description: Email Name
+  Subject:
+    type: string
+    maxLength: 500
+    description: Subject
+  BodyText:
+    type: string
+    format: longstring
+    description: Body Text
+  SQL:
+    type: string
+    maxLength: 5000
+    description: SQL
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  EmailFromAddressID:
+    type: integer
+    format: int32
+    description: Email From Address
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

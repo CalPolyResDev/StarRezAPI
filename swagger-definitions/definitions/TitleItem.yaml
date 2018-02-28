@@ -1,0 +1,23 @@
+type: object
+#required:
+#  - Description
+properties:
+  TitleID:
+    type: integer
+    format: int32
+    description: Title
+  Description:
+    type: string
+    maxLength: 15
+    description: Description
+  UpdateGender:
+    type: boolean
+    description: Update Gender
+  GenderEnum:
+    type: string
+    format: enum
+    description: Gender
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

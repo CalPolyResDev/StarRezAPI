@@ -1,0 +1,27 @@
+type: object
+#required:
+properties:
+  PortalPageActionID:
+    type: integer
+    format: int32
+    description: Portal Page Action
+  PortalPageID:
+    type: integer
+    format: int32
+    description: Portal Page
+  PortalActionID:
+    type: integer
+    format: int32
+    description: Portal Action
+  EventName:
+    type: string
+    maxLength: 200
+    description: Event Name
+  CheckOrder:
+    type: integer
+    format: int32
+    description: Check Order
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

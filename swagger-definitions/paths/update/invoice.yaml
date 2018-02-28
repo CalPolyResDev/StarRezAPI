@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateInvoice
+  description: Updates an Invoice in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: InvoiceID
+      type: integer
+      required: true
+      description: Numeric value of the invoiceID
+    - in: body
+      name: InvoiceItem
+      required: true
+      description: Invoice to update
+      schema:
+        $ref: '#/definitions/InvoiceItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/InvoiceItem'
+    400:
+      description: Invalid Input, Object Invalid.

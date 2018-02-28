@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateRoomSortProfileItem
+  description: Updates an RoomSortProfileItem in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: RoomSortProfileItemID
+      type: integer
+      required: true
+      description: Numeric value of the roomsortprofileitemID
+    - in: body
+      name: RoomSortProfileItemItem
+      required: true
+      description: RoomSortProfileItem to update
+      schema:
+        $ref: '#/definitions/RoomSortProfileItemItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/RoomSortProfileItemItem'
+    400:
+      description: Invalid Input, Object Invalid.

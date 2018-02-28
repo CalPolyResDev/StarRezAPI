@@ -1,0 +1,19 @@
+type: object
+#required:
+properties:
+  SurveyTypeID:
+    type: integer
+    format: int32
+    description: Survey Type
+  Description:
+    type: string
+    maxLength: 150
+    description: Description
+  Comments:
+    type: string
+    maxLength: 100
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

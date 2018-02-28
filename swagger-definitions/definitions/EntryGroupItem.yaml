@@ -1,0 +1,32 @@
+type: object
+#required:
+#  - GroupID
+properties:
+  EntryGroupID:
+    type: integer
+    format: int32
+    description: Entry Group
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  GroupID:
+    type: integer
+    format: int32
+    description: Group
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  CreatedBy_SecurityUserID:
+    type: integer
+    format: int32
+    description: Created By Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

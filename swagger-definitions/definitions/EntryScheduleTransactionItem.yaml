@@ -1,0 +1,73 @@
+type: object
+#required:
+properties:
+  EntryScheduleTransactionID:
+    type: integer
+    format: int32
+    description: Entry Schedule Transaction
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  Description:
+    type: string
+    maxLength: 100
+    description: Description
+  Comments:
+    type: string
+    maxLength: 500
+    description: Comments
+  TransactionTemplateID:
+    type: integer
+    format: int32
+    description: Transaction Template
+  ScheduleEnabledBetweenEnum:
+    type: string
+    format: enum
+    description: Schedule Enabled Between
+  ScheduleEnum:
+    type: string
+    format: enum
+    description: Schedule
+  ScheduleInterval:
+    type: integer
+    format: int32
+    description: Schedule Interval
+  ScheduleTimeOfDay:
+    type: integer
+    format: int32
+    description: Schedule Time Of Day
+  Schedule_DayInWeekEnum:
+    type: string
+    format: enum
+    description: Schedule Day In Week
+  ScheduleDateStart:
+    type: string
+    description: Schedule Date Start
+  ScheduleDateEnd:
+    type: string
+    description: Schedule Date End
+  ScheduleDateLastStart:
+    type: string
+    description: Schedule Date Last Start
+  ScheduleDateLastEnd:
+    type: string
+    description: Schedule Date Last End
+  ScheduleRangeStartObject:
+    type: string
+    description: Schedule Range Start Object
+  FirstRunDate:
+    type: string
+    description: First Run Date
+  ScheduleResultEnum:
+    type: string
+    format: enum
+    description: Schedule Result
+  TransactionAmount:
+    type: string
+    format: money
+    description: Transaction Amount
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

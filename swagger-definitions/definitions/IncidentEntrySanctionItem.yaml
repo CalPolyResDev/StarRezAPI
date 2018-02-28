@@ -1,0 +1,65 @@
+type: object
+#required:
+properties:
+  IncidentEntrySanctionID:
+    type: integer
+    format: int32
+    description: Incident Entry Sanction
+  IncidentEntryID:
+    type: integer
+    format: int32
+    description: Incident Entry
+  IncidentSanctionTypeID:
+    type: integer
+    format: int32
+    description: Incident Sanction Type
+  IncidentSanctionSubTypeID:
+    type: integer
+    format: int32
+    description: Incident Sanction Sub Type
+  IncidentEntryAppealID:
+    type: integer
+    format: int32
+    description: Incident Entry Appeal
+  SanctionDate:
+    type: string
+    format: date-time
+    description: Sanction Date
+  DateDue:
+    type: string
+    description: Date Due
+  DateComplete:
+    type: string
+    description: Date Complete
+  Description:
+    type: string
+    maxLength: 5000
+    description: Description
+  Comments:
+    type: string
+    maxLength: 5000
+    description: Comments
+  Referral:
+    type: string
+    maxLength: 100
+    description: Referral
+  ChargeAmount:
+    type: string
+    format: money
+    description: Charge Amount
+  TransactionID:
+    type: integer
+    format: int32
+    description: Transaction
+  Status:
+    type: string
+    maxLength: 100
+    description: Status
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

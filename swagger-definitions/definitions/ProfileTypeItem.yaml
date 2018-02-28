@@ -1,0 +1,43 @@
+type: object
+#required:
+#  - Description
+properties:
+  ProfileTypeID:
+    type: integer
+    format: int32
+    description: Profile Type
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  Description:
+    type: string
+    maxLength: 50
+    description: Description
+  Comments:
+    type: string
+    maxLength: 100
+    description: Comments
+  ProfileUseEnum:
+    type: string
+    format: enum
+    description: Profile Use
+  ViewOnWeb:
+    type: boolean
+    description: View On Web
+  WebDescription:
+    type: string
+    maxLength: 1000
+    description: Web Description
+  WebOrder:
+    type: integer
+    format: int32
+    description: Web Order
+  WebComments:
+    type: string
+    format: longstring
+    description: Web Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

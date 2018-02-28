@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchEmailFromAddress
+  description: By passing in the appropriate options, you can search for a EmailFromAddress in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: EmailFromAddressID
+      description: ID of the EmailFromAddress you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EmailFromAddressItem'
+    400:
+      description: Bad Request

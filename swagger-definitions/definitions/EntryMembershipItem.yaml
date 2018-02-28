@@ -1,0 +1,53 @@
+type: object
+#required:
+properties:
+  EntryMembershipID:
+    type: integer
+    format: int32
+    description: Entry Membership
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  MembershipTypeID:
+    type: integer
+    format: int32
+    description: Membership Type
+  Description:
+    type: string
+    maxLength: 100
+    description: Description
+  MembershipNumber:
+    type: string
+    maxLength: 20
+    description: Membership Number
+  MembershipStatus:
+    type: string
+    maxLength: 50
+    description: Membership Status
+  MembershipAction:
+    type: string
+    maxLength: 30
+    description: Membership Action
+  MembershipDateStart:
+    type: string
+    description: Membership Date Start
+  MembershipDateEnd:
+    type: string
+    description: Membership Date End
+  AmountPaid:
+    type: string
+    format: money
+    description: Amount Paid
+  Comments:
+    type: string
+    maxLength: 500
+    description: Comments
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

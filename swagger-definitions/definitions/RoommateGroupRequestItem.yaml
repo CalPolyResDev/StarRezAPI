@@ -1,0 +1,43 @@
+type: object
+#required:
+#  - RoommateGroupID
+properties:
+  RoommateGroupRequestID:
+    type: integer
+    format: int32
+    description: Roommate Group Request
+  RoommateGroupID:
+    type: integer
+    format: int32
+    description: Roommate Group
+  Requested_RoommateGroupID:
+    type: integer
+    format: int32
+    description: Requested Roommate Group
+  EntryApplicationID:
+    type: integer
+    format: int32
+    description: Entry Application
+  RoommateGroupRequestTypeEnum:
+    type: string
+    format: enum
+    description: Roommate Group Request Type
+  DateExpiry:
+    type: string
+    description: Date Expiry
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  CreatedBy_SecurityUserID:
+    type: integer
+    format: int32
+    description: Created By Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

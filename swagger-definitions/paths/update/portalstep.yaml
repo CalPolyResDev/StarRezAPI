@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updatePortalStep
+  description: Updates an PortalStep in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: PortalStepID
+      type: integer
+      required: true
+      description: Numeric value of the portalstepID
+    - in: body
+      name: PortalStepItem
+      required: true
+      description: PortalStep to update
+      schema:
+        $ref: '#/definitions/PortalStepItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/PortalStepItem'
+    400:
+      description: Invalid Input, Object Invalid.

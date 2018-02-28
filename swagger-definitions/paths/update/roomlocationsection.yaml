@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateRoomLocationSection
+  description: Updates an RoomLocationSection in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: RoomLocationSectionID
+      type: integer
+      required: true
+      description: Numeric value of the roomlocationsectionID
+    - in: body
+      name: RoomLocationSectionItem
+      required: true
+      description: RoomLocationSection to update
+      schema:
+        $ref: '#/definitions/RoomLocationSectionItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/RoomLocationSectionItem'
+    400:
+      description: Invalid Input, Object Invalid.

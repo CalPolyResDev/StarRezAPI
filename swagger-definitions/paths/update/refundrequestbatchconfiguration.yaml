@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateRefundRequestBatchConfiguration
+  description: Updates an RefundRequestBatchConfiguration in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: RefundRequestBatchConfigurationID
+      type: integer
+      required: true
+      description: Numeric value of the refundrequestbatchconfigurationID
+    - in: body
+      name: RefundRequestBatchConfigurationItem
+      required: true
+      description: RefundRequestBatchConfiguration to update
+      schema:
+        $ref: '#/definitions/RefundRequestBatchConfigurationItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/RefundRequestBatchConfigurationItem'
+    400:
+      description: Invalid Input, Object Invalid.

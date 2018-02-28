@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateWorkflowStep
+  description: Updates an WorkflowStep in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: WorkflowStepID
+      type: integer
+      required: true
+      description: Numeric value of the workflowstepID
+    - in: body
+      name: WorkflowStepItem
+      required: true
+      description: WorkflowStep to update
+      schema:
+        $ref: '#/definitions/WorkflowStepItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/WorkflowStepItem'
+    400:
+      description: Invalid Input, Object Invalid.

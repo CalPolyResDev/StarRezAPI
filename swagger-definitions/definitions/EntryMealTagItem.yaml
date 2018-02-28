@@ -1,0 +1,27 @@
+type: object
+#required:
+properties:
+  EntryMealTagID:
+    type: integer
+    format: int32
+    description: Entry Meal Tag
+  EntryMealID:
+    type: integer
+    format: int32
+    description: Entry Meal
+  TagType:
+    type: string
+    maxLength: 20
+    description: Tag Type
+  Tag:
+    type: string
+    maxLength: 10
+    description: Tag
+  DateCreated:
+    type: string
+    format: datetimeseconds
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

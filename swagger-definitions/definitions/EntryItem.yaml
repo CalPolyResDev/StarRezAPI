@@ -1,0 +1,184 @@
+type: object
+#required:
+#  - NameLast
+properties:
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  CategoryID:
+    type: integer
+    format: int32
+    description: Category
+  EventID:
+    type: integer
+    format: int32
+    description: Event
+  ContactID:
+    type: integer
+    format: int32
+    description: Contact
+  EntryStatusEnum:
+    type: string
+    format: enum
+    description: Entry Status
+  AddressTypeID:
+    type: integer
+    format: int32
+    description: Address Type
+  BookingID:
+    type: integer
+    format: int32
+    description: Booking
+  EntryApplicationID:
+    type: integer
+    format: int32
+    description: Entry Application
+  PinNumber:
+    type: integer
+    format: int32
+    description: Pin Number
+  PortalEmail:
+    type: string
+    maxLength: 255
+    description: Portal Email
+  PortalAuthProviderUserID:
+    type: string
+    maxLength: 255
+    description: Portal Auth Provider User
+  PortalResetGUID:
+    type: string
+    format: guid
+    description: Portal Reset GUID
+  NameLast:
+    type: string
+    maxLength: 40
+    description: Name Last
+  NameFirst:
+    type: string
+    maxLength: 40
+    description: Name First
+  NameTitle:
+    type: string
+    maxLength: 15
+    description: Name Title
+  NamePreferred:
+    type: string
+    maxLength: 40
+    description: Name Preferred
+  NameWeb:
+    type: string
+    maxLength: 50
+    description: Name Web
+  NameOther:
+    type: string
+    maxLength: 40
+    description: Name Other
+  NameInitials:
+    type: string
+    maxLength: 5
+    description: Name Initials
+  NameSharer:
+    type: string
+    maxLength: 40
+    description: Name Sharer
+  GenderEnum:
+    type: string
+    format: enum
+    description: Gender
+  Birth_GenderEnum:
+    type: string
+    format: enum
+    description: Birth Gender
+  DirectoryFlagPrivacy:
+    type: boolean
+    description: Directory Flag Privacy
+  DOB:
+    type: string
+    description: Date of Birth
+  Position:
+    type: string
+    maxLength: 50
+    description: Position
+  ID1:
+    type: string
+    maxLength: 30
+    description: EmplID
+  ID2:
+    type: string
+    maxLength: 30
+    description: POLYCARD ISO
+  ID3:
+    type: string
+    maxLength: 30
+    description: CalPoly GUID
+  ID4:
+    type: integer
+    format: int32
+    description: ID4
+  ID5:
+    type: integer
+    format: int32
+    description: ID5
+  PhoneProcessToAccount:
+    type: boolean
+    description: Phone Process To Account
+  PhoneChargeTypeID:
+    type: integer
+    format: int32
+    description: Phone Charge Type
+  PhoneDisableValue:
+    type: string
+    format: money
+    description: Phone Disable Value
+  PhoneRestrictValue:
+    type: string
+    format: money
+    description: Phone Restrict Value
+  PhoneControlEnum:
+    type: string
+    format: enum
+    description: Phone Control
+  TaxExemptionEnum:
+    type: string
+    format: enum
+    description: Tax Exemption
+  LastCheckInOutDate:
+    type: string
+    description: Last Check In Out Date
+  Previous_EntryStatusEnum:
+    type: string
+    format: enum
+    description: Previous Entry Status
+  Testing:
+    type: boolean
+    description: Testing
+  User_SecurityUserID:
+    type: integer
+    format: int32
+    description: User Security User
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  CreatedBy_SecurityUserID:
+    type: integer
+    format: int32
+    description: Created By Security User
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  EntryGUID:
+    type: string
+    format: guid
+    description: Entry GUID
+  timestamp:
+    type: string
+    format: timestamp
+    maxLength: 8
+    description: Timestamp
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

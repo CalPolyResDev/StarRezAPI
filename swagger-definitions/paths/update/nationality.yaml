@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateNationality
+  description: Updates an Nationality in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: NationalityID
+      type: integer
+      required: true
+      description: Numeric value of the nationalityID
+    - in: body
+      name: NationalityItem
+      required: true
+      description: Nationality to update
+      schema:
+        $ref: '#/definitions/NationalityItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/NationalityItem'
+    400:
+      description: Invalid Input, Object Invalid.

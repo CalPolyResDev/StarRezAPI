@@ -1,0 +1,25 @@
+type: object
+#required:
+#  - Application
+#  - Setting
+properties:
+  SettingID:
+    type: integer
+    format: int32
+    description: Setting
+  Application:
+    type: string
+    maxLength: 50
+    description: Application
+  Setting:
+    type: string
+    maxLength: 200
+    description: Setting
+  SettingValue:
+    type: string
+    maxLength: 500
+    description: Setting Value
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

@@ -1,0 +1,63 @@
+type: object
+#required:
+properties:
+  EntryResultID:
+    type: integer
+    format: int32
+    description: Entry Result
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  ResultType:
+    type: string
+    maxLength: 50
+    description: Result Type
+  Year:
+    type: string
+    format: short
+    description: Year
+  TermID:
+    type: integer
+    format: int32
+    description: Term
+  TermNumber:
+    type: string
+    format: byte
+    description: Term Number
+  SubjectLevel:
+    type: string
+    maxLength: 10
+    description: Subject Level
+  Subject:
+    type: string
+    maxLength: 30
+    description: Subject
+  Result:
+    type: string
+    maxLength: 20
+    description: Result
+  Rating:
+    type: string
+    format: decimal
+    description: Rating
+  HoursEnrolled:
+    type: string
+    format: decimal
+    description: Hours Enrolled
+  HoursCompleted:
+    type: string
+    format: decimal
+    description: Hours Completed
+  HoursGraded:
+    type: string
+    format: decimal
+    description: Hours Graded
+  Comments:
+    type: string
+    maxLength: 100
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

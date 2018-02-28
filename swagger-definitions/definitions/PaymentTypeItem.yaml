@@ -1,0 +1,51 @@
+type: object
+#required:
+#  - Description
+properties:
+  PaymentTypeID:
+    type: integer
+    format: int32
+    description: Payment Type
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  Description:
+    type: string
+    maxLength: 30
+    description: Description
+  CategoryID:
+    type: integer
+    format: int32
+    description: Category
+  PaymentMethodEnum:
+    type: string
+    format: enum
+    description: Payment Method
+  AccountReceivable_GLPostingID:
+    type: integer
+    format: int32
+    description: Account Receivable GL Posting
+  Bank_GLPostingID:
+    type: integer
+    format: int32
+    description: Bank GL Posting
+  RefundChq:
+    type: boolean
+    description: Refund Chq
+  GroupBy:
+    type: string
+    maxLength: 20
+    description: Group By
+  CreditCardSurcharge:
+    type: string
+    format: decimal
+    description: Credit Card Surcharge
+  CCS_ChargeItemID:
+    type: integer
+    format: int32
+    description: CCS Charge Item
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

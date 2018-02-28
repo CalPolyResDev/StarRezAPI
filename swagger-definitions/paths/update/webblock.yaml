@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateWebBlock
+  description: Updates an WebBlock in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: WebBlockID
+      type: integer
+      required: true
+      description: Numeric value of the webblockID
+    - in: body
+      name: WebBlockItem
+      required: true
+      description: WebBlock to update
+      schema:
+        $ref: '#/definitions/WebBlockItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/WebBlockItem'
+    400:
+      description: Invalid Input, Object Invalid.

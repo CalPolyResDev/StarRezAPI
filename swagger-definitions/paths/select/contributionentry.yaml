@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchContributionEntry
+  description: By passing in the appropriate options, you can search for a ContributionEntry in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: ContributionEntryID
+      description: ID of the ContributionEntry you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ContributionEntryItem'
+    400:
+      description: Bad Request

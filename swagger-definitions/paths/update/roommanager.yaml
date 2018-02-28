@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateRoomManager
+  description: Updates an RoomManager in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: RoomManagerID
+      type: integer
+      required: true
+      description: Numeric value of the roommanagerID
+    - in: body
+      name: RoomManagerItem
+      required: true
+      description: RoomManager to update
+      schema:
+        $ref: '#/definitions/RoomManagerItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/RoomManagerItem'
+    400:
+      description: Invalid Input, Object Invalid.

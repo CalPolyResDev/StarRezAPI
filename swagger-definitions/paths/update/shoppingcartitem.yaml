@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateShoppingCartItem
+  description: Updates an ShoppingCartItem in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: ShoppingCartItemID
+      type: integer
+      required: true
+      description: Numeric value of the shoppingcartitemID
+    - in: body
+      name: ShoppingCartItemItem
+      required: true
+      description: ShoppingCartItem to update
+      schema:
+        $ref: '#/definitions/ShoppingCartItemItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ShoppingCartItemItem'
+    400:
+      description: Invalid Input, Object Invalid.

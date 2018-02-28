@@ -1,0 +1,28 @@
+type: object
+#required:
+#  - Description
+properties:
+  FunctionRoomLocationID:
+    type: integer
+    format: int32
+    description: Function Room Location
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  CategoryID:
+    type: integer
+    format: int32
+    description: Category
+  Description:
+    type: string
+    maxLength: 35
+    description: Description
+  Comments:
+    type: string
+    maxLength: 250
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

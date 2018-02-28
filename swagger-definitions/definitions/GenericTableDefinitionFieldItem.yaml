@@ -1,0 +1,36 @@
+type: object
+#required:
+#  - GenericFieldName
+properties:
+  GenericTableDefinitionFieldID:
+    type: integer
+    format: int32
+    description: Generic Table Definition Field
+  GenericTableDefinitionID:
+    type: integer
+    format: int32
+    description: Generic Table Definition
+  FieldDataTypeEnum:
+    type: string
+    format: enum
+    description: Field Data Type
+  GenericFieldOrder:
+    type: integer
+    format: int32
+    description: Generic Field Order
+  GenericFieldName:
+    type: string
+    maxLength: 50
+    description: Generic Field Name
+  GenericFieldGroup:
+    type: string
+    maxLength: 50
+    description: Generic Field Group
+  GenericFieldComment:
+    type: string
+    maxLength: 500
+    description: Generic Field Comment
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

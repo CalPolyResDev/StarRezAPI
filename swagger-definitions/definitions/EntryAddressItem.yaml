@@ -1,0 +1,89 @@
+type: object
+#required:
+properties:
+  EntryAddressID:
+    type: integer
+    format: int32
+    description: Entry Address
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  AddressTypeID:
+    type: integer
+    format: int32
+    description: Address Type
+  Salutation:
+    type: string
+    maxLength: 80
+    description: Salutation
+  ContactName:
+    type: string
+    maxLength: 80
+    description: Contact Name
+  Street:
+    type: string
+    maxLength: 80
+    description: Street
+  Street2:
+    type: string
+    maxLength: 80
+    description: Street 2
+  City:
+    type: string
+    maxLength: 60
+    description: City
+  CountryID:
+    type: integer
+    format: int32
+    description: Country
+  StateProvince:
+    type: string
+    maxLength: 60
+    description: State Province
+  ZipPostcode:
+    type: string
+    maxLength: 15
+    description: Zip Postcode
+  Phone:
+    type: string
+    maxLength: 25
+    description: Phone
+  PhoneMobileCell:
+    type: string
+    maxLength: 25
+    description: Phone Mobile Cell
+  PhoneOther:
+    type: string
+    maxLength: 25
+    description: Phone Other
+  PhoneOther2:
+    type: string
+    maxLength: 25
+    description: Phone Other 2
+  Email:
+    type: string
+    maxLength: 100
+    description: Email
+  Relationship:
+    type: string
+    maxLength: 50
+    description: Relationship
+  ActiveDateStart:
+    type: string
+    description: Active Date Start
+  ActiveDateEnd:
+    type: string
+    description: Active Date End
+  Reference:
+    type: string
+    maxLength: 80
+    description: Reference
+  Comments:
+    type: string
+    maxLength: 250
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

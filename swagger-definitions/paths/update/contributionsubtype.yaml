@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateContributionSubType
+  description: Updates an ContributionSubType in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: ContributionSubTypeID
+      type: integer
+      required: true
+      description: Numeric value of the contributionsubtypeID
+    - in: body
+      name: ContributionSubTypeItem
+      required: true
+      description: ContributionSubType to update
+      schema:
+        $ref: '#/definitions/ContributionSubTypeItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ContributionSubTypeItem'
+    400:
+      description: Invalid Input, Object Invalid.

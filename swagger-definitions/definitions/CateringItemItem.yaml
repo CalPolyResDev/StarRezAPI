@@ -1,0 +1,52 @@
+type: object
+#required:
+properties:
+  CateringItemID:
+    type: integer
+    format: int32
+    description: Catering Item
+  CateringID:
+    type: integer
+    format: int32
+    description: Catering
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  Description:
+    type: string
+    maxLength: 100
+    description: Description
+  ServingOrder:
+    type: string
+    format: short
+    description: Serving Order
+  Optional:
+    type: boolean
+    description: Optional
+  QuantityDefaultIsPercentage:
+    type: boolean
+    description: Quantity Default Is Percentage
+  QuantityDefault:
+    type: string
+    format: short
+    description: Quantity Default
+  ChargeFixed:
+    type: boolean
+    description: Charge Fixed
+  AmountCost:
+    type: string
+    format: money
+    description: Amount Cost
+  Amount:
+    type: string
+    format: money
+    description: Amount
+  Comments:
+    type: string
+    maxLength: 2000
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

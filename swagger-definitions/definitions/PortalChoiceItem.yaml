@@ -1,0 +1,27 @@
+type: object
+#required:
+properties:
+  PortalChoiceID:
+    type: integer
+    format: int32
+    description: Portal Choice
+  PortalProcessID:
+    type: integer
+    format: int32
+    description: Portal Process
+  Description:
+    type: string
+    maxLength: 200
+    description: Description
+  Comments:
+    type: string
+    format: longstring
+    description: Comments
+  ClassName:
+    type: string
+    maxLength: 200
+    description: Class Name
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

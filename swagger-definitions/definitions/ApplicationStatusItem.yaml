@@ -1,0 +1,24 @@
+type: object
+#required:
+#  - Description
+properties:
+  ApplicationStatusID:
+    type: integer
+    format: int32
+    description: Application Status
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  Description:
+    type: string
+    maxLength: 50
+    description: Description
+  Comments:
+    type: string
+    maxLength: 255
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

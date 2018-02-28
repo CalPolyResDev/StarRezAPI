@@ -1,0 +1,24 @@
+get:
+  summary: ""
+  operationId: searchCorrespondenceSource
+  description: By passing in the appropriate options, you can search for a CorrespondenceSource in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: query
+      name: CorrespondenceSourceID
+      description: ID of the CorrespondenceSource you want to look up
+      required: false
+      type: integer
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/CorrespondenceSourceItem'
+    400:
+      description: Bad Request

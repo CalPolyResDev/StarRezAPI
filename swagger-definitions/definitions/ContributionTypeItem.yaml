@@ -1,0 +1,24 @@
+type: object
+#required:
+#  - Description
+properties:
+  ContributionTypeID:
+    type: integer
+    format: int32
+    description: Contribution Type
+  Description:
+    type: string
+    maxLength: 50
+    description: Description
+  Comments:
+    type: string
+    maxLength: 500
+    description: Comments
+  CategoryID:
+    type: integer
+    format: int32
+    description: Category
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

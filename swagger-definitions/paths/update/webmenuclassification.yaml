@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateWebMenuClassification
+  description: Updates an WebMenuClassification in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: WebMenuClassificationID
+      type: integer
+      required: true
+      description: Numeric value of the webmenuclassificationID
+    - in: body
+      name: WebMenuClassificationItem
+      required: true
+      description: WebMenuClassification to update
+      schema:
+        $ref: '#/definitions/WebMenuClassificationItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/WebMenuClassificationItem'
+    400:
+      description: Invalid Input, Object Invalid.

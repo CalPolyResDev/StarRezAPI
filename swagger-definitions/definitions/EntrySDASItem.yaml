@@ -1,0 +1,66 @@
+type: object
+#required:
+properties:
+  EntrySDASID:
+    type: integer
+    format: int32
+    description: Entry SDAS
+  EntryID:
+    type: integer
+    format: int32
+    description: Entry
+  SDASChargeRateID:
+    type: integer
+    format: int32
+    description: SDAS Charge Rate
+  Enabled:
+    type: boolean
+    description: Enabled
+  UserName:
+    type: string
+    maxLength: 30
+    description: User Name
+  AccessLevel:
+    type: string
+    format: money
+    description: Access Level
+  MachineDescription:
+    type: string
+    maxLength: 20
+    description: Machine Description
+  MachineType:
+    type: string
+    maxLength: 20
+    description: Machine Type
+  IPAddress:
+    type: string
+    maxLength: 20
+    description: IP Address
+  MACAddress:
+    type: string
+    maxLength: 30
+    description: MAC Address
+  OperatingSystem:
+    type: string
+    maxLength: 20
+    description: Operating System
+  DateEnabled:
+    type: string
+    format: date-time
+    description: Date Enabled
+  DateLastReset:
+    type: string
+    format: date-time
+    description: Date Last Reset
+  MonthlyAllowance:
+    type: string
+    format: money
+    description: Monthly Allowance
+  Comments:
+    type: string
+    maxLength: 100
+    description: Comments
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

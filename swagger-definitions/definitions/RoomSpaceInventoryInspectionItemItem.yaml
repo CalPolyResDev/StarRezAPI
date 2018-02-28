@@ -1,0 +1,53 @@
+type: object
+#required:
+#  - RoomSpaceInventoryID
+properties:
+  RoomSpaceInventoryInspectionItemID:
+    type: integer
+    format: int32
+    description: Room Space Inventory Inspection Item
+  RoomSpaceInventoryInspectionID:
+    type: integer
+    format: int32
+    description: Room Space Inventory Inspection
+  RoomSpaceInventoryID:
+    type: integer
+    format: int32
+    description: Room Space Inventory
+  RoomSpaceInventoryConditionID:
+    type: integer
+    format: int32
+    description: Room Space Inventory Condition
+  Old_RoomSpaceInventoryConditionID:
+    type: integer
+    format: int32
+    description: Old Room Space Inventory Condition
+  TransactionID:
+    type: integer
+    format: int32
+    description: Transaction
+  Inspected:
+    type: boolean
+    description: Inspected
+  Accepted:
+    type: boolean
+    description: Accepted
+  ReviewComments:
+    type: string
+    maxLength: 500
+    description: Review Comments
+  Comments:
+    type: string
+    maxLength: 500
+    description: Comments
+  Chargeable:
+    type: boolean
+    description: Chargeable
+  ChargeAmount:
+    type: string
+    format: money
+    description: Charge Amount
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

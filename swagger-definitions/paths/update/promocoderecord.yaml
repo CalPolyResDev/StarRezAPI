@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updatePromoCodeRecord
+  description: Updates an PromoCodeRecord in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: PromoCodeRecordID
+      type: integer
+      required: true
+      description: Numeric value of the promocoderecordID
+    - in: body
+      name: PromoCodeRecordItem
+      required: true
+      description: PromoCodeRecord to update
+      schema:
+        $ref: '#/definitions/PromoCodeRecordItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/PromoCodeRecordItem'
+    400:
+      description: Invalid Input, Object Invalid.

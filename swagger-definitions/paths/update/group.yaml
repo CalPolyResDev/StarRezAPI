@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateGroup
+  description: Updates an Group in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: GroupID
+      type: integer
+      required: true
+      description: Numeric value of the groupID
+    - in: body
+      name: GroupItem
+      required: true
+      description: Group to update
+      schema:
+        $ref: '#/definitions/GroupItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/GroupItem'
+    400:
+      description: Invalid Input, Object Invalid.

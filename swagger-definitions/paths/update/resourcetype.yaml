@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateResourceType
+  description: Updates an ResourceType in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: ResourceTypeID
+      type: integer
+      required: true
+      description: Numeric value of the resourcetypeID
+    - in: body
+      name: ResourceTypeItem
+      required: true
+      description: ResourceType to update
+      schema:
+        $ref: '#/definitions/ResourceTypeItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ResourceTypeItem'
+    400:
+      description: Invalid Input, Object Invalid.

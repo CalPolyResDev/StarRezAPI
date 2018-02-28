@@ -1,0 +1,30 @@
+post:
+  summary: ""
+  operationId: updateWebRuleLink
+  description: Updates an WebRuleLink in the system
+  consumes:
+    - application/json
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: path
+      name: WebRuleLinkID
+      type: integer
+      required: true
+      description: Numeric value of the webrulelinkID
+    - in: body
+      name: WebRuleLinkItem
+      required: true
+      description: WebRuleLink to update
+      schema:
+        $ref: '#/definitions/WebRuleLinkItem'
+  responses:
+    200:
+      description: Updated Item
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/WebRuleLinkItem'
+    400:
+      description: Invalid Input, Object Invalid.

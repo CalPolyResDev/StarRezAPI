@@ -1,0 +1,38 @@
+type: object
+#required:
+properties:
+  RoomSpaceMaintenanceItemID:
+    type: integer
+    format: int32
+    description: Room Space Maintenance Item
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  RoomSpaceMaintenanceCategoryID:
+    type: integer
+    format: int32
+    description: Room Space Maintenance Category
+  Description:
+    type: string
+    maxLength: 50
+    description: Description
+  Comments:
+    type: string
+    maxLength: 500
+    description: Comments
+  ViewOnWeb:
+    type: boolean
+    description: View On Web
+  DefaultChangeAmount:
+    type: string
+    format: money
+    description: Default Change Amount
+  ChargeItemID:
+    type: integer
+    format: int32
+    description: Charge Item
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified

@@ -1,0 +1,80 @@
+type: object
+#required:
+#  - Description
+properties:
+  ReportID:
+    type: integer
+    format: int32
+    description: Report
+  ParentID:
+    type: integer
+    format: int32
+    description: Parent
+  Folder:
+    type: boolean
+    description: Folder
+  ReportTypeDescription:
+    type: string
+    maxLength: 60
+    description: Report Type Description
+  Description:
+    type: string
+    maxLength: 60
+    description: Description
+  Comments:
+    type: string
+    maxLength: 250
+    description: Comments
+  ControlAssemblyName:
+    type: string
+    maxLength: 255
+    description: Control Assembly Name
+  ControlTypeName:
+    type: string
+    maxLength: 255
+    description: Control Type Name
+  HelperAssemblyName:
+    type: string
+    maxLength: 255
+    description: Helper Assembly Name
+  HelperTypeName:
+    type: string
+    maxLength: 255
+    description: Helper Type Name
+  MainTableName:
+    type: string
+    maxLength: 100
+    description: Main Table Name
+  DisplayInDetailForm:
+    type: boolean
+    description: Display In Detail Form
+  DisplayInActionMenu:
+    type: boolean
+    description: Display In Action Menu
+  SecurityUserID:
+    type: integer
+    format: int32
+    description: Security User
+  XslTemplate:
+    type: string
+    format: longstring
+    description: Xsl Template
+  LastRan_SecurityUserID:
+    type: integer
+    format: int32
+    description: Last Ran Security User
+  LastRanDate:
+    type: string
+    description: Last Ran Date
+  RecordTypeEnum:
+    type: string
+    format: enum
+    description: Record Type
+  DateCreated:
+    type: string
+    format: date-time
+    description: Date Created
+  DateModified:
+    type: string
+    format: datetimeseconds
+    description: Date Modified
