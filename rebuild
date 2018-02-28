@@ -1,16 +1,12 @@
 #!/bin/bash
 
 test=false
-clean=false
 gen=false
 while getopts ":gct" opt
 do
     case "$opt" in
         "g")
             gen=true
-            ;;
-        "c")
-            clean=true
             ;;
         "t")
             test=true
@@ -28,19 +24,14 @@ then
     cd ../
 fi
 
-if [ "$clean" = true ]
-then
-    rm -rf ./StarRezAPI
-fi
-
 cd swagger-definitions
 multi-file-swagger -o yaml index.yaml > ../StarRez.yaml
-swagger-codegen generate -i ../StarRez.yaml -l python -o ../StarRezAPI -c config.json &> /dev/null
+swagger-codegen generate -i ../StarRez.yaml -l python -o ../ -c config.json &> /dev/null
 cd ../
 
 if [ "$test" = true ]
 then
     pip uninstall --yes StarRezAPI
-    pip install ./StarRezAPI
+    pip install ./
     python testClient/test.py
 fi
