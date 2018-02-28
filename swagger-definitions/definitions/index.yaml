@@ -1,4 +1,6 @@
-EntryItem:
-  $ref: EntryItem.yaml
 TableItem:
   $ref: TableItem.yaml
+EntryItem:
+  $ref: EntryItem.yaml
+# Insert Manually created Items above
+# Generated

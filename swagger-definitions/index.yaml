@@ -1,6 +1,6 @@
 swagger: '2.0'
 info:
-  description: This is a way to connect wit hthe StarRez API. We are not the developers of the StarRez API, we are just an organization that uses it and wanted a better way to connect to it.
+  description: This is a way to connect with the StarRez API. We are not the developers of the StarRez API, we are just an organization that uses it and wanted a better way to connect to it.
   version: 1.0.0
   title: StarRez API
   contact:

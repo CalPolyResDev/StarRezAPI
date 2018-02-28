@@ -103,7 +103,7 @@ def checkFileLock(file_path):
     try:
         # Checks if the file is flagged as being locked for editing
         f = open(file_path, "r")
-        if f.readline()[:-1].lower() == "# locked":
+        if f.readline().strip().lower() == "# locked":
             f.close()
             return True
         f.close()
@@ -111,6 +111,39 @@ def checkFileLock(file_path):
     except:
         # File doesn't exist, so it can't be locked
         return False
+
+
+def cleanIndex(index_path):
+    f = open(index_path, "r+")
+    lines = f.readlines()
+    manualItems = ""
+    for line in lines:
+        
+        if line.strip() == "# Generated":
+            manualItems += line.strip() + "\n"
+            break
+        else:
+            manualItems += line
+    f = open(index_path, "w+")
+    f.write(manualItems)
+    f.close()
+
+
+def registerPath(table_name, reqType):
+    f = open("./paths/index.yaml", "a")
+    if reqType == "update":
+        f.write("update/" + table_name + "/{" + table_name + "ID}:\n")
+    else:
+        f.write(reqType + "/" + table_name + ":\n")
+    f.write("  $ref: ./" + reqType + "/" + table_name.lower() + ".yaml\n")
+    f.close()
+
+
+def registerDef(table_name):
+    f = open("./definitions/index.yaml", "a")
+    f.write(table_name + "Item:\n")
+    f.write("  $ref: " + table_name + "Item.yaml\n")
+    f.close()
 
 
 def writeDefinition(table):
@@ -134,6 +167,7 @@ def writeDefinition(table):
                     f.write("    maxLength: " + str(col.size) + "\n")
                 f.write("    description: " + col.desc + "\n")
         f.close()
+    registerDef(def_name)
 
 
 # Currently the reqType is either select (GET) or update (POST)
@@ -160,7 +194,7 @@ def writePaths(table, reqType):
         f.write("    - application/xml\n")
         f.write("  produces:\n")
         f.write("    - application/json\n")
-        
+
         f.write("  parameters:\n")
         if reqType == "update":
             f.write("    - in: path\n")
@@ -180,7 +214,7 @@ def writePaths(table, reqType):
             f.write("      description: ID of the " + name + " you want to look up\n")
             f.write("      required: false\n")
             f.write("      type: integer\n")
-        
+
         f.write("  responses:\n")
         f.write("    200:\n")
         desc = "Updated Item" if reqType == "update" else "Search results matching criteria."
@@ -192,23 +226,20 @@ def writePaths(table, reqType):
         f.write("    400:\n")
         error = "Invalid Input, Object Invalid." if reqType == "update" else "Bad Request"
         f.write("      description: " + error)
-        
+
         f.close()
+    registerPath(name, reqType)
 
 
 def generateSwagger():
     api_instance = init()
     table_list = getTables(api_instance)
+    cleanIndex("./paths/index.yaml")
+    cleanIndex("./definitions/index.yaml")
     for table in table_list:
         getTableInfo(api_instance, table)
         writeDefinition(table)
         writePaths(table, "select")
         writePaths(table, "update")
 
-# generateSwagger()
-
-api_instance = init()
-table = Table("Entry")
-getTableInfo(api_instance, table)
-writeDefinition(table)
-writePaths(table, "update")
+generateSwagger()
