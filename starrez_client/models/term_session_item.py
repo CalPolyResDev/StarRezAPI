@@ -1189,7 +1189,7 @@ class TermSessionItem(object):
     def custom_string1(self):
         """Gets the custom_string1 of this TermSessionItem.  # noqa: E501
 
-        Custom String 1  # noqa: E501
+        Classifications  # noqa: E501
 
         :return: The custom_string1 of this TermSessionItem.  # noqa: E501
         :rtype: str
@@ -1200,7 +1200,7 @@ class TermSessionItem(object):
     def custom_string1(self, custom_string1):
         """Sets the custom_string1 of this TermSessionItem.
 
-        Custom String 1  # noqa: E501
+        Classifications  # noqa: E501
 
         :param custom_string1: The custom_string1 of this TermSessionItem.  # noqa: E501
         :type: str

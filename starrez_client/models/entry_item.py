@@ -923,7 +923,7 @@ class EntryItem(object):
     def id3(self):
         """Gets the id3 of this EntryItem.  # noqa: E501
 
-        CalPoly GUID  # noqa: E501
+        ID3  # noqa: E501
 
         :return: The id3 of this EntryItem.  # noqa: E501
         :rtype: str
@@ -934,7 +934,7 @@ class EntryItem(object):
     def id3(self, id3):
         """Sets the id3 of this EntryItem.
 
-        CalPoly GUID  # noqa: E501
+        ID3  # noqa: E501
 
         :param id3: The id3 of this EntryItem.  # noqa: E501
         :type: str

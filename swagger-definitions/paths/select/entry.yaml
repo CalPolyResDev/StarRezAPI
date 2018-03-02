@@ -26,6 +26,11 @@ get:
       description: Email address of the resident you want to look up
       required: false
       type: string
+    - in: query
+      name: NamePreferred
+      description: Preferred First Name of the resident you want to look up
+      required: false
+      type: string
   responses:
     200:
       description: Search results matching criteria.

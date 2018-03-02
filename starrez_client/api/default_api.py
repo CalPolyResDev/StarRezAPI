@@ -5841,6 +5841,7 @@ class DefaultApi(object):
         :param str name_first: First Name of the resident you want to look up
         :param str name_last: Last Name of the resident you want to look up
         :param str name_web: Email address of the resident you want to look up
+        :param str name_preferred: Preferred First Name of the resident you want to look up
         :return: list[EntryItem]
                  If the method is called asynchronously,
                  returns the request thread.
@@ -5865,12 +5866,13 @@ class DefaultApi(object):
         :param str name_first: First Name of the resident you want to look up
         :param str name_last: Last Name of the resident you want to look up
         :param str name_web: Email address of the resident you want to look up
+        :param str name_preferred: Preferred First Name of the resident you want to look up
         :return: list[EntryItem]
                  If the method is called asynchronously,
                  returns the request thread.
         """
 
-        all_params = ['name_first', 'name_last', 'name_web']  # noqa: E501
+        all_params = ['name_first', 'name_last', 'name_web', 'name_preferred']  # noqa: E501
         all_params.append('async')
         all_params.append('_return_http_data_only')
         all_params.append('_preload_content')
@@ -5897,6 +5899,8 @@ class DefaultApi(object):
             query_params.append(('NameLast', params['name_last']))  # noqa: E501
         if 'name_web' in params:
             query_params.append(('NameWeb', params['name_web']))  # noqa: E501
+        if 'name_preferred' in params:
+            query_params.append(('NamePreferred', params['name_preferred']))  # noqa: E501
 
         header_params = {}
 

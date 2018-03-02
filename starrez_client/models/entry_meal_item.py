@@ -864,7 +864,7 @@ class EntryMealItem(object):
     def custom_bit1(self):
         """Gets the custom_bit1 of this EntryMealItem.  # noqa: E501
 
-        Custom Flag 1  # noqa: E501
+        Freshman  # noqa: E501
 
         :return: The custom_bit1 of this EntryMealItem.  # noqa: E501
         :rtype: bool
@@ -875,7 +875,7 @@ class EntryMealItem(object):
     def custom_bit1(self, custom_bit1):
         """Sets the custom_bit1 of this EntryMealItem.
 
-        Custom Flag 1  # noqa: E501
+        Freshman  # noqa: E501
 
         :param custom_bit1: The custom_bit1 of this EntryMealItem.  # noqa: E501
         :type: bool
@@ -887,7 +887,7 @@ class EntryMealItem(object):
     def custom_bit2(self):
         """Gets the custom_bit2 of this EntryMealItem.  # noqa: E501
 
-        Custom Flag 2  # noqa: E501
+        Non-Freshman  # noqa: E501
 
         :return: The custom_bit2 of this EntryMealItem.  # noqa: E501
         :rtype: bool
@@ -898,7 +898,7 @@ class EntryMealItem(object):
     def custom_bit2(self, custom_bit2):
         """Sets the custom_bit2 of this EntryMealItem.
 
-        Custom Flag 2  # noqa: E501
+        Non-Freshman  # noqa: E501
 
         :param custom_bit2: The custom_bit2 of this EntryMealItem.  # noqa: E501
         :type: bool

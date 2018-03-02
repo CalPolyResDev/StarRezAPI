@@ -108,10 +108,10 @@ properties:
     description: Date Charged To
   CustomBit1:
     type: boolean
-    description: Custom Flag 1
+    description: Freshman
   CustomBit2:
     type: boolean
-    description: Custom Flag 2
+    description: Non-Freshman
   CustomString1:
     type: string
     maxLength: 50

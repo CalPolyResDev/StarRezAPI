@@ -29,7 +29,7 @@ Name | Type | Description | Notes
 **comments** | **str** | Comments | [optional] 
 **custom_bit1** | **bool** | Custom Flag 1 | [optional] 
 **custom_bit2** | **bool** | Custom Flag 2 | [optional] 
-**custom_string1** | **str** | Custom String 1 | [optional] 
+**custom_string1** | **str** | Classification Availability | [optional] 
 **custom_string2** | **str** | Custom String 2 | [optional] 
 **custom_string3** | **str** | Custom String 3 | [optional] 
 **custom_string4** | **str** | Custom String 4 | [optional] 

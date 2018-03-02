@@ -153,7 +153,7 @@ properties:
   CustomString1:
     type: string
     maxLength: 50
-    description: Custom String 1
+    description: Classifications
   CustomString2:
     type: string
     maxLength: 50

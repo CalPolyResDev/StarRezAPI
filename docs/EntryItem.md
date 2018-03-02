@@ -30,7 +30,7 @@ Name | Type | Description | Notes
 **position** | **str** | Position | [optional] 
 **id1** | **str** | EmplID | [optional] 
 **id2** | **str** | POLYCARD ISO | [optional] 
-**id3** | **str** | CalPoly GUID | [optional] 
+**id3** | **str** | ID3 | [optional] 
 **id4** | **int** | ID4 | [optional] 
 **id5** | **int** | ID5 | [optional] 
 **phone_process_to_account** | **bool** | Phone Process To Account | [optional] 

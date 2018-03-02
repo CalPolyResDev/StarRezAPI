@@ -5543,6 +5543,11 @@ paths:
           description: Email address of the resident you want to look up
           required: false
           type: string
+        - in: query
+          name: NamePreferred
+          description: Preferred First Name of the resident you want to look up
+          required: false
+          type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -25986,7 +25991,7 @@ definitions:
       ID3:
         type: string
         maxLength: 30
-        description: CalPoly GUID
+        description: ID3
       ID4:
         type: integer
         format: int32
@@ -27562,10 +27567,10 @@ definitions:
         description: Date Charged To
       CustomBit1:
         type: boolean
-        description: Custom Flag 1
+        description: Freshman
       CustomBit2:
         type: boolean
-        description: Custom Flag 2
+        description: Non-Freshman
       CustomString1:
         type: string
         maxLength: 50
@@ -31850,7 +31855,7 @@ definitions:
       CustomString1:
         type: string
         maxLength: 50
-        description: Custom String 1
+        description: Classification Availability
       CustomString2:
         type: string
         maxLength: 50
@@ -37788,7 +37793,7 @@ definitions:
       CustomString1:
         type: string
         maxLength: 50
-        description: Custom String 1
+        description: Classifications
       CustomString2:
         type: string
         maxLength: 50

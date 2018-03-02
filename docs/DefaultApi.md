@@ -3988,7 +3988,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **search_entry**
-> list[EntryItem] search_entry(name_first=name_first, name_last=name_last, name_web=name_web)
+> list[EntryItem] search_entry(name_first=name_first, name_last=name_last, name_web=name_web, name_preferred=name_preferred)
 
 student info
 
@@ -4012,10 +4012,11 @@ api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration)
 name_first = 'name_first_example' # str | First Name of the resident you want to look up (optional)
 name_last = 'name_last_example' # str | Last Name of the resident you want to look up (optional)
 name_web = 'name_web_example' # str | Email address of the resident you want to look up (optional)
+name_preferred = 'name_preferred_example' # str | Preferred First Name of the resident you want to look up (optional)
 
 try:
     # student info
-    api_response = api_instance.search_entry(name_first=name_first, name_last=name_last, name_web=name_web)
+    api_response = api_instance.search_entry(name_first=name_first, name_last=name_last, name_web=name_web, name_preferred=name_preferred)
     pprint(api_response)
 except ApiException as e:
     print("Exception when calling DefaultApi->search_entry: %s\n" % e)
@@ -4028,6 +4029,7 @@ Name | Type | Description  | Notes
  **name_first** | **str**| First Name of the resident you want to look up | [optional] 
  **name_last** | **str**| Last Name of the resident you want to look up | [optional] 
  **name_web** | **str**| Email address of the resident you want to look up | [optional] 
+ **name_preferred** | **str**| Preferred First Name of the resident you want to look up | [optional] 
 
 ### Return type
 

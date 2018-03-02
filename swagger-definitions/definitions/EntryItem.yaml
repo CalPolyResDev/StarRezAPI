@@ -111,7 +111,7 @@ properties:
   ID3:
     type: string
     maxLength: 30
-    description: CalPoly GUID
+    description: ID3
   ID4:
     type: integer
     format: int32

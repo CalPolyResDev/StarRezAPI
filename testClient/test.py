@@ -19,11 +19,12 @@ name_web = 'test@calpoly.edu'
 entry_item = starrez_client.EntryItem()
 entry_item.name_web = name_web
 
-api_instance.update_entry(entry_id, entry_item)
-
-test = api_instance.search_entry(name_last="Reis")
-
-# print(test)
+# api_instance.update_entry(entry_id, entry_item)
+try:
+    test = api_instance.search_entry(name_last="Reis")
+    # print(test)
+except ApiException:
+    print("No Record found")
 
 try:
     api_instance.search_entry()
