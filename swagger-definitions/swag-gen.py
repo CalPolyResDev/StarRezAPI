@@ -170,6 +170,37 @@ def writeDefinition(table):
     registerDef(def_name)
 
 
+def writePOSTSelect(writeFile, name):
+    f = writeFile
+    f.write("post:\n")
+    f.write('  summary: ""\n')
+    f.write("  operationId: ")
+    f.write("search" + name + "XML\n")
+    f.write("  description: By passing in the appropriate xml, " +
+            "you can search for a " + name + " in the system\n")
+    f.write("  consumes:\n")
+    f.write("    - application/xml\n")
+    f.write("  produces:\n")
+    f.write("    - application/json\n")
+
+    f.write("  parameters:\n")
+    f.write("    - in: body\n")
+    f.write("      name: Query\n")
+    f.write("      required: true\n")
+    f.write("      description: An XML query on the " + name + " table\n")
+    f.write("      schema:\n")
+    f.write("        type: string'\n")
+    f.write("  responses:\n")
+    f.write("    200:\n")
+    f.write("      description: Search results matching criteria.\n")
+    f.write("      schema:\n")
+    f.write("        type: array\n")
+    f.write("        items:\n")
+    f.write("          $ref: '#/definitions/" + name + "Item'\n")
+    f.write("    400:\n")
+    f.write("      description: Bad Request\n")
+
+
 # Currently the reqType is either select (GET) or update (POST)
 def writePaths(table, reqType):
     name = table.name
@@ -224,8 +255,10 @@ def writePaths(table, reqType):
         f.write("        items:\n")
         f.write("          $ref: '#/definitions/" + name + "Item'\n")
         f.write("    400:\n")
-        error = "Invalid Input, Object Invalid." if reqType == "update" else "Bad Request"
+        error = "Invalid Input, Object Invalid.\n" if reqType == "update" else "Bad Request\n"
         f.write("      description: " + error)
+        if reqType != "update":
+            writePOSTSelect(f, name)
 
         f.close()
     registerPath(name, reqType)

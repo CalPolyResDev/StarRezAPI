@@ -5557,6 +5557,32 @@ paths:
               $ref: '#/definitions/EntryItem'
         '400':
           description: Bad Request
+    post:
+      summary: student info
+      operationId: searchEntryXML
+      description: |
+        By passing in the appropriate options, you can search for
+        a resident in the system
+      consumes:
+        - application/xml
+      produces:
+        - application/json
+      parameters:
+        - in: body
+          name: Query
+          description: An XML query on the table
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Search results matching criteria.
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/EntryItem'
+        '400':
+          description: Bad Request
   'update/Entry/{EntryID}':
     post:
       summary: ''

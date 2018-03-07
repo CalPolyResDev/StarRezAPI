@@ -101,6 +101,7 @@ Method | HTTP request | Description
 [**search_entry_school**](DefaultApi.md#search_entry_school) | **GET** select/EntrySchool | 
 [**search_entry_sdas**](DefaultApi.md#search_entry_sdas) | **GET** select/EntrySDAS | 
 [**search_entry_visitor**](DefaultApi.md#search_entry_visitor) | **GET** select/EntryVisitor | 
+[**search_entry_xml**](DefaultApi.md#search_entry_xml) | **POST** select/Entry | student info
 [**search_event**](DefaultApi.md#search_event) | **GET** select/Event | 
 [**search_event_charge**](DefaultApi.md#search_event_charge) | **GET** select/EventCharge | 
 [**search_event_contact_entry**](DefaultApi.md#search_event_contact_entry) | **GET** select/EventContactEntry | 
@@ -5897,6 +5898,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_entry_xml**
+> list[EntryItem] search_entry_xml(query)
+
+student info
+
+By passing in the appropriate options, you can search for a resident in the system 
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the table
+
+try:
+    # student info
+    api_response = api_instance.search_entry_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the table | 
+
+### Return type
+
+[**list[EntryItem]**](EntryItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

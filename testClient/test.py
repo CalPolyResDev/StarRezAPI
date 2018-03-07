@@ -1,5 +1,6 @@
 import os
 import starrez_client
+import xml.etree.ElementTree as ET
 
 from dotenv import find_dotenv, load_dotenv
 from starrez_client.rest import ApiException
@@ -23,8 +24,38 @@ entry_item.name_web = name_web
 try:
     test = api_instance.search_entry(name_last="Reis")
     # print(test)
-except ApiException:
-    print("No Record found")
+except ApiException as e:
+    if e.body:
+        print(e.body)
+    else:
+        print(e)
+
+try:
+    entry = ET.Element('Entry')
+    fname = ET.SubElement(entry, 'NameFirst')
+    fname.text = "Kyle"
+    lname = ET.SubElement(entry, 'NameLast')
+    lname.text = "Reis"
+    test = api_instance.search_entry_xml(ET.tostring(entry, encoding="unicode"))
+    # print(test)
+except ApiException as e:
+    if e.body:
+        print(e.body)
+    else:
+        print(e)
+
+try:
+    entry_xml = """<Entry>
+                        <NameLast>Reis</NameLast>
+                        <NameFirst>Kyle</NameFirst>
+                   </Entry>"""
+    test = api_instance.search_entry_xml(entry_xml)
+    # print(test)
+except ApiException as e:
+    if e.body:
+        print(e.body)
+    else:
+        print(e)
 
 try:
     api_instance.search_entry()

@@ -170,6 +170,7 @@ Class | Method | HTTP request | Description
 *DefaultApi* | [**search_entry_school**](docs/DefaultApi.md#search_entry_school) | **GET** select/EntrySchool | 
 *DefaultApi* | [**search_entry_sdas**](docs/DefaultApi.md#search_entry_sdas) | **GET** select/EntrySDAS | 
 *DefaultApi* | [**search_entry_visitor**](docs/DefaultApi.md#search_entry_visitor) | **GET** select/EntryVisitor | 
+*DefaultApi* | [**search_entry_xml**](docs/DefaultApi.md#search_entry_xml) | **POST** select/Entry | student info
 *DefaultApi* | [**search_event**](docs/DefaultApi.md#search_event) | **GET** select/Event | 
 *DefaultApi* | [**search_event_charge**](docs/DefaultApi.md#search_event_charge) | **GET** select/EventCharge | 
 *DefaultApi* | [**search_event_contact_entry**](docs/DefaultApi.md#search_event_contact_entry) | **GET** select/EventContactEntry | 
