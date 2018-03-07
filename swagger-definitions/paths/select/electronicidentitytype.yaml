@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/ElectronicIdentityTypeItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchElectronicIdentityTypeXML
+  description: By passing in the appropriate xml, you can search for a ElectronicIdentityType in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the ElectronicIdentityType table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ElectronicIdentityTypeItem'
+    400:
+      description: Bad Request

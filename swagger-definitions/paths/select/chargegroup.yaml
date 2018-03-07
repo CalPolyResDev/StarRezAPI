@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/ChargeGroupItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchChargeGroupXML
+  description: By passing in the appropriate xml, you can search for a ChargeGroup in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the ChargeGroup table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ChargeGroupItem'
+    400:
+      description: Bad Request

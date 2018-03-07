@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/ConcernNoteItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchConcernNoteXML
+  description: By passing in the appropriate xml, you can search for a ConcernNote in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the ConcernNote table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ConcernNoteItem'
+    400:
+      description: Bad Request

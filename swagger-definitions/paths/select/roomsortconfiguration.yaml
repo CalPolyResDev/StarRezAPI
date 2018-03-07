@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/RoomSortConfigurationItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchRoomSortConfigurationXML
+  description: By passing in the appropriate xml, you can search for a RoomSortConfiguration in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the RoomSortConfiguration table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/RoomSortConfigurationItem'
+    400:
+      description: Bad Request

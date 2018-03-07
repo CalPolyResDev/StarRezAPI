@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/InterfaceSubscribeItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchInterfaceSubscribeXML
+  description: By passing in the appropriate xml, you can search for a InterfaceSubscribe in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the InterfaceSubscribe table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/InterfaceSubscribeItem'
+    400:
+      description: Bad Request

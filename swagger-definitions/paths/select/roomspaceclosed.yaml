@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/RoomSpaceClosedItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchRoomSpaceClosedXML
+  description: By passing in the appropriate xml, you can search for a RoomSpaceClosed in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the RoomSpaceClosed table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/RoomSpaceClosedItem'
+    400:
+      description: Bad Request

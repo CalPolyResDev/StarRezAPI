@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/DynamicListItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchDynamicListXML
+  description: By passing in the appropriate xml, you can search for a DynamicList in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the DynamicList table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/DynamicListItem'
+    400:
+      description: Bad Request

@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/ProgramSubTypeItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchProgramSubTypeXML
+  description: By passing in the appropriate xml, you can search for a ProgramSubType in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the ProgramSubType table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ProgramSubTypeItem'
+    400:
+      description: Bad Request

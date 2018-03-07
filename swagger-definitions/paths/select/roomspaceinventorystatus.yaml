@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/RoomSpaceInventoryStatusItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchRoomSpaceInventoryStatusXML
+  description: By passing in the appropriate xml, you can search for a RoomSpaceInventoryStatus in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the RoomSpaceInventoryStatus table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/RoomSpaceInventoryStatusItem'
+    400:
+      description: Bad Request

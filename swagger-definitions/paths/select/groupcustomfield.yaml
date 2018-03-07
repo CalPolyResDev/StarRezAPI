@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/GroupCustomFieldItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchGroupCustomFieldXML
+  description: By passing in the appropriate xml, you can search for a GroupCustomField in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the GroupCustomField table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/GroupCustomFieldItem'
+    400:
+      description: Bad Request

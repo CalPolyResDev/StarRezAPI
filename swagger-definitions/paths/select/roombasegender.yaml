@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/RoomBaseGenderItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchRoomBaseGenderXML
+  description: By passing in the appropriate xml, you can search for a RoomBaseGender in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the RoomBaseGender table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/RoomBaseGenderItem'
+    400:
+      description: Bad Request

@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/TransactionLinkItemItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchTransactionLinkItemXML
+  description: By passing in the appropriate xml, you can search for a TransactionLinkItem in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the TransactionLinkItem table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/TransactionLinkItemItem'
+    400:
+      description: Bad Request

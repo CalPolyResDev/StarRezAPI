@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/ConcernSubTypeItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchConcernSubTypeXML
+  description: By passing in the appropriate xml, you can search for a ConcernSubType in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the ConcernSubType table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ConcernSubTypeItem'
+    400:
+      description: Bad Request

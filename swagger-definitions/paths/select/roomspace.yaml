@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/RoomSpaceItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchRoomSpaceXML
+  description: By passing in the appropriate xml, you can search for a RoomSpace in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the RoomSpace table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/RoomSpaceItem'
+    400:
+      description: Bad Request

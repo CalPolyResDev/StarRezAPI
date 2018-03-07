@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/TemplateItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchTemplateXML
+  description: By passing in the appropriate xml, you can search for a Template in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the Template table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/TemplateItem'
+    400:
+      description: Bad Request

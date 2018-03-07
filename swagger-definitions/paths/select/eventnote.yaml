@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/EventNoteItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchEventNoteXML
+  description: By passing in the appropriate xml, you can search for a EventNote in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the EventNote table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EventNoteItem'
+    400:
+      description: Bad Request

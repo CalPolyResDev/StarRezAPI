@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/CalendarItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchCalendarXML
+  description: By passing in the appropriate xml, you can search for a Calendar in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the Calendar table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/CalendarItem'
+    400:
+      description: Bad Request

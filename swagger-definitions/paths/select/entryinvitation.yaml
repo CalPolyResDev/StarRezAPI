@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/EntryInvitationItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchEntryInvitationXML
+  description: By passing in the appropriate xml, you can search for a EntryInvitation in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the EntryInvitation table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/EntryInvitationItem'
+    400:
+      description: Bad Request

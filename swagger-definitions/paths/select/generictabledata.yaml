@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/GenericTableDataItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchGenericTableDataXML
+  description: By passing in the appropriate xml, you can search for a GenericTableData in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the GenericTableData table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/GenericTableDataItem'
+    400:
+      description: Bad Request

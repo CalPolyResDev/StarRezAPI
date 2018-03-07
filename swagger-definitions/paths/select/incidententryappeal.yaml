@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/IncidentEntryAppealItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchIncidentEntryAppealXML
+  description: By passing in the appropriate xml, you can search for a IncidentEntryAppeal in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the IncidentEntryAppeal table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/IncidentEntryAppealItem'
+    400:
+      description: Bad Request

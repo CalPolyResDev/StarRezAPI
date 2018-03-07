@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/RoomLocationSectionItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchRoomLocationSectionXML
+  description: By passing in the appropriate xml, you can search for a RoomLocationSection in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the RoomLocationSection table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/RoomLocationSectionItem'
+    400:
+      description: Bad Request

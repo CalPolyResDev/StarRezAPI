@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/IncidentEntryViolationItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchIncidentEntryViolationXML
+  description: By passing in the appropriate xml, you can search for a IncidentEntryViolation in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the IncidentEntryViolation table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/IncidentEntryViolationItem'
+    400:
+      description: Bad Request

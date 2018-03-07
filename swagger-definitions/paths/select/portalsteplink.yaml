@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/PortalStepLinkItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchPortalStepLinkXML
+  description: By passing in the appropriate xml, you can search for a PortalStepLink in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the PortalStepLink table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/PortalStepLinkItem'
+    400:
+      description: Bad Request

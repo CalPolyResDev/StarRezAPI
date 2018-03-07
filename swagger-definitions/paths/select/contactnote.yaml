@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/ContactNoteItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchContactNoteXML
+  description: By passing in the appropriate xml, you can search for a ContactNote in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the ContactNote table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ContactNoteItem'
+    400:
+      description: Bad Request

@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/TaskStatusItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchTaskStatusXML
+  description: By passing in the appropriate xml, you can search for a TaskStatus in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the TaskStatus table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/TaskStatusItem'
+    400:
+      description: Bad Request

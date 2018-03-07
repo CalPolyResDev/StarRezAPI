@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/InvoiceItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchInvoiceXML
+  description: By passing in the appropriate xml, you can search for a Invoice in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the Invoice table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/InvoiceItem'
+    400:
+      description: Bad Request

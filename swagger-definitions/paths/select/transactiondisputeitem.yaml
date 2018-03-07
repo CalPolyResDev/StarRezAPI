@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/TransactionDisputeItemItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchTransactionDisputeItemXML
+  description: By passing in the appropriate xml, you can search for a TransactionDisputeItem in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the TransactionDisputeItem table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/TransactionDisputeItemItem'
+    400:
+      description: Bad Request

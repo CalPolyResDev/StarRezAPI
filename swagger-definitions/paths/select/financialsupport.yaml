@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/FinancialSupportItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchFinancialSupportXML
+  description: By passing in the appropriate xml, you can search for a FinancialSupport in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the FinancialSupport table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/FinancialSupportItem'
+    400:
+      description: Bad Request

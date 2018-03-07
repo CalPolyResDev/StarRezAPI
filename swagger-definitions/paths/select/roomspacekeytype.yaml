@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/RoomSpaceKeyTypeItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchRoomSpaceKeyTypeXML
+  description: By passing in the appropriate xml, you can search for a RoomSpaceKeyType in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the RoomSpaceKeyType table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/RoomSpaceKeyTypeItem'
+    400:
+      description: Bad Request

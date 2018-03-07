@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/ReportDetailItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchReportDetailXML
+  description: By passing in the appropriate xml, you can search for a ReportDetail in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the ReportDetail table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ReportDetailItem'
+    400:
+      description: Bad Request

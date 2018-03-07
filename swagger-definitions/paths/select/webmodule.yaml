@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/WebModuleItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchWebModuleXML
+  description: By passing in the appropriate xml, you can search for a WebModule in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the WebModule table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/WebModuleItem'
+    400:
+      description: Bad Request

@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/RoommateGroupRequestItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchRoommateGroupRequestXML
+  description: By passing in the appropriate xml, you can search for a RoommateGroupRequest in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the RoommateGroupRequest table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/RoommateGroupRequestItem'
+    400:
+      description: Bad Request

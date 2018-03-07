@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/ContactStatusItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchContactStatusXML
+  description: By passing in the appropriate xml, you can search for a ContactStatus in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the ContactStatus table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/ContactStatusItem'
+    400:
+      description: Bad Request

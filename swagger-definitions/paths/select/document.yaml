@@ -22,3 +22,27 @@ get:
           $ref: '#/definitions/DocumentItem'
     400:
       description: Bad Request
+post:
+  summary: ""
+  operationId: searchDocumentXML
+  description: By passing in the appropriate xml, you can search for a Document in the system
+  consumes:
+    - application/xml
+  produces:
+    - application/json
+  parameters:
+    - in: body
+      name: Query
+      required: true
+      description: An XML query on the Document table
+      schema:
+        type: string'
+  responses:
+    200:
+      description: Search results matching criteria.
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/DocumentItem'
+    400:
+      description: Bad Request
