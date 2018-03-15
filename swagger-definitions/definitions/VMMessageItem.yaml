@@ -39,11 +39,9 @@ properties:
     description: Sender Number
   Priority:
     type: string
-    format: byte
     description: Priority
   Status:
     type: string
-    format: byte
     description: Status
   DateModified:
     type: string

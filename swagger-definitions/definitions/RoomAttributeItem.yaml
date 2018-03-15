@@ -23,5 +23,4 @@ properties:
     description: Field Value
   Weighting:
     type: string
-    format: byte
     description: Weighting

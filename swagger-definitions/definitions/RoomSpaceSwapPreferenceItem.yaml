@@ -15,7 +15,6 @@ properties:
     description: Room Preference
   Preference:
     type: string
-    format: byte
     description: Preference
   DateModified:
     type: string

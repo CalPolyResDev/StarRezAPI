@@ -107,19 +107,15 @@ properties:
     description: Resv Charge To Entry
   NumberOfGuests:
     type: string
-    format: byte
     description: Number Of Guests
   NumberOfGuestsFree:
     type: string
-    format: byte
     description: Number Of Guests Free
   NumberOfChildren:
     type: string
-    format: byte
     description: Number Of Children
   NumberOfChildrenFree:
     type: string
-    format: byte
     description: Number Of Children Free
   SpecialRequirement:
     type: string

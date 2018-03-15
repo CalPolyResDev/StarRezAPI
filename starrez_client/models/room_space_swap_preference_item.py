@@ -156,8 +156,6 @@ class RoomSpaceSwapPreferenceItem(object):
         :param preference: The preference of this RoomSpaceSwapPreferenceItem.  # noqa: E501
         :type: str
         """
-        if preference is not None and not re.search('^(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{2}==|[A-Za-z0-9+\/]{3}=)?$', preference):  # noqa: E501
-            raise ValueError("Invalid value for `preference`, must be a follow pattern or equal to `/^(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{2}==|[A-Za-z0-9+\/]{3}=)?$/`")  # noqa: E501
 
         self._preference = preference
 

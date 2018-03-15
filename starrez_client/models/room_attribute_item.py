@@ -211,8 +211,6 @@ class RoomAttributeItem(object):
         :param weighting: The weighting of this RoomAttributeItem.  # noqa: E501
         :type: str
         """
-        if weighting is not None and not re.search('^(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{2}==|[A-Za-z0-9+\/]{3}=)?$', weighting):  # noqa: E501
-            raise ValueError("Invalid value for `weighting`, must be a follow pattern or equal to `/^(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{2}==|[A-Za-z0-9+\/]{3}=)?$/`")  # noqa: E501
 
         self._weighting = weighting
 

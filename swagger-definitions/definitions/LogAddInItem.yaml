@@ -19,7 +19,6 @@ properties:
     description: Addin Filename
   LogEventType:
     type: string
-    format: byte
     description: Log Event Type
   Machine:
     type: string

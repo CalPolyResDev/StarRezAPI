@@ -15,7 +15,6 @@ properties:
     description: Preference
   Preference:
     type: string
-    format: byte
     description: Preference
   Comments:
     type: string

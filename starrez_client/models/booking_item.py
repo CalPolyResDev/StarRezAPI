@@ -968,8 +968,6 @@ class BookingItem(object):
         :param number_of_guests: The number_of_guests of this BookingItem.  # noqa: E501
         :type: str
         """
-        if number_of_guests is not None and not re.search('^(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{2}==|[A-Za-z0-9+\/]{3}=)?$', number_of_guests):  # noqa: E501
-            raise ValueError("Invalid value for `number_of_guests`, must be a follow pattern or equal to `/^(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{2}==|[A-Za-z0-9+\/]{3}=)?$/`")  # noqa: E501
 
         self._number_of_guests = number_of_guests
 
@@ -993,8 +991,6 @@ class BookingItem(object):
         :param number_of_guests_free: The number_of_guests_free of this BookingItem.  # noqa: E501
         :type: str
         """
-        if number_of_guests_free is not None and not re.search('^(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{2}==|[A-Za-z0-9+\/]{3}=)?$', number_of_guests_free):  # noqa: E501
-            raise ValueError("Invalid value for `number_of_guests_free`, must be a follow pattern or equal to `/^(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{2}==|[A-Za-z0-9+\/]{3}=)?$/`")  # noqa: E501
 
         self._number_of_guests_free = number_of_guests_free
 
@@ -1018,8 +1014,6 @@ class BookingItem(object):
         :param number_of_children: The number_of_children of this BookingItem.  # noqa: E501
         :type: str
         """
-        if number_of_children is not None and not re.search('^(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{2}==|[A-Za-z0-9+\/]{3}=)?$', number_of_children):  # noqa: E501
-            raise ValueError("Invalid value for `number_of_children`, must be a follow pattern or equal to `/^(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{2}==|[A-Za-z0-9+\/]{3}=)?$/`")  # noqa: E501
 
         self._number_of_children = number_of_children
 
@@ -1043,8 +1037,6 @@ class BookingItem(object):
         :param number_of_children_free: The number_of_children_free of this BookingItem.  # noqa: E501
         :type: str
         """
-        if number_of_children_free is not None and not re.search('^(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{2}==|[A-Za-z0-9+\/]{3}=)?$', number_of_children_free):  # noqa: E501
-            raise ValueError("Invalid value for `number_of_children_free`, must be a follow pattern or equal to `/^(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{2}==|[A-Za-z0-9+\/]{3}=)?$/`")  # noqa: E501
 
         self._number_of_children_free = number_of_children_free
 

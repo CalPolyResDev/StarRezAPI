@@ -32198,7 +32198,6 @@ definitions:
         description: Addin Filename
       LogEventType:
         type: string
-        format: byte
         description: Log Event Type
       Machine:
         type: string
@@ -33455,19 +33454,15 @@ definitions:
         description: Resv Charge To Entry
       NumberOfGuests:
         type: string
-        format: byte
         description: Number Of Guests
       NumberOfGuestsFree:
         type: string
-        format: byte
         description: Number Of Guests Free
       NumberOfChildren:
         type: string
-        format: byte
         description: Number Of Children
       NumberOfChildrenFree:
         type: string
-        format: byte
         description: Number Of Children Free
       SpecialRequirement:
         type: string
@@ -36343,7 +36338,6 @@ definitions:
         description: Preference
       Preference:
         type: string
-        format: byte
         description: Preference
       Comments:
         type: string
@@ -36484,7 +36478,6 @@ definitions:
         description: Room Preference
       Preference:
         type: string
-        format: byte
         description: Preference
       Comments:
         type: string
@@ -37760,7 +37753,6 @@ definitions:
         description: Term
       TermNumber:
         type: string
-        format: byte
         description: Term Number
       SubjectLevel:
         type: string
@@ -44394,7 +44386,6 @@ definitions:
         description: Field Value
       Weighting:
         type: string
-        format: byte
         description: Weighting
       DateModified:
         type: string
@@ -45448,7 +45439,6 @@ definitions:
         description: Room Space Inventory Type
       ConditionOrder:
         type: string
-        format: byte
         description: Condition Order
       Description:
         type: string
@@ -46257,7 +46247,6 @@ definitions:
         description: Room Preference
       Preference:
         type: string
-        format: byte
         description: Preference
       DateModified:
         type: string
@@ -48450,11 +48439,9 @@ definitions:
         description: Sender
       Priority:
         type: string
-        format: byte
         description: Priority
       Status:
         type: string
-        format: byte
         description: Status
       DateModified:
         type: string
@@ -48544,11 +48531,9 @@ definitions:
         description: Alternate Divert Number
       AlternateDivertType:
         type: string
-        format: byte
         description: Alternate Divert Type
       MailBoxAction:
         type: string
-        format: byte
         description: Mail Box Action
       DivertNumber:
         type: string
@@ -48556,7 +48541,6 @@ definitions:
         description: Divert Number
       DivertType:
         type: string
-        format: byte
         description: Divert Type
       MessageTimeStamp:
         type: boolean
@@ -48570,7 +48554,6 @@ definitions:
         description: VM Mail Box Name
       MessageDelivery:
         type: string
-        format: byte
         description: Message Delivery
       Emailaddress:
         type: string
@@ -48701,11 +48684,9 @@ definitions:
         description: Sender Number
       Priority:
         type: string
-        format: byte
         description: Priority
       Status:
         type: string
-        format: byte
         description: Status
       DateModified:
         type: string
@@ -50142,7 +50123,6 @@ definitions:
         description: Field Value
       Weighting:
         type: string
-        format: byte
         description: Weighting
   RoomClassificationItem:
     type: object

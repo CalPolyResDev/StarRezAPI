@@ -48,11 +48,9 @@ properties:
     description: Alternate Divert Number
   AlternateDivertType:
     type: string
-    format: byte
     description: Alternate Divert Type
   MailBoxAction:
     type: string
-    format: byte
     description: Mail Box Action
   DivertNumber:
     type: string
@@ -60,7 +58,6 @@ properties:
     description: Divert Number
   DivertType:
     type: string
-    format: byte
     description: Divert Type
   MessageTimeStamp:
     type: boolean
@@ -74,7 +71,6 @@ properties:
     description: VM Mail Box Name
   MessageDelivery:
     type: string
-    format: byte
     description: Message Delivery
   Emailaddress:
     type: string

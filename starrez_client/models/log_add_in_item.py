@@ -216,8 +216,6 @@ class LogAddInItem(object):
         :param log_event_type: The log_event_type of this LogAddInItem.  # noqa: E501
         :type: str
         """
-        if log_event_type is not None and not re.search('^(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{2}==|[A-Za-z0-9+\/]{3}=)?$', log_event_type):  # noqa: E501
-            raise ValueError("Invalid value for `log_event_type`, must be a follow pattern or equal to `/^(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{2}==|[A-Za-z0-9+\/]{3}=)?$/`")  # noqa: E501
 
         self._log_event_type = log_event_type
 

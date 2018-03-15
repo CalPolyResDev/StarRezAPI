@@ -467,8 +467,6 @@ class VMMailBoxItem(object):
         :param alternate_divert_type: The alternate_divert_type of this VMMailBoxItem.  # noqa: E501
         :type: str
         """
-        if alternate_divert_type is not None and not re.search('^(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{2}==|[A-Za-z0-9+\/]{3}=)?$', alternate_divert_type):  # noqa: E501
-            raise ValueError("Invalid value for `alternate_divert_type`, must be a follow pattern or equal to `/^(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{2}==|[A-Za-z0-9+\/]{3}=)?$/`")  # noqa: E501
 
         self._alternate_divert_type = alternate_divert_type
 
@@ -492,8 +490,6 @@ class VMMailBoxItem(object):
         :param mail_box_action: The mail_box_action of this VMMailBoxItem.  # noqa: E501
         :type: str
         """
-        if mail_box_action is not None and not re.search('^(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{2}==|[A-Za-z0-9+\/]{3}=)?$', mail_box_action):  # noqa: E501
-            raise ValueError("Invalid value for `mail_box_action`, must be a follow pattern or equal to `/^(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{2}==|[A-Za-z0-9+\/]{3}=)?$/`")  # noqa: E501
 
         self._mail_box_action = mail_box_action
 
@@ -542,8 +538,6 @@ class VMMailBoxItem(object):
         :param divert_type: The divert_type of this VMMailBoxItem.  # noqa: E501
         :type: str
         """
-        if divert_type is not None and not re.search('^(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{2}==|[A-Za-z0-9+\/]{3}=)?$', divert_type):  # noqa: E501
-            raise ValueError("Invalid value for `divert_type`, must be a follow pattern or equal to `/^(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{2}==|[A-Za-z0-9+\/]{3}=)?$/`")  # noqa: E501
 
         self._divert_type = divert_type
 
@@ -638,8 +632,6 @@ class VMMailBoxItem(object):
         :param message_delivery: The message_delivery of this VMMailBoxItem.  # noqa: E501
         :type: str
         """
-        if message_delivery is not None and not re.search('^(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{2}==|[A-Za-z0-9+\/]{3}=)?$', message_delivery):  # noqa: E501
-            raise ValueError("Invalid value for `message_delivery`, must be a follow pattern or equal to `/^(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{2}==|[A-Za-z0-9+\/]{3}=)?$/`")  # noqa: E501
 
         self._message_delivery = message_delivery
 

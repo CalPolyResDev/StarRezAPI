@@ -337,8 +337,6 @@ class VMMessageItem(object):
         :param priority: The priority of this VMMessageItem.  # noqa: E501
         :type: str
         """
-        if priority is not None and not re.search('^(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{2}==|[A-Za-z0-9+\/]{3}=)?$', priority):  # noqa: E501
-            raise ValueError("Invalid value for `priority`, must be a follow pattern or equal to `/^(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{2}==|[A-Za-z0-9+\/]{3}=)?$/`")  # noqa: E501
 
         self._priority = priority
 
@@ -362,8 +360,6 @@ class VMMessageItem(object):
         :param status: The status of this VMMessageItem.  # noqa: E501
         :type: str
         """
-        if status is not None and not re.search('^(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{2}==|[A-Za-z0-9+\/]{3}=)?$', status):  # noqa: E501
-            raise ValueError("Invalid value for `status`, must be a follow pattern or equal to `/^(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{2}==|[A-Za-z0-9+\/]{3}=)?$/`")  # noqa: E501
 
         self._status = status
 

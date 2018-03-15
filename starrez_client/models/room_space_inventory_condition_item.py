@@ -166,8 +166,6 @@ class RoomSpaceInventoryConditionItem(object):
         :param condition_order: The condition_order of this RoomSpaceInventoryConditionItem.  # noqa: E501
         :type: str
         """
-        if condition_order is not None and not re.search('^(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{2}==|[A-Za-z0-9+\/]{3}=)?$', condition_order):  # noqa: E501
-            raise ValueError("Invalid value for `condition_order`, must be a follow pattern or equal to `/^(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{2}==|[A-Za-z0-9+\/]{3}=)?$/`")  # noqa: E501
 
         self._condition_order = condition_order
 

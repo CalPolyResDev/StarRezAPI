@@ -16,7 +16,6 @@ properties:
     description: Room Space Inventory Type
   ConditionOrder:
     type: string
-    format: byte
     description: Condition Order
   Description:
     type: string

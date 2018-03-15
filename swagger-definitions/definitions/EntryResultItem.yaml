@@ -23,7 +23,6 @@ properties:
     description: Term
   TermNumber:
     type: string
-    format: byte
     description: Term Number
   SubjectLevel:
     type: string
