@@ -184,7 +184,7 @@ properties:
     description: Custom Flag 4
   CustomDate1:
     type: string
-    description: Custom Date 1
+    description: Added to Waitlist
   CustomDate2:
     type: string
     description: Custom Date 2

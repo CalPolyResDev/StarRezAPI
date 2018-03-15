@@ -106,7 +106,7 @@ paths:
           required: true
           description: An XML query on the CorrespondenceSource table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -190,7 +190,7 @@ paths:
           required: true
           description: An XML query on the Country table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -274,7 +274,7 @@ paths:
           required: true
           description: An XML query on the CustomFieldDefinition table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -358,7 +358,7 @@ paths:
           required: true
           description: An XML query on the CustomMethodTag table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -442,7 +442,7 @@ paths:
           required: true
           description: An XML query on the Document table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -526,7 +526,7 @@ paths:
           required: true
           description: An XML query on the DynamicList table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -610,7 +610,7 @@ paths:
           required: true
           description: An XML query on the DynamicListPermission table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -694,7 +694,7 @@ paths:
           required: true
           description: An XML query on the EmailFromAddress table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -778,7 +778,7 @@ paths:
           required: true
           description: An XML query on the EmailFromAddressPermission table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -862,7 +862,7 @@ paths:
           required: true
           description: An XML query on the EmailOutbox table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -946,7 +946,7 @@ paths:
           required: true
           description: An XML query on the FieldDefault table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -1030,7 +1030,7 @@ paths:
           required: true
           description: An XML query on the GenericTableData table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -1114,7 +1114,7 @@ paths:
           required: true
           description: An XML query on the GenericTableDataField table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -1198,7 +1198,7 @@ paths:
           required: true
           description: An XML query on the GenericTableDefinition table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -1282,7 +1282,7 @@ paths:
           required: true
           description: An XML query on the GenericTableDefinitionField table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -1366,7 +1366,7 @@ paths:
           required: true
           description: An XML query on the LogActivity table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -1450,7 +1450,7 @@ paths:
           required: true
           description: An XML query on the LogAddIn table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -1534,7 +1534,7 @@ paths:
           required: true
           description: An XML query on the LogMetric table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -1618,7 +1618,7 @@ paths:
           required: true
           description: An XML query on the Lookup table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -1702,7 +1702,7 @@ paths:
           required: true
           description: An XML query on the LookupText table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -1786,7 +1786,7 @@ paths:
           required: true
           description: An XML query on the MailMerge table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -1870,7 +1870,7 @@ paths:
           required: true
           description: An XML query on the MessageAction table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -1954,7 +1954,7 @@ paths:
           required: true
           description: An XML query on the MessageSubscriber table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -2038,7 +2038,7 @@ paths:
           required: true
           description: An XML query on the MessageSubscription table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -2122,7 +2122,7 @@ paths:
           required: true
           description: An XML query on the MessageSubscriptionSettings table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -2206,7 +2206,7 @@ paths:
           required: true
           description: An XML query on the Message table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -2290,7 +2290,7 @@ paths:
           required: true
           description: An XML query on the Nationality table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -2374,7 +2374,7 @@ paths:
           required: true
           description: An XML query on the NoteType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -2458,7 +2458,7 @@ paths:
           required: true
           description: An XML query on the Priority table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -2542,7 +2542,7 @@ paths:
           required: true
           description: An XML query on the RecordAttachment table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -2626,7 +2626,7 @@ paths:
           required: true
           description: An XML query on the RegionOfBirth table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -2710,7 +2710,7 @@ paths:
           required: true
           description: An XML query on the Report table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -2794,7 +2794,7 @@ paths:
           required: true
           description: An XML query on the ReportDetail table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -2878,7 +2878,7 @@ paths:
           required: true
           description: An XML query on the ReportPermission table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -2962,7 +2962,7 @@ paths:
           required: true
           description: An XML query on the ReportSchedule table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -3046,7 +3046,7 @@ paths:
           required: true
           description: An XML query on the ReportSetting table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -3130,7 +3130,7 @@ paths:
           required: true
           description: An XML query on the Setting table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -3214,7 +3214,7 @@ paths:
           required: true
           description: An XML query on the Task table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -3298,7 +3298,7 @@ paths:
           required: true
           description: An XML query on the TaskStatus table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -3382,7 +3382,7 @@ paths:
           required: true
           description: An XML query on the TaskTemplate table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -3466,7 +3466,7 @@ paths:
           required: true
           description: An XML query on the TaskTemplateItem table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -3550,7 +3550,7 @@ paths:
           required: true
           description: An XML query on the TaskType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -3634,7 +3634,7 @@ paths:
           required: true
           description: An XML query on the TaskRunnerHistory table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -3718,7 +3718,7 @@ paths:
           required: true
           description: An XML query on the Template table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -3802,7 +3802,7 @@ paths:
           required: true
           description: An XML query on the TemplatePermission table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -3886,7 +3886,7 @@ paths:
           required: true
           description: An XML query on the ZipPostCode table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -3970,7 +3970,7 @@ paths:
           required: true
           description: An XML query on the AddressType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -4054,7 +4054,7 @@ paths:
           required: true
           description: An XML query on the ApplicationStatus table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -4138,7 +4138,7 @@ paths:
           required: true
           description: An XML query on the AutoAllocateRun table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -4222,7 +4222,7 @@ paths:
           required: true
           description: An XML query on the Booking table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -4306,7 +4306,7 @@ paths:
           required: true
           description: An XML query on the BookingCustomField table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -4390,7 +4390,7 @@ paths:
           required: true
           description: An XML query on the BookingTag table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -4474,7 +4474,7 @@ paths:
           required: true
           description: An XML query on the BookingLinked table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -4558,7 +4558,7 @@ paths:
           required: true
           description: An XML query on the BookingOccupant table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -4642,7 +4642,7 @@ paths:
           required: true
           description: An XML query on the BookingReason table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -4726,7 +4726,7 @@ paths:
           required: true
           description: An XML query on the BookingType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -4810,7 +4810,7 @@ paths:
           required: true
           description: An XML query on the Calendar table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -4894,7 +4894,7 @@ paths:
           required: true
           description: An XML query on the Category table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -4978,7 +4978,7 @@ paths:
           required: true
           description: An XML query on the CategoryCustomField table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -5062,7 +5062,7 @@ paths:
           required: true
           description: An XML query on the CategoryLevel table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -5146,7 +5146,7 @@ paths:
           required: true
           description: An XML query on the CategoryPermission table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -5230,7 +5230,7 @@ paths:
           required: true
           description: An XML query on the CategoryScheduleTransaction table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -5314,7 +5314,7 @@ paths:
           required: true
           description: An XML query on the CateringType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -5398,7 +5398,7 @@ paths:
           required: true
           description: An XML query on the Catering table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -5482,7 +5482,7 @@ paths:
           required: true
           description: An XML query on the CateringItem table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -5566,7 +5566,7 @@ paths:
           required: true
           description: An XML query on the ChargeGroup table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -5650,7 +5650,7 @@ paths:
           required: true
           description: An XML query on the ChargeItem table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -5734,7 +5734,7 @@ paths:
           required: true
           description: An XML query on the Classification table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -5818,7 +5818,7 @@ paths:
           required: true
           description: An XML query on the Contact table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -5902,7 +5902,7 @@ paths:
           required: true
           description: An XML query on the ContactCustomField table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -5986,7 +5986,7 @@ paths:
           required: true
           description: An XML query on the ContactNote table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -6070,7 +6070,7 @@ paths:
           required: true
           description: An XML query on the ContactStatus table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -6154,7 +6154,7 @@ paths:
           required: true
           description: An XML query on the ConcernType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -6238,7 +6238,7 @@ paths:
           required: true
           description: An XML query on the ConcernSubType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -6322,7 +6322,7 @@ paths:
           required: true
           description: An XML query on the ConcernNote table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -6406,7 +6406,7 @@ paths:
           required: true
           description: An XML query on the Concern table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -6490,7 +6490,7 @@ paths:
           required: true
           description: An XML query on the ConcernEntry table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -6574,7 +6574,7 @@ paths:
           required: true
           description: An XML query on the ConcernCustomField table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -6658,7 +6658,7 @@ paths:
           required: true
           description: An XML query on the ContributionType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -6742,7 +6742,7 @@ paths:
           required: true
           description: An XML query on the ContributionSubType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -6826,7 +6826,7 @@ paths:
           required: true
           description: An XML query on the ContributionNote table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -6910,7 +6910,7 @@ paths:
           required: true
           description: An XML query on the Contribution table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -6994,7 +6994,7 @@ paths:
           required: true
           description: An XML query on the ContributionEntry table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -7078,7 +7078,7 @@ paths:
           required: true
           description: An XML query on the ContributionCustomField table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -7162,7 +7162,7 @@ paths:
           required: true
           description: An XML query on the Course table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -7246,7 +7246,7 @@ paths:
           required: true
           description: An XML query on the CurrencyConversion table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -7330,7 +7330,7 @@ paths:
           required: true
           description: An XML query on the DeletedTransaction table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -7414,7 +7414,7 @@ paths:
           required: true
           description: An XML query on the Dashboard table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -7498,7 +7498,7 @@ paths:
           required: true
           description: An XML query on the DashboardPanel table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -7582,7 +7582,7 @@ paths:
           required: true
           description: An XML query on the DashboardPanelSetting table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -7666,7 +7666,7 @@ paths:
           required: true
           description: An XML query on the DashboardSharing table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -7750,7 +7750,7 @@ paths:
           required: true
           description: An XML query on the ElectronicIdentityType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -7834,7 +7834,7 @@ paths:
           required: true
           description: An XML query on the EndOfSession table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -7918,7 +7918,7 @@ paths:
           required: true
           description: An XML query on the EndOfSessionChargeGroup table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -8004,9 +8004,9 @@ paths:
     post:
       summary: student info
       operationId: searchEntryXML
-      description: |
-        By passing in the appropriate options, you can search for
-        a resident in the system
+      description: >-
+        By passing in the appropriate options, you can search for a resident in
+        the system
       consumes:
         - application/xml
       produces:
@@ -8014,8 +8014,8 @@ paths:
       parameters:
         - in: body
           name: Query
-          description: An XML query on the table
           required: true
+          description: An XML query on the table
           schema:
             type: string
       responses:
@@ -8101,7 +8101,7 @@ paths:
           required: true
           description: An XML query on the EntryAddress table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -8185,7 +8185,7 @@ paths:
           required: true
           description: An XML query on the EntryAlumniStatus table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -8269,7 +8269,7 @@ paths:
           required: true
           description: An XML query on the EntryAlumni table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -8353,7 +8353,7 @@ paths:
           required: true
           description: An XML query on the EntryApplication table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -8437,7 +8437,7 @@ paths:
           required: true
           description: An XML query on the EntryApplicationCustomField table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -8521,7 +8521,7 @@ paths:
           required: true
           description: An XML query on the EntryApplicationNote table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -8605,7 +8605,7 @@ paths:
           required: true
           description: An XML query on the EntryApplicationPortalSection table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -8689,7 +8689,7 @@ paths:
           required: true
           description: An XML query on the EntryApplicationPreference table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -8773,7 +8773,7 @@ paths:
           required: true
           description: An XML query on the EntryApplicationProxy table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -8857,7 +8857,7 @@ paths:
           required: true
           description: An XML query on the EntryApplicationRoomMate table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -8941,7 +8941,7 @@ paths:
           required: true
           description: An XML query on the EntryApplicationRoomPreference table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -9025,7 +9025,7 @@ paths:
           required: true
           description: An XML query on the EntryCorrespondence table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -9109,7 +9109,7 @@ paths:
           required: true
           description: An XML query on the EntryCustomField table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -9193,7 +9193,7 @@ paths:
           required: true
           description: An XML query on the EntryDetail table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -9277,7 +9277,7 @@ paths:
           required: true
           description: An XML query on the EntryElectronicIdentity table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -9361,7 +9361,7 @@ paths:
           required: true
           description: An XML query on the EntryEnrollment table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -9445,7 +9445,7 @@ paths:
           required: true
           description: An XML query on the EntryFamily table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -9529,7 +9529,7 @@ paths:
           required: true
           description: An XML query on the EntryGroup table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -9613,7 +9613,7 @@ paths:
           required: true
           description: An XML query on the EntryEvent table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -9697,7 +9697,7 @@ paths:
           required: true
           description: An XML query on the EntryInvitation table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -9781,7 +9781,7 @@ paths:
           required: true
           description: An XML query on the EntryMeal table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -9865,7 +9865,7 @@ paths:
           required: true
           description: An XML query on the EntryMealTag table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -9949,7 +9949,7 @@ paths:
           required: true
           description: An XML query on the EntryMealPlanDetail table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -10033,7 +10033,7 @@ paths:
           required: true
           description: An XML query on the EntryMembership table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -10117,7 +10117,7 @@ paths:
           required: true
           description: An XML query on the EntryNote table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -10201,7 +10201,7 @@ paths:
           required: true
           description: An XML query on the EntryParcel table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -10285,7 +10285,7 @@ paths:
           required: true
           description: An XML query on the EntryPortalActivity table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -10369,7 +10369,7 @@ paths:
           required: true
           description: An XML query on the EntryPosition table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -10453,7 +10453,7 @@ paths:
           required: true
           description: An XML query on the EntryProfile table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -10537,7 +10537,7 @@ paths:
           required: true
           description: An XML query on the EntryResult table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -10621,7 +10621,7 @@ paths:
           required: true
           description: An XML query on the EntryScheduleTransaction table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -10705,7 +10705,7 @@ paths:
           required: true
           description: An XML query on the EntryScholarship table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -10789,7 +10789,7 @@ paths:
           required: true
           description: An XML query on the EntrySchool table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -10873,7 +10873,7 @@ paths:
           required: true
           description: An XML query on the EntrySDAS table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -10957,7 +10957,7 @@ paths:
           required: true
           description: An XML query on the EntryVisitor table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -11041,7 +11041,7 @@ paths:
           required: true
           description: An XML query on the Event table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -11125,7 +11125,7 @@ paths:
           required: true
           description: An XML query on the EventCharge table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -11209,7 +11209,7 @@ paths:
           required: true
           description: An XML query on the EventQuote table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -11293,7 +11293,7 @@ paths:
           required: true
           description: An XML query on the EventContactEntry table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -11377,7 +11377,7 @@ paths:
           required: true
           description: An XML query on the EventCustomField table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -11461,7 +11461,7 @@ paths:
           required: true
           description: An XML query on the EventMealPlan table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -11545,7 +11545,7 @@ paths:
           required: true
           description: An XML query on the EventNote table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -11629,7 +11629,7 @@ paths:
           required: true
           description: An XML query on the EventRegistrationFee table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -11713,7 +11713,7 @@ paths:
           required: true
           description: An XML query on the EventType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -11797,7 +11797,7 @@ paths:
           required: true
           description: An XML query on the Extension table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -11881,7 +11881,7 @@ paths:
           required: true
           description: An XML query on the FinancialSupport table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -11965,7 +11965,7 @@ paths:
           required: true
           description: An XML query on the FunctionBooking table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -12049,7 +12049,7 @@ paths:
           required: true
           description: An XML query on the FunctionBookingAttendee table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -12133,7 +12133,7 @@ paths:
           required: true
           description: An XML query on the FunctionBookingCatering table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -12217,7 +12217,7 @@ paths:
           required: true
           description: An XML query on the FunctionBookingCateringItem table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -12301,7 +12301,7 @@ paths:
           required: true
           description: An XML query on the FunctionBookingCharge table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -12385,7 +12385,7 @@ paths:
           required: true
           description: An XML query on the FunctionResource table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -12469,7 +12469,7 @@ paths:
           required: true
           description: An XML query on the FunctionResourceBooking table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -12553,7 +12553,7 @@ paths:
           required: true
           description: An XML query on the FunctionResourceType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -12637,7 +12637,7 @@ paths:
           required: true
           description: An XML query on the FunctionRoom table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -12721,7 +12721,7 @@ paths:
           required: true
           description: An XML query on the FunctionRoomClosed table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -12805,7 +12805,7 @@ paths:
           required: true
           description: An XML query on the FunctionRoomBooking table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -12889,7 +12889,7 @@ paths:
           required: true
           description: An XML query on the FunctionRoomLocation table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -12973,7 +12973,7 @@ paths:
           required: true
           description: An XML query on the FunctionRoomRate table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -13057,7 +13057,7 @@ paths:
           required: true
           description: An XML query on the FunctionRoomSetup table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -13141,7 +13141,7 @@ paths:
           required: true
           description: An XML query on the FunctionRoomType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -13225,7 +13225,7 @@ paths:
           required: true
           description: An XML query on the FunctionType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -13309,7 +13309,7 @@ paths:
           required: true
           description: An XML query on the GLPosting table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -13393,7 +13393,7 @@ paths:
           required: true
           description: An XML query on the Group table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -13477,7 +13477,7 @@ paths:
           required: true
           description: An XML query on the GroupRoomSpace table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -13561,7 +13561,7 @@ paths:
           required: true
           description: An XML query on the GroupCustomField table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -13645,7 +13645,7 @@ paths:
           required: true
           description: An XML query on the GroupContactEntry table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -13729,7 +13729,7 @@ paths:
           required: true
           description: An XML query on the GroupMealPlan table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -13813,7 +13813,7 @@ paths:
           required: true
           description: An XML query on the GroupRoomTypeAndRates table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -13897,7 +13897,7 @@ paths:
           required: true
           description: An XML query on the Housekeeping table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -13981,7 +13981,7 @@ paths:
           required: true
           description: An XML query on the HousekeepingSchedule table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -14065,7 +14065,7 @@ paths:
           required: true
           description: An XML query on the HousekeepingScheduleSkip table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -14149,7 +14149,7 @@ paths:
           required: true
           description: An XML query on the Incident table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -14233,7 +14233,7 @@ paths:
           required: true
           description: An XML query on the IncidentAction table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -14317,7 +14317,7 @@ paths:
           required: true
           description: An XML query on the IncidentActionEntry table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -14401,7 +14401,7 @@ paths:
           required: true
           description: An XML query on the IncidentActionType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -14485,7 +14485,7 @@ paths:
           required: true
           description: An XML query on the IncidentCustomField table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -14569,7 +14569,7 @@ paths:
           required: true
           description: An XML query on the IncidentEntry table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -14653,7 +14653,7 @@ paths:
           required: true
           description: An XML query on the IncidentEntryCorrespondence table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -14737,7 +14737,7 @@ paths:
           required: true
           description: An XML query on the IncidentEntryNote table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -14821,7 +14821,7 @@ paths:
           required: true
           description: An XML query on the IncidentSanctionType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -14905,7 +14905,7 @@ paths:
           required: true
           description: An XML query on the IncidentCleryGeography table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -14989,7 +14989,7 @@ paths:
           required: true
           description: An XML query on the IncidentSanctionSubType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -15073,7 +15073,7 @@ paths:
           required: true
           description: An XML query on the IncidentAppealDecision table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -15157,7 +15157,7 @@ paths:
           required: true
           description: An XML query on the IncidentAppealType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -15241,7 +15241,7 @@ paths:
           required: true
           description: An XML query on the IncidentFinding table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -15325,7 +15325,7 @@ paths:
           required: true
           description: An XML query on the IncidentPlea table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -15409,7 +15409,7 @@ paths:
           required: true
           description: An XML query on the IncidentViolation table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -15493,7 +15493,7 @@ paths:
           required: true
           description: An XML query on the IncidentEntryViolation table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -15577,7 +15577,7 @@ paths:
           required: true
           description: An XML query on the IncidentEntryAppeal table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -15661,7 +15661,7 @@ paths:
           required: true
           description: An XML query on the IncidentEntrySanction table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -15745,7 +15745,7 @@ paths:
           required: true
           description: An XML query on the IncidentInvolvement table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -15829,7 +15829,7 @@ paths:
           required: true
           description: An XML query on the IncidentNote table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -15913,7 +15913,7 @@ paths:
           required: true
           description: An XML query on the IncidentSeverity table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -15997,7 +15997,7 @@ paths:
           required: true
           description: An XML query on the IncidentStatus table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -16081,7 +16081,7 @@ paths:
           required: true
           description: An XML query on the IncidentSubType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -16165,7 +16165,7 @@ paths:
           required: true
           description: An XML query on the IncidentType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -16249,7 +16249,7 @@ paths:
           required: true
           description: An XML query on the InspectionRunTemplate table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -16333,7 +16333,7 @@ paths:
           required: true
           description: An XML query on the Interface table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -16417,7 +16417,7 @@ paths:
           required: true
           description: An XML query on the InterfaceApplication table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -16501,7 +16501,7 @@ paths:
           required: true
           description: An XML query on the InterfaceSubscribe table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -16585,7 +16585,7 @@ paths:
           required: true
           description: An XML query on the Invoice table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -16669,7 +16669,7 @@ paths:
           required: true
           description: An XML query on the LogInterface table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -16753,7 +16753,7 @@ paths:
           required: true
           description: An XML query on the MealPlan table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -16837,7 +16837,7 @@ paths:
           required: true
           description: An XML query on the MealPlanDetail table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -16921,7 +16921,7 @@ paths:
           required: true
           description: An XML query on the MealPlanDiningHall table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -17005,7 +17005,7 @@ paths:
           required: true
           description: An XML query on the MealPlanFree table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -17089,7 +17089,7 @@ paths:
           required: true
           description: An XML query on the MealPlanSession table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -17173,7 +17173,7 @@ paths:
           required: true
           description: An XML query on the MealPricing table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -17257,7 +17257,7 @@ paths:
           required: true
           description: An XML query on the MembershipType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -17341,7 +17341,7 @@ paths:
           required: true
           description: An XML query on the ParcelType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -17425,7 +17425,7 @@ paths:
           required: true
           description: An XML query on the Payment table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -17509,7 +17509,7 @@ paths:
           required: true
           description: An XML query on the PaymentType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -17593,7 +17593,7 @@ paths:
           required: true
           description: An XML query on the PhoneChargeType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -17677,7 +17677,7 @@ paths:
           required: true
           description: An XML query on the PhoneChargeTypeCallType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -17761,7 +17761,7 @@ paths:
           required: true
           description: An XML query on the PortalActivity table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -17845,7 +17845,7 @@ paths:
           required: true
           description: An XML query on the PortalUserToken table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -17929,7 +17929,7 @@ paths:
           required: true
           description: An XML query on the PortalProcess table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -18013,7 +18013,7 @@ paths:
           required: true
           description: An XML query on the PortalTheme table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -18097,7 +18097,7 @@ paths:
           required: true
           description: An XML query on the PortalPage table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -18181,7 +18181,7 @@ paths:
           required: true
           description: An XML query on the PortalPageWidget table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -18265,7 +18265,7 @@ paths:
           required: true
           description: An XML query on the PortalStep table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -18349,7 +18349,7 @@ paths:
           required: true
           description: An XML query on the PortalStepLink table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -18433,7 +18433,7 @@ paths:
           required: true
           description: An XML query on the PortalUserSignature table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -18517,7 +18517,7 @@ paths:
           required: true
           description: An XML query on the PortalAction table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -18601,7 +18601,7 @@ paths:
           required: true
           description: An XML query on the PortalPageAction table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -18685,7 +18685,7 @@ paths:
           required: true
           description: An XML query on the PortalChoice table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -18769,7 +18769,7 @@ paths:
           required: true
           description: An XML query on the PortalRule table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -18853,7 +18853,7 @@ paths:
           required: true
           description: An XML query on the PortalRuleLink table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -18937,7 +18937,7 @@ paths:
           required: true
           description: An XML query on the PortalSetting table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -19021,7 +19021,7 @@ paths:
           required: true
           description: An XML query on the PortalSite table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -19105,7 +19105,7 @@ paths:
           required: true
           description: An XML query on the Process table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -19189,7 +19189,7 @@ paths:
           required: true
           description: An XML query on the Preference table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -19273,7 +19273,7 @@ paths:
           required: true
           description: An XML query on the ProfileItem table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -19357,7 +19357,7 @@ paths:
           required: true
           description: An XML query on the ProfileType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -19441,7 +19441,7 @@ paths:
           required: true
           description: An XML query on the Program table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -19525,7 +19525,7 @@ paths:
           required: true
           description: An XML query on the ProgramNote table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -19609,7 +19609,7 @@ paths:
           required: true
           description: An XML query on the ProgramCustomField table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -19693,7 +19693,7 @@ paths:
           required: true
           description: An XML query on the ProgramType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -19777,7 +19777,7 @@ paths:
           required: true
           description: An XML query on the ProgramSubType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -19861,7 +19861,7 @@ paths:
           required: true
           description: An XML query on the ProgramEvaluationType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -19945,7 +19945,7 @@ paths:
           required: true
           description: An XML query on the ProgramEntry table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -20029,7 +20029,7 @@ paths:
           required: true
           description: An XML query on the PromoCode table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -20113,7 +20113,7 @@ paths:
           required: true
           description: An XML query on the PromoCodeRecord table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -20197,7 +20197,7 @@ paths:
           required: true
           description: An XML query on the PromoCodeUsage table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -20281,7 +20281,7 @@ paths:
           required: true
           description: An XML query on the RefundRequestConfiguration table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -20365,7 +20365,7 @@ paths:
           required: true
           description: An XML query on the RefundRequestConfigurationBreakUp table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -20449,7 +20449,7 @@ paths:
           required: true
           description: An XML query on the RefundRequest table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -20533,7 +20533,7 @@ paths:
           required: true
           description: An XML query on the RefundRequestBreakUp table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -20617,7 +20617,7 @@ paths:
           required: true
           description: An XML query on the RefundRequestBatchConfiguration table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -20701,7 +20701,7 @@ paths:
           required: true
           description: An XML query on the RefundRequestBatchConfigurationItem table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -20785,7 +20785,7 @@ paths:
           required: true
           description: An XML query on the Resource table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -20869,7 +20869,7 @@ paths:
           required: true
           description: An XML query on the ResourceBooking table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -20953,7 +20953,7 @@ paths:
           required: true
           description: An XML query on the ResourceType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -21037,7 +21037,7 @@ paths:
           required: true
           description: An XML query on the RoommateGroup table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -21121,7 +21121,7 @@ paths:
           required: true
           description: An XML query on the RoommateGroupMandatoryProfile table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -21205,7 +21205,7 @@ paths:
           required: true
           description: An XML query on the RoommateGroupRequest table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -21289,7 +21289,7 @@ paths:
           required: true
           description: An XML query on the RoomBase table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -21373,7 +21373,7 @@ paths:
           required: true
           description: An XML query on the RoomBaseGender table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -21457,7 +21457,7 @@ paths:
           required: true
           description: An XML query on the RoomConfiguration table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -21541,7 +21541,7 @@ paths:
           required: true
           description: An XML query on the RoomConfigurationAttribute table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -21625,7 +21625,7 @@ paths:
           required: true
           description: An XML query on the RoomConfigurationClassification table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -21709,7 +21709,7 @@ paths:
           required: true
           description: An XML query on the RoomConfigurationRoomSort table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -21793,7 +21793,7 @@ paths:
           required: true
           description: An XML query on the RoomLocation table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -21877,7 +21877,7 @@ paths:
           required: true
           description: An XML query on the RoomLocationArea table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -21961,7 +21961,7 @@ paths:
           required: true
           description: An XML query on the RoomLocationClassification table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -22045,7 +22045,7 @@ paths:
           required: true
           description: An XML query on the RoomLocationFloorSuite table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -22129,7 +22129,7 @@ paths:
           required: true
           description: An XML query on the RoomLocationSection table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -22213,7 +22213,7 @@ paths:
           required: true
           description: An XML query on the RoomManager table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -22297,7 +22297,7 @@ paths:
           required: true
           description: An XML query on the RoomPreference table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -22381,7 +22381,7 @@ paths:
           required: true
           description: An XML query on the RoomConfigurationProfile table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -22465,7 +22465,7 @@ paths:
           required: true
           description: An XML query on the RoomRate table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -22549,7 +22549,7 @@ paths:
           required: true
           description: An XML query on the RoomRateCharge table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -22633,7 +22633,7 @@ paths:
           required: true
           description: An XML query on the RoomRateRoomTypeLocation table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -22717,7 +22717,7 @@ paths:
           required: true
           description: An XML query on the RoomRateSession table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -22801,7 +22801,7 @@ paths:
           required: true
           description: An XML query on the RoomSpace table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -22885,7 +22885,7 @@ paths:
           required: true
           description: An XML query on the RoomSpaceClosed table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -22969,7 +22969,7 @@ paths:
           required: true
           description: An XML query on the RoomSpaceDetail table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -23053,7 +23053,7 @@ paths:
           required: true
           description: An XML query on the RoomSpaceInventory table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -23137,7 +23137,7 @@ paths:
           required: true
           description: An XML query on the RoomSpaceInventoryCondition table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -23221,7 +23221,7 @@ paths:
           required: true
           description: An XML query on the RoomSpaceInventoryInspection table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -23305,7 +23305,7 @@ paths:
           required: true
           description: An XML query on the RoomSpaceInventoryInspectionItem table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -23389,7 +23389,7 @@ paths:
           required: true
           description: An XML query on the RoomSpaceInventoryInspectionRun table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -23473,7 +23473,7 @@ paths:
           required: true
           description: An XML query on the RoomSpaceInventoryStatus table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -23557,7 +23557,7 @@ paths:
           required: true
           description: An XML query on the RoomSpaceInventoryType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -23641,7 +23641,7 @@ paths:
           required: true
           description: An XML query on the RoomSpaceKey table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -23725,7 +23725,7 @@ paths:
           required: true
           description: An XML query on the RoomSpaceKeyBooking table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -23809,7 +23809,7 @@ paths:
           required: true
           description: An XML query on the RoomSpaceKeyType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -23893,7 +23893,7 @@ paths:
           required: true
           description: An XML query on the RoomSpaceMaintenance table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -23977,7 +23977,7 @@ paths:
           required: true
           description: An XML query on the RoomSpaceMaintenanceCategory table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -24061,7 +24061,7 @@ paths:
           required: true
           description: An XML query on the RoomSpaceMaintenanceItem table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -24145,7 +24145,7 @@ paths:
           required: true
           description: An XML query on the RoomSpaceMaintenanceJobAction table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -24229,7 +24229,7 @@ paths:
           required: true
           description: An XML query on the RoomSpaceMaintenanceMaterials table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -24313,7 +24313,7 @@ paths:
           required: true
           description: An XML query on the RoomSpaceSwap table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -24397,7 +24397,7 @@ paths:
           required: true
           description: An XML query on the RoomSpaceSwapPreference table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -24481,7 +24481,7 @@ paths:
           required: true
           description: An XML query on the RoomSortConfiguration table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -24565,7 +24565,7 @@ paths:
           required: true
           description: An XML query on the RoomSortProfile table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -24649,7 +24649,7 @@ paths:
           required: true
           description: An XML query on the RoomSortProfileItem table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -24733,7 +24733,7 @@ paths:
           required: true
           description: An XML query on the RoomConfigurationTermType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -24817,7 +24817,7 @@ paths:
           required: true
           description: An XML query on the RoomType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -24901,7 +24901,7 @@ paths:
           required: true
           description: An XML query on the RoomTypeCapacity table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -24985,7 +24985,7 @@ paths:
           required: true
           description: An XML query on the SavedList table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -25069,7 +25069,7 @@ paths:
           required: true
           description: An XML query on the SavedListItem table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -25153,7 +25153,7 @@ paths:
           required: true
           description: An XML query on the School table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -25237,7 +25237,7 @@ paths:
           required: true
           description: An XML query on the SDASChargeRate table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -25321,7 +25321,7 @@ paths:
           required: true
           description: An XML query on the SDASData table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -25405,7 +25405,7 @@ paths:
           required: true
           description: An XML query on the ShippingType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -25489,7 +25489,7 @@ paths:
           required: true
           description: An XML query on the ShoppingCartItem table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -25573,7 +25573,7 @@ paths:
           required: true
           description: An XML query on the ShoppingCartItemHold table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -25657,7 +25657,7 @@ paths:
           required: true
           description: An XML query on the PortalUserHold table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -25741,7 +25741,7 @@ paths:
           required: true
           description: An XML query on the Staff table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -25825,7 +25825,7 @@ paths:
           required: true
           description: An XML query on the Survey table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -25909,7 +25909,7 @@ paths:
           required: true
           description: An XML query on the SurveyType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -25993,7 +25993,7 @@ paths:
           required: true
           description: An XML query on the SurveyQuestion table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -26077,7 +26077,7 @@ paths:
           required: true
           description: An XML query on the ResponseStatus table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -26161,7 +26161,7 @@ paths:
           required: true
           description: An XML query on the SurveyResponse table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -26245,7 +26245,7 @@ paths:
           required: true
           description: An XML query on the SurveyQuestionResponse table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -26329,7 +26329,7 @@ paths:
           required: true
           description: An XML query on the BookingAgreement table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -26413,7 +26413,7 @@ paths:
           required: true
           description: An XML query on the SystemActivity table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -26497,7 +26497,7 @@ paths:
           required: true
           description: An XML query on the Term table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -26581,7 +26581,7 @@ paths:
           required: true
           description: An XML query on the TermSession table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -26665,7 +26665,7 @@ paths:
           required: true
           description: An XML query on the TermSessionFree table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -26749,7 +26749,7 @@ paths:
           required: true
           description: An XML query on the TermRule table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -26833,7 +26833,7 @@ paths:
           required: true
           description: An XML query on the TermType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -26917,7 +26917,7 @@ paths:
           required: true
           description: An XML query on the TimeSlot table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -27001,7 +27001,7 @@ paths:
           required: true
           description: An XML query on the Title table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -27085,7 +27085,7 @@ paths:
           required: true
           description: An XML query on the Total table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -27169,7 +27169,7 @@ paths:
           required: true
           description: An XML query on the Transaction table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -27253,7 +27253,7 @@ paths:
           required: true
           description: An XML query on the TransactionLink table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -27337,7 +27337,7 @@ paths:
           required: true
           description: An XML query on the TransactionLinkItem table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -27421,7 +27421,7 @@ paths:
           required: true
           description: An XML query on the TransactionTag table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -27505,7 +27505,7 @@ paths:
           required: true
           description: An XML query on the TransactionTemplate table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -27589,7 +27589,7 @@ paths:
           required: true
           description: An XML query on the TransactionTemplateItem table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -27673,7 +27673,7 @@ paths:
           required: true
           description: An XML query on the TransactionDispute table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -27757,7 +27757,7 @@ paths:
           required: true
           description: An XML query on the TransactionDisputeCustomField table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -27841,7 +27841,7 @@ paths:
           required: true
           description: An XML query on the TransactionDisputeItem table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -27925,7 +27925,7 @@ paths:
           required: true
           description: An XML query on the Visitor table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -28009,7 +28009,7 @@ paths:
           required: true
           description: An XML query on the VisitorType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -28093,7 +28093,7 @@ paths:
           required: true
           description: An XML query on the VMData table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -28177,7 +28177,7 @@ paths:
           required: true
           description: An XML query on the VMGroup table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -28261,7 +28261,7 @@ paths:
           required: true
           description: An XML query on the VMGroupExtension table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -28345,7 +28345,7 @@ paths:
           required: true
           description: An XML query on the VMGroupMailBox table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -28429,7 +28429,7 @@ paths:
           required: true
           description: An XML query on the VMGroupMessage table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -28513,7 +28513,7 @@ paths:
           required: true
           description: An XML query on the VMLineUsage table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -28597,7 +28597,7 @@ paths:
           required: true
           description: An XML query on the VMMailBox table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -28681,7 +28681,7 @@ paths:
           required: true
           description: An XML query on the VMMailBoxType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -28765,7 +28765,7 @@ paths:
           required: true
           description: An XML query on the VMMCI table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -28849,7 +28849,7 @@ paths:
           required: true
           description: An XML query on the VMMessage table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -28933,7 +28933,7 @@ paths:
           required: true
           description: An XML query on the VMMessageLamp table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -29017,7 +29017,7 @@ paths:
           required: true
           description: An XML query on the WaitList table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -29101,7 +29101,7 @@ paths:
           required: true
           description: An XML query on the WaitListEntryApplication table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -29185,7 +29185,7 @@ paths:
           required: true
           description: An XML query on the WaitListRoomSpace table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -29269,7 +29269,7 @@ paths:
           required: true
           description: An XML query on the WaitListProfile table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -29353,7 +29353,7 @@ paths:
           required: true
           description: An XML query on the WaitListClassification table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -29437,7 +29437,7 @@ paths:
           required: true
           description: An XML query on the WebBlock table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -29521,7 +29521,7 @@ paths:
           required: true
           description: An XML query on the WebControl table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -29605,7 +29605,7 @@ paths:
           required: true
           description: An XML query on the WebEmailText table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -29689,7 +29689,7 @@ paths:
           required: true
           description: An XML query on the WebField table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -29773,7 +29773,7 @@ paths:
           required: true
           description: An XML query on the WebLog table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -29857,7 +29857,7 @@ paths:
           required: true
           description: An XML query on the WebMenu table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -29941,7 +29941,7 @@ paths:
           required: true
           description: An XML query on the WebMenuClassification table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -30025,7 +30025,7 @@ paths:
           required: true
           description: An XML query on the WebSite table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -30109,7 +30109,7 @@ paths:
           required: true
           description: An XML query on the WebModule table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -30193,7 +30193,7 @@ paths:
           required: true
           description: An XML query on the WebPayment table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -30277,7 +30277,7 @@ paths:
           required: true
           description: An XML query on the WebRule table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -30361,7 +30361,7 @@ paths:
           required: true
           description: An XML query on the WebRuleLink table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -30445,7 +30445,7 @@ paths:
           required: true
           description: An XML query on the WebSection table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -30529,7 +30529,7 @@ paths:
           required: true
           description: An XML query on the WebSectionTextBlock table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -30613,7 +30613,7 @@ paths:
           required: true
           description: An XML query on the WebSetting table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -30697,7 +30697,7 @@ paths:
           required: true
           description: An XML query on the WebTransaction table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -30781,7 +30781,7 @@ paths:
           required: true
           description: An XML query on the Workflow table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -30865,7 +30865,7 @@ paths:
           required: true
           description: An XML query on the WorkflowStep table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -30949,7 +30949,7 @@ paths:
           required: true
           description: An XML query on the WorkflowHistory table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -31033,7 +31033,7 @@ paths:
           required: true
           description: An XML query on the WorkflowPermission table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -31117,7 +31117,7 @@ paths:
           required: true
           description: An XML query on the WorkflowStepPermission table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -31201,7 +31201,7 @@ paths:
           required: true
           description: An XML query on the Room table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -31285,7 +31285,7 @@ paths:
           required: true
           description: An XML query on the RoomProfile table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -31369,7 +31369,7 @@ paths:
           required: true
           description: An XML query on the RoomAttribute table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -31453,7 +31453,7 @@ paths:
           required: true
           description: An XML query on the RoomClassification table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -31537,7 +31537,7 @@ paths:
           required: true
           description: An XML query on the RoomTermType table
           schema:
-            type: string'
+            type: string
       responses:
         '200':
           description: Search results matching criteria.
@@ -36187,7 +36187,7 @@ definitions:
         description: Custom Flag 4
       CustomDate1:
         type: string
-        description: Custom Date 1
+        description: Added to Waitlist
       CustomDate2:
         type: string
         description: Custom Date 2

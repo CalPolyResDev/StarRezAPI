@@ -7,381 +7,755 @@ Method | HTTP request | Description
 [**get_columns**](DefaultApi.md#get_columns) | **GET** databaseinfo/columnlist/{TableName} | gets all of the column names and attributes of a table
 [**get_tables**](DefaultApi.md#get_tables) | **GET** databaseinfo/tablelist | gets all of the tables in StarRez
 [**search_address_type**](DefaultApi.md#search_address_type) | **GET** select/AddressType | 
+[**search_address_type_xml**](DefaultApi.md#search_address_type_xml) | **POST** select/AddressType | 
 [**search_application_status**](DefaultApi.md#search_application_status) | **GET** select/ApplicationStatus | 
+[**search_application_status_xml**](DefaultApi.md#search_application_status_xml) | **POST** select/ApplicationStatus | 
 [**search_auto_allocate_run**](DefaultApi.md#search_auto_allocate_run) | **GET** select/AutoAllocateRun | 
+[**search_auto_allocate_run_xml**](DefaultApi.md#search_auto_allocate_run_xml) | **POST** select/AutoAllocateRun | 
 [**search_booking**](DefaultApi.md#search_booking) | **GET** select/Booking | 
 [**search_booking_agreement**](DefaultApi.md#search_booking_agreement) | **GET** select/BookingAgreement | 
+[**search_booking_agreement_xml**](DefaultApi.md#search_booking_agreement_xml) | **POST** select/BookingAgreement | 
 [**search_booking_custom_field**](DefaultApi.md#search_booking_custom_field) | **GET** select/BookingCustomField | 
+[**search_booking_custom_field_xml**](DefaultApi.md#search_booking_custom_field_xml) | **POST** select/BookingCustomField | 
 [**search_booking_linked**](DefaultApi.md#search_booking_linked) | **GET** select/BookingLinked | 
+[**search_booking_linked_xml**](DefaultApi.md#search_booking_linked_xml) | **POST** select/BookingLinked | 
 [**search_booking_occupant**](DefaultApi.md#search_booking_occupant) | **GET** select/BookingOccupant | 
+[**search_booking_occupant_xml**](DefaultApi.md#search_booking_occupant_xml) | **POST** select/BookingOccupant | 
 [**search_booking_reason**](DefaultApi.md#search_booking_reason) | **GET** select/BookingReason | 
+[**search_booking_reason_xml**](DefaultApi.md#search_booking_reason_xml) | **POST** select/BookingReason | 
 [**search_booking_tag**](DefaultApi.md#search_booking_tag) | **GET** select/BookingTag | 
+[**search_booking_tag_xml**](DefaultApi.md#search_booking_tag_xml) | **POST** select/BookingTag | 
 [**search_booking_type**](DefaultApi.md#search_booking_type) | **GET** select/BookingType | 
+[**search_booking_type_xml**](DefaultApi.md#search_booking_type_xml) | **POST** select/BookingType | 
+[**search_booking_xml**](DefaultApi.md#search_booking_xml) | **POST** select/Booking | 
 [**search_calendar**](DefaultApi.md#search_calendar) | **GET** select/Calendar | 
+[**search_calendar_xml**](DefaultApi.md#search_calendar_xml) | **POST** select/Calendar | 
 [**search_category**](DefaultApi.md#search_category) | **GET** select/Category | 
 [**search_category_custom_field**](DefaultApi.md#search_category_custom_field) | **GET** select/CategoryCustomField | 
+[**search_category_custom_field_xml**](DefaultApi.md#search_category_custom_field_xml) | **POST** select/CategoryCustomField | 
 [**search_category_level**](DefaultApi.md#search_category_level) | **GET** select/CategoryLevel | 
+[**search_category_level_xml**](DefaultApi.md#search_category_level_xml) | **POST** select/CategoryLevel | 
 [**search_category_permission**](DefaultApi.md#search_category_permission) | **GET** select/CategoryPermission | 
+[**search_category_permission_xml**](DefaultApi.md#search_category_permission_xml) | **POST** select/CategoryPermission | 
 [**search_category_schedule_transaction**](DefaultApi.md#search_category_schedule_transaction) | **GET** select/CategoryScheduleTransaction | 
+[**search_category_schedule_transaction_xml**](DefaultApi.md#search_category_schedule_transaction_xml) | **POST** select/CategoryScheduleTransaction | 
+[**search_category_xml**](DefaultApi.md#search_category_xml) | **POST** select/Category | 
 [**search_catering**](DefaultApi.md#search_catering) | **GET** select/Catering | 
 [**search_catering_item**](DefaultApi.md#search_catering_item) | **GET** select/CateringItem | 
+[**search_catering_item_xml**](DefaultApi.md#search_catering_item_xml) | **POST** select/CateringItem | 
 [**search_catering_type**](DefaultApi.md#search_catering_type) | **GET** select/CateringType | 
+[**search_catering_type_xml**](DefaultApi.md#search_catering_type_xml) | **POST** select/CateringType | 
+[**search_catering_xml**](DefaultApi.md#search_catering_xml) | **POST** select/Catering | 
 [**search_charge_group**](DefaultApi.md#search_charge_group) | **GET** select/ChargeGroup | 
+[**search_charge_group_xml**](DefaultApi.md#search_charge_group_xml) | **POST** select/ChargeGroup | 
 [**search_charge_item**](DefaultApi.md#search_charge_item) | **GET** select/ChargeItem | 
+[**search_charge_item_xml**](DefaultApi.md#search_charge_item_xml) | **POST** select/ChargeItem | 
 [**search_classification**](DefaultApi.md#search_classification) | **GET** select/Classification | 
+[**search_classification_xml**](DefaultApi.md#search_classification_xml) | **POST** select/Classification | 
 [**search_concern**](DefaultApi.md#search_concern) | **GET** select/Concern | 
 [**search_concern_custom_field**](DefaultApi.md#search_concern_custom_field) | **GET** select/ConcernCustomField | 
+[**search_concern_custom_field_xml**](DefaultApi.md#search_concern_custom_field_xml) | **POST** select/ConcernCustomField | 
 [**search_concern_entry**](DefaultApi.md#search_concern_entry) | **GET** select/ConcernEntry | 
+[**search_concern_entry_xml**](DefaultApi.md#search_concern_entry_xml) | **POST** select/ConcernEntry | 
 [**search_concern_note**](DefaultApi.md#search_concern_note) | **GET** select/ConcernNote | 
+[**search_concern_note_xml**](DefaultApi.md#search_concern_note_xml) | **POST** select/ConcernNote | 
 [**search_concern_sub_type**](DefaultApi.md#search_concern_sub_type) | **GET** select/ConcernSubType | 
+[**search_concern_sub_type_xml**](DefaultApi.md#search_concern_sub_type_xml) | **POST** select/ConcernSubType | 
 [**search_concern_type**](DefaultApi.md#search_concern_type) | **GET** select/ConcernType | 
+[**search_concern_type_xml**](DefaultApi.md#search_concern_type_xml) | **POST** select/ConcernType | 
+[**search_concern_xml**](DefaultApi.md#search_concern_xml) | **POST** select/Concern | 
 [**search_contact**](DefaultApi.md#search_contact) | **GET** select/Contact | 
 [**search_contact_custom_field**](DefaultApi.md#search_contact_custom_field) | **GET** select/ContactCustomField | 
+[**search_contact_custom_field_xml**](DefaultApi.md#search_contact_custom_field_xml) | **POST** select/ContactCustomField | 
 [**search_contact_note**](DefaultApi.md#search_contact_note) | **GET** select/ContactNote | 
+[**search_contact_note_xml**](DefaultApi.md#search_contact_note_xml) | **POST** select/ContactNote | 
 [**search_contact_status**](DefaultApi.md#search_contact_status) | **GET** select/ContactStatus | 
+[**search_contact_status_xml**](DefaultApi.md#search_contact_status_xml) | **POST** select/ContactStatus | 
+[**search_contact_xml**](DefaultApi.md#search_contact_xml) | **POST** select/Contact | 
 [**search_contribution**](DefaultApi.md#search_contribution) | **GET** select/Contribution | 
 [**search_contribution_custom_field**](DefaultApi.md#search_contribution_custom_field) | **GET** select/ContributionCustomField | 
+[**search_contribution_custom_field_xml**](DefaultApi.md#search_contribution_custom_field_xml) | **POST** select/ContributionCustomField | 
 [**search_contribution_entry**](DefaultApi.md#search_contribution_entry) | **GET** select/ContributionEntry | 
+[**search_contribution_entry_xml**](DefaultApi.md#search_contribution_entry_xml) | **POST** select/ContributionEntry | 
 [**search_contribution_note**](DefaultApi.md#search_contribution_note) | **GET** select/ContributionNote | 
+[**search_contribution_note_xml**](DefaultApi.md#search_contribution_note_xml) | **POST** select/ContributionNote | 
 [**search_contribution_sub_type**](DefaultApi.md#search_contribution_sub_type) | **GET** select/ContributionSubType | 
+[**search_contribution_sub_type_xml**](DefaultApi.md#search_contribution_sub_type_xml) | **POST** select/ContributionSubType | 
 [**search_contribution_type**](DefaultApi.md#search_contribution_type) | **GET** select/ContributionType | 
+[**search_contribution_type_xml**](DefaultApi.md#search_contribution_type_xml) | **POST** select/ContributionType | 
+[**search_contribution_xml**](DefaultApi.md#search_contribution_xml) | **POST** select/Contribution | 
 [**search_correspondence_source**](DefaultApi.md#search_correspondence_source) | **GET** select/CorrespondenceSource | 
+[**search_correspondence_source_xml**](DefaultApi.md#search_correspondence_source_xml) | **POST** select/CorrespondenceSource | 
 [**search_country**](DefaultApi.md#search_country) | **GET** select/Country | 
+[**search_country_xml**](DefaultApi.md#search_country_xml) | **POST** select/Country | 
 [**search_course**](DefaultApi.md#search_course) | **GET** select/Course | 
+[**search_course_xml**](DefaultApi.md#search_course_xml) | **POST** select/Course | 
 [**search_currency_conversion**](DefaultApi.md#search_currency_conversion) | **GET** select/CurrencyConversion | 
+[**search_currency_conversion_xml**](DefaultApi.md#search_currency_conversion_xml) | **POST** select/CurrencyConversion | 
 [**search_custom_field_definition**](DefaultApi.md#search_custom_field_definition) | **GET** select/CustomFieldDefinition | 
+[**search_custom_field_definition_xml**](DefaultApi.md#search_custom_field_definition_xml) | **POST** select/CustomFieldDefinition | 
 [**search_custom_method_tag**](DefaultApi.md#search_custom_method_tag) | **GET** select/CustomMethodTag | 
+[**search_custom_method_tag_xml**](DefaultApi.md#search_custom_method_tag_xml) | **POST** select/CustomMethodTag | 
 [**search_dashboard**](DefaultApi.md#search_dashboard) | **GET** select/Dashboard | 
 [**search_dashboard_panel**](DefaultApi.md#search_dashboard_panel) | **GET** select/DashboardPanel | 
 [**search_dashboard_panel_setting**](DefaultApi.md#search_dashboard_panel_setting) | **GET** select/DashboardPanelSetting | 
+[**search_dashboard_panel_setting_xml**](DefaultApi.md#search_dashboard_panel_setting_xml) | **POST** select/DashboardPanelSetting | 
+[**search_dashboard_panel_xml**](DefaultApi.md#search_dashboard_panel_xml) | **POST** select/DashboardPanel | 
 [**search_dashboard_sharing**](DefaultApi.md#search_dashboard_sharing) | **GET** select/DashboardSharing | 
+[**search_dashboard_sharing_xml**](DefaultApi.md#search_dashboard_sharing_xml) | **POST** select/DashboardSharing | 
+[**search_dashboard_xml**](DefaultApi.md#search_dashboard_xml) | **POST** select/Dashboard | 
 [**search_deleted_transaction**](DefaultApi.md#search_deleted_transaction) | **GET** select/DeletedTransaction | 
+[**search_deleted_transaction_xml**](DefaultApi.md#search_deleted_transaction_xml) | **POST** select/DeletedTransaction | 
 [**search_document**](DefaultApi.md#search_document) | **GET** select/Document | 
+[**search_document_xml**](DefaultApi.md#search_document_xml) | **POST** select/Document | 
 [**search_dynamic_list**](DefaultApi.md#search_dynamic_list) | **GET** select/DynamicList | 
 [**search_dynamic_list_permission**](DefaultApi.md#search_dynamic_list_permission) | **GET** select/DynamicListPermission | 
+[**search_dynamic_list_permission_xml**](DefaultApi.md#search_dynamic_list_permission_xml) | **POST** select/DynamicListPermission | 
+[**search_dynamic_list_xml**](DefaultApi.md#search_dynamic_list_xml) | **POST** select/DynamicList | 
 [**search_electronic_identity_type**](DefaultApi.md#search_electronic_identity_type) | **GET** select/ElectronicIdentityType | 
+[**search_electronic_identity_type_xml**](DefaultApi.md#search_electronic_identity_type_xml) | **POST** select/ElectronicIdentityType | 
 [**search_email_from_address**](DefaultApi.md#search_email_from_address) | **GET** select/EmailFromAddress | 
 [**search_email_from_address_permission**](DefaultApi.md#search_email_from_address_permission) | **GET** select/EmailFromAddressPermission | 
+[**search_email_from_address_permission_xml**](DefaultApi.md#search_email_from_address_permission_xml) | **POST** select/EmailFromAddressPermission | 
+[**search_email_from_address_xml**](DefaultApi.md#search_email_from_address_xml) | **POST** select/EmailFromAddress | 
 [**search_email_outbox**](DefaultApi.md#search_email_outbox) | **GET** select/EmailOutbox | 
+[**search_email_outbox_xml**](DefaultApi.md#search_email_outbox_xml) | **POST** select/EmailOutbox | 
 [**search_end_of_session**](DefaultApi.md#search_end_of_session) | **GET** select/EndOfSession | 
 [**search_end_of_session_charge_group**](DefaultApi.md#search_end_of_session_charge_group) | **GET** select/EndOfSessionChargeGroup | 
+[**search_end_of_session_charge_group_xml**](DefaultApi.md#search_end_of_session_charge_group_xml) | **POST** select/EndOfSessionChargeGroup | 
+[**search_end_of_session_xml**](DefaultApi.md#search_end_of_session_xml) | **POST** select/EndOfSession | 
 [**search_entry**](DefaultApi.md#search_entry) | **GET** select/Entry | student info
 [**search_entry_address**](DefaultApi.md#search_entry_address) | **GET** select/EntryAddress | 
+[**search_entry_address_xml**](DefaultApi.md#search_entry_address_xml) | **POST** select/EntryAddress | 
 [**search_entry_alumni**](DefaultApi.md#search_entry_alumni) | **GET** select/EntryAlumni | 
 [**search_entry_alumni_status**](DefaultApi.md#search_entry_alumni_status) | **GET** select/EntryAlumniStatus | 
+[**search_entry_alumni_status_xml**](DefaultApi.md#search_entry_alumni_status_xml) | **POST** select/EntryAlumniStatus | 
+[**search_entry_alumni_xml**](DefaultApi.md#search_entry_alumni_xml) | **POST** select/EntryAlumni | 
 [**search_entry_application**](DefaultApi.md#search_entry_application) | **GET** select/EntryApplication | 
 [**search_entry_application_custom_field**](DefaultApi.md#search_entry_application_custom_field) | **GET** select/EntryApplicationCustomField | 
+[**search_entry_application_custom_field_xml**](DefaultApi.md#search_entry_application_custom_field_xml) | **POST** select/EntryApplicationCustomField | 
 [**search_entry_application_note**](DefaultApi.md#search_entry_application_note) | **GET** select/EntryApplicationNote | 
+[**search_entry_application_note_xml**](DefaultApi.md#search_entry_application_note_xml) | **POST** select/EntryApplicationNote | 
 [**search_entry_application_portal_section**](DefaultApi.md#search_entry_application_portal_section) | **GET** select/EntryApplicationPortalSection | 
+[**search_entry_application_portal_section_xml**](DefaultApi.md#search_entry_application_portal_section_xml) | **POST** select/EntryApplicationPortalSection | 
 [**search_entry_application_preference**](DefaultApi.md#search_entry_application_preference) | **GET** select/EntryApplicationPreference | 
+[**search_entry_application_preference_xml**](DefaultApi.md#search_entry_application_preference_xml) | **POST** select/EntryApplicationPreference | 
 [**search_entry_application_proxy**](DefaultApi.md#search_entry_application_proxy) | **GET** select/EntryApplicationProxy | 
+[**search_entry_application_proxy_xml**](DefaultApi.md#search_entry_application_proxy_xml) | **POST** select/EntryApplicationProxy | 
 [**search_entry_application_room_mate**](DefaultApi.md#search_entry_application_room_mate) | **GET** select/EntryApplicationRoomMate | 
+[**search_entry_application_room_mate_xml**](DefaultApi.md#search_entry_application_room_mate_xml) | **POST** select/EntryApplicationRoomMate | 
 [**search_entry_application_room_preference**](DefaultApi.md#search_entry_application_room_preference) | **GET** select/EntryApplicationRoomPreference | 
+[**search_entry_application_room_preference_xml**](DefaultApi.md#search_entry_application_room_preference_xml) | **POST** select/EntryApplicationRoomPreference | 
+[**search_entry_application_xml**](DefaultApi.md#search_entry_application_xml) | **POST** select/EntryApplication | 
 [**search_entry_correspondence**](DefaultApi.md#search_entry_correspondence) | **GET** select/EntryCorrespondence | 
+[**search_entry_correspondence_xml**](DefaultApi.md#search_entry_correspondence_xml) | **POST** select/EntryCorrespondence | 
 [**search_entry_custom_field**](DefaultApi.md#search_entry_custom_field) | **GET** select/EntryCustomField | 
+[**search_entry_custom_field_xml**](DefaultApi.md#search_entry_custom_field_xml) | **POST** select/EntryCustomField | 
 [**search_entry_detail**](DefaultApi.md#search_entry_detail) | **GET** select/EntryDetail | 
+[**search_entry_detail_xml**](DefaultApi.md#search_entry_detail_xml) | **POST** select/EntryDetail | 
 [**search_entry_electronic_identity**](DefaultApi.md#search_entry_electronic_identity) | **GET** select/EntryElectronicIdentity | 
+[**search_entry_electronic_identity_xml**](DefaultApi.md#search_entry_electronic_identity_xml) | **POST** select/EntryElectronicIdentity | 
 [**search_entry_enrollment**](DefaultApi.md#search_entry_enrollment) | **GET** select/EntryEnrollment | 
+[**search_entry_enrollment_xml**](DefaultApi.md#search_entry_enrollment_xml) | **POST** select/EntryEnrollment | 
 [**search_entry_event**](DefaultApi.md#search_entry_event) | **GET** select/EntryEvent | 
+[**search_entry_event_xml**](DefaultApi.md#search_entry_event_xml) | **POST** select/EntryEvent | 
 [**search_entry_family**](DefaultApi.md#search_entry_family) | **GET** select/EntryFamily | 
+[**search_entry_family_xml**](DefaultApi.md#search_entry_family_xml) | **POST** select/EntryFamily | 
 [**search_entry_group**](DefaultApi.md#search_entry_group) | **GET** select/EntryGroup | 
+[**search_entry_group_xml**](DefaultApi.md#search_entry_group_xml) | **POST** select/EntryGroup | 
 [**search_entry_invitation**](DefaultApi.md#search_entry_invitation) | **GET** select/EntryInvitation | 
+[**search_entry_invitation_xml**](DefaultApi.md#search_entry_invitation_xml) | **POST** select/EntryInvitation | 
 [**search_entry_meal**](DefaultApi.md#search_entry_meal) | **GET** select/EntryMeal | 
 [**search_entry_meal_plan_detail**](DefaultApi.md#search_entry_meal_plan_detail) | **GET** select/EntryMealPlanDetail | 
+[**search_entry_meal_plan_detail_xml**](DefaultApi.md#search_entry_meal_plan_detail_xml) | **POST** select/EntryMealPlanDetail | 
 [**search_entry_meal_tag**](DefaultApi.md#search_entry_meal_tag) | **GET** select/EntryMealTag | 
+[**search_entry_meal_tag_xml**](DefaultApi.md#search_entry_meal_tag_xml) | **POST** select/EntryMealTag | 
+[**search_entry_meal_xml**](DefaultApi.md#search_entry_meal_xml) | **POST** select/EntryMeal | 
 [**search_entry_membership**](DefaultApi.md#search_entry_membership) | **GET** select/EntryMembership | 
+[**search_entry_membership_xml**](DefaultApi.md#search_entry_membership_xml) | **POST** select/EntryMembership | 
 [**search_entry_note**](DefaultApi.md#search_entry_note) | **GET** select/EntryNote | 
+[**search_entry_note_xml**](DefaultApi.md#search_entry_note_xml) | **POST** select/EntryNote | 
 [**search_entry_parcel**](DefaultApi.md#search_entry_parcel) | **GET** select/EntryParcel | 
+[**search_entry_parcel_xml**](DefaultApi.md#search_entry_parcel_xml) | **POST** select/EntryParcel | 
 [**search_entry_portal_activity**](DefaultApi.md#search_entry_portal_activity) | **GET** select/EntryPortalActivity | 
+[**search_entry_portal_activity_xml**](DefaultApi.md#search_entry_portal_activity_xml) | **POST** select/EntryPortalActivity | 
 [**search_entry_position**](DefaultApi.md#search_entry_position) | **GET** select/EntryPosition | 
+[**search_entry_position_xml**](DefaultApi.md#search_entry_position_xml) | **POST** select/EntryPosition | 
 [**search_entry_profile**](DefaultApi.md#search_entry_profile) | **GET** select/EntryProfile | 
+[**search_entry_profile_xml**](DefaultApi.md#search_entry_profile_xml) | **POST** select/EntryProfile | 
 [**search_entry_result**](DefaultApi.md#search_entry_result) | **GET** select/EntryResult | 
+[**search_entry_result_xml**](DefaultApi.md#search_entry_result_xml) | **POST** select/EntryResult | 
 [**search_entry_schedule_transaction**](DefaultApi.md#search_entry_schedule_transaction) | **GET** select/EntryScheduleTransaction | 
+[**search_entry_schedule_transaction_xml**](DefaultApi.md#search_entry_schedule_transaction_xml) | **POST** select/EntryScheduleTransaction | 
 [**search_entry_scholarship**](DefaultApi.md#search_entry_scholarship) | **GET** select/EntryScholarship | 
+[**search_entry_scholarship_xml**](DefaultApi.md#search_entry_scholarship_xml) | **POST** select/EntryScholarship | 
 [**search_entry_school**](DefaultApi.md#search_entry_school) | **GET** select/EntrySchool | 
+[**search_entry_school_xml**](DefaultApi.md#search_entry_school_xml) | **POST** select/EntrySchool | 
 [**search_entry_sdas**](DefaultApi.md#search_entry_sdas) | **GET** select/EntrySDAS | 
+[**search_entry_sdasxml**](DefaultApi.md#search_entry_sdasxml) | **POST** select/EntrySDAS | 
 [**search_entry_visitor**](DefaultApi.md#search_entry_visitor) | **GET** select/EntryVisitor | 
+[**search_entry_visitor_xml**](DefaultApi.md#search_entry_visitor_xml) | **POST** select/EntryVisitor | 
 [**search_entry_xml**](DefaultApi.md#search_entry_xml) | **POST** select/Entry | student info
 [**search_event**](DefaultApi.md#search_event) | **GET** select/Event | 
 [**search_event_charge**](DefaultApi.md#search_event_charge) | **GET** select/EventCharge | 
+[**search_event_charge_xml**](DefaultApi.md#search_event_charge_xml) | **POST** select/EventCharge | 
 [**search_event_contact_entry**](DefaultApi.md#search_event_contact_entry) | **GET** select/EventContactEntry | 
+[**search_event_contact_entry_xml**](DefaultApi.md#search_event_contact_entry_xml) | **POST** select/EventContactEntry | 
 [**search_event_custom_field**](DefaultApi.md#search_event_custom_field) | **GET** select/EventCustomField | 
+[**search_event_custom_field_xml**](DefaultApi.md#search_event_custom_field_xml) | **POST** select/EventCustomField | 
 [**search_event_meal_plan**](DefaultApi.md#search_event_meal_plan) | **GET** select/EventMealPlan | 
+[**search_event_meal_plan_xml**](DefaultApi.md#search_event_meal_plan_xml) | **POST** select/EventMealPlan | 
 [**search_event_note**](DefaultApi.md#search_event_note) | **GET** select/EventNote | 
+[**search_event_note_xml**](DefaultApi.md#search_event_note_xml) | **POST** select/EventNote | 
 [**search_event_quote**](DefaultApi.md#search_event_quote) | **GET** select/EventQuote | 
+[**search_event_quote_xml**](DefaultApi.md#search_event_quote_xml) | **POST** select/EventQuote | 
 [**search_event_registration_fee**](DefaultApi.md#search_event_registration_fee) | **GET** select/EventRegistrationFee | 
+[**search_event_registration_fee_xml**](DefaultApi.md#search_event_registration_fee_xml) | **POST** select/EventRegistrationFee | 
 [**search_event_type**](DefaultApi.md#search_event_type) | **GET** select/EventType | 
+[**search_event_type_xml**](DefaultApi.md#search_event_type_xml) | **POST** select/EventType | 
+[**search_event_xml**](DefaultApi.md#search_event_xml) | **POST** select/Event | 
 [**search_extension**](DefaultApi.md#search_extension) | **GET** select/Extension | 
+[**search_extension_xml**](DefaultApi.md#search_extension_xml) | **POST** select/Extension | 
 [**search_field_default**](DefaultApi.md#search_field_default) | **GET** select/FieldDefault | 
+[**search_field_default_xml**](DefaultApi.md#search_field_default_xml) | **POST** select/FieldDefault | 
 [**search_financial_support**](DefaultApi.md#search_financial_support) | **GET** select/FinancialSupport | 
+[**search_financial_support_xml**](DefaultApi.md#search_financial_support_xml) | **POST** select/FinancialSupport | 
 [**search_function_booking**](DefaultApi.md#search_function_booking) | **GET** select/FunctionBooking | 
 [**search_function_booking_attendee**](DefaultApi.md#search_function_booking_attendee) | **GET** select/FunctionBookingAttendee | 
+[**search_function_booking_attendee_xml**](DefaultApi.md#search_function_booking_attendee_xml) | **POST** select/FunctionBookingAttendee | 
 [**search_function_booking_catering**](DefaultApi.md#search_function_booking_catering) | **GET** select/FunctionBookingCatering | 
 [**search_function_booking_catering_item**](DefaultApi.md#search_function_booking_catering_item) | **GET** select/FunctionBookingCateringItem | 
+[**search_function_booking_catering_item_xml**](DefaultApi.md#search_function_booking_catering_item_xml) | **POST** select/FunctionBookingCateringItem | 
+[**search_function_booking_catering_xml**](DefaultApi.md#search_function_booking_catering_xml) | **POST** select/FunctionBookingCatering | 
 [**search_function_booking_charge**](DefaultApi.md#search_function_booking_charge) | **GET** select/FunctionBookingCharge | 
+[**search_function_booking_charge_xml**](DefaultApi.md#search_function_booking_charge_xml) | **POST** select/FunctionBookingCharge | 
+[**search_function_booking_xml**](DefaultApi.md#search_function_booking_xml) | **POST** select/FunctionBooking | 
 [**search_function_resource**](DefaultApi.md#search_function_resource) | **GET** select/FunctionResource | 
 [**search_function_resource_booking**](DefaultApi.md#search_function_resource_booking) | **GET** select/FunctionResourceBooking | 
+[**search_function_resource_booking_xml**](DefaultApi.md#search_function_resource_booking_xml) | **POST** select/FunctionResourceBooking | 
 [**search_function_resource_type**](DefaultApi.md#search_function_resource_type) | **GET** select/FunctionResourceType | 
+[**search_function_resource_type_xml**](DefaultApi.md#search_function_resource_type_xml) | **POST** select/FunctionResourceType | 
+[**search_function_resource_xml**](DefaultApi.md#search_function_resource_xml) | **POST** select/FunctionResource | 
 [**search_function_room**](DefaultApi.md#search_function_room) | **GET** select/FunctionRoom | 
 [**search_function_room_booking**](DefaultApi.md#search_function_room_booking) | **GET** select/FunctionRoomBooking | 
+[**search_function_room_booking_xml**](DefaultApi.md#search_function_room_booking_xml) | **POST** select/FunctionRoomBooking | 
 [**search_function_room_closed**](DefaultApi.md#search_function_room_closed) | **GET** select/FunctionRoomClosed | 
+[**search_function_room_closed_xml**](DefaultApi.md#search_function_room_closed_xml) | **POST** select/FunctionRoomClosed | 
 [**search_function_room_location**](DefaultApi.md#search_function_room_location) | **GET** select/FunctionRoomLocation | 
+[**search_function_room_location_xml**](DefaultApi.md#search_function_room_location_xml) | **POST** select/FunctionRoomLocation | 
 [**search_function_room_rate**](DefaultApi.md#search_function_room_rate) | **GET** select/FunctionRoomRate | 
+[**search_function_room_rate_xml**](DefaultApi.md#search_function_room_rate_xml) | **POST** select/FunctionRoomRate | 
 [**search_function_room_setup**](DefaultApi.md#search_function_room_setup) | **GET** select/FunctionRoomSetup | 
+[**search_function_room_setup_xml**](DefaultApi.md#search_function_room_setup_xml) | **POST** select/FunctionRoomSetup | 
 [**search_function_room_type**](DefaultApi.md#search_function_room_type) | **GET** select/FunctionRoomType | 
+[**search_function_room_type_xml**](DefaultApi.md#search_function_room_type_xml) | **POST** select/FunctionRoomType | 
+[**search_function_room_xml**](DefaultApi.md#search_function_room_xml) | **POST** select/FunctionRoom | 
 [**search_function_type**](DefaultApi.md#search_function_type) | **GET** select/FunctionType | 
+[**search_function_type_xml**](DefaultApi.md#search_function_type_xml) | **POST** select/FunctionType | 
 [**search_generic_table_data**](DefaultApi.md#search_generic_table_data) | **GET** select/GenericTableData | 
 [**search_generic_table_data_field**](DefaultApi.md#search_generic_table_data_field) | **GET** select/GenericTableDataField | 
+[**search_generic_table_data_field_xml**](DefaultApi.md#search_generic_table_data_field_xml) | **POST** select/GenericTableDataField | 
+[**search_generic_table_data_xml**](DefaultApi.md#search_generic_table_data_xml) | **POST** select/GenericTableData | 
 [**search_generic_table_definition**](DefaultApi.md#search_generic_table_definition) | **GET** select/GenericTableDefinition | 
 [**search_generic_table_definition_field**](DefaultApi.md#search_generic_table_definition_field) | **GET** select/GenericTableDefinitionField | 
+[**search_generic_table_definition_field_xml**](DefaultApi.md#search_generic_table_definition_field_xml) | **POST** select/GenericTableDefinitionField | 
+[**search_generic_table_definition_xml**](DefaultApi.md#search_generic_table_definition_xml) | **POST** select/GenericTableDefinition | 
 [**search_gl_posting**](DefaultApi.md#search_gl_posting) | **GET** select/GLPosting | 
+[**search_gl_posting_xml**](DefaultApi.md#search_gl_posting_xml) | **POST** select/GLPosting | 
 [**search_group**](DefaultApi.md#search_group) | **GET** select/Group | 
 [**search_group_contact_entry**](DefaultApi.md#search_group_contact_entry) | **GET** select/GroupContactEntry | 
+[**search_group_contact_entry_xml**](DefaultApi.md#search_group_contact_entry_xml) | **POST** select/GroupContactEntry | 
 [**search_group_custom_field**](DefaultApi.md#search_group_custom_field) | **GET** select/GroupCustomField | 
+[**search_group_custom_field_xml**](DefaultApi.md#search_group_custom_field_xml) | **POST** select/GroupCustomField | 
 [**search_group_meal_plan**](DefaultApi.md#search_group_meal_plan) | **GET** select/GroupMealPlan | 
+[**search_group_meal_plan_xml**](DefaultApi.md#search_group_meal_plan_xml) | **POST** select/GroupMealPlan | 
 [**search_group_room_space**](DefaultApi.md#search_group_room_space) | **GET** select/GroupRoomSpace | 
+[**search_group_room_space_xml**](DefaultApi.md#search_group_room_space_xml) | **POST** select/GroupRoomSpace | 
 [**search_group_room_type_and_rates**](DefaultApi.md#search_group_room_type_and_rates) | **GET** select/GroupRoomTypeAndRates | 
+[**search_group_room_type_and_rates_xml**](DefaultApi.md#search_group_room_type_and_rates_xml) | **POST** select/GroupRoomTypeAndRates | 
+[**search_group_xml**](DefaultApi.md#search_group_xml) | **POST** select/Group | 
 [**search_housekeeping**](DefaultApi.md#search_housekeeping) | **GET** select/Housekeeping | 
 [**search_housekeeping_schedule**](DefaultApi.md#search_housekeeping_schedule) | **GET** select/HousekeepingSchedule | 
 [**search_housekeeping_schedule_skip**](DefaultApi.md#search_housekeeping_schedule_skip) | **GET** select/HousekeepingScheduleSkip | 
+[**search_housekeeping_schedule_skip_xml**](DefaultApi.md#search_housekeeping_schedule_skip_xml) | **POST** select/HousekeepingScheduleSkip | 
+[**search_housekeeping_schedule_xml**](DefaultApi.md#search_housekeeping_schedule_xml) | **POST** select/HousekeepingSchedule | 
+[**search_housekeeping_xml**](DefaultApi.md#search_housekeeping_xml) | **POST** select/Housekeeping | 
 [**search_incident**](DefaultApi.md#search_incident) | **GET** select/Incident | 
 [**search_incident_action**](DefaultApi.md#search_incident_action) | **GET** select/IncidentAction | 
 [**search_incident_action_entry**](DefaultApi.md#search_incident_action_entry) | **GET** select/IncidentActionEntry | 
+[**search_incident_action_entry_xml**](DefaultApi.md#search_incident_action_entry_xml) | **POST** select/IncidentActionEntry | 
 [**search_incident_action_type**](DefaultApi.md#search_incident_action_type) | **GET** select/IncidentActionType | 
+[**search_incident_action_type_xml**](DefaultApi.md#search_incident_action_type_xml) | **POST** select/IncidentActionType | 
+[**search_incident_action_xml**](DefaultApi.md#search_incident_action_xml) | **POST** select/IncidentAction | 
 [**search_incident_appeal_decision**](DefaultApi.md#search_incident_appeal_decision) | **GET** select/IncidentAppealDecision | 
+[**search_incident_appeal_decision_xml**](DefaultApi.md#search_incident_appeal_decision_xml) | **POST** select/IncidentAppealDecision | 
 [**search_incident_appeal_type**](DefaultApi.md#search_incident_appeal_type) | **GET** select/IncidentAppealType | 
+[**search_incident_appeal_type_xml**](DefaultApi.md#search_incident_appeal_type_xml) | **POST** select/IncidentAppealType | 
 [**search_incident_clery_geography**](DefaultApi.md#search_incident_clery_geography) | **GET** select/IncidentCleryGeography | 
+[**search_incident_clery_geography_xml**](DefaultApi.md#search_incident_clery_geography_xml) | **POST** select/IncidentCleryGeography | 
 [**search_incident_custom_field**](DefaultApi.md#search_incident_custom_field) | **GET** select/IncidentCustomField | 
+[**search_incident_custom_field_xml**](DefaultApi.md#search_incident_custom_field_xml) | **POST** select/IncidentCustomField | 
 [**search_incident_entry**](DefaultApi.md#search_incident_entry) | **GET** select/IncidentEntry | 
 [**search_incident_entry_appeal**](DefaultApi.md#search_incident_entry_appeal) | **GET** select/IncidentEntryAppeal | 
+[**search_incident_entry_appeal_xml**](DefaultApi.md#search_incident_entry_appeal_xml) | **POST** select/IncidentEntryAppeal | 
 [**search_incident_entry_correspondence**](DefaultApi.md#search_incident_entry_correspondence) | **GET** select/IncidentEntryCorrespondence | 
+[**search_incident_entry_correspondence_xml**](DefaultApi.md#search_incident_entry_correspondence_xml) | **POST** select/IncidentEntryCorrespondence | 
 [**search_incident_entry_note**](DefaultApi.md#search_incident_entry_note) | **GET** select/IncidentEntryNote | 
+[**search_incident_entry_note_xml**](DefaultApi.md#search_incident_entry_note_xml) | **POST** select/IncidentEntryNote | 
 [**search_incident_entry_sanction**](DefaultApi.md#search_incident_entry_sanction) | **GET** select/IncidentEntrySanction | 
+[**search_incident_entry_sanction_xml**](DefaultApi.md#search_incident_entry_sanction_xml) | **POST** select/IncidentEntrySanction | 
 [**search_incident_entry_violation**](DefaultApi.md#search_incident_entry_violation) | **GET** select/IncidentEntryViolation | 
+[**search_incident_entry_violation_xml**](DefaultApi.md#search_incident_entry_violation_xml) | **POST** select/IncidentEntryViolation | 
+[**search_incident_entry_xml**](DefaultApi.md#search_incident_entry_xml) | **POST** select/IncidentEntry | 
 [**search_incident_finding**](DefaultApi.md#search_incident_finding) | **GET** select/IncidentFinding | 
+[**search_incident_finding_xml**](DefaultApi.md#search_incident_finding_xml) | **POST** select/IncidentFinding | 
 [**search_incident_involvement**](DefaultApi.md#search_incident_involvement) | **GET** select/IncidentInvolvement | 
+[**search_incident_involvement_xml**](DefaultApi.md#search_incident_involvement_xml) | **POST** select/IncidentInvolvement | 
 [**search_incident_note**](DefaultApi.md#search_incident_note) | **GET** select/IncidentNote | 
+[**search_incident_note_xml**](DefaultApi.md#search_incident_note_xml) | **POST** select/IncidentNote | 
 [**search_incident_plea**](DefaultApi.md#search_incident_plea) | **GET** select/IncidentPlea | 
+[**search_incident_plea_xml**](DefaultApi.md#search_incident_plea_xml) | **POST** select/IncidentPlea | 
 [**search_incident_sanction_sub_type**](DefaultApi.md#search_incident_sanction_sub_type) | **GET** select/IncidentSanctionSubType | 
+[**search_incident_sanction_sub_type_xml**](DefaultApi.md#search_incident_sanction_sub_type_xml) | **POST** select/IncidentSanctionSubType | 
 [**search_incident_sanction_type**](DefaultApi.md#search_incident_sanction_type) | **GET** select/IncidentSanctionType | 
+[**search_incident_sanction_type_xml**](DefaultApi.md#search_incident_sanction_type_xml) | **POST** select/IncidentSanctionType | 
 [**search_incident_severity**](DefaultApi.md#search_incident_severity) | **GET** select/IncidentSeverity | 
+[**search_incident_severity_xml**](DefaultApi.md#search_incident_severity_xml) | **POST** select/IncidentSeverity | 
 [**search_incident_status**](DefaultApi.md#search_incident_status) | **GET** select/IncidentStatus | 
+[**search_incident_status_xml**](DefaultApi.md#search_incident_status_xml) | **POST** select/IncidentStatus | 
 [**search_incident_sub_type**](DefaultApi.md#search_incident_sub_type) | **GET** select/IncidentSubType | 
+[**search_incident_sub_type_xml**](DefaultApi.md#search_incident_sub_type_xml) | **POST** select/IncidentSubType | 
 [**search_incident_type**](DefaultApi.md#search_incident_type) | **GET** select/IncidentType | 
+[**search_incident_type_xml**](DefaultApi.md#search_incident_type_xml) | **POST** select/IncidentType | 
 [**search_incident_violation**](DefaultApi.md#search_incident_violation) | **GET** select/IncidentViolation | 
+[**search_incident_violation_xml**](DefaultApi.md#search_incident_violation_xml) | **POST** select/IncidentViolation | 
+[**search_incident_xml**](DefaultApi.md#search_incident_xml) | **POST** select/Incident | 
 [**search_inspection_run_template**](DefaultApi.md#search_inspection_run_template) | **GET** select/InspectionRunTemplate | 
+[**search_inspection_run_template_xml**](DefaultApi.md#search_inspection_run_template_xml) | **POST** select/InspectionRunTemplate | 
 [**search_interface**](DefaultApi.md#search_interface) | **GET** select/Interface | 
 [**search_interface_application**](DefaultApi.md#search_interface_application) | **GET** select/InterfaceApplication | 
+[**search_interface_application_xml**](DefaultApi.md#search_interface_application_xml) | **POST** select/InterfaceApplication | 
 [**search_interface_subscribe**](DefaultApi.md#search_interface_subscribe) | **GET** select/InterfaceSubscribe | 
+[**search_interface_subscribe_xml**](DefaultApi.md#search_interface_subscribe_xml) | **POST** select/InterfaceSubscribe | 
+[**search_interface_xml**](DefaultApi.md#search_interface_xml) | **POST** select/Interface | 
 [**search_invoice**](DefaultApi.md#search_invoice) | **GET** select/Invoice | 
+[**search_invoice_xml**](DefaultApi.md#search_invoice_xml) | **POST** select/Invoice | 
 [**search_log_activity**](DefaultApi.md#search_log_activity) | **GET** select/LogActivity | 
+[**search_log_activity_xml**](DefaultApi.md#search_log_activity_xml) | **POST** select/LogActivity | 
 [**search_log_add_in**](DefaultApi.md#search_log_add_in) | **GET** select/LogAddIn | 
+[**search_log_add_in_xml**](DefaultApi.md#search_log_add_in_xml) | **POST** select/LogAddIn | 
 [**search_log_interface**](DefaultApi.md#search_log_interface) | **GET** select/LogInterface | 
+[**search_log_interface_xml**](DefaultApi.md#search_log_interface_xml) | **POST** select/LogInterface | 
 [**search_log_metric**](DefaultApi.md#search_log_metric) | **GET** select/LogMetric | 
+[**search_log_metric_xml**](DefaultApi.md#search_log_metric_xml) | **POST** select/LogMetric | 
 [**search_lookup**](DefaultApi.md#search_lookup) | **GET** select/Lookup | 
 [**search_lookup_text**](DefaultApi.md#search_lookup_text) | **GET** select/LookupText | 
+[**search_lookup_text_xml**](DefaultApi.md#search_lookup_text_xml) | **POST** select/LookupText | 
+[**search_lookup_xml**](DefaultApi.md#search_lookup_xml) | **POST** select/Lookup | 
 [**search_mail_merge**](DefaultApi.md#search_mail_merge) | **GET** select/MailMerge | 
+[**search_mail_merge_xml**](DefaultApi.md#search_mail_merge_xml) | **POST** select/MailMerge | 
 [**search_meal_plan**](DefaultApi.md#search_meal_plan) | **GET** select/MealPlan | 
 [**search_meal_plan_detail**](DefaultApi.md#search_meal_plan_detail) | **GET** select/MealPlanDetail | 
+[**search_meal_plan_detail_xml**](DefaultApi.md#search_meal_plan_detail_xml) | **POST** select/MealPlanDetail | 
 [**search_meal_plan_dining_hall**](DefaultApi.md#search_meal_plan_dining_hall) | **GET** select/MealPlanDiningHall | 
+[**search_meal_plan_dining_hall_xml**](DefaultApi.md#search_meal_plan_dining_hall_xml) | **POST** select/MealPlanDiningHall | 
 [**search_meal_plan_free**](DefaultApi.md#search_meal_plan_free) | **GET** select/MealPlanFree | 
+[**search_meal_plan_free_xml**](DefaultApi.md#search_meal_plan_free_xml) | **POST** select/MealPlanFree | 
 [**search_meal_plan_session**](DefaultApi.md#search_meal_plan_session) | **GET** select/MealPlanSession | 
+[**search_meal_plan_session_xml**](DefaultApi.md#search_meal_plan_session_xml) | **POST** select/MealPlanSession | 
+[**search_meal_plan_xml**](DefaultApi.md#search_meal_plan_xml) | **POST** select/MealPlan | 
 [**search_meal_pricing**](DefaultApi.md#search_meal_pricing) | **GET** select/MealPricing | 
+[**search_meal_pricing_xml**](DefaultApi.md#search_meal_pricing_xml) | **POST** select/MealPricing | 
 [**search_membership_type**](DefaultApi.md#search_membership_type) | **GET** select/MembershipType | 
+[**search_membership_type_xml**](DefaultApi.md#search_membership_type_xml) | **POST** select/MembershipType | 
 [**search_message**](DefaultApi.md#search_message) | **GET** select/Message | 
 [**search_message_action**](DefaultApi.md#search_message_action) | **GET** select/MessageAction | 
+[**search_message_action_xml**](DefaultApi.md#search_message_action_xml) | **POST** select/MessageAction | 
 [**search_message_subscriber**](DefaultApi.md#search_message_subscriber) | **GET** select/MessageSubscriber | 
+[**search_message_subscriber_xml**](DefaultApi.md#search_message_subscriber_xml) | **POST** select/MessageSubscriber | 
 [**search_message_subscription**](DefaultApi.md#search_message_subscription) | **GET** select/MessageSubscription | 
 [**search_message_subscription_settings**](DefaultApi.md#search_message_subscription_settings) | **GET** select/MessageSubscriptionSettings | 
+[**search_message_subscription_settings_xml**](DefaultApi.md#search_message_subscription_settings_xml) | **POST** select/MessageSubscriptionSettings | 
+[**search_message_subscription_xml**](DefaultApi.md#search_message_subscription_xml) | **POST** select/MessageSubscription | 
+[**search_message_xml**](DefaultApi.md#search_message_xml) | **POST** select/Message | 
 [**search_nationality**](DefaultApi.md#search_nationality) | **GET** select/Nationality | 
+[**search_nationality_xml**](DefaultApi.md#search_nationality_xml) | **POST** select/Nationality | 
 [**search_note_type**](DefaultApi.md#search_note_type) | **GET** select/NoteType | 
+[**search_note_type_xml**](DefaultApi.md#search_note_type_xml) | **POST** select/NoteType | 
 [**search_parcel_type**](DefaultApi.md#search_parcel_type) | **GET** select/ParcelType | 
+[**search_parcel_type_xml**](DefaultApi.md#search_parcel_type_xml) | **POST** select/ParcelType | 
 [**search_payment**](DefaultApi.md#search_payment) | **GET** select/Payment | 
 [**search_payment_type**](DefaultApi.md#search_payment_type) | **GET** select/PaymentType | 
+[**search_payment_type_xml**](DefaultApi.md#search_payment_type_xml) | **POST** select/PaymentType | 
+[**search_payment_xml**](DefaultApi.md#search_payment_xml) | **POST** select/Payment | 
 [**search_phone_charge_type**](DefaultApi.md#search_phone_charge_type) | **GET** select/PhoneChargeType | 
 [**search_phone_charge_type_call_type**](DefaultApi.md#search_phone_charge_type_call_type) | **GET** select/PhoneChargeTypeCallType | 
+[**search_phone_charge_type_call_type_xml**](DefaultApi.md#search_phone_charge_type_call_type_xml) | **POST** select/PhoneChargeTypeCallType | 
+[**search_phone_charge_type_xml**](DefaultApi.md#search_phone_charge_type_xml) | **POST** select/PhoneChargeType | 
 [**search_portal_action**](DefaultApi.md#search_portal_action) | **GET** select/PortalAction | 
+[**search_portal_action_xml**](DefaultApi.md#search_portal_action_xml) | **POST** select/PortalAction | 
 [**search_portal_activity**](DefaultApi.md#search_portal_activity) | **GET** select/PortalActivity | 
+[**search_portal_activity_xml**](DefaultApi.md#search_portal_activity_xml) | **POST** select/PortalActivity | 
 [**search_portal_choice**](DefaultApi.md#search_portal_choice) | **GET** select/PortalChoice | 
+[**search_portal_choice_xml**](DefaultApi.md#search_portal_choice_xml) | **POST** select/PortalChoice | 
 [**search_portal_page**](DefaultApi.md#search_portal_page) | **GET** select/PortalPage | 
 [**search_portal_page_action**](DefaultApi.md#search_portal_page_action) | **GET** select/PortalPageAction | 
+[**search_portal_page_action_xml**](DefaultApi.md#search_portal_page_action_xml) | **POST** select/PortalPageAction | 
 [**search_portal_page_widget**](DefaultApi.md#search_portal_page_widget) | **GET** select/PortalPageWidget | 
+[**search_portal_page_widget_xml**](DefaultApi.md#search_portal_page_widget_xml) | **POST** select/PortalPageWidget | 
+[**search_portal_page_xml**](DefaultApi.md#search_portal_page_xml) | **POST** select/PortalPage | 
 [**search_portal_process**](DefaultApi.md#search_portal_process) | **GET** select/PortalProcess | 
+[**search_portal_process_xml**](DefaultApi.md#search_portal_process_xml) | **POST** select/PortalProcess | 
 [**search_portal_rule**](DefaultApi.md#search_portal_rule) | **GET** select/PortalRule | 
 [**search_portal_rule_link**](DefaultApi.md#search_portal_rule_link) | **GET** select/PortalRuleLink | 
+[**search_portal_rule_link_xml**](DefaultApi.md#search_portal_rule_link_xml) | **POST** select/PortalRuleLink | 
+[**search_portal_rule_xml**](DefaultApi.md#search_portal_rule_xml) | **POST** select/PortalRule | 
 [**search_portal_setting**](DefaultApi.md#search_portal_setting) | **GET** select/PortalSetting | 
+[**search_portal_setting_xml**](DefaultApi.md#search_portal_setting_xml) | **POST** select/PortalSetting | 
 [**search_portal_site**](DefaultApi.md#search_portal_site) | **GET** select/PortalSite | 
+[**search_portal_site_xml**](DefaultApi.md#search_portal_site_xml) | **POST** select/PortalSite | 
 [**search_portal_step**](DefaultApi.md#search_portal_step) | **GET** select/PortalStep | 
 [**search_portal_step_link**](DefaultApi.md#search_portal_step_link) | **GET** select/PortalStepLink | 
+[**search_portal_step_link_xml**](DefaultApi.md#search_portal_step_link_xml) | **POST** select/PortalStepLink | 
+[**search_portal_step_xml**](DefaultApi.md#search_portal_step_xml) | **POST** select/PortalStep | 
 [**search_portal_theme**](DefaultApi.md#search_portal_theme) | **GET** select/PortalTheme | 
+[**search_portal_theme_xml**](DefaultApi.md#search_portal_theme_xml) | **POST** select/PortalTheme | 
 [**search_portal_user_hold**](DefaultApi.md#search_portal_user_hold) | **GET** select/PortalUserHold | 
+[**search_portal_user_hold_xml**](DefaultApi.md#search_portal_user_hold_xml) | **POST** select/PortalUserHold | 
 [**search_portal_user_signature**](DefaultApi.md#search_portal_user_signature) | **GET** select/PortalUserSignature | 
+[**search_portal_user_signature_xml**](DefaultApi.md#search_portal_user_signature_xml) | **POST** select/PortalUserSignature | 
 [**search_portal_user_token**](DefaultApi.md#search_portal_user_token) | **GET** select/PortalUserToken | 
+[**search_portal_user_token_xml**](DefaultApi.md#search_portal_user_token_xml) | **POST** select/PortalUserToken | 
 [**search_preference**](DefaultApi.md#search_preference) | **GET** select/Preference | 
+[**search_preference_xml**](DefaultApi.md#search_preference_xml) | **POST** select/Preference | 
 [**search_priority**](DefaultApi.md#search_priority) | **GET** select/Priority | 
+[**search_priority_xml**](DefaultApi.md#search_priority_xml) | **POST** select/Priority | 
 [**search_process**](DefaultApi.md#search_process) | **GET** select/Process | 
+[**search_process_xml**](DefaultApi.md#search_process_xml) | **POST** select/Process | 
 [**search_profile_item**](DefaultApi.md#search_profile_item) | **GET** select/ProfileItem | 
+[**search_profile_item_xml**](DefaultApi.md#search_profile_item_xml) | **POST** select/ProfileItem | 
 [**search_profile_type**](DefaultApi.md#search_profile_type) | **GET** select/ProfileType | 
+[**search_profile_type_xml**](DefaultApi.md#search_profile_type_xml) | **POST** select/ProfileType | 
 [**search_program**](DefaultApi.md#search_program) | **GET** select/Program | 
 [**search_program_custom_field**](DefaultApi.md#search_program_custom_field) | **GET** select/ProgramCustomField | 
+[**search_program_custom_field_xml**](DefaultApi.md#search_program_custom_field_xml) | **POST** select/ProgramCustomField | 
 [**search_program_entry**](DefaultApi.md#search_program_entry) | **GET** select/ProgramEntry | 
+[**search_program_entry_xml**](DefaultApi.md#search_program_entry_xml) | **POST** select/ProgramEntry | 
 [**search_program_evaluation_type**](DefaultApi.md#search_program_evaluation_type) | **GET** select/ProgramEvaluationType | 
+[**search_program_evaluation_type_xml**](DefaultApi.md#search_program_evaluation_type_xml) | **POST** select/ProgramEvaluationType | 
 [**search_program_note**](DefaultApi.md#search_program_note) | **GET** select/ProgramNote | 
+[**search_program_note_xml**](DefaultApi.md#search_program_note_xml) | **POST** select/ProgramNote | 
 [**search_program_sub_type**](DefaultApi.md#search_program_sub_type) | **GET** select/ProgramSubType | 
+[**search_program_sub_type_xml**](DefaultApi.md#search_program_sub_type_xml) | **POST** select/ProgramSubType | 
 [**search_program_type**](DefaultApi.md#search_program_type) | **GET** select/ProgramType | 
+[**search_program_type_xml**](DefaultApi.md#search_program_type_xml) | **POST** select/ProgramType | 
+[**search_program_xml**](DefaultApi.md#search_program_xml) | **POST** select/Program | 
 [**search_promo_code**](DefaultApi.md#search_promo_code) | **GET** select/PromoCode | 
 [**search_promo_code_record**](DefaultApi.md#search_promo_code_record) | **GET** select/PromoCodeRecord | 
+[**search_promo_code_record_xml**](DefaultApi.md#search_promo_code_record_xml) | **POST** select/PromoCodeRecord | 
 [**search_promo_code_usage**](DefaultApi.md#search_promo_code_usage) | **GET** select/PromoCodeUsage | 
+[**search_promo_code_usage_xml**](DefaultApi.md#search_promo_code_usage_xml) | **POST** select/PromoCodeUsage | 
+[**search_promo_code_xml**](DefaultApi.md#search_promo_code_xml) | **POST** select/PromoCode | 
 [**search_record_attachment**](DefaultApi.md#search_record_attachment) | **GET** select/RecordAttachment | 
+[**search_record_attachment_xml**](DefaultApi.md#search_record_attachment_xml) | **POST** select/RecordAttachment | 
 [**search_refund_request**](DefaultApi.md#search_refund_request) | **GET** select/RefundRequest | 
 [**search_refund_request_batch_configuration**](DefaultApi.md#search_refund_request_batch_configuration) | **GET** select/RefundRequestBatchConfiguration | 
 [**search_refund_request_batch_configuration_item**](DefaultApi.md#search_refund_request_batch_configuration_item) | **GET** select/RefundRequestBatchConfigurationItem | 
+[**search_refund_request_batch_configuration_item_xml**](DefaultApi.md#search_refund_request_batch_configuration_item_xml) | **POST** select/RefundRequestBatchConfigurationItem | 
+[**search_refund_request_batch_configuration_xml**](DefaultApi.md#search_refund_request_batch_configuration_xml) | **POST** select/RefundRequestBatchConfiguration | 
 [**search_refund_request_break_up**](DefaultApi.md#search_refund_request_break_up) | **GET** select/RefundRequestBreakUp | 
+[**search_refund_request_break_up_xml**](DefaultApi.md#search_refund_request_break_up_xml) | **POST** select/RefundRequestBreakUp | 
 [**search_refund_request_configuration**](DefaultApi.md#search_refund_request_configuration) | **GET** select/RefundRequestConfiguration | 
 [**search_refund_request_configuration_break_up**](DefaultApi.md#search_refund_request_configuration_break_up) | **GET** select/RefundRequestConfigurationBreakUp | 
+[**search_refund_request_configuration_break_up_xml**](DefaultApi.md#search_refund_request_configuration_break_up_xml) | **POST** select/RefundRequestConfigurationBreakUp | 
+[**search_refund_request_configuration_xml**](DefaultApi.md#search_refund_request_configuration_xml) | **POST** select/RefundRequestConfiguration | 
+[**search_refund_request_xml**](DefaultApi.md#search_refund_request_xml) | **POST** select/RefundRequest | 
 [**search_region_of_birth**](DefaultApi.md#search_region_of_birth) | **GET** select/RegionOfBirth | 
+[**search_region_of_birth_xml**](DefaultApi.md#search_region_of_birth_xml) | **POST** select/RegionOfBirth | 
 [**search_report**](DefaultApi.md#search_report) | **GET** select/Report | 
 [**search_report_detail**](DefaultApi.md#search_report_detail) | **GET** select/ReportDetail | 
+[**search_report_detail_xml**](DefaultApi.md#search_report_detail_xml) | **POST** select/ReportDetail | 
 [**search_report_permission**](DefaultApi.md#search_report_permission) | **GET** select/ReportPermission | 
+[**search_report_permission_xml**](DefaultApi.md#search_report_permission_xml) | **POST** select/ReportPermission | 
 [**search_report_schedule**](DefaultApi.md#search_report_schedule) | **GET** select/ReportSchedule | 
+[**search_report_schedule_xml**](DefaultApi.md#search_report_schedule_xml) | **POST** select/ReportSchedule | 
 [**search_report_setting**](DefaultApi.md#search_report_setting) | **GET** select/ReportSetting | 
+[**search_report_setting_xml**](DefaultApi.md#search_report_setting_xml) | **POST** select/ReportSetting | 
+[**search_report_xml**](DefaultApi.md#search_report_xml) | **POST** select/Report | 
 [**search_resource**](DefaultApi.md#search_resource) | **GET** select/Resource | 
 [**search_resource_booking**](DefaultApi.md#search_resource_booking) | **GET** select/ResourceBooking | 
+[**search_resource_booking_xml**](DefaultApi.md#search_resource_booking_xml) | **POST** select/ResourceBooking | 
 [**search_resource_type**](DefaultApi.md#search_resource_type) | **GET** select/ResourceType | 
+[**search_resource_type_xml**](DefaultApi.md#search_resource_type_xml) | **POST** select/ResourceType | 
+[**search_resource_xml**](DefaultApi.md#search_resource_xml) | **POST** select/Resource | 
 [**search_response_status**](DefaultApi.md#search_response_status) | **GET** select/ResponseStatus | 
+[**search_response_status_xml**](DefaultApi.md#search_response_status_xml) | **POST** select/ResponseStatus | 
 [**search_room**](DefaultApi.md#search_room) | **GET** select/Room | 
 [**search_room_attribute**](DefaultApi.md#search_room_attribute) | **GET** select/RoomAttribute | 
+[**search_room_attribute_xml**](DefaultApi.md#search_room_attribute_xml) | **POST** select/RoomAttribute | 
 [**search_room_base**](DefaultApi.md#search_room_base) | **GET** select/RoomBase | 
 [**search_room_base_gender**](DefaultApi.md#search_room_base_gender) | **GET** select/RoomBaseGender | 
+[**search_room_base_gender_xml**](DefaultApi.md#search_room_base_gender_xml) | **POST** select/RoomBaseGender | 
+[**search_room_base_xml**](DefaultApi.md#search_room_base_xml) | **POST** select/RoomBase | 
 [**search_room_classification**](DefaultApi.md#search_room_classification) | **GET** select/RoomClassification | 
+[**search_room_classification_xml**](DefaultApi.md#search_room_classification_xml) | **POST** select/RoomClassification | 
 [**search_room_configuration**](DefaultApi.md#search_room_configuration) | **GET** select/RoomConfiguration | 
 [**search_room_configuration_attribute**](DefaultApi.md#search_room_configuration_attribute) | **GET** select/RoomConfigurationAttribute | 
+[**search_room_configuration_attribute_xml**](DefaultApi.md#search_room_configuration_attribute_xml) | **POST** select/RoomConfigurationAttribute | 
 [**search_room_configuration_classification**](DefaultApi.md#search_room_configuration_classification) | **GET** select/RoomConfigurationClassification | 
+[**search_room_configuration_classification_xml**](DefaultApi.md#search_room_configuration_classification_xml) | **POST** select/RoomConfigurationClassification | 
 [**search_room_configuration_profile**](DefaultApi.md#search_room_configuration_profile) | **GET** select/RoomConfigurationProfile | 
+[**search_room_configuration_profile_xml**](DefaultApi.md#search_room_configuration_profile_xml) | **POST** select/RoomConfigurationProfile | 
 [**search_room_configuration_room_sort**](DefaultApi.md#search_room_configuration_room_sort) | **GET** select/RoomConfigurationRoomSort | 
+[**search_room_configuration_room_sort_xml**](DefaultApi.md#search_room_configuration_room_sort_xml) | **POST** select/RoomConfigurationRoomSort | 
 [**search_room_configuration_term_type**](DefaultApi.md#search_room_configuration_term_type) | **GET** select/RoomConfigurationTermType | 
+[**search_room_configuration_term_type_xml**](DefaultApi.md#search_room_configuration_term_type_xml) | **POST** select/RoomConfigurationTermType | 
+[**search_room_configuration_xml**](DefaultApi.md#search_room_configuration_xml) | **POST** select/RoomConfiguration | 
 [**search_room_location**](DefaultApi.md#search_room_location) | **GET** select/RoomLocation | 
 [**search_room_location_area**](DefaultApi.md#search_room_location_area) | **GET** select/RoomLocationArea | 
+[**search_room_location_area_xml**](DefaultApi.md#search_room_location_area_xml) | **POST** select/RoomLocationArea | 
 [**search_room_location_classification**](DefaultApi.md#search_room_location_classification) | **GET** select/RoomLocationClassification | 
+[**search_room_location_classification_xml**](DefaultApi.md#search_room_location_classification_xml) | **POST** select/RoomLocationClassification | 
 [**search_room_location_floor_suite**](DefaultApi.md#search_room_location_floor_suite) | **GET** select/RoomLocationFloorSuite | 
+[**search_room_location_floor_suite_xml**](DefaultApi.md#search_room_location_floor_suite_xml) | **POST** select/RoomLocationFloorSuite | 
 [**search_room_location_section**](DefaultApi.md#search_room_location_section) | **GET** select/RoomLocationSection | 
+[**search_room_location_section_xml**](DefaultApi.md#search_room_location_section_xml) | **POST** select/RoomLocationSection | 
+[**search_room_location_xml**](DefaultApi.md#search_room_location_xml) | **POST** select/RoomLocation | 
 [**search_room_manager**](DefaultApi.md#search_room_manager) | **GET** select/RoomManager | 
+[**search_room_manager_xml**](DefaultApi.md#search_room_manager_xml) | **POST** select/RoomManager | 
 [**search_room_preference**](DefaultApi.md#search_room_preference) | **GET** select/RoomPreference | 
+[**search_room_preference_xml**](DefaultApi.md#search_room_preference_xml) | **POST** select/RoomPreference | 
 [**search_room_profile**](DefaultApi.md#search_room_profile) | **GET** select/RoomProfile | 
+[**search_room_profile_xml**](DefaultApi.md#search_room_profile_xml) | **POST** select/RoomProfile | 
 [**search_room_rate**](DefaultApi.md#search_room_rate) | **GET** select/RoomRate | 
 [**search_room_rate_charge**](DefaultApi.md#search_room_rate_charge) | **GET** select/RoomRateCharge | 
+[**search_room_rate_charge_xml**](DefaultApi.md#search_room_rate_charge_xml) | **POST** select/RoomRateCharge | 
 [**search_room_rate_room_type_location**](DefaultApi.md#search_room_rate_room_type_location) | **GET** select/RoomRateRoomTypeLocation | 
+[**search_room_rate_room_type_location_xml**](DefaultApi.md#search_room_rate_room_type_location_xml) | **POST** select/RoomRateRoomTypeLocation | 
 [**search_room_rate_session**](DefaultApi.md#search_room_rate_session) | **GET** select/RoomRateSession | 
+[**search_room_rate_session_xml**](DefaultApi.md#search_room_rate_session_xml) | **POST** select/RoomRateSession | 
+[**search_room_rate_xml**](DefaultApi.md#search_room_rate_xml) | **POST** select/RoomRate | 
 [**search_room_sort_configuration**](DefaultApi.md#search_room_sort_configuration) | **GET** select/RoomSortConfiguration | 
+[**search_room_sort_configuration_xml**](DefaultApi.md#search_room_sort_configuration_xml) | **POST** select/RoomSortConfiguration | 
 [**search_room_sort_profile**](DefaultApi.md#search_room_sort_profile) | **GET** select/RoomSortProfile | 
 [**search_room_sort_profile_item**](DefaultApi.md#search_room_sort_profile_item) | **GET** select/RoomSortProfileItem | 
+[**search_room_sort_profile_item_xml**](DefaultApi.md#search_room_sort_profile_item_xml) | **POST** select/RoomSortProfileItem | 
+[**search_room_sort_profile_xml**](DefaultApi.md#search_room_sort_profile_xml) | **POST** select/RoomSortProfile | 
 [**search_room_space**](DefaultApi.md#search_room_space) | **GET** select/RoomSpace | 
 [**search_room_space_closed**](DefaultApi.md#search_room_space_closed) | **GET** select/RoomSpaceClosed | 
+[**search_room_space_closed_xml**](DefaultApi.md#search_room_space_closed_xml) | **POST** select/RoomSpaceClosed | 
 [**search_room_space_detail**](DefaultApi.md#search_room_space_detail) | **GET** select/RoomSpaceDetail | 
+[**search_room_space_detail_xml**](DefaultApi.md#search_room_space_detail_xml) | **POST** select/RoomSpaceDetail | 
 [**search_room_space_inventory**](DefaultApi.md#search_room_space_inventory) | **GET** select/RoomSpaceInventory | 
 [**search_room_space_inventory_condition**](DefaultApi.md#search_room_space_inventory_condition) | **GET** select/RoomSpaceInventoryCondition | 
+[**search_room_space_inventory_condition_xml**](DefaultApi.md#search_room_space_inventory_condition_xml) | **POST** select/RoomSpaceInventoryCondition | 
 [**search_room_space_inventory_inspection**](DefaultApi.md#search_room_space_inventory_inspection) | **GET** select/RoomSpaceInventoryInspection | 
 [**search_room_space_inventory_inspection_item**](DefaultApi.md#search_room_space_inventory_inspection_item) | **GET** select/RoomSpaceInventoryInspectionItem | 
+[**search_room_space_inventory_inspection_item_xml**](DefaultApi.md#search_room_space_inventory_inspection_item_xml) | **POST** select/RoomSpaceInventoryInspectionItem | 
 [**search_room_space_inventory_inspection_run**](DefaultApi.md#search_room_space_inventory_inspection_run) | **GET** select/RoomSpaceInventoryInspectionRun | 
+[**search_room_space_inventory_inspection_run_xml**](DefaultApi.md#search_room_space_inventory_inspection_run_xml) | **POST** select/RoomSpaceInventoryInspectionRun | 
+[**search_room_space_inventory_inspection_xml**](DefaultApi.md#search_room_space_inventory_inspection_xml) | **POST** select/RoomSpaceInventoryInspection | 
 [**search_room_space_inventory_status**](DefaultApi.md#search_room_space_inventory_status) | **GET** select/RoomSpaceInventoryStatus | 
+[**search_room_space_inventory_status_xml**](DefaultApi.md#search_room_space_inventory_status_xml) | **POST** select/RoomSpaceInventoryStatus | 
 [**search_room_space_inventory_type**](DefaultApi.md#search_room_space_inventory_type) | **GET** select/RoomSpaceInventoryType | 
+[**search_room_space_inventory_type_xml**](DefaultApi.md#search_room_space_inventory_type_xml) | **POST** select/RoomSpaceInventoryType | 
+[**search_room_space_inventory_xml**](DefaultApi.md#search_room_space_inventory_xml) | **POST** select/RoomSpaceInventory | 
 [**search_room_space_key**](DefaultApi.md#search_room_space_key) | **GET** select/RoomSpaceKey | 
 [**search_room_space_key_booking**](DefaultApi.md#search_room_space_key_booking) | **GET** select/RoomSpaceKeyBooking | 
+[**search_room_space_key_booking_xml**](DefaultApi.md#search_room_space_key_booking_xml) | **POST** select/RoomSpaceKeyBooking | 
 [**search_room_space_key_type**](DefaultApi.md#search_room_space_key_type) | **GET** select/RoomSpaceKeyType | 
+[**search_room_space_key_type_xml**](DefaultApi.md#search_room_space_key_type_xml) | **POST** select/RoomSpaceKeyType | 
+[**search_room_space_key_xml**](DefaultApi.md#search_room_space_key_xml) | **POST** select/RoomSpaceKey | 
 [**search_room_space_maintenance**](DefaultApi.md#search_room_space_maintenance) | **GET** select/RoomSpaceMaintenance | 
 [**search_room_space_maintenance_category**](DefaultApi.md#search_room_space_maintenance_category) | **GET** select/RoomSpaceMaintenanceCategory | 
+[**search_room_space_maintenance_category_xml**](DefaultApi.md#search_room_space_maintenance_category_xml) | **POST** select/RoomSpaceMaintenanceCategory | 
 [**search_room_space_maintenance_item**](DefaultApi.md#search_room_space_maintenance_item) | **GET** select/RoomSpaceMaintenanceItem | 
+[**search_room_space_maintenance_item_xml**](DefaultApi.md#search_room_space_maintenance_item_xml) | **POST** select/RoomSpaceMaintenanceItem | 
 [**search_room_space_maintenance_job_action**](DefaultApi.md#search_room_space_maintenance_job_action) | **GET** select/RoomSpaceMaintenanceJobAction | 
+[**search_room_space_maintenance_job_action_xml**](DefaultApi.md#search_room_space_maintenance_job_action_xml) | **POST** select/RoomSpaceMaintenanceJobAction | 
 [**search_room_space_maintenance_materials**](DefaultApi.md#search_room_space_maintenance_materials) | **GET** select/RoomSpaceMaintenanceMaterials | 
+[**search_room_space_maintenance_materials_xml**](DefaultApi.md#search_room_space_maintenance_materials_xml) | **POST** select/RoomSpaceMaintenanceMaterials | 
+[**search_room_space_maintenance_xml**](DefaultApi.md#search_room_space_maintenance_xml) | **POST** select/RoomSpaceMaintenance | 
 [**search_room_space_swap**](DefaultApi.md#search_room_space_swap) | **GET** select/RoomSpaceSwap | 
 [**search_room_space_swap_preference**](DefaultApi.md#search_room_space_swap_preference) | **GET** select/RoomSpaceSwapPreference | 
+[**search_room_space_swap_preference_xml**](DefaultApi.md#search_room_space_swap_preference_xml) | **POST** select/RoomSpaceSwapPreference | 
+[**search_room_space_swap_xml**](DefaultApi.md#search_room_space_swap_xml) | **POST** select/RoomSpaceSwap | 
+[**search_room_space_xml**](DefaultApi.md#search_room_space_xml) | **POST** select/RoomSpace | 
 [**search_room_term_type**](DefaultApi.md#search_room_term_type) | **GET** select/RoomTermType | 
+[**search_room_term_type_xml**](DefaultApi.md#search_room_term_type_xml) | **POST** select/RoomTermType | 
 [**search_room_type**](DefaultApi.md#search_room_type) | **GET** select/RoomType | 
 [**search_room_type_capacity**](DefaultApi.md#search_room_type_capacity) | **GET** select/RoomTypeCapacity | 
+[**search_room_type_capacity_xml**](DefaultApi.md#search_room_type_capacity_xml) | **POST** select/RoomTypeCapacity | 
+[**search_room_type_xml**](DefaultApi.md#search_room_type_xml) | **POST** select/RoomType | 
+[**search_room_xml**](DefaultApi.md#search_room_xml) | **POST** select/Room | 
 [**search_roommate_group**](DefaultApi.md#search_roommate_group) | **GET** select/RoommateGroup | 
 [**search_roommate_group_mandatory_profile**](DefaultApi.md#search_roommate_group_mandatory_profile) | **GET** select/RoommateGroupMandatoryProfile | 
+[**search_roommate_group_mandatory_profile_xml**](DefaultApi.md#search_roommate_group_mandatory_profile_xml) | **POST** select/RoommateGroupMandatoryProfile | 
 [**search_roommate_group_request**](DefaultApi.md#search_roommate_group_request) | **GET** select/RoommateGroupRequest | 
+[**search_roommate_group_request_xml**](DefaultApi.md#search_roommate_group_request_xml) | **POST** select/RoommateGroupRequest | 
+[**search_roommate_group_xml**](DefaultApi.md#search_roommate_group_xml) | **POST** select/RoommateGroup | 
 [**search_saved_list**](DefaultApi.md#search_saved_list) | **GET** select/SavedList | 
 [**search_saved_list_item**](DefaultApi.md#search_saved_list_item) | **GET** select/SavedListItem | 
+[**search_saved_list_item_xml**](DefaultApi.md#search_saved_list_item_xml) | **POST** select/SavedListItem | 
+[**search_saved_list_xml**](DefaultApi.md#search_saved_list_xml) | **POST** select/SavedList | 
 [**search_school**](DefaultApi.md#search_school) | **GET** select/School | 
+[**search_school_xml**](DefaultApi.md#search_school_xml) | **POST** select/School | 
 [**search_sdas_charge_rate**](DefaultApi.md#search_sdas_charge_rate) | **GET** select/SDASChargeRate | 
+[**search_sdas_charge_rate_xml**](DefaultApi.md#search_sdas_charge_rate_xml) | **POST** select/SDASChargeRate | 
 [**search_sdas_data**](DefaultApi.md#search_sdas_data) | **GET** select/SDASData | 
+[**search_sdas_data_xml**](DefaultApi.md#search_sdas_data_xml) | **POST** select/SDASData | 
 [**search_setting**](DefaultApi.md#search_setting) | **GET** select/Setting | 
+[**search_setting_xml**](DefaultApi.md#search_setting_xml) | **POST** select/Setting | 
 [**search_shipping_type**](DefaultApi.md#search_shipping_type) | **GET** select/ShippingType | 
+[**search_shipping_type_xml**](DefaultApi.md#search_shipping_type_xml) | **POST** select/ShippingType | 
 [**search_shopping_cart_item**](DefaultApi.md#search_shopping_cart_item) | **GET** select/ShoppingCartItem | 
 [**search_shopping_cart_item_hold**](DefaultApi.md#search_shopping_cart_item_hold) | **GET** select/ShoppingCartItemHold | 
+[**search_shopping_cart_item_hold_xml**](DefaultApi.md#search_shopping_cart_item_hold_xml) | **POST** select/ShoppingCartItemHold | 
+[**search_shopping_cart_item_xml**](DefaultApi.md#search_shopping_cart_item_xml) | **POST** select/ShoppingCartItem | 
 [**search_staff**](DefaultApi.md#search_staff) | **GET** select/Staff | 
+[**search_staff_xml**](DefaultApi.md#search_staff_xml) | **POST** select/Staff | 
 [**search_survey**](DefaultApi.md#search_survey) | **GET** select/Survey | 
 [**search_survey_question**](DefaultApi.md#search_survey_question) | **GET** select/SurveyQuestion | 
 [**search_survey_question_response**](DefaultApi.md#search_survey_question_response) | **GET** select/SurveyQuestionResponse | 
+[**search_survey_question_response_xml**](DefaultApi.md#search_survey_question_response_xml) | **POST** select/SurveyQuestionResponse | 
+[**search_survey_question_xml**](DefaultApi.md#search_survey_question_xml) | **POST** select/SurveyQuestion | 
 [**search_survey_response**](DefaultApi.md#search_survey_response) | **GET** select/SurveyResponse | 
+[**search_survey_response_xml**](DefaultApi.md#search_survey_response_xml) | **POST** select/SurveyResponse | 
 [**search_survey_type**](DefaultApi.md#search_survey_type) | **GET** select/SurveyType | 
+[**search_survey_type_xml**](DefaultApi.md#search_survey_type_xml) | **POST** select/SurveyType | 
+[**search_survey_xml**](DefaultApi.md#search_survey_xml) | **POST** select/Survey | 
 [**search_system_activity**](DefaultApi.md#search_system_activity) | **GET** select/SystemActivity | 
+[**search_system_activity_xml**](DefaultApi.md#search_system_activity_xml) | **POST** select/SystemActivity | 
 [**search_task**](DefaultApi.md#search_task) | **GET** select/Task | 
 [**search_task_runner_history**](DefaultApi.md#search_task_runner_history) | **GET** select/TaskRunnerHistory | 
+[**search_task_runner_history_xml**](DefaultApi.md#search_task_runner_history_xml) | **POST** select/TaskRunnerHistory | 
 [**search_task_status**](DefaultApi.md#search_task_status) | **GET** select/TaskStatus | 
+[**search_task_status_xml**](DefaultApi.md#search_task_status_xml) | **POST** select/TaskStatus | 
 [**search_task_template**](DefaultApi.md#search_task_template) | **GET** select/TaskTemplate | 
 [**search_task_template_item**](DefaultApi.md#search_task_template_item) | **GET** select/TaskTemplateItem | 
+[**search_task_template_item_xml**](DefaultApi.md#search_task_template_item_xml) | **POST** select/TaskTemplateItem | 
+[**search_task_template_xml**](DefaultApi.md#search_task_template_xml) | **POST** select/TaskTemplate | 
 [**search_task_type**](DefaultApi.md#search_task_type) | **GET** select/TaskType | 
+[**search_task_type_xml**](DefaultApi.md#search_task_type_xml) | **POST** select/TaskType | 
+[**search_task_xml**](DefaultApi.md#search_task_xml) | **POST** select/Task | 
 [**search_template**](DefaultApi.md#search_template) | **GET** select/Template | 
 [**search_template_permission**](DefaultApi.md#search_template_permission) | **GET** select/TemplatePermission | 
+[**search_template_permission_xml**](DefaultApi.md#search_template_permission_xml) | **POST** select/TemplatePermission | 
+[**search_template_xml**](DefaultApi.md#search_template_xml) | **POST** select/Template | 
 [**search_term**](DefaultApi.md#search_term) | **GET** select/Term | 
 [**search_term_rule**](DefaultApi.md#search_term_rule) | **GET** select/TermRule | 
+[**search_term_rule_xml**](DefaultApi.md#search_term_rule_xml) | **POST** select/TermRule | 
 [**search_term_session**](DefaultApi.md#search_term_session) | **GET** select/TermSession | 
 [**search_term_session_free**](DefaultApi.md#search_term_session_free) | **GET** select/TermSessionFree | 
+[**search_term_session_free_xml**](DefaultApi.md#search_term_session_free_xml) | **POST** select/TermSessionFree | 
+[**search_term_session_xml**](DefaultApi.md#search_term_session_xml) | **POST** select/TermSession | 
 [**search_term_type**](DefaultApi.md#search_term_type) | **GET** select/TermType | 
+[**search_term_type_xml**](DefaultApi.md#search_term_type_xml) | **POST** select/TermType | 
+[**search_term_xml**](DefaultApi.md#search_term_xml) | **POST** select/Term | 
 [**search_time_slot**](DefaultApi.md#search_time_slot) | **GET** select/TimeSlot | 
+[**search_time_slot_xml**](DefaultApi.md#search_time_slot_xml) | **POST** select/TimeSlot | 
 [**search_title**](DefaultApi.md#search_title) | **GET** select/Title | 
+[**search_title_xml**](DefaultApi.md#search_title_xml) | **POST** select/Title | 
 [**search_total**](DefaultApi.md#search_total) | **GET** select/Total | 
+[**search_total_xml**](DefaultApi.md#search_total_xml) | **POST** select/Total | 
 [**search_transaction**](DefaultApi.md#search_transaction) | **GET** select/Transaction | 
 [**search_transaction_dispute**](DefaultApi.md#search_transaction_dispute) | **GET** select/TransactionDispute | 
 [**search_transaction_dispute_custom_field**](DefaultApi.md#search_transaction_dispute_custom_field) | **GET** select/TransactionDisputeCustomField | 
+[**search_transaction_dispute_custom_field_xml**](DefaultApi.md#search_transaction_dispute_custom_field_xml) | **POST** select/TransactionDisputeCustomField | 
 [**search_transaction_dispute_item**](DefaultApi.md#search_transaction_dispute_item) | **GET** select/TransactionDisputeItem | 
+[**search_transaction_dispute_item_xml**](DefaultApi.md#search_transaction_dispute_item_xml) | **POST** select/TransactionDisputeItem | 
+[**search_transaction_dispute_xml**](DefaultApi.md#search_transaction_dispute_xml) | **POST** select/TransactionDispute | 
 [**search_transaction_link**](DefaultApi.md#search_transaction_link) | **GET** select/TransactionLink | 
 [**search_transaction_link_item**](DefaultApi.md#search_transaction_link_item) | **GET** select/TransactionLinkItem | 
+[**search_transaction_link_item_xml**](DefaultApi.md#search_transaction_link_item_xml) | **POST** select/TransactionLinkItem | 
+[**search_transaction_link_xml**](DefaultApi.md#search_transaction_link_xml) | **POST** select/TransactionLink | 
 [**search_transaction_tag**](DefaultApi.md#search_transaction_tag) | **GET** select/TransactionTag | 
+[**search_transaction_tag_xml**](DefaultApi.md#search_transaction_tag_xml) | **POST** select/TransactionTag | 
 [**search_transaction_template**](DefaultApi.md#search_transaction_template) | **GET** select/TransactionTemplate | 
 [**search_transaction_template_item**](DefaultApi.md#search_transaction_template_item) | **GET** select/TransactionTemplateItem | 
+[**search_transaction_template_item_xml**](DefaultApi.md#search_transaction_template_item_xml) | **POST** select/TransactionTemplateItem | 
+[**search_transaction_template_xml**](DefaultApi.md#search_transaction_template_xml) | **POST** select/TransactionTemplate | 
+[**search_transaction_xml**](DefaultApi.md#search_transaction_xml) | **POST** select/Transaction | 
 [**search_visitor**](DefaultApi.md#search_visitor) | **GET** select/Visitor | 
 [**search_visitor_type**](DefaultApi.md#search_visitor_type) | **GET** select/VisitorType | 
+[**search_visitor_type_xml**](DefaultApi.md#search_visitor_type_xml) | **POST** select/VisitorType | 
+[**search_visitor_xml**](DefaultApi.md#search_visitor_xml) | **POST** select/Visitor | 
 [**search_vm_data**](DefaultApi.md#search_vm_data) | **GET** select/VMData | 
+[**search_vm_data_xml**](DefaultApi.md#search_vm_data_xml) | **POST** select/VMData | 
 [**search_vm_group**](DefaultApi.md#search_vm_group) | **GET** select/VMGroup | 
 [**search_vm_group_extension**](DefaultApi.md#search_vm_group_extension) | **GET** select/VMGroupExtension | 
+[**search_vm_group_extension_xml**](DefaultApi.md#search_vm_group_extension_xml) | **POST** select/VMGroupExtension | 
 [**search_vm_group_mail_box**](DefaultApi.md#search_vm_group_mail_box) | **GET** select/VMGroupMailBox | 
+[**search_vm_group_mail_box_xml**](DefaultApi.md#search_vm_group_mail_box_xml) | **POST** select/VMGroupMailBox | 
 [**search_vm_group_message**](DefaultApi.md#search_vm_group_message) | **GET** select/VMGroupMessage | 
+[**search_vm_group_message_xml**](DefaultApi.md#search_vm_group_message_xml) | **POST** select/VMGroupMessage | 
+[**search_vm_group_xml**](DefaultApi.md#search_vm_group_xml) | **POST** select/VMGroup | 
 [**search_vm_line_usage**](DefaultApi.md#search_vm_line_usage) | **GET** select/VMLineUsage | 
+[**search_vm_line_usage_xml**](DefaultApi.md#search_vm_line_usage_xml) | **POST** select/VMLineUsage | 
 [**search_vm_mail_box**](DefaultApi.md#search_vm_mail_box) | **GET** select/VMMailBox | 
 [**search_vm_mail_box_type**](DefaultApi.md#search_vm_mail_box_type) | **GET** select/VMMailBoxType | 
+[**search_vm_mail_box_type_xml**](DefaultApi.md#search_vm_mail_box_type_xml) | **POST** select/VMMailBoxType | 
+[**search_vm_mail_box_xml**](DefaultApi.md#search_vm_mail_box_xml) | **POST** select/VMMailBox | 
 [**search_vm_message**](DefaultApi.md#search_vm_message) | **GET** select/VMMessage | 
 [**search_vm_message_lamp**](DefaultApi.md#search_vm_message_lamp) | **GET** select/VMMessageLamp | 
+[**search_vm_message_lamp_xml**](DefaultApi.md#search_vm_message_lamp_xml) | **POST** select/VMMessageLamp | 
+[**search_vm_message_xml**](DefaultApi.md#search_vm_message_xml) | **POST** select/VMMessage | 
 [**search_vmmci**](DefaultApi.md#search_vmmci) | **GET** select/VMMCI | 
+[**search_vmmcixml**](DefaultApi.md#search_vmmcixml) | **POST** select/VMMCI | 
 [**search_wait_list**](DefaultApi.md#search_wait_list) | **GET** select/WaitList | 
 [**search_wait_list_classification**](DefaultApi.md#search_wait_list_classification) | **GET** select/WaitListClassification | 
+[**search_wait_list_classification_xml**](DefaultApi.md#search_wait_list_classification_xml) | **POST** select/WaitListClassification | 
 [**search_wait_list_entry_application**](DefaultApi.md#search_wait_list_entry_application) | **GET** select/WaitListEntryApplication | 
+[**search_wait_list_entry_application_xml**](DefaultApi.md#search_wait_list_entry_application_xml) | **POST** select/WaitListEntryApplication | 
 [**search_wait_list_profile**](DefaultApi.md#search_wait_list_profile) | **GET** select/WaitListProfile | 
+[**search_wait_list_profile_xml**](DefaultApi.md#search_wait_list_profile_xml) | **POST** select/WaitListProfile | 
 [**search_wait_list_room_space**](DefaultApi.md#search_wait_list_room_space) | **GET** select/WaitListRoomSpace | 
+[**search_wait_list_room_space_xml**](DefaultApi.md#search_wait_list_room_space_xml) | **POST** select/WaitListRoomSpace | 
+[**search_wait_list_xml**](DefaultApi.md#search_wait_list_xml) | **POST** select/WaitList | 
 [**search_web_block**](DefaultApi.md#search_web_block) | **GET** select/WebBlock | 
+[**search_web_block_xml**](DefaultApi.md#search_web_block_xml) | **POST** select/WebBlock | 
 [**search_web_control**](DefaultApi.md#search_web_control) | **GET** select/WebControl | 
+[**search_web_control_xml**](DefaultApi.md#search_web_control_xml) | **POST** select/WebControl | 
 [**search_web_email_text**](DefaultApi.md#search_web_email_text) | **GET** select/WebEmailText | 
+[**search_web_email_text_xml**](DefaultApi.md#search_web_email_text_xml) | **POST** select/WebEmailText | 
 [**search_web_field**](DefaultApi.md#search_web_field) | **GET** select/WebField | 
+[**search_web_field_xml**](DefaultApi.md#search_web_field_xml) | **POST** select/WebField | 
 [**search_web_log**](DefaultApi.md#search_web_log) | **GET** select/WebLog | 
+[**search_web_log_xml**](DefaultApi.md#search_web_log_xml) | **POST** select/WebLog | 
 [**search_web_menu**](DefaultApi.md#search_web_menu) | **GET** select/WebMenu | 
 [**search_web_menu_classification**](DefaultApi.md#search_web_menu_classification) | **GET** select/WebMenuClassification | 
+[**search_web_menu_classification_xml**](DefaultApi.md#search_web_menu_classification_xml) | **POST** select/WebMenuClassification | 
+[**search_web_menu_xml**](DefaultApi.md#search_web_menu_xml) | **POST** select/WebMenu | 
 [**search_web_module**](DefaultApi.md#search_web_module) | **GET** select/WebModule | 
+[**search_web_module_xml**](DefaultApi.md#search_web_module_xml) | **POST** select/WebModule | 
 [**search_web_payment**](DefaultApi.md#search_web_payment) | **GET** select/WebPayment | 
+[**search_web_payment_xml**](DefaultApi.md#search_web_payment_xml) | **POST** select/WebPayment | 
 [**search_web_rule**](DefaultApi.md#search_web_rule) | **GET** select/WebRule | 
 [**search_web_rule_link**](DefaultApi.md#search_web_rule_link) | **GET** select/WebRuleLink | 
+[**search_web_rule_link_xml**](DefaultApi.md#search_web_rule_link_xml) | **POST** select/WebRuleLink | 
+[**search_web_rule_xml**](DefaultApi.md#search_web_rule_xml) | **POST** select/WebRule | 
 [**search_web_section**](DefaultApi.md#search_web_section) | **GET** select/WebSection | 
 [**search_web_section_text_block**](DefaultApi.md#search_web_section_text_block) | **GET** select/WebSectionTextBlock | 
+[**search_web_section_text_block_xml**](DefaultApi.md#search_web_section_text_block_xml) | **POST** select/WebSectionTextBlock | 
+[**search_web_section_xml**](DefaultApi.md#search_web_section_xml) | **POST** select/WebSection | 
 [**search_web_setting**](DefaultApi.md#search_web_setting) | **GET** select/WebSetting | 
+[**search_web_setting_xml**](DefaultApi.md#search_web_setting_xml) | **POST** select/WebSetting | 
 [**search_web_site**](DefaultApi.md#search_web_site) | **GET** select/WebSite | 
+[**search_web_site_xml**](DefaultApi.md#search_web_site_xml) | **POST** select/WebSite | 
 [**search_web_transaction**](DefaultApi.md#search_web_transaction) | **GET** select/WebTransaction | 
+[**search_web_transaction_xml**](DefaultApi.md#search_web_transaction_xml) | **POST** select/WebTransaction | 
 [**search_workflow**](DefaultApi.md#search_workflow) | **GET** select/Workflow | 
 [**search_workflow_history**](DefaultApi.md#search_workflow_history) | **GET** select/WorkflowHistory | 
+[**search_workflow_history_xml**](DefaultApi.md#search_workflow_history_xml) | **POST** select/WorkflowHistory | 
 [**search_workflow_permission**](DefaultApi.md#search_workflow_permission) | **GET** select/WorkflowPermission | 
+[**search_workflow_permission_xml**](DefaultApi.md#search_workflow_permission_xml) | **POST** select/WorkflowPermission | 
 [**search_workflow_step**](DefaultApi.md#search_workflow_step) | **GET** select/WorkflowStep | 
 [**search_workflow_step_permission**](DefaultApi.md#search_workflow_step_permission) | **GET** select/WorkflowStepPermission | 
+[**search_workflow_step_permission_xml**](DefaultApi.md#search_workflow_step_permission_xml) | **POST** select/WorkflowStepPermission | 
+[**search_workflow_step_xml**](DefaultApi.md#search_workflow_step_xml) | **POST** select/WorkflowStep | 
+[**search_workflow_xml**](DefaultApi.md#search_workflow_xml) | **POST** select/Workflow | 
 [**search_zip_post_code**](DefaultApi.md#search_zip_post_code) | **GET** select/ZipPostCode | 
+[**search_zip_post_code_xml**](DefaultApi.md#search_zip_post_code_xml) | **POST** select/ZipPostCode | 
 [**update_address_type**](DefaultApi.md#update_address_type) | **POST** update/AddressType/{AddressTypeID} | 
 [**update_application_status**](DefaultApi.md#update_application_status) | **POST** update/ApplicationStatus/{ApplicationStatusID} | 
 [**update_auto_allocate_run**](DefaultApi.md#update_auto_allocate_run) | **POST** update/AutoAllocateRun/{AutoAllocateRunID} | 
@@ -914,6 +1288,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_address_type_xml**
+> list[AddressTypeItem] search_address_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a AddressType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the AddressType table
+
+try:
+    # 
+    api_response = api_instance.search_address_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_address_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the AddressType table | 
+
+### Return type
+
+[**list[AddressTypeItem]**](AddressTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_application_status**
 > list[ApplicationStatusItem] search_application_status(application_status_id=application_status_id)
 
@@ -967,6 +1394,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_application_status_xml**
+> list[ApplicationStatusItem] search_application_status_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ApplicationStatus in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ApplicationStatus table
+
+try:
+    # 
+    api_response = api_instance.search_application_status_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_application_status_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ApplicationStatus table | 
+
+### Return type
+
+[**list[ApplicationStatusItem]**](ApplicationStatusItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_auto_allocate_run**
 > list[AutoAllocateRunItem] search_auto_allocate_run(auto_allocate_run_id=auto_allocate_run_id)
 
@@ -1016,6 +1496,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_auto_allocate_run_xml**
+> list[AutoAllocateRunItem] search_auto_allocate_run_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a AutoAllocateRun in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the AutoAllocateRun table
+
+try:
+    # 
+    api_response = api_instance.search_auto_allocate_run_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_auto_allocate_run_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the AutoAllocateRun table | 
+
+### Return type
+
+[**list[AutoAllocateRunItem]**](AutoAllocateRunItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -1126,6 +1659,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_booking_agreement_xml**
+> list[BookingAgreementItem] search_booking_agreement_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a BookingAgreement in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the BookingAgreement table
+
+try:
+    # 
+    api_response = api_instance.search_booking_agreement_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_booking_agreement_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the BookingAgreement table | 
+
+### Return type
+
+[**list[BookingAgreementItem]**](BookingAgreementItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_booking_custom_field**
 > list[BookingCustomFieldItem] search_booking_custom_field(booking_custom_field_id=booking_custom_field_id)
 
@@ -1175,6 +1761,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_booking_custom_field_xml**
+> list[BookingCustomFieldItem] search_booking_custom_field_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a BookingCustomField in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the BookingCustomField table
+
+try:
+    # 
+    api_response = api_instance.search_booking_custom_field_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_booking_custom_field_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the BookingCustomField table | 
+
+### Return type
+
+[**list[BookingCustomFieldItem]**](BookingCustomFieldItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -1232,6 +1871,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_booking_linked_xml**
+> list[BookingLinkedItem] search_booking_linked_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a BookingLinked in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the BookingLinked table
+
+try:
+    # 
+    api_response = api_instance.search_booking_linked_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_booking_linked_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the BookingLinked table | 
+
+### Return type
+
+[**list[BookingLinkedItem]**](BookingLinkedItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_booking_occupant**
 > list[BookingOccupantItem] search_booking_occupant(booking_occupant_id=booking_occupant_id)
 
@@ -1281,6 +1973,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_booking_occupant_xml**
+> list[BookingOccupantItem] search_booking_occupant_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a BookingOccupant in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the BookingOccupant table
+
+try:
+    # 
+    api_response = api_instance.search_booking_occupant_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_booking_occupant_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the BookingOccupant table | 
+
+### Return type
+
+[**list[BookingOccupantItem]**](BookingOccupantItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -1338,6 +2083,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_booking_reason_xml**
+> list[BookingReasonItem] search_booking_reason_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a BookingReason in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the BookingReason table
+
+try:
+    # 
+    api_response = api_instance.search_booking_reason_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_booking_reason_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the BookingReason table | 
+
+### Return type
+
+[**list[BookingReasonItem]**](BookingReasonItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_booking_tag**
 > list[BookingTagItem] search_booking_tag(booking_tag_id=booking_tag_id)
 
@@ -1387,6 +2185,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_booking_tag_xml**
+> list[BookingTagItem] search_booking_tag_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a BookingTag in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the BookingTag table
+
+try:
+    # 
+    api_response = api_instance.search_booking_tag_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_booking_tag_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the BookingTag table | 
+
+### Return type
+
+[**list[BookingTagItem]**](BookingTagItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -1444,6 +2295,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_booking_type_xml**
+> list[BookingTypeItem] search_booking_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a BookingType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the BookingType table
+
+try:
+    # 
+    api_response = api_instance.search_booking_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_booking_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the BookingType table | 
+
+### Return type
+
+[**list[BookingTypeItem]**](BookingTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_booking_xml**
+> list[BookingItem] search_booking_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Booking in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Booking table
+
+try:
+    # 
+    api_response = api_instance.search_booking_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_booking_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Booking table | 
+
+### Return type
+
+[**list[BookingItem]**](BookingItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_calendar**
 > list[CalendarItem] search_calendar(calendar_id=calendar_id)
 
@@ -1493,6 +2450,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_calendar_xml**
+> list[CalendarItem] search_calendar_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Calendar in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Calendar table
+
+try:
+    # 
+    api_response = api_instance.search_calendar_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_calendar_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Calendar table | 
+
+### Return type
+
+[**list[CalendarItem]**](CalendarItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -1603,6 +2613,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_category_custom_field_xml**
+> list[CategoryCustomFieldItem] search_category_custom_field_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a CategoryCustomField in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the CategoryCustomField table
+
+try:
+    # 
+    api_response = api_instance.search_category_custom_field_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_category_custom_field_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the CategoryCustomField table | 
+
+### Return type
+
+[**list[CategoryCustomFieldItem]**](CategoryCustomFieldItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_category_level**
 > list[CategoryLevelItem] search_category_level(category_level_id=category_level_id)
 
@@ -1652,6 +2715,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_category_level_xml**
+> list[CategoryLevelItem] search_category_level_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a CategoryLevel in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the CategoryLevel table
+
+try:
+    # 
+    api_response = api_instance.search_category_level_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_category_level_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the CategoryLevel table | 
+
+### Return type
+
+[**list[CategoryLevelItem]**](CategoryLevelItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -1709,6 +2825,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_category_permission_xml**
+> list[CategoryPermissionItem] search_category_permission_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a CategoryPermission in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the CategoryPermission table
+
+try:
+    # 
+    api_response = api_instance.search_category_permission_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_category_permission_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the CategoryPermission table | 
+
+### Return type
+
+[**list[CategoryPermissionItem]**](CategoryPermissionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_category_schedule_transaction**
 > list[CategoryScheduleTransactionItem] search_category_schedule_transaction(category_schedule_transaction_id=category_schedule_transaction_id)
 
@@ -1758,6 +2927,112 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_category_schedule_transaction_xml**
+> list[CategoryScheduleTransactionItem] search_category_schedule_transaction_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a CategoryScheduleTransaction in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the CategoryScheduleTransaction table
+
+try:
+    # 
+    api_response = api_instance.search_category_schedule_transaction_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_category_schedule_transaction_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the CategoryScheduleTransaction table | 
+
+### Return type
+
+[**list[CategoryScheduleTransactionItem]**](CategoryScheduleTransactionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_category_xml**
+> list[CategoryItem] search_category_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Category in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Category table
+
+try:
+    # 
+    api_response = api_instance.search_category_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_category_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Category table | 
+
+### Return type
+
+[**list[CategoryItem]**](CategoryItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -1868,6 +3143,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_catering_item_xml**
+> list[CateringItemItem] search_catering_item_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a CateringItem in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the CateringItem table
+
+try:
+    # 
+    api_response = api_instance.search_catering_item_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_catering_item_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the CateringItem table | 
+
+### Return type
+
+[**list[CateringItemItem]**](CateringItemItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_catering_type**
 > list[CateringTypeItem] search_catering_type(catering_type_id=catering_type_id)
 
@@ -1917,6 +3245,112 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_catering_type_xml**
+> list[CateringTypeItem] search_catering_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a CateringType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the CateringType table
+
+try:
+    # 
+    api_response = api_instance.search_catering_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_catering_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the CateringType table | 
+
+### Return type
+
+[**list[CateringTypeItem]**](CateringTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_catering_xml**
+> list[CateringItem] search_catering_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Catering in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Catering table
+
+try:
+    # 
+    api_response = api_instance.search_catering_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_catering_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Catering table | 
+
+### Return type
+
+[**list[CateringItem]**](CateringItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -1974,6 +3408,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_charge_group_xml**
+> list[ChargeGroupItem] search_charge_group_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ChargeGroup in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ChargeGroup table
+
+try:
+    # 
+    api_response = api_instance.search_charge_group_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_charge_group_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ChargeGroup table | 
+
+### Return type
+
+[**list[ChargeGroupItem]**](ChargeGroupItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_charge_item**
 > list[ChargeItemItem] search_charge_item(charge_item_id=charge_item_id)
 
@@ -2027,6 +3514,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_charge_item_xml**
+> list[ChargeItemItem] search_charge_item_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ChargeItem in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ChargeItem table
+
+try:
+    # 
+    api_response = api_instance.search_charge_item_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_charge_item_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ChargeItem table | 
+
+### Return type
+
+[**list[ChargeItemItem]**](ChargeItemItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_classification**
 > list[ClassificationItem] search_classification(classification_id=classification_id)
 
@@ -2076,6 +3616,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_classification_xml**
+> list[ClassificationItem] search_classification_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Classification in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Classification table
+
+try:
+    # 
+    api_response = api_instance.search_classification_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_classification_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Classification table | 
+
+### Return type
+
+[**list[ClassificationItem]**](ClassificationItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -2186,6 +3779,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_concern_custom_field_xml**
+> list[ConcernCustomFieldItem] search_concern_custom_field_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ConcernCustomField in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ConcernCustomField table
+
+try:
+    # 
+    api_response = api_instance.search_concern_custom_field_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_concern_custom_field_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ConcernCustomField table | 
+
+### Return type
+
+[**list[ConcernCustomFieldItem]**](ConcernCustomFieldItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_concern_entry**
 > list[ConcernEntryItem] search_concern_entry(concern_entry_id=concern_entry_id)
 
@@ -2235,6 +3881,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_concern_entry_xml**
+> list[ConcernEntryItem] search_concern_entry_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ConcernEntry in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ConcernEntry table
+
+try:
+    # 
+    api_response = api_instance.search_concern_entry_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_concern_entry_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ConcernEntry table | 
+
+### Return type
+
+[**list[ConcernEntryItem]**](ConcernEntryItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -2292,6 +3991,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_concern_note_xml**
+> list[ConcernNoteItem] search_concern_note_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ConcernNote in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ConcernNote table
+
+try:
+    # 
+    api_response = api_instance.search_concern_note_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_concern_note_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ConcernNote table | 
+
+### Return type
+
+[**list[ConcernNoteItem]**](ConcernNoteItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_concern_sub_type**
 > list[ConcernSubTypeItem] search_concern_sub_type(concern_sub_type_id=concern_sub_type_id)
 
@@ -2345,6 +4097,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_concern_sub_type_xml**
+> list[ConcernSubTypeItem] search_concern_sub_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ConcernSubType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ConcernSubType table
+
+try:
+    # 
+    api_response = api_instance.search_concern_sub_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_concern_sub_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ConcernSubType table | 
+
+### Return type
+
+[**list[ConcernSubTypeItem]**](ConcernSubTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_concern_type**
 > list[ConcernTypeItem] search_concern_type(concern_type_id=concern_type_id)
 
@@ -2394,6 +4199,112 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_concern_type_xml**
+> list[ConcernTypeItem] search_concern_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ConcernType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ConcernType table
+
+try:
+    # 
+    api_response = api_instance.search_concern_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_concern_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ConcernType table | 
+
+### Return type
+
+[**list[ConcernTypeItem]**](ConcernTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_concern_xml**
+> list[ConcernItem] search_concern_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Concern in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Concern table
+
+try:
+    # 
+    api_response = api_instance.search_concern_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_concern_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Concern table | 
+
+### Return type
+
+[**list[ConcernItem]**](ConcernItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -2504,6 +4415,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_contact_custom_field_xml**
+> list[ContactCustomFieldItem] search_contact_custom_field_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ContactCustomField in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ContactCustomField table
+
+try:
+    # 
+    api_response = api_instance.search_contact_custom_field_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_contact_custom_field_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ContactCustomField table | 
+
+### Return type
+
+[**list[ContactCustomFieldItem]**](ContactCustomFieldItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_contact_note**
 > list[ContactNoteItem] search_contact_note(contact_note_id=contact_note_id)
 
@@ -2557,6 +4521,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_contact_note_xml**
+> list[ContactNoteItem] search_contact_note_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ContactNote in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ContactNote table
+
+try:
+    # 
+    api_response = api_instance.search_contact_note_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_contact_note_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ContactNote table | 
+
+### Return type
+
+[**list[ContactNoteItem]**](ContactNoteItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_contact_status**
 > list[ContactStatusItem] search_contact_status(contact_status_id=contact_status_id)
 
@@ -2606,6 +4623,112 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_contact_status_xml**
+> list[ContactStatusItem] search_contact_status_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ContactStatus in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ContactStatus table
+
+try:
+    # 
+    api_response = api_instance.search_contact_status_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_contact_status_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ContactStatus table | 
+
+### Return type
+
+[**list[ContactStatusItem]**](ContactStatusItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_contact_xml**
+> list[ContactItem] search_contact_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Contact in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Contact table
+
+try:
+    # 
+    api_response = api_instance.search_contact_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_contact_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Contact table | 
+
+### Return type
+
+[**list[ContactItem]**](ContactItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -2716,6 +4839,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_contribution_custom_field_xml**
+> list[ContributionCustomFieldItem] search_contribution_custom_field_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ContributionCustomField in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ContributionCustomField table
+
+try:
+    # 
+    api_response = api_instance.search_contribution_custom_field_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_contribution_custom_field_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ContributionCustomField table | 
+
+### Return type
+
+[**list[ContributionCustomFieldItem]**](ContributionCustomFieldItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_contribution_entry**
 > list[ContributionEntryItem] search_contribution_entry(contribution_entry_id=contribution_entry_id)
 
@@ -2765,6 +4941,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_contribution_entry_xml**
+> list[ContributionEntryItem] search_contribution_entry_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ContributionEntry in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ContributionEntry table
+
+try:
+    # 
+    api_response = api_instance.search_contribution_entry_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_contribution_entry_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ContributionEntry table | 
+
+### Return type
+
+[**list[ContributionEntryItem]**](ContributionEntryItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -2822,6 +5051,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_contribution_note_xml**
+> list[ContributionNoteItem] search_contribution_note_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ContributionNote in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ContributionNote table
+
+try:
+    # 
+    api_response = api_instance.search_contribution_note_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_contribution_note_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ContributionNote table | 
+
+### Return type
+
+[**list[ContributionNoteItem]**](ContributionNoteItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_contribution_sub_type**
 > list[ContributionSubTypeItem] search_contribution_sub_type(contribution_sub_type_id=contribution_sub_type_id)
 
@@ -2871,6 +5153,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_contribution_sub_type_xml**
+> list[ContributionSubTypeItem] search_contribution_sub_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ContributionSubType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ContributionSubType table
+
+try:
+    # 
+    api_response = api_instance.search_contribution_sub_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_contribution_sub_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ContributionSubType table | 
+
+### Return type
+
+[**list[ContributionSubTypeItem]**](ContributionSubTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -2928,6 +5263,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_contribution_type_xml**
+> list[ContributionTypeItem] search_contribution_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ContributionType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ContributionType table
+
+try:
+    # 
+    api_response = api_instance.search_contribution_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_contribution_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ContributionType table | 
+
+### Return type
+
+[**list[ContributionTypeItem]**](ContributionTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_contribution_xml**
+> list[ContributionItem] search_contribution_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Contribution in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Contribution table
+
+try:
+    # 
+    api_response = api_instance.search_contribution_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_contribution_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Contribution table | 
+
+### Return type
+
+[**list[ContributionItem]**](ContributionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_correspondence_source**
 > list[CorrespondenceSourceItem] search_correspondence_source(correspondence_source_id=correspondence_source_id)
 
@@ -2977,6 +5418,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_correspondence_source_xml**
+> list[CorrespondenceSourceItem] search_correspondence_source_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a CorrespondenceSource in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the CorrespondenceSource table
+
+try:
+    # 
+    api_response = api_instance.search_correspondence_source_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_correspondence_source_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the CorrespondenceSource table | 
+
+### Return type
+
+[**list[CorrespondenceSourceItem]**](CorrespondenceSourceItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -3034,6 +5528,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_country_xml**
+> list[CountryItem] search_country_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Country in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Country table
+
+try:
+    # 
+    api_response = api_instance.search_country_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_country_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Country table | 
+
+### Return type
+
+[**list[CountryItem]**](CountryItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_course**
 > list[CourseItem] search_course(course_id=course_id)
 
@@ -3083,6 +5630,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_course_xml**
+> list[CourseItem] search_course_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Course in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Course table
+
+try:
+    # 
+    api_response = api_instance.search_course_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_course_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Course table | 
+
+### Return type
+
+[**list[CourseItem]**](CourseItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -3140,6 +5740,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_currency_conversion_xml**
+> list[CurrencyConversionItem] search_currency_conversion_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a CurrencyConversion in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the CurrencyConversion table
+
+try:
+    # 
+    api_response = api_instance.search_currency_conversion_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_currency_conversion_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the CurrencyConversion table | 
+
+### Return type
+
+[**list[CurrencyConversionItem]**](CurrencyConversionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_custom_field_definition**
 > list[CustomFieldDefinitionItem] search_custom_field_definition(custom_field_definition_id=custom_field_definition_id)
 
@@ -3193,6 +5846,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_custom_field_definition_xml**
+> list[CustomFieldDefinitionItem] search_custom_field_definition_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a CustomFieldDefinition in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the CustomFieldDefinition table
+
+try:
+    # 
+    api_response = api_instance.search_custom_field_definition_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_custom_field_definition_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the CustomFieldDefinition table | 
+
+### Return type
+
+[**list[CustomFieldDefinitionItem]**](CustomFieldDefinitionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_custom_method_tag**
 > list[CustomMethodTagItem] search_custom_method_tag(custom_method_tag_id=custom_method_tag_id)
 
@@ -3242,6 +5948,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_custom_method_tag_xml**
+> list[CustomMethodTagItem] search_custom_method_tag_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a CustomMethodTag in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the CustomMethodTag table
+
+try:
+    # 
+    api_response = api_instance.search_custom_method_tag_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_custom_method_tag_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the CustomMethodTag table | 
+
+### Return type
+
+[**list[CustomMethodTagItem]**](CustomMethodTagItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -3405,6 +6164,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_dashboard_panel_setting_xml**
+> list[DashboardPanelSettingItem] search_dashboard_panel_setting_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a DashboardPanelSetting in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the DashboardPanelSetting table
+
+try:
+    # 
+    api_response = api_instance.search_dashboard_panel_setting_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_dashboard_panel_setting_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the DashboardPanelSetting table | 
+
+### Return type
+
+[**list[DashboardPanelSettingItem]**](DashboardPanelSettingItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_dashboard_panel_xml**
+> list[DashboardPanelItem] search_dashboard_panel_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a DashboardPanel in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the DashboardPanel table
+
+try:
+    # 
+    api_response = api_instance.search_dashboard_panel_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_dashboard_panel_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the DashboardPanel table | 
+
+### Return type
+
+[**list[DashboardPanelItem]**](DashboardPanelItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_dashboard_sharing**
 > list[DashboardSharingItem] search_dashboard_sharing(dashboard_sharing_id=dashboard_sharing_id)
 
@@ -3454,6 +6319,112 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_dashboard_sharing_xml**
+> list[DashboardSharingItem] search_dashboard_sharing_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a DashboardSharing in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the DashboardSharing table
+
+try:
+    # 
+    api_response = api_instance.search_dashboard_sharing_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_dashboard_sharing_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the DashboardSharing table | 
+
+### Return type
+
+[**list[DashboardSharingItem]**](DashboardSharingItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_dashboard_xml**
+> list[DashboardItem] search_dashboard_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Dashboard in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Dashboard table
+
+try:
+    # 
+    api_response = api_instance.search_dashboard_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_dashboard_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Dashboard table | 
+
+### Return type
+
+[**list[DashboardItem]**](DashboardItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -3511,6 +6482,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_deleted_transaction_xml**
+> list[DeletedTransactionItem] search_deleted_transaction_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a DeletedTransaction in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the DeletedTransaction table
+
+try:
+    # 
+    api_response = api_instance.search_deleted_transaction_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_deleted_transaction_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the DeletedTransaction table | 
+
+### Return type
+
+[**list[DeletedTransactionItem]**](DeletedTransactionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_document**
 > list[DocumentItem] search_document(document_id=document_id)
 
@@ -3560,6 +6584,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_document_xml**
+> list[DocumentItem] search_document_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Document in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Document table
+
+try:
+    # 
+    api_response = api_instance.search_document_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_document_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Document table | 
+
+### Return type
+
+[**list[DocumentItem]**](DocumentItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -3670,6 +6747,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_dynamic_list_permission_xml**
+> list[DynamicListPermissionItem] search_dynamic_list_permission_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a DynamicListPermission in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the DynamicListPermission table
+
+try:
+    # 
+    api_response = api_instance.search_dynamic_list_permission_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_dynamic_list_permission_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the DynamicListPermission table | 
+
+### Return type
+
+[**list[DynamicListPermissionItem]**](DynamicListPermissionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_dynamic_list_xml**
+> list[DynamicListItem] search_dynamic_list_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a DynamicList in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the DynamicList table
+
+try:
+    # 
+    api_response = api_instance.search_dynamic_list_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_dynamic_list_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the DynamicList table | 
+
+### Return type
+
+[**list[DynamicListItem]**](DynamicListItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_electronic_identity_type**
 > list[ElectronicIdentityTypeItem] search_electronic_identity_type(electronic_identity_type_id=electronic_identity_type_id)
 
@@ -3719,6 +6902,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_electronic_identity_type_xml**
+> list[ElectronicIdentityTypeItem] search_electronic_identity_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ElectronicIdentityType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ElectronicIdentityType table
+
+try:
+    # 
+    api_response = api_instance.search_electronic_identity_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_electronic_identity_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ElectronicIdentityType table | 
+
+### Return type
+
+[**list[ElectronicIdentityTypeItem]**](ElectronicIdentityTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -3829,6 +7065,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_email_from_address_permission_xml**
+> list[EmailFromAddressPermissionItem] search_email_from_address_permission_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EmailFromAddressPermission in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EmailFromAddressPermission table
+
+try:
+    # 
+    api_response = api_instance.search_email_from_address_permission_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_email_from_address_permission_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EmailFromAddressPermission table | 
+
+### Return type
+
+[**list[EmailFromAddressPermissionItem]**](EmailFromAddressPermissionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_email_from_address_xml**
+> list[EmailFromAddressItem] search_email_from_address_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EmailFromAddress in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EmailFromAddress table
+
+try:
+    # 
+    api_response = api_instance.search_email_from_address_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_email_from_address_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EmailFromAddress table | 
+
+### Return type
+
+[**list[EmailFromAddressItem]**](EmailFromAddressItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_email_outbox**
 > list[EmailOutboxItem] search_email_outbox(email_outbox_id=email_outbox_id)
 
@@ -3878,6 +7220,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_email_outbox_xml**
+> list[EmailOutboxItem] search_email_outbox_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EmailOutbox in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EmailOutbox table
+
+try:
+    # 
+    api_response = api_instance.search_email_outbox_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_email_outbox_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EmailOutbox table | 
+
+### Return type
+
+[**list[EmailOutboxItem]**](EmailOutboxItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -3984,6 +7379,112 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_end_of_session_charge_group_xml**
+> list[EndOfSessionChargeGroupItem] search_end_of_session_charge_group_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EndOfSessionChargeGroup in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EndOfSessionChargeGroup table
+
+try:
+    # 
+    api_response = api_instance.search_end_of_session_charge_group_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_end_of_session_charge_group_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EndOfSessionChargeGroup table | 
+
+### Return type
+
+[**list[EndOfSessionChargeGroupItem]**](EndOfSessionChargeGroupItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_end_of_session_xml**
+> list[EndOfSessionItem] search_end_of_session_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EndOfSession in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EndOfSession table
+
+try:
+    # 
+    api_response = api_instance.search_end_of_session_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_end_of_session_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EndOfSession table | 
+
+### Return type
+
+[**list[EndOfSessionItem]**](EndOfSessionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -4100,6 +7601,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_entry_address_xml**
+> list[EntryAddressItem] search_entry_address_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryAddress in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryAddress table
+
+try:
+    # 
+    api_response = api_instance.search_entry_address_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_address_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryAddress table | 
+
+### Return type
+
+[**list[EntryAddressItem]**](EntryAddressItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_entry_alumni**
 > list[EntryAlumniItem] search_entry_alumni(entry_alumni_id=entry_alumni_id)
 
@@ -4202,6 +7756,112 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_entry_alumni_status_xml**
+> list[EntryAlumniStatusItem] search_entry_alumni_status_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryAlumniStatus in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryAlumniStatus table
+
+try:
+    # 
+    api_response = api_instance.search_entry_alumni_status_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_alumni_status_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryAlumniStatus table | 
+
+### Return type
+
+[**list[EntryAlumniStatusItem]**](EntryAlumniStatusItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_entry_alumni_xml**
+> list[EntryAlumniItem] search_entry_alumni_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryAlumni in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryAlumni table
+
+try:
+    # 
+    api_response = api_instance.search_entry_alumni_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_alumni_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryAlumni table | 
+
+### Return type
+
+[**list[EntryAlumniItem]**](EntryAlumniItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -4312,6 +7972,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_entry_application_custom_field_xml**
+> list[EntryApplicationCustomFieldItem] search_entry_application_custom_field_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryApplicationCustomField in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryApplicationCustomField table
+
+try:
+    # 
+    api_response = api_instance.search_entry_application_custom_field_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_application_custom_field_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryApplicationCustomField table | 
+
+### Return type
+
+[**list[EntryApplicationCustomFieldItem]**](EntryApplicationCustomFieldItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_entry_application_note**
 > list[EntryApplicationNoteItem] search_entry_application_note(entry_application_note_id=entry_application_note_id)
 
@@ -4361,6 +8074,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_entry_application_note_xml**
+> list[EntryApplicationNoteItem] search_entry_application_note_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryApplicationNote in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryApplicationNote table
+
+try:
+    # 
+    api_response = api_instance.search_entry_application_note_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_application_note_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryApplicationNote table | 
+
+### Return type
+
+[**list[EntryApplicationNoteItem]**](EntryApplicationNoteItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -4418,6 +8184,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_entry_application_portal_section_xml**
+> list[EntryApplicationPortalSectionItem] search_entry_application_portal_section_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryApplicationPortalSection in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryApplicationPortalSection table
+
+try:
+    # 
+    api_response = api_instance.search_entry_application_portal_section_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_application_portal_section_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryApplicationPortalSection table | 
+
+### Return type
+
+[**list[EntryApplicationPortalSectionItem]**](EntryApplicationPortalSectionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_entry_application_preference**
 > list[EntryApplicationPreferenceItem] search_entry_application_preference(entry_application_preference_id=entry_application_preference_id)
 
@@ -4467,6 +8286,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_entry_application_preference_xml**
+> list[EntryApplicationPreferenceItem] search_entry_application_preference_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryApplicationPreference in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryApplicationPreference table
+
+try:
+    # 
+    api_response = api_instance.search_entry_application_preference_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_application_preference_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryApplicationPreference table | 
+
+### Return type
+
+[**list[EntryApplicationPreferenceItem]**](EntryApplicationPreferenceItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -4524,6 +8396,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_entry_application_proxy_xml**
+> list[EntryApplicationProxyItem] search_entry_application_proxy_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryApplicationProxy in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryApplicationProxy table
+
+try:
+    # 
+    api_response = api_instance.search_entry_application_proxy_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_application_proxy_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryApplicationProxy table | 
+
+### Return type
+
+[**list[EntryApplicationProxyItem]**](EntryApplicationProxyItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_entry_application_room_mate**
 > list[EntryApplicationRoomMateItem] search_entry_application_room_mate(entry_application_room_mate_id=entry_application_room_mate_id)
 
@@ -4573,6 +8498,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_entry_application_room_mate_xml**
+> list[EntryApplicationRoomMateItem] search_entry_application_room_mate_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryApplicationRoomMate in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryApplicationRoomMate table
+
+try:
+    # 
+    api_response = api_instance.search_entry_application_room_mate_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_application_room_mate_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryApplicationRoomMate table | 
+
+### Return type
+
+[**list[EntryApplicationRoomMateItem]**](EntryApplicationRoomMateItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -4630,6 +8608,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_entry_application_room_preference_xml**
+> list[EntryApplicationRoomPreferenceItem] search_entry_application_room_preference_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryApplicationRoomPreference in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryApplicationRoomPreference table
+
+try:
+    # 
+    api_response = api_instance.search_entry_application_room_preference_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_application_room_preference_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryApplicationRoomPreference table | 
+
+### Return type
+
+[**list[EntryApplicationRoomPreferenceItem]**](EntryApplicationRoomPreferenceItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_entry_application_xml**
+> list[EntryApplicationItem] search_entry_application_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryApplication in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryApplication table
+
+try:
+    # 
+    api_response = api_instance.search_entry_application_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_application_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryApplication table | 
+
+### Return type
+
+[**list[EntryApplicationItem]**](EntryApplicationItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_entry_correspondence**
 > list[EntryCorrespondenceItem] search_entry_correspondence(entry_correspondence_id=entry_correspondence_id)
 
@@ -4679,6 +8763,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_entry_correspondence_xml**
+> list[EntryCorrespondenceItem] search_entry_correspondence_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryCorrespondence in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryCorrespondence table
+
+try:
+    # 
+    api_response = api_instance.search_entry_correspondence_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_correspondence_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryCorrespondence table | 
+
+### Return type
+
+[**list[EntryCorrespondenceItem]**](EntryCorrespondenceItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -4736,6 +8873,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_entry_custom_field_xml**
+> list[EntryCustomFieldItem] search_entry_custom_field_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryCustomField in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryCustomField table
+
+try:
+    # 
+    api_response = api_instance.search_entry_custom_field_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_custom_field_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryCustomField table | 
+
+### Return type
+
+[**list[EntryCustomFieldItem]**](EntryCustomFieldItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_entry_detail**
 > list[EntryDetailItem] search_entry_detail(entry_detail_id=entry_detail_id)
 
@@ -4785,6 +8975,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_entry_detail_xml**
+> list[EntryDetailItem] search_entry_detail_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryDetail in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryDetail table
+
+try:
+    # 
+    api_response = api_instance.search_entry_detail_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_detail_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryDetail table | 
+
+### Return type
+
+[**list[EntryDetailItem]**](EntryDetailItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -4842,6 +9085,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_entry_electronic_identity_xml**
+> list[EntryElectronicIdentityItem] search_entry_electronic_identity_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryElectronicIdentity in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryElectronicIdentity table
+
+try:
+    # 
+    api_response = api_instance.search_entry_electronic_identity_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_electronic_identity_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryElectronicIdentity table | 
+
+### Return type
+
+[**list[EntryElectronicIdentityItem]**](EntryElectronicIdentityItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_entry_enrollment**
 > list[EntryEnrollmentItem] search_entry_enrollment(entry_enrollment_id=entry_enrollment_id)
 
@@ -4891,6 +9187,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_entry_enrollment_xml**
+> list[EntryEnrollmentItem] search_entry_enrollment_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryEnrollment in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryEnrollment table
+
+try:
+    # 
+    api_response = api_instance.search_entry_enrollment_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_enrollment_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryEnrollment table | 
+
+### Return type
+
+[**list[EntryEnrollmentItem]**](EntryEnrollmentItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -4948,6 +9297,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_entry_event_xml**
+> list[EntryEventItem] search_entry_event_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryEvent in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryEvent table
+
+try:
+    # 
+    api_response = api_instance.search_entry_event_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_event_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryEvent table | 
+
+### Return type
+
+[**list[EntryEventItem]**](EntryEventItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_entry_family**
 > list[EntryFamilyItem] search_entry_family(entry_family_id=entry_family_id)
 
@@ -4997,6 +9399,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_entry_family_xml**
+> list[EntryFamilyItem] search_entry_family_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryFamily in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryFamily table
+
+try:
+    # 
+    api_response = api_instance.search_entry_family_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_family_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryFamily table | 
+
+### Return type
+
+[**list[EntryFamilyItem]**](EntryFamilyItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -5054,6 +9509,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_entry_group_xml**
+> list[EntryGroupItem] search_entry_group_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryGroup in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryGroup table
+
+try:
+    # 
+    api_response = api_instance.search_entry_group_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_group_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryGroup table | 
+
+### Return type
+
+[**list[EntryGroupItem]**](EntryGroupItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_entry_invitation**
 > list[EntryInvitationItem] search_entry_invitation(entry_invitation_id=entry_invitation_id)
 
@@ -5103,6 +9611,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_entry_invitation_xml**
+> list[EntryInvitationItem] search_entry_invitation_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryInvitation in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryInvitation table
+
+try:
+    # 
+    api_response = api_instance.search_entry_invitation_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_invitation_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryInvitation table | 
+
+### Return type
+
+[**list[EntryInvitationItem]**](EntryInvitationItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -5213,6 +9774,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_entry_meal_plan_detail_xml**
+> list[EntryMealPlanDetailItem] search_entry_meal_plan_detail_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryMealPlanDetail in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryMealPlanDetail table
+
+try:
+    # 
+    api_response = api_instance.search_entry_meal_plan_detail_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_meal_plan_detail_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryMealPlanDetail table | 
+
+### Return type
+
+[**list[EntryMealPlanDetailItem]**](EntryMealPlanDetailItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_entry_meal_tag**
 > list[EntryMealTagItem] search_entry_meal_tag(entry_meal_tag_id=entry_meal_tag_id)
 
@@ -5262,6 +9876,112 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_entry_meal_tag_xml**
+> list[EntryMealTagItem] search_entry_meal_tag_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryMealTag in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryMealTag table
+
+try:
+    # 
+    api_response = api_instance.search_entry_meal_tag_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_meal_tag_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryMealTag table | 
+
+### Return type
+
+[**list[EntryMealTagItem]**](EntryMealTagItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_entry_meal_xml**
+> list[EntryMealItem] search_entry_meal_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryMeal in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryMeal table
+
+try:
+    # 
+    api_response = api_instance.search_entry_meal_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_meal_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryMeal table | 
+
+### Return type
+
+[**list[EntryMealItem]**](EntryMealItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -5319,6 +10039,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_entry_membership_xml**
+> list[EntryMembershipItem] search_entry_membership_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryMembership in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryMembership table
+
+try:
+    # 
+    api_response = api_instance.search_entry_membership_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_membership_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryMembership table | 
+
+### Return type
+
+[**list[EntryMembershipItem]**](EntryMembershipItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_entry_note**
 > list[EntryNoteItem] search_entry_note(entry_note_id=entry_note_id)
 
@@ -5368,6 +10141,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_entry_note_xml**
+> list[EntryNoteItem] search_entry_note_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryNote in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryNote table
+
+try:
+    # 
+    api_response = api_instance.search_entry_note_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_note_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryNote table | 
+
+### Return type
+
+[**list[EntryNoteItem]**](EntryNoteItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -5425,6 +10251,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_entry_parcel_xml**
+> list[EntryParcelItem] search_entry_parcel_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryParcel in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryParcel table
+
+try:
+    # 
+    api_response = api_instance.search_entry_parcel_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_parcel_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryParcel table | 
+
+### Return type
+
+[**list[EntryParcelItem]**](EntryParcelItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_entry_portal_activity**
 > list[EntryPortalActivityItem] search_entry_portal_activity(entry_portal_activity_id=entry_portal_activity_id)
 
@@ -5474,6 +10353,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_entry_portal_activity_xml**
+> list[EntryPortalActivityItem] search_entry_portal_activity_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryPortalActivity in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryPortalActivity table
+
+try:
+    # 
+    api_response = api_instance.search_entry_portal_activity_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_portal_activity_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryPortalActivity table | 
+
+### Return type
+
+[**list[EntryPortalActivityItem]**](EntryPortalActivityItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -5531,6 +10463,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_entry_position_xml**
+> list[EntryPositionItem] search_entry_position_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryPosition in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryPosition table
+
+try:
+    # 
+    api_response = api_instance.search_entry_position_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_position_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryPosition table | 
+
+### Return type
+
+[**list[EntryPositionItem]**](EntryPositionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_entry_profile**
 > list[EntryProfileItem] search_entry_profile(entry_profile_id=entry_profile_id)
 
@@ -5580,6 +10565,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_entry_profile_xml**
+> list[EntryProfileItem] search_entry_profile_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryProfile in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryProfile table
+
+try:
+    # 
+    api_response = api_instance.search_entry_profile_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_profile_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryProfile table | 
+
+### Return type
+
+[**list[EntryProfileItem]**](EntryProfileItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -5637,6 +10675,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_entry_result_xml**
+> list[EntryResultItem] search_entry_result_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryResult in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryResult table
+
+try:
+    # 
+    api_response = api_instance.search_entry_result_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_result_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryResult table | 
+
+### Return type
+
+[**list[EntryResultItem]**](EntryResultItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_entry_schedule_transaction**
 > list[EntryScheduleTransactionItem] search_entry_schedule_transaction(entry_schedule_transaction_id=entry_schedule_transaction_id)
 
@@ -5686,6 +10777,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_entry_schedule_transaction_xml**
+> list[EntryScheduleTransactionItem] search_entry_schedule_transaction_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryScheduleTransaction in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryScheduleTransaction table
+
+try:
+    # 
+    api_response = api_instance.search_entry_schedule_transaction_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_schedule_transaction_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryScheduleTransaction table | 
+
+### Return type
+
+[**list[EntryScheduleTransactionItem]**](EntryScheduleTransactionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -5743,6 +10887,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_entry_scholarship_xml**
+> list[EntryScholarshipItem] search_entry_scholarship_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryScholarship in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryScholarship table
+
+try:
+    # 
+    api_response = api_instance.search_entry_scholarship_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_scholarship_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryScholarship table | 
+
+### Return type
+
+[**list[EntryScholarshipItem]**](EntryScholarshipItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_entry_school**
 > list[EntrySchoolItem] search_entry_school(entry_school_id=entry_school_id)
 
@@ -5792,6 +10989,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_entry_school_xml**
+> list[EntrySchoolItem] search_entry_school_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntrySchool in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntrySchool table
+
+try:
+    # 
+    api_response = api_instance.search_entry_school_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_school_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntrySchool table | 
+
+### Return type
+
+[**list[EntrySchoolItem]**](EntrySchoolItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -5849,6 +11099,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_entry_sdasxml**
+> list[EntrySDASItem] search_entry_sdasxml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntrySDAS in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntrySDAS table
+
+try:
+    # 
+    api_response = api_instance.search_entry_sdasxml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_sdasxml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntrySDAS table | 
+
+### Return type
+
+[**list[EntrySDASItem]**](EntrySDASItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_entry_visitor**
 > list[EntryVisitorItem] search_entry_visitor(entry_visitor_id=entry_visitor_id)
 
@@ -5902,12 +11205,65 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_entry_visitor_xml**
+> list[EntryVisitorItem] search_entry_visitor_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EntryVisitor in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EntryVisitor table
+
+try:
+    # 
+    api_response = api_instance.search_entry_visitor_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_entry_visitor_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EntryVisitor table | 
+
+### Return type
+
+[**list[EntryVisitorItem]**](EntryVisitorItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_entry_xml**
 > list[EntryItem] search_entry_xml(query)
 
 student info
 
-By passing in the appropriate options, you can search for a resident in the system 
+By passing in the appropriate options, you can search for a resident in the system
 
 ### Example
 ```python
@@ -6061,6 +11417,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_event_charge_xml**
+> list[EventChargeItem] search_event_charge_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EventCharge in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EventCharge table
+
+try:
+    # 
+    api_response = api_instance.search_event_charge_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_event_charge_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EventCharge table | 
+
+### Return type
+
+[**list[EventChargeItem]**](EventChargeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_event_contact_entry**
 > list[EventContactEntryItem] search_event_contact_entry(event_contact_entry_id=event_contact_entry_id)
 
@@ -6110,6 +11519,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_event_contact_entry_xml**
+> list[EventContactEntryItem] search_event_contact_entry_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EventContactEntry in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EventContactEntry table
+
+try:
+    # 
+    api_response = api_instance.search_event_contact_entry_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_event_contact_entry_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EventContactEntry table | 
+
+### Return type
+
+[**list[EventContactEntryItem]**](EventContactEntryItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -6167,6 +11629,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_event_custom_field_xml**
+> list[EventCustomFieldItem] search_event_custom_field_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EventCustomField in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EventCustomField table
+
+try:
+    # 
+    api_response = api_instance.search_event_custom_field_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_event_custom_field_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EventCustomField table | 
+
+### Return type
+
+[**list[EventCustomFieldItem]**](EventCustomFieldItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_event_meal_plan**
 > list[EventMealPlanItem] search_event_meal_plan(event_meal_plan_id=event_meal_plan_id)
 
@@ -6216,6 +11731,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_event_meal_plan_xml**
+> list[EventMealPlanItem] search_event_meal_plan_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EventMealPlan in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EventMealPlan table
+
+try:
+    # 
+    api_response = api_instance.search_event_meal_plan_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_event_meal_plan_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EventMealPlan table | 
+
+### Return type
+
+[**list[EventMealPlanItem]**](EventMealPlanItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -6273,6 +11841,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_event_note_xml**
+> list[EventNoteItem] search_event_note_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EventNote in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EventNote table
+
+try:
+    # 
+    api_response = api_instance.search_event_note_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_event_note_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EventNote table | 
+
+### Return type
+
+[**list[EventNoteItem]**](EventNoteItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_event_quote**
 > list[EventQuoteItem] search_event_quote(event_quote_id=event_quote_id)
 
@@ -6322,6 +11943,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_event_quote_xml**
+> list[EventQuoteItem] search_event_quote_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EventQuote in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EventQuote table
+
+try:
+    # 
+    api_response = api_instance.search_event_quote_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_event_quote_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EventQuote table | 
+
+### Return type
+
+[**list[EventQuoteItem]**](EventQuoteItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -6379,6 +12053,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_event_registration_fee_xml**
+> list[EventRegistrationFeeItem] search_event_registration_fee_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EventRegistrationFee in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EventRegistrationFee table
+
+try:
+    # 
+    api_response = api_instance.search_event_registration_fee_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_event_registration_fee_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EventRegistrationFee table | 
+
+### Return type
+
+[**list[EventRegistrationFeeItem]**](EventRegistrationFeeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_event_type**
 > list[EventTypeItem] search_event_type(event_type_id=event_type_id)
 
@@ -6428,6 +12155,112 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_event_type_xml**
+> list[EventTypeItem] search_event_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a EventType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the EventType table
+
+try:
+    # 
+    api_response = api_instance.search_event_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_event_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the EventType table | 
+
+### Return type
+
+[**list[EventTypeItem]**](EventTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_event_xml**
+> list[EventItem] search_event_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Event in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Event table
+
+try:
+    # 
+    api_response = api_instance.search_event_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_event_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Event table | 
+
+### Return type
+
+[**list[EventItem]**](EventItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -6485,6 +12318,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_extension_xml**
+> list[ExtensionItem] search_extension_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Extension in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Extension table
+
+try:
+    # 
+    api_response = api_instance.search_extension_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_extension_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Extension table | 
+
+### Return type
+
+[**list[ExtensionItem]**](ExtensionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_field_default**
 > list[FieldDefaultItem] search_field_default(field_default_id=field_default_id)
 
@@ -6538,6 +12424,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_field_default_xml**
+> list[FieldDefaultItem] search_field_default_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a FieldDefault in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the FieldDefault table
+
+try:
+    # 
+    api_response = api_instance.search_field_default_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_field_default_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the FieldDefault table | 
+
+### Return type
+
+[**list[FieldDefaultItem]**](FieldDefaultItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_financial_support**
 > list[FinancialSupportItem] search_financial_support(financial_support_id=financial_support_id)
 
@@ -6587,6 +12526,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_financial_support_xml**
+> list[FinancialSupportItem] search_financial_support_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a FinancialSupport in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the FinancialSupport table
+
+try:
+    # 
+    api_response = api_instance.search_financial_support_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_financial_support_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the FinancialSupport table | 
+
+### Return type
+
+[**list[FinancialSupportItem]**](FinancialSupportItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -6697,6 +12689,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_function_booking_attendee_xml**
+> list[FunctionBookingAttendeeItem] search_function_booking_attendee_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a FunctionBookingAttendee in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the FunctionBookingAttendee table
+
+try:
+    # 
+    api_response = api_instance.search_function_booking_attendee_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_function_booking_attendee_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the FunctionBookingAttendee table | 
+
+### Return type
+
+[**list[FunctionBookingAttendeeItem]**](FunctionBookingAttendeeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_function_booking_catering**
 > list[FunctionBookingCateringItem] search_function_booking_catering(function_booking_catering_id=function_booking_catering_id)
 
@@ -6803,6 +12848,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_function_booking_catering_item_xml**
+> list[FunctionBookingCateringItemItem] search_function_booking_catering_item_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a FunctionBookingCateringItem in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the FunctionBookingCateringItem table
+
+try:
+    # 
+    api_response = api_instance.search_function_booking_catering_item_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_function_booking_catering_item_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the FunctionBookingCateringItem table | 
+
+### Return type
+
+[**list[FunctionBookingCateringItemItem]**](FunctionBookingCateringItemItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_function_booking_catering_xml**
+> list[FunctionBookingCateringItem] search_function_booking_catering_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a FunctionBookingCatering in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the FunctionBookingCatering table
+
+try:
+    # 
+    api_response = api_instance.search_function_booking_catering_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_function_booking_catering_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the FunctionBookingCatering table | 
+
+### Return type
+
+[**list[FunctionBookingCateringItem]**](FunctionBookingCateringItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_function_booking_charge**
 > list[FunctionBookingChargeItem] search_function_booking_charge(function_booking_charge_id=function_booking_charge_id)
 
@@ -6852,6 +13003,112 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_function_booking_charge_xml**
+> list[FunctionBookingChargeItem] search_function_booking_charge_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a FunctionBookingCharge in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the FunctionBookingCharge table
+
+try:
+    # 
+    api_response = api_instance.search_function_booking_charge_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_function_booking_charge_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the FunctionBookingCharge table | 
+
+### Return type
+
+[**list[FunctionBookingChargeItem]**](FunctionBookingChargeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_function_booking_xml**
+> list[FunctionBookingItem] search_function_booking_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a FunctionBooking in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the FunctionBooking table
+
+try:
+    # 
+    api_response = api_instance.search_function_booking_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_function_booking_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the FunctionBooking table | 
+
+### Return type
+
+[**list[FunctionBookingItem]**](FunctionBookingItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -6962,6 +13219,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_function_resource_booking_xml**
+> list[FunctionResourceBookingItem] search_function_resource_booking_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a FunctionResourceBooking in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the FunctionResourceBooking table
+
+try:
+    # 
+    api_response = api_instance.search_function_resource_booking_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_function_resource_booking_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the FunctionResourceBooking table | 
+
+### Return type
+
+[**list[FunctionResourceBookingItem]**](FunctionResourceBookingItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_function_resource_type**
 > list[FunctionResourceTypeItem] search_function_resource_type(function_resource_type_id=function_resource_type_id)
 
@@ -7011,6 +13321,112 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_function_resource_type_xml**
+> list[FunctionResourceTypeItem] search_function_resource_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a FunctionResourceType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the FunctionResourceType table
+
+try:
+    # 
+    api_response = api_instance.search_function_resource_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_function_resource_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the FunctionResourceType table | 
+
+### Return type
+
+[**list[FunctionResourceTypeItem]**](FunctionResourceTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_function_resource_xml**
+> list[FunctionResourceItem] search_function_resource_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a FunctionResource in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the FunctionResource table
+
+try:
+    # 
+    api_response = api_instance.search_function_resource_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_function_resource_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the FunctionResource table | 
+
+### Return type
+
+[**list[FunctionResourceItem]**](FunctionResourceItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -7121,6 +13537,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_function_room_booking_xml**
+> list[FunctionRoomBookingItem] search_function_room_booking_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a FunctionRoomBooking in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the FunctionRoomBooking table
+
+try:
+    # 
+    api_response = api_instance.search_function_room_booking_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_function_room_booking_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the FunctionRoomBooking table | 
+
+### Return type
+
+[**list[FunctionRoomBookingItem]**](FunctionRoomBookingItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_function_room_closed**
 > list[FunctionRoomClosedItem] search_function_room_closed(function_room_closed_id=function_room_closed_id)
 
@@ -7170,6 +13639,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_function_room_closed_xml**
+> list[FunctionRoomClosedItem] search_function_room_closed_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a FunctionRoomClosed in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the FunctionRoomClosed table
+
+try:
+    # 
+    api_response = api_instance.search_function_room_closed_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_function_room_closed_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the FunctionRoomClosed table | 
+
+### Return type
+
+[**list[FunctionRoomClosedItem]**](FunctionRoomClosedItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -7227,6 +13749,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_function_room_location_xml**
+> list[FunctionRoomLocationItem] search_function_room_location_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a FunctionRoomLocation in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the FunctionRoomLocation table
+
+try:
+    # 
+    api_response = api_instance.search_function_room_location_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_function_room_location_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the FunctionRoomLocation table | 
+
+### Return type
+
+[**list[FunctionRoomLocationItem]**](FunctionRoomLocationItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_function_room_rate**
 > list[FunctionRoomRateItem] search_function_room_rate(function_room_rate_id=function_room_rate_id)
 
@@ -7276,6 +13851,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_function_room_rate_xml**
+> list[FunctionRoomRateItem] search_function_room_rate_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a FunctionRoomRate in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the FunctionRoomRate table
+
+try:
+    # 
+    api_response = api_instance.search_function_room_rate_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_function_room_rate_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the FunctionRoomRate table | 
+
+### Return type
+
+[**list[FunctionRoomRateItem]**](FunctionRoomRateItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -7333,6 +13961,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_function_room_setup_xml**
+> list[FunctionRoomSetupItem] search_function_room_setup_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a FunctionRoomSetup in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the FunctionRoomSetup table
+
+try:
+    # 
+    api_response = api_instance.search_function_room_setup_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_function_room_setup_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the FunctionRoomSetup table | 
+
+### Return type
+
+[**list[FunctionRoomSetupItem]**](FunctionRoomSetupItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_function_room_type**
 > list[FunctionRoomTypeItem] search_function_room_type(function_room_type_id=function_room_type_id)
 
@@ -7386,6 +14067,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_function_room_type_xml**
+> list[FunctionRoomTypeItem] search_function_room_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a FunctionRoomType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the FunctionRoomType table
+
+try:
+    # 
+    api_response = api_instance.search_function_room_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_function_room_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the FunctionRoomType table | 
+
+### Return type
+
+[**list[FunctionRoomTypeItem]**](FunctionRoomTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_function_room_xml**
+> list[FunctionRoomItem] search_function_room_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a FunctionRoom in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the FunctionRoom table
+
+try:
+    # 
+    api_response = api_instance.search_function_room_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_function_room_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the FunctionRoom table | 
+
+### Return type
+
+[**list[FunctionRoomItem]**](FunctionRoomItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_function_type**
 > list[FunctionTypeItem] search_function_type(function_type_id=function_type_id)
 
@@ -7435,6 +14222,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_function_type_xml**
+> list[FunctionTypeItem] search_function_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a FunctionType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the FunctionType table
+
+try:
+    # 
+    api_response = api_instance.search_function_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_function_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the FunctionType table | 
+
+### Return type
+
+[**list[FunctionTypeItem]**](FunctionTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -7545,6 +14385,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_generic_table_data_field_xml**
+> list[GenericTableDataFieldItem] search_generic_table_data_field_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a GenericTableDataField in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the GenericTableDataField table
+
+try:
+    # 
+    api_response = api_instance.search_generic_table_data_field_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_generic_table_data_field_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the GenericTableDataField table | 
+
+### Return type
+
+[**list[GenericTableDataFieldItem]**](GenericTableDataFieldItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_generic_table_data_xml**
+> list[GenericTableDataItem] search_generic_table_data_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a GenericTableData in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the GenericTableData table
+
+try:
+    # 
+    api_response = api_instance.search_generic_table_data_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_generic_table_data_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the GenericTableData table | 
+
+### Return type
+
+[**list[GenericTableDataItem]**](GenericTableDataItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_generic_table_definition**
 > list[GenericTableDefinitionItem] search_generic_table_definition(generic_table_definition_id=generic_table_definition_id)
 
@@ -7651,6 +14597,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_generic_table_definition_field_xml**
+> list[GenericTableDefinitionFieldItem] search_generic_table_definition_field_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a GenericTableDefinitionField in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the GenericTableDefinitionField table
+
+try:
+    # 
+    api_response = api_instance.search_generic_table_definition_field_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_generic_table_definition_field_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the GenericTableDefinitionField table | 
+
+### Return type
+
+[**list[GenericTableDefinitionFieldItem]**](GenericTableDefinitionFieldItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_generic_table_definition_xml**
+> list[GenericTableDefinitionItem] search_generic_table_definition_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a GenericTableDefinition in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the GenericTableDefinition table
+
+try:
+    # 
+    api_response = api_instance.search_generic_table_definition_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_generic_table_definition_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the GenericTableDefinition table | 
+
+### Return type
+
+[**list[GenericTableDefinitionItem]**](GenericTableDefinitionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_gl_posting**
 > list[GLPostingItem] search_gl_posting(gl_posting_id=gl_posting_id)
 
@@ -7700,6 +14752,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_gl_posting_xml**
+> list[GLPostingItem] search_gl_posting_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a GLPosting in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the GLPosting table
+
+try:
+    # 
+    api_response = api_instance.search_gl_posting_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_gl_posting_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the GLPosting table | 
+
+### Return type
+
+[**list[GLPostingItem]**](GLPostingItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -7810,6 +14915,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_group_contact_entry_xml**
+> list[GroupContactEntryItem] search_group_contact_entry_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a GroupContactEntry in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the GroupContactEntry table
+
+try:
+    # 
+    api_response = api_instance.search_group_contact_entry_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_group_contact_entry_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the GroupContactEntry table | 
+
+### Return type
+
+[**list[GroupContactEntryItem]**](GroupContactEntryItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_group_custom_field**
 > list[GroupCustomFieldItem] search_group_custom_field(group_custom_field_id=group_custom_field_id)
 
@@ -7859,6 +15017,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_group_custom_field_xml**
+> list[GroupCustomFieldItem] search_group_custom_field_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a GroupCustomField in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the GroupCustomField table
+
+try:
+    # 
+    api_response = api_instance.search_group_custom_field_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_group_custom_field_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the GroupCustomField table | 
+
+### Return type
+
+[**list[GroupCustomFieldItem]**](GroupCustomFieldItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -7916,6 +15127,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_group_meal_plan_xml**
+> list[GroupMealPlanItem] search_group_meal_plan_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a GroupMealPlan in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the GroupMealPlan table
+
+try:
+    # 
+    api_response = api_instance.search_group_meal_plan_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_group_meal_plan_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the GroupMealPlan table | 
+
+### Return type
+
+[**list[GroupMealPlanItem]**](GroupMealPlanItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_group_room_space**
 > list[GroupRoomSpaceItem] search_group_room_space(group_room_space_id=group_room_space_id)
 
@@ -7969,6 +15233,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_group_room_space_xml**
+> list[GroupRoomSpaceItem] search_group_room_space_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a GroupRoomSpace in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the GroupRoomSpace table
+
+try:
+    # 
+    api_response = api_instance.search_group_room_space_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_group_room_space_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the GroupRoomSpace table | 
+
+### Return type
+
+[**list[GroupRoomSpaceItem]**](GroupRoomSpaceItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_group_room_type_and_rates**
 > list[GroupRoomTypeAndRatesItem] search_group_room_type_and_rates(group_room_type_and_rates_id=group_room_type_and_rates_id)
 
@@ -8018,6 +15335,112 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_group_room_type_and_rates_xml**
+> list[GroupRoomTypeAndRatesItem] search_group_room_type_and_rates_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a GroupRoomTypeAndRates in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the GroupRoomTypeAndRates table
+
+try:
+    # 
+    api_response = api_instance.search_group_room_type_and_rates_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_group_room_type_and_rates_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the GroupRoomTypeAndRates table | 
+
+### Return type
+
+[**list[GroupRoomTypeAndRatesItem]**](GroupRoomTypeAndRatesItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_group_xml**
+> list[GroupItem] search_group_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Group in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Group table
+
+try:
+    # 
+    api_response = api_instance.search_group_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_group_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Group table | 
+
+### Return type
+
+[**list[GroupItem]**](GroupItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -8181,6 +15604,165 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_housekeeping_schedule_skip_xml**
+> list[HousekeepingScheduleSkipItem] search_housekeeping_schedule_skip_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a HousekeepingScheduleSkip in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the HousekeepingScheduleSkip table
+
+try:
+    # 
+    api_response = api_instance.search_housekeeping_schedule_skip_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_housekeeping_schedule_skip_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the HousekeepingScheduleSkip table | 
+
+### Return type
+
+[**list[HousekeepingScheduleSkipItem]**](HousekeepingScheduleSkipItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_housekeeping_schedule_xml**
+> list[HousekeepingScheduleItem] search_housekeeping_schedule_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a HousekeepingSchedule in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the HousekeepingSchedule table
+
+try:
+    # 
+    api_response = api_instance.search_housekeeping_schedule_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_housekeeping_schedule_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the HousekeepingSchedule table | 
+
+### Return type
+
+[**list[HousekeepingScheduleItem]**](HousekeepingScheduleItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_housekeeping_xml**
+> list[HousekeepingItem] search_housekeeping_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Housekeeping in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Housekeeping table
+
+try:
+    # 
+    api_response = api_instance.search_housekeeping_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_housekeeping_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Housekeeping table | 
+
+### Return type
+
+[**list[HousekeepingItem]**](HousekeepingItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_incident**
 > list[IncidentItem] search_incident(incident_id=incident_id)
 
@@ -8340,6 +15922,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_incident_action_entry_xml**
+> list[IncidentActionEntryItem] search_incident_action_entry_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a IncidentActionEntry in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the IncidentActionEntry table
+
+try:
+    # 
+    api_response = api_instance.search_incident_action_entry_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_incident_action_entry_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the IncidentActionEntry table | 
+
+### Return type
+
+[**list[IncidentActionEntryItem]**](IncidentActionEntryItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_incident_action_type**
 > list[IncidentActionTypeItem] search_incident_action_type(incident_action_type_id=incident_action_type_id)
 
@@ -8389,6 +16024,112 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_incident_action_type_xml**
+> list[IncidentActionTypeItem] search_incident_action_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a IncidentActionType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the IncidentActionType table
+
+try:
+    # 
+    api_response = api_instance.search_incident_action_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_incident_action_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the IncidentActionType table | 
+
+### Return type
+
+[**list[IncidentActionTypeItem]**](IncidentActionTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_incident_action_xml**
+> list[IncidentActionItem] search_incident_action_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a IncidentAction in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the IncidentAction table
+
+try:
+    # 
+    api_response = api_instance.search_incident_action_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_incident_action_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the IncidentAction table | 
+
+### Return type
+
+[**list[IncidentActionItem]**](IncidentActionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -8446,6 +16187,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_incident_appeal_decision_xml**
+> list[IncidentAppealDecisionItem] search_incident_appeal_decision_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a IncidentAppealDecision in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the IncidentAppealDecision table
+
+try:
+    # 
+    api_response = api_instance.search_incident_appeal_decision_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_incident_appeal_decision_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the IncidentAppealDecision table | 
+
+### Return type
+
+[**list[IncidentAppealDecisionItem]**](IncidentAppealDecisionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_incident_appeal_type**
 > list[IncidentAppealTypeItem] search_incident_appeal_type(incident_appeal_type_id=incident_appeal_type_id)
 
@@ -8495,6 +16289,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_incident_appeal_type_xml**
+> list[IncidentAppealTypeItem] search_incident_appeal_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a IncidentAppealType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the IncidentAppealType table
+
+try:
+    # 
+    api_response = api_instance.search_incident_appeal_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_incident_appeal_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the IncidentAppealType table | 
+
+### Return type
+
+[**list[IncidentAppealTypeItem]**](IncidentAppealTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -8552,6 +16399,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_incident_clery_geography_xml**
+> list[IncidentCleryGeographyItem] search_incident_clery_geography_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a IncidentCleryGeography in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the IncidentCleryGeography table
+
+try:
+    # 
+    api_response = api_instance.search_incident_clery_geography_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_incident_clery_geography_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the IncidentCleryGeography table | 
+
+### Return type
+
+[**list[IncidentCleryGeographyItem]**](IncidentCleryGeographyItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_incident_custom_field**
 > list[IncidentCustomFieldItem] search_incident_custom_field(incident_custom_field_id=incident_custom_field_id)
 
@@ -8601,6 +16501,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_incident_custom_field_xml**
+> list[IncidentCustomFieldItem] search_incident_custom_field_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a IncidentCustomField in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the IncidentCustomField table
+
+try:
+    # 
+    api_response = api_instance.search_incident_custom_field_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_incident_custom_field_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the IncidentCustomField table | 
+
+### Return type
+
+[**list[IncidentCustomFieldItem]**](IncidentCustomFieldItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -8711,6 +16664,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_incident_entry_appeal_xml**
+> list[IncidentEntryAppealItem] search_incident_entry_appeal_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a IncidentEntryAppeal in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the IncidentEntryAppeal table
+
+try:
+    # 
+    api_response = api_instance.search_incident_entry_appeal_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_incident_entry_appeal_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the IncidentEntryAppeal table | 
+
+### Return type
+
+[**list[IncidentEntryAppealItem]**](IncidentEntryAppealItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_incident_entry_correspondence**
 > list[IncidentEntryCorrespondenceItem] search_incident_entry_correspondence(incident_entry_correspondence_id=incident_entry_correspondence_id)
 
@@ -8760,6 +16766,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_incident_entry_correspondence_xml**
+> list[IncidentEntryCorrespondenceItem] search_incident_entry_correspondence_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a IncidentEntryCorrespondence in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the IncidentEntryCorrespondence table
+
+try:
+    # 
+    api_response = api_instance.search_incident_entry_correspondence_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_incident_entry_correspondence_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the IncidentEntryCorrespondence table | 
+
+### Return type
+
+[**list[IncidentEntryCorrespondenceItem]**](IncidentEntryCorrespondenceItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -8817,6 +16876,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_incident_entry_note_xml**
+> list[IncidentEntryNoteItem] search_incident_entry_note_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a IncidentEntryNote in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the IncidentEntryNote table
+
+try:
+    # 
+    api_response = api_instance.search_incident_entry_note_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_incident_entry_note_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the IncidentEntryNote table | 
+
+### Return type
+
+[**list[IncidentEntryNoteItem]**](IncidentEntryNoteItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_incident_entry_sanction**
 > list[IncidentEntrySanctionItem] search_incident_entry_sanction(incident_entry_sanction_id=incident_entry_sanction_id)
 
@@ -8866,6 +16978,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_incident_entry_sanction_xml**
+> list[IncidentEntrySanctionItem] search_incident_entry_sanction_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a IncidentEntrySanction in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the IncidentEntrySanction table
+
+try:
+    # 
+    api_response = api_instance.search_incident_entry_sanction_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_incident_entry_sanction_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the IncidentEntrySanction table | 
+
+### Return type
+
+[**list[IncidentEntrySanctionItem]**](IncidentEntrySanctionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -8923,6 +17088,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_incident_entry_violation_xml**
+> list[IncidentEntryViolationItem] search_incident_entry_violation_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a IncidentEntryViolation in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the IncidentEntryViolation table
+
+try:
+    # 
+    api_response = api_instance.search_incident_entry_violation_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_incident_entry_violation_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the IncidentEntryViolation table | 
+
+### Return type
+
+[**list[IncidentEntryViolationItem]**](IncidentEntryViolationItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_incident_entry_xml**
+> list[IncidentEntryItem] search_incident_entry_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a IncidentEntry in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the IncidentEntry table
+
+try:
+    # 
+    api_response = api_instance.search_incident_entry_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_incident_entry_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the IncidentEntry table | 
+
+### Return type
+
+[**list[IncidentEntryItem]**](IncidentEntryItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_incident_finding**
 > list[IncidentFindingItem] search_incident_finding(incident_finding_id=incident_finding_id)
 
@@ -8972,6 +17243,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_incident_finding_xml**
+> list[IncidentFindingItem] search_incident_finding_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a IncidentFinding in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the IncidentFinding table
+
+try:
+    # 
+    api_response = api_instance.search_incident_finding_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_incident_finding_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the IncidentFinding table | 
+
+### Return type
+
+[**list[IncidentFindingItem]**](IncidentFindingItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -9029,6 +17353,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_incident_involvement_xml**
+> list[IncidentInvolvementItem] search_incident_involvement_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a IncidentInvolvement in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the IncidentInvolvement table
+
+try:
+    # 
+    api_response = api_instance.search_incident_involvement_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_incident_involvement_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the IncidentInvolvement table | 
+
+### Return type
+
+[**list[IncidentInvolvementItem]**](IncidentInvolvementItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_incident_note**
 > list[IncidentNoteItem] search_incident_note(incident_note_id=incident_note_id)
 
@@ -9078,6 +17455,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_incident_note_xml**
+> list[IncidentNoteItem] search_incident_note_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a IncidentNote in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the IncidentNote table
+
+try:
+    # 
+    api_response = api_instance.search_incident_note_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_incident_note_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the IncidentNote table | 
+
+### Return type
+
+[**list[IncidentNoteItem]**](IncidentNoteItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -9135,6 +17565,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_incident_plea_xml**
+> list[IncidentPleaItem] search_incident_plea_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a IncidentPlea in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the IncidentPlea table
+
+try:
+    # 
+    api_response = api_instance.search_incident_plea_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_incident_plea_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the IncidentPlea table | 
+
+### Return type
+
+[**list[IncidentPleaItem]**](IncidentPleaItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_incident_sanction_sub_type**
 > list[IncidentSanctionSubTypeItem] search_incident_sanction_sub_type(incident_sanction_sub_type_id=incident_sanction_sub_type_id)
 
@@ -9184,6 +17667,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_incident_sanction_sub_type_xml**
+> list[IncidentSanctionSubTypeItem] search_incident_sanction_sub_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a IncidentSanctionSubType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the IncidentSanctionSubType table
+
+try:
+    # 
+    api_response = api_instance.search_incident_sanction_sub_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_incident_sanction_sub_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the IncidentSanctionSubType table | 
+
+### Return type
+
+[**list[IncidentSanctionSubTypeItem]**](IncidentSanctionSubTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -9241,6 +17777,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_incident_sanction_type_xml**
+> list[IncidentSanctionTypeItem] search_incident_sanction_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a IncidentSanctionType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the IncidentSanctionType table
+
+try:
+    # 
+    api_response = api_instance.search_incident_sanction_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_incident_sanction_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the IncidentSanctionType table | 
+
+### Return type
+
+[**list[IncidentSanctionTypeItem]**](IncidentSanctionTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_incident_severity**
 > list[IncidentSeverityItem] search_incident_severity(incident_severity_id=incident_severity_id)
 
@@ -9290,6 +17879,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_incident_severity_xml**
+> list[IncidentSeverityItem] search_incident_severity_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a IncidentSeverity in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the IncidentSeverity table
+
+try:
+    # 
+    api_response = api_instance.search_incident_severity_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_incident_severity_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the IncidentSeverity table | 
+
+### Return type
+
+[**list[IncidentSeverityItem]**](IncidentSeverityItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -9347,6 +17989,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_incident_status_xml**
+> list[IncidentStatusItem] search_incident_status_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a IncidentStatus in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the IncidentStatus table
+
+try:
+    # 
+    api_response = api_instance.search_incident_status_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_incident_status_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the IncidentStatus table | 
+
+### Return type
+
+[**list[IncidentStatusItem]**](IncidentStatusItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_incident_sub_type**
 > list[IncidentSubTypeItem] search_incident_sub_type(incident_sub_type_id=incident_sub_type_id)
 
@@ -9396,6 +18091,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_incident_sub_type_xml**
+> list[IncidentSubTypeItem] search_incident_sub_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a IncidentSubType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the IncidentSubType table
+
+try:
+    # 
+    api_response = api_instance.search_incident_sub_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_incident_sub_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the IncidentSubType table | 
+
+### Return type
+
+[**list[IncidentSubTypeItem]**](IncidentSubTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -9453,6 +18201,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_incident_type_xml**
+> list[IncidentTypeItem] search_incident_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a IncidentType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the IncidentType table
+
+try:
+    # 
+    api_response = api_instance.search_incident_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_incident_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the IncidentType table | 
+
+### Return type
+
+[**list[IncidentTypeItem]**](IncidentTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_incident_violation**
 > list[IncidentViolationItem] search_incident_violation(incident_violation_id=incident_violation_id)
 
@@ -9506,6 +18307,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_incident_violation_xml**
+> list[IncidentViolationItem] search_incident_violation_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a IncidentViolation in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the IncidentViolation table
+
+try:
+    # 
+    api_response = api_instance.search_incident_violation_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_incident_violation_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the IncidentViolation table | 
+
+### Return type
+
+[**list[IncidentViolationItem]**](IncidentViolationItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_incident_xml**
+> list[IncidentItem] search_incident_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Incident in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Incident table
+
+try:
+    # 
+    api_response = api_instance.search_incident_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_incident_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Incident table | 
+
+### Return type
+
+[**list[IncidentItem]**](IncidentItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_inspection_run_template**
 > list[InspectionRunTemplateItem] search_inspection_run_template(inspection_run_template_id=inspection_run_template_id)
 
@@ -9555,6 +18462,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_inspection_run_template_xml**
+> list[InspectionRunTemplateItem] search_inspection_run_template_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a InspectionRunTemplate in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the InspectionRunTemplate table
+
+try:
+    # 
+    api_response = api_instance.search_inspection_run_template_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_inspection_run_template_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the InspectionRunTemplate table | 
+
+### Return type
+
+[**list[InspectionRunTemplateItem]**](InspectionRunTemplateItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -9665,6 +18625,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_interface_application_xml**
+> list[InterfaceApplicationItem] search_interface_application_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a InterfaceApplication in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the InterfaceApplication table
+
+try:
+    # 
+    api_response = api_instance.search_interface_application_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_interface_application_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the InterfaceApplication table | 
+
+### Return type
+
+[**list[InterfaceApplicationItem]**](InterfaceApplicationItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_interface_subscribe**
 > list[InterfaceSubscribeItem] search_interface_subscribe(interface_subscribe_id=interface_subscribe_id)
 
@@ -9714,6 +18727,112 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_interface_subscribe_xml**
+> list[InterfaceSubscribeItem] search_interface_subscribe_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a InterfaceSubscribe in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the InterfaceSubscribe table
+
+try:
+    # 
+    api_response = api_instance.search_interface_subscribe_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_interface_subscribe_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the InterfaceSubscribe table | 
+
+### Return type
+
+[**list[InterfaceSubscribeItem]**](InterfaceSubscribeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_interface_xml**
+> list[InterfaceItem] search_interface_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Interface in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Interface table
+
+try:
+    # 
+    api_response = api_instance.search_interface_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_interface_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Interface table | 
+
+### Return type
+
+[**list[InterfaceItem]**](InterfaceItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -9771,6 +18890,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_invoice_xml**
+> list[InvoiceItem] search_invoice_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Invoice in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Invoice table
+
+try:
+    # 
+    api_response = api_instance.search_invoice_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_invoice_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Invoice table | 
+
+### Return type
+
+[**list[InvoiceItem]**](InvoiceItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_log_activity**
 > list[LogActivityItem] search_log_activity(log_activity_id=log_activity_id)
 
@@ -9820,6 +18992,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_log_activity_xml**
+> list[LogActivityItem] search_log_activity_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a LogActivity in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the LogActivity table
+
+try:
+    # 
+    api_response = api_instance.search_log_activity_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_log_activity_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the LogActivity table | 
+
+### Return type
+
+[**list[LogActivityItem]**](LogActivityItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -9877,6 +19102,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_log_add_in_xml**
+> list[LogAddInItem] search_log_add_in_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a LogAddIn in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the LogAddIn table
+
+try:
+    # 
+    api_response = api_instance.search_log_add_in_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_log_add_in_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the LogAddIn table | 
+
+### Return type
+
+[**list[LogAddInItem]**](LogAddInItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_log_interface**
 > list[LogInterfaceItem] search_log_interface(log_interface_id=log_interface_id)
 
@@ -9930,6 +19208,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_log_interface_xml**
+> list[LogInterfaceItem] search_log_interface_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a LogInterface in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the LogInterface table
+
+try:
+    # 
+    api_response = api_instance.search_log_interface_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_log_interface_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the LogInterface table | 
+
+### Return type
+
+[**list[LogInterfaceItem]**](LogInterfaceItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_log_metric**
 > list[LogMetricItem] search_log_metric(log_metric_id=log_metric_id)
 
@@ -9979,6 +19310,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_log_metric_xml**
+> list[LogMetricItem] search_log_metric_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a LogMetric in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the LogMetric table
+
+try:
+    # 
+    api_response = api_instance.search_log_metric_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_log_metric_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the LogMetric table | 
+
+### Return type
+
+[**list[LogMetricItem]**](LogMetricItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -10089,6 +19473,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_lookup_text_xml**
+> list[LookupTextItem] search_lookup_text_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a LookupText in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the LookupText table
+
+try:
+    # 
+    api_response = api_instance.search_lookup_text_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_lookup_text_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the LookupText table | 
+
+### Return type
+
+[**list[LookupTextItem]**](LookupTextItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_lookup_xml**
+> list[LookupItem] search_lookup_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Lookup in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Lookup table
+
+try:
+    # 
+    api_response = api_instance.search_lookup_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_lookup_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Lookup table | 
+
+### Return type
+
+[**list[LookupItem]**](LookupItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_mail_merge**
 > list[MailMergeItem] search_mail_merge(mail_merge_id=mail_merge_id)
 
@@ -10138,6 +19628,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_mail_merge_xml**
+> list[MailMergeItem] search_mail_merge_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a MailMerge in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the MailMerge table
+
+try:
+    # 
+    api_response = api_instance.search_mail_merge_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_mail_merge_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the MailMerge table | 
+
+### Return type
+
+[**list[MailMergeItem]**](MailMergeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -10248,6 +19791,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_meal_plan_detail_xml**
+> list[MealPlanDetailItem] search_meal_plan_detail_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a MealPlanDetail in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the MealPlanDetail table
+
+try:
+    # 
+    api_response = api_instance.search_meal_plan_detail_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_meal_plan_detail_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the MealPlanDetail table | 
+
+### Return type
+
+[**list[MealPlanDetailItem]**](MealPlanDetailItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_meal_plan_dining_hall**
 > list[MealPlanDiningHallItem] search_meal_plan_dining_hall(meal_plan_dining_hall_id=meal_plan_dining_hall_id)
 
@@ -10297,6 +19893,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_meal_plan_dining_hall_xml**
+> list[MealPlanDiningHallItem] search_meal_plan_dining_hall_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a MealPlanDiningHall in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the MealPlanDiningHall table
+
+try:
+    # 
+    api_response = api_instance.search_meal_plan_dining_hall_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_meal_plan_dining_hall_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the MealPlanDiningHall table | 
+
+### Return type
+
+[**list[MealPlanDiningHallItem]**](MealPlanDiningHallItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -10354,6 +20003,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_meal_plan_free_xml**
+> list[MealPlanFreeItem] search_meal_plan_free_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a MealPlanFree in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the MealPlanFree table
+
+try:
+    # 
+    api_response = api_instance.search_meal_plan_free_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_meal_plan_free_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the MealPlanFree table | 
+
+### Return type
+
+[**list[MealPlanFreeItem]**](MealPlanFreeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_meal_plan_session**
 > list[MealPlanSessionItem] search_meal_plan_session(meal_plan_session_id=meal_plan_session_id)
 
@@ -10403,6 +20105,112 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_meal_plan_session_xml**
+> list[MealPlanSessionItem] search_meal_plan_session_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a MealPlanSession in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the MealPlanSession table
+
+try:
+    # 
+    api_response = api_instance.search_meal_plan_session_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_meal_plan_session_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the MealPlanSession table | 
+
+### Return type
+
+[**list[MealPlanSessionItem]**](MealPlanSessionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_meal_plan_xml**
+> list[MealPlanItem] search_meal_plan_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a MealPlan in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the MealPlan table
+
+try:
+    # 
+    api_response = api_instance.search_meal_plan_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_meal_plan_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the MealPlan table | 
+
+### Return type
+
+[**list[MealPlanItem]**](MealPlanItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -10460,6 +20268,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_meal_pricing_xml**
+> list[MealPricingItem] search_meal_pricing_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a MealPricing in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the MealPricing table
+
+try:
+    # 
+    api_response = api_instance.search_meal_pricing_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_meal_pricing_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the MealPricing table | 
+
+### Return type
+
+[**list[MealPricingItem]**](MealPricingItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_membership_type**
 > list[MembershipTypeItem] search_membership_type(membership_type_id=membership_type_id)
 
@@ -10509,6 +20370,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_membership_type_xml**
+> list[MembershipTypeItem] search_membership_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a MembershipType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the MembershipType table
+
+try:
+    # 
+    api_response = api_instance.search_membership_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_membership_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the MembershipType table | 
+
+### Return type
+
+[**list[MembershipTypeItem]**](MembershipTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -10619,6 +20533,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_message_action_xml**
+> list[MessageActionItem] search_message_action_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a MessageAction in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the MessageAction table
+
+try:
+    # 
+    api_response = api_instance.search_message_action_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_message_action_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the MessageAction table | 
+
+### Return type
+
+[**list[MessageActionItem]**](MessageActionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_message_subscriber**
 > list[MessageSubscriberItem] search_message_subscriber(message_subscriber_id=message_subscriber_id)
 
@@ -10668,6 +20635,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_message_subscriber_xml**
+> list[MessageSubscriberItem] search_message_subscriber_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a MessageSubscriber in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the MessageSubscriber table
+
+try:
+    # 
+    api_response = api_instance.search_message_subscriber_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_message_subscriber_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the MessageSubscriber table | 
+
+### Return type
+
+[**list[MessageSubscriberItem]**](MessageSubscriberItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -10778,6 +20798,165 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_message_subscription_settings_xml**
+> list[MessageSubscriptionSettingsItem] search_message_subscription_settings_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a MessageSubscriptionSettings in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the MessageSubscriptionSettings table
+
+try:
+    # 
+    api_response = api_instance.search_message_subscription_settings_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_message_subscription_settings_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the MessageSubscriptionSettings table | 
+
+### Return type
+
+[**list[MessageSubscriptionSettingsItem]**](MessageSubscriptionSettingsItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_message_subscription_xml**
+> list[MessageSubscriptionItem] search_message_subscription_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a MessageSubscription in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the MessageSubscription table
+
+try:
+    # 
+    api_response = api_instance.search_message_subscription_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_message_subscription_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the MessageSubscription table | 
+
+### Return type
+
+[**list[MessageSubscriptionItem]**](MessageSubscriptionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_message_xml**
+> list[MessageItem] search_message_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Message in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Message table
+
+try:
+    # 
+    api_response = api_instance.search_message_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_message_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Message table | 
+
+### Return type
+
+[**list[MessageItem]**](MessageItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_nationality**
 > list[NationalityItem] search_nationality(nationality_id=nationality_id)
 
@@ -10827,6 +21006,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_nationality_xml**
+> list[NationalityItem] search_nationality_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Nationality in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Nationality table
+
+try:
+    # 
+    api_response = api_instance.search_nationality_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_nationality_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Nationality table | 
+
+### Return type
+
+[**list[NationalityItem]**](NationalityItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -10884,6 +21116,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_note_type_xml**
+> list[NoteTypeItem] search_note_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a NoteType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the NoteType table
+
+try:
+    # 
+    api_response = api_instance.search_note_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_note_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the NoteType table | 
+
+### Return type
+
+[**list[NoteTypeItem]**](NoteTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_parcel_type**
 > list[ParcelTypeItem] search_parcel_type(parcel_type_id=parcel_type_id)
 
@@ -10933,6 +21218,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_parcel_type_xml**
+> list[ParcelTypeItem] search_parcel_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ParcelType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ParcelType table
+
+try:
+    # 
+    api_response = api_instance.search_parcel_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_parcel_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ParcelType table | 
+
+### Return type
+
+[**list[ParcelTypeItem]**](ParcelTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -11043,6 +21381,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_payment_type_xml**
+> list[PaymentTypeItem] search_payment_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a PaymentType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the PaymentType table
+
+try:
+    # 
+    api_response = api_instance.search_payment_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_payment_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the PaymentType table | 
+
+### Return type
+
+[**list[PaymentTypeItem]**](PaymentTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_payment_xml**
+> list[PaymentItem] search_payment_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Payment in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Payment table
+
+try:
+    # 
+    api_response = api_instance.search_payment_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_payment_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Payment table | 
+
+### Return type
+
+[**list[PaymentItem]**](PaymentItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_phone_charge_type**
 > list[PhoneChargeTypeItem] search_phone_charge_type(phone_charge_type_id=phone_charge_type_id)
 
@@ -11149,6 +21593,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_phone_charge_type_call_type_xml**
+> list[PhoneChargeTypeCallTypeItem] search_phone_charge_type_call_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a PhoneChargeTypeCallType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the PhoneChargeTypeCallType table
+
+try:
+    # 
+    api_response = api_instance.search_phone_charge_type_call_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_phone_charge_type_call_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the PhoneChargeTypeCallType table | 
+
+### Return type
+
+[**list[PhoneChargeTypeCallTypeItem]**](PhoneChargeTypeCallTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_phone_charge_type_xml**
+> list[PhoneChargeTypeItem] search_phone_charge_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a PhoneChargeType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the PhoneChargeType table
+
+try:
+    # 
+    api_response = api_instance.search_phone_charge_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_phone_charge_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the PhoneChargeType table | 
+
+### Return type
+
+[**list[PhoneChargeTypeItem]**](PhoneChargeTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_portal_action**
 > list[PortalActionItem] search_portal_action(portal_action_id=portal_action_id)
 
@@ -11198,6 +21748,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_portal_action_xml**
+> list[PortalActionItem] search_portal_action_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a PortalAction in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the PortalAction table
+
+try:
+    # 
+    api_response = api_instance.search_portal_action_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_portal_action_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the PortalAction table | 
+
+### Return type
+
+[**list[PortalActionItem]**](PortalActionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -11255,6 +21858,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_portal_activity_xml**
+> list[PortalActivityItem] search_portal_activity_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a PortalActivity in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the PortalActivity table
+
+try:
+    # 
+    api_response = api_instance.search_portal_activity_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_portal_activity_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the PortalActivity table | 
+
+### Return type
+
+[**list[PortalActivityItem]**](PortalActivityItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_portal_choice**
 > list[PortalChoiceItem] search_portal_choice(portal_choice_id=portal_choice_id)
 
@@ -11304,6 +21960,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_portal_choice_xml**
+> list[PortalChoiceItem] search_portal_choice_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a PortalChoice in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the PortalChoice table
+
+try:
+    # 
+    api_response = api_instance.search_portal_choice_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_portal_choice_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the PortalChoice table | 
+
+### Return type
+
+[**list[PortalChoiceItem]**](PortalChoiceItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -11414,6 +22123,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_portal_page_action_xml**
+> list[PortalPageActionItem] search_portal_page_action_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a PortalPageAction in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the PortalPageAction table
+
+try:
+    # 
+    api_response = api_instance.search_portal_page_action_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_portal_page_action_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the PortalPageAction table | 
+
+### Return type
+
+[**list[PortalPageActionItem]**](PortalPageActionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_portal_page_widget**
 > list[PortalPageWidgetItem] search_portal_page_widget(portal_page_widget_id=portal_page_widget_id)
 
@@ -11467,6 +22229,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_portal_page_widget_xml**
+> list[PortalPageWidgetItem] search_portal_page_widget_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a PortalPageWidget in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the PortalPageWidget table
+
+try:
+    # 
+    api_response = api_instance.search_portal_page_widget_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_portal_page_widget_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the PortalPageWidget table | 
+
+### Return type
+
+[**list[PortalPageWidgetItem]**](PortalPageWidgetItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_portal_page_xml**
+> list[PortalPageItem] search_portal_page_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a PortalPage in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the PortalPage table
+
+try:
+    # 
+    api_response = api_instance.search_portal_page_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_portal_page_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the PortalPage table | 
+
+### Return type
+
+[**list[PortalPageItem]**](PortalPageItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_portal_process**
 > list[PortalProcessItem] search_portal_process(portal_process_id=portal_process_id)
 
@@ -11516,6 +22384,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_portal_process_xml**
+> list[PortalProcessItem] search_portal_process_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a PortalProcess in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the PortalProcess table
+
+try:
+    # 
+    api_response = api_instance.search_portal_process_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_portal_process_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the PortalProcess table | 
+
+### Return type
+
+[**list[PortalProcessItem]**](PortalProcessItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -11626,6 +22547,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_portal_rule_link_xml**
+> list[PortalRuleLinkItem] search_portal_rule_link_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a PortalRuleLink in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the PortalRuleLink table
+
+try:
+    # 
+    api_response = api_instance.search_portal_rule_link_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_portal_rule_link_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the PortalRuleLink table | 
+
+### Return type
+
+[**list[PortalRuleLinkItem]**](PortalRuleLinkItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_portal_rule_xml**
+> list[PortalRuleItem] search_portal_rule_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a PortalRule in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the PortalRule table
+
+try:
+    # 
+    api_response = api_instance.search_portal_rule_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_portal_rule_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the PortalRule table | 
+
+### Return type
+
+[**list[PortalRuleItem]**](PortalRuleItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_portal_setting**
 > list[PortalSettingItem] search_portal_setting(portal_setting_id=portal_setting_id)
 
@@ -11679,6 +22706,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_portal_setting_xml**
+> list[PortalSettingItem] search_portal_setting_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a PortalSetting in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the PortalSetting table
+
+try:
+    # 
+    api_response = api_instance.search_portal_setting_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_portal_setting_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the PortalSetting table | 
+
+### Return type
+
+[**list[PortalSettingItem]**](PortalSettingItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_portal_site**
 > list[PortalSiteItem] search_portal_site(portal_site_id=portal_site_id)
 
@@ -11728,6 +22808,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_portal_site_xml**
+> list[PortalSiteItem] search_portal_site_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a PortalSite in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the PortalSite table
+
+try:
+    # 
+    api_response = api_instance.search_portal_site_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_portal_site_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the PortalSite table | 
+
+### Return type
+
+[**list[PortalSiteItem]**](PortalSiteItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -11838,6 +22971,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_portal_step_link_xml**
+> list[PortalStepLinkItem] search_portal_step_link_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a PortalStepLink in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the PortalStepLink table
+
+try:
+    # 
+    api_response = api_instance.search_portal_step_link_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_portal_step_link_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the PortalStepLink table | 
+
+### Return type
+
+[**list[PortalStepLinkItem]**](PortalStepLinkItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_portal_step_xml**
+> list[PortalStepItem] search_portal_step_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a PortalStep in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the PortalStep table
+
+try:
+    # 
+    api_response = api_instance.search_portal_step_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_portal_step_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the PortalStep table | 
+
+### Return type
+
+[**list[PortalStepItem]**](PortalStepItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_portal_theme**
 > list[PortalThemeItem] search_portal_theme(portal_theme_id=portal_theme_id)
 
@@ -11887,6 +23126,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_portal_theme_xml**
+> list[PortalThemeItem] search_portal_theme_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a PortalTheme in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the PortalTheme table
+
+try:
+    # 
+    api_response = api_instance.search_portal_theme_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_portal_theme_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the PortalTheme table | 
+
+### Return type
+
+[**list[PortalThemeItem]**](PortalThemeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -11944,6 +23236,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_portal_user_hold_xml**
+> list[PortalUserHoldItem] search_portal_user_hold_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a PortalUserHold in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the PortalUserHold table
+
+try:
+    # 
+    api_response = api_instance.search_portal_user_hold_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_portal_user_hold_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the PortalUserHold table | 
+
+### Return type
+
+[**list[PortalUserHoldItem]**](PortalUserHoldItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_portal_user_signature**
 > list[PortalUserSignatureItem] search_portal_user_signature(portal_user_signature_id=portal_user_signature_id)
 
@@ -11993,6 +23338,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_portal_user_signature_xml**
+> list[PortalUserSignatureItem] search_portal_user_signature_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a PortalUserSignature in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the PortalUserSignature table
+
+try:
+    # 
+    api_response = api_instance.search_portal_user_signature_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_portal_user_signature_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the PortalUserSignature table | 
+
+### Return type
+
+[**list[PortalUserSignatureItem]**](PortalUserSignatureItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -12050,6 +23448,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_portal_user_token_xml**
+> list[PortalUserTokenItem] search_portal_user_token_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a PortalUserToken in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the PortalUserToken table
+
+try:
+    # 
+    api_response = api_instance.search_portal_user_token_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_portal_user_token_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the PortalUserToken table | 
+
+### Return type
+
+[**list[PortalUserTokenItem]**](PortalUserTokenItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_preference**
 > list[PreferenceItem] search_preference(preference_id=preference_id)
 
@@ -12099,6 +23550,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_preference_xml**
+> list[PreferenceItem] search_preference_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Preference in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Preference table
+
+try:
+    # 
+    api_response = api_instance.search_preference_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_preference_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Preference table | 
+
+### Return type
+
+[**list[PreferenceItem]**](PreferenceItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -12156,6 +23660,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_priority_xml**
+> list[PriorityItem] search_priority_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Priority in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Priority table
+
+try:
+    # 
+    api_response = api_instance.search_priority_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_priority_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Priority table | 
+
+### Return type
+
+[**list[PriorityItem]**](PriorityItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_process**
 > list[ProcessItem] search_process(process_id=process_id)
 
@@ -12205,6 +23762,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_process_xml**
+> list[ProcessItem] search_process_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Process in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Process table
+
+try:
+    # 
+    api_response = api_instance.search_process_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_process_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Process table | 
+
+### Return type
+
+[**list[ProcessItem]**](ProcessItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -12262,6 +23872,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_profile_item_xml**
+> list[ProfileItemItem] search_profile_item_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ProfileItem in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ProfileItem table
+
+try:
+    # 
+    api_response = api_instance.search_profile_item_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_profile_item_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ProfileItem table | 
+
+### Return type
+
+[**list[ProfileItemItem]**](ProfileItemItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_profile_type**
 > list[ProfileTypeItem] search_profile_type(profile_type_id=profile_type_id)
 
@@ -12311,6 +23974,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_profile_type_xml**
+> list[ProfileTypeItem] search_profile_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ProfileType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ProfileType table
+
+try:
+    # 
+    api_response = api_instance.search_profile_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_profile_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ProfileType table | 
+
+### Return type
+
+[**list[ProfileTypeItem]**](ProfileTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -12421,6 +24137,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_program_custom_field_xml**
+> list[ProgramCustomFieldItem] search_program_custom_field_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ProgramCustomField in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ProgramCustomField table
+
+try:
+    # 
+    api_response = api_instance.search_program_custom_field_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_program_custom_field_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ProgramCustomField table | 
+
+### Return type
+
+[**list[ProgramCustomFieldItem]**](ProgramCustomFieldItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_program_entry**
 > list[ProgramEntryItem] search_program_entry(program_entry_id=program_entry_id)
 
@@ -12470,6 +24239,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_program_entry_xml**
+> list[ProgramEntryItem] search_program_entry_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ProgramEntry in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ProgramEntry table
+
+try:
+    # 
+    api_response = api_instance.search_program_entry_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_program_entry_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ProgramEntry table | 
+
+### Return type
+
+[**list[ProgramEntryItem]**](ProgramEntryItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -12527,6 +24349,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_program_evaluation_type_xml**
+> list[ProgramEvaluationTypeItem] search_program_evaluation_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ProgramEvaluationType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ProgramEvaluationType table
+
+try:
+    # 
+    api_response = api_instance.search_program_evaluation_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_program_evaluation_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ProgramEvaluationType table | 
+
+### Return type
+
+[**list[ProgramEvaluationTypeItem]**](ProgramEvaluationTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_program_note**
 > list[ProgramNoteItem] search_program_note(program_note_id=program_note_id)
 
@@ -12576,6 +24451,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_program_note_xml**
+> list[ProgramNoteItem] search_program_note_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ProgramNote in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ProgramNote table
+
+try:
+    # 
+    api_response = api_instance.search_program_note_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_program_note_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ProgramNote table | 
+
+### Return type
+
+[**list[ProgramNoteItem]**](ProgramNoteItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -12633,6 +24561,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_program_sub_type_xml**
+> list[ProgramSubTypeItem] search_program_sub_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ProgramSubType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ProgramSubType table
+
+try:
+    # 
+    api_response = api_instance.search_program_sub_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_program_sub_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ProgramSubType table | 
+
+### Return type
+
+[**list[ProgramSubTypeItem]**](ProgramSubTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_program_type**
 > list[ProgramTypeItem] search_program_type(program_type_id=program_type_id)
 
@@ -12682,6 +24663,112 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_program_type_xml**
+> list[ProgramTypeItem] search_program_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ProgramType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ProgramType table
+
+try:
+    # 
+    api_response = api_instance.search_program_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_program_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ProgramType table | 
+
+### Return type
+
+[**list[ProgramTypeItem]**](ProgramTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_program_xml**
+> list[ProgramItem] search_program_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Program in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Program table
+
+try:
+    # 
+    api_response = api_instance.search_program_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_program_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Program table | 
+
+### Return type
+
+[**list[ProgramItem]**](ProgramItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -12792,6 +24879,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_promo_code_record_xml**
+> list[PromoCodeRecordItem] search_promo_code_record_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a PromoCodeRecord in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the PromoCodeRecord table
+
+try:
+    # 
+    api_response = api_instance.search_promo_code_record_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_promo_code_record_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the PromoCodeRecord table | 
+
+### Return type
+
+[**list[PromoCodeRecordItem]**](PromoCodeRecordItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_promo_code_usage**
 > list[PromoCodeUsageItem] search_promo_code_usage(promo_code_usage_id=promo_code_usage_id)
 
@@ -12845,6 +24985,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_promo_code_usage_xml**
+> list[PromoCodeUsageItem] search_promo_code_usage_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a PromoCodeUsage in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the PromoCodeUsage table
+
+try:
+    # 
+    api_response = api_instance.search_promo_code_usage_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_promo_code_usage_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the PromoCodeUsage table | 
+
+### Return type
+
+[**list[PromoCodeUsageItem]**](PromoCodeUsageItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_promo_code_xml**
+> list[PromoCodeItem] search_promo_code_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a PromoCode in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the PromoCode table
+
+try:
+    # 
+    api_response = api_instance.search_promo_code_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_promo_code_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the PromoCode table | 
+
+### Return type
+
+[**list[PromoCodeItem]**](PromoCodeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_record_attachment**
 > list[RecordAttachmentItem] search_record_attachment(record_attachment_id=record_attachment_id)
 
@@ -12894,6 +25140,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_record_attachment_xml**
+> list[RecordAttachmentItem] search_record_attachment_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RecordAttachment in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RecordAttachment table
+
+try:
+    # 
+    api_response = api_instance.search_record_attachment_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_record_attachment_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RecordAttachment table | 
+
+### Return type
+
+[**list[RecordAttachmentItem]**](RecordAttachmentItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -13057,6 +25356,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_refund_request_batch_configuration_item_xml**
+> list[RefundRequestBatchConfigurationItemItem] search_refund_request_batch_configuration_item_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RefundRequestBatchConfigurationItem in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RefundRequestBatchConfigurationItem table
+
+try:
+    # 
+    api_response = api_instance.search_refund_request_batch_configuration_item_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_refund_request_batch_configuration_item_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RefundRequestBatchConfigurationItem table | 
+
+### Return type
+
+[**list[RefundRequestBatchConfigurationItemItem]**](RefundRequestBatchConfigurationItemItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_refund_request_batch_configuration_xml**
+> list[RefundRequestBatchConfigurationItem] search_refund_request_batch_configuration_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RefundRequestBatchConfiguration in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RefundRequestBatchConfiguration table
+
+try:
+    # 
+    api_response = api_instance.search_refund_request_batch_configuration_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_refund_request_batch_configuration_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RefundRequestBatchConfiguration table | 
+
+### Return type
+
+[**list[RefundRequestBatchConfigurationItem]**](RefundRequestBatchConfigurationItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_refund_request_break_up**
 > list[RefundRequestBreakUpItem] search_refund_request_break_up(refund_request_break_up_id=refund_request_break_up_id)
 
@@ -13106,6 +25511,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_refund_request_break_up_xml**
+> list[RefundRequestBreakUpItem] search_refund_request_break_up_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RefundRequestBreakUp in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RefundRequestBreakUp table
+
+try:
+    # 
+    api_response = api_instance.search_refund_request_break_up_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_refund_request_break_up_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RefundRequestBreakUp table | 
+
+### Return type
+
+[**list[RefundRequestBreakUpItem]**](RefundRequestBreakUpItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -13216,6 +25674,165 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_refund_request_configuration_break_up_xml**
+> list[RefundRequestConfigurationBreakUpItem] search_refund_request_configuration_break_up_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RefundRequestConfigurationBreakUp in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RefundRequestConfigurationBreakUp table
+
+try:
+    # 
+    api_response = api_instance.search_refund_request_configuration_break_up_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_refund_request_configuration_break_up_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RefundRequestConfigurationBreakUp table | 
+
+### Return type
+
+[**list[RefundRequestConfigurationBreakUpItem]**](RefundRequestConfigurationBreakUpItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_refund_request_configuration_xml**
+> list[RefundRequestConfigurationItem] search_refund_request_configuration_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RefundRequestConfiguration in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RefundRequestConfiguration table
+
+try:
+    # 
+    api_response = api_instance.search_refund_request_configuration_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_refund_request_configuration_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RefundRequestConfiguration table | 
+
+### Return type
+
+[**list[RefundRequestConfigurationItem]**](RefundRequestConfigurationItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_refund_request_xml**
+> list[RefundRequestItem] search_refund_request_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RefundRequest in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RefundRequest table
+
+try:
+    # 
+    api_response = api_instance.search_refund_request_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_refund_request_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RefundRequest table | 
+
+### Return type
+
+[**list[RefundRequestItem]**](RefundRequestItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_region_of_birth**
 > list[RegionOfBirthItem] search_region_of_birth(region_of_birth_id=region_of_birth_id)
 
@@ -13265,6 +25882,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_region_of_birth_xml**
+> list[RegionOfBirthItem] search_region_of_birth_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RegionOfBirth in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RegionOfBirth table
+
+try:
+    # 
+    api_response = api_instance.search_region_of_birth_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_region_of_birth_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RegionOfBirth table | 
+
+### Return type
+
+[**list[RegionOfBirthItem]**](RegionOfBirthItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -13375,6 +26045,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_report_detail_xml**
+> list[ReportDetailItem] search_report_detail_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ReportDetail in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ReportDetail table
+
+try:
+    # 
+    api_response = api_instance.search_report_detail_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_report_detail_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ReportDetail table | 
+
+### Return type
+
+[**list[ReportDetailItem]**](ReportDetailItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_report_permission**
 > list[ReportPermissionItem] search_report_permission(report_permission_id=report_permission_id)
 
@@ -13424,6 +26147,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_report_permission_xml**
+> list[ReportPermissionItem] search_report_permission_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ReportPermission in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ReportPermission table
+
+try:
+    # 
+    api_response = api_instance.search_report_permission_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_report_permission_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ReportPermission table | 
+
+### Return type
+
+[**list[ReportPermissionItem]**](ReportPermissionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -13481,6 +26257,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_report_schedule_xml**
+> list[ReportScheduleItem] search_report_schedule_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ReportSchedule in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ReportSchedule table
+
+try:
+    # 
+    api_response = api_instance.search_report_schedule_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_report_schedule_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ReportSchedule table | 
+
+### Return type
+
+[**list[ReportScheduleItem]**](ReportScheduleItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_report_setting**
 > list[ReportSettingItem] search_report_setting(report_setting_id=report_setting_id)
 
@@ -13530,6 +26359,112 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_report_setting_xml**
+> list[ReportSettingItem] search_report_setting_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ReportSetting in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ReportSetting table
+
+try:
+    # 
+    api_response = api_instance.search_report_setting_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_report_setting_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ReportSetting table | 
+
+### Return type
+
+[**list[ReportSettingItem]**](ReportSettingItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_report_xml**
+> list[ReportItem] search_report_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Report in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Report table
+
+try:
+    # 
+    api_response = api_instance.search_report_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_report_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Report table | 
+
+### Return type
+
+[**list[ReportItem]**](ReportItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -13640,6 +26575,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_resource_booking_xml**
+> list[ResourceBookingItem] search_resource_booking_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ResourceBooking in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ResourceBooking table
+
+try:
+    # 
+    api_response = api_instance.search_resource_booking_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_resource_booking_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ResourceBooking table | 
+
+### Return type
+
+[**list[ResourceBookingItem]**](ResourceBookingItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_resource_type**
 > list[ResourceTypeItem] search_resource_type(resource_type_id=resource_type_id)
 
@@ -13693,6 +26681,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_resource_type_xml**
+> list[ResourceTypeItem] search_resource_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ResourceType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ResourceType table
+
+try:
+    # 
+    api_response = api_instance.search_resource_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_resource_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ResourceType table | 
+
+### Return type
+
+[**list[ResourceTypeItem]**](ResourceTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_resource_xml**
+> list[ResourceItem] search_resource_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Resource in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Resource table
+
+try:
+    # 
+    api_response = api_instance.search_resource_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_resource_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Resource table | 
+
+### Return type
+
+[**list[ResourceItem]**](ResourceItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_response_status**
 > list[ResponseStatusItem] search_response_status(response_status_id=response_status_id)
 
@@ -13742,6 +26836,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_response_status_xml**
+> list[ResponseStatusItem] search_response_status_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ResponseStatus in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ResponseStatus table
+
+try:
+    # 
+    api_response = api_instance.search_response_status_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_response_status_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ResponseStatus table | 
+
+### Return type
+
+[**list[ResponseStatusItem]**](ResponseStatusItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -13852,6 +26999,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_room_attribute_xml**
+> list[RoomAttributeItem] search_room_attribute_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomAttribute in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomAttribute table
+
+try:
+    # 
+    api_response = api_instance.search_room_attribute_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_attribute_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomAttribute table | 
+
+### Return type
+
+[**list[RoomAttributeItem]**](RoomAttributeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_room_base**
 > list[RoomBaseItem] search_room_base(room_base_id=room_base_id)
 
@@ -13958,6 +27158,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_room_base_gender_xml**
+> list[RoomBaseGenderItem] search_room_base_gender_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomBaseGender in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomBaseGender table
+
+try:
+    # 
+    api_response = api_instance.search_room_base_gender_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_base_gender_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomBaseGender table | 
+
+### Return type
+
+[**list[RoomBaseGenderItem]**](RoomBaseGenderItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_room_base_xml**
+> list[RoomBaseItem] search_room_base_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomBase in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomBase table
+
+try:
+    # 
+    api_response = api_instance.search_room_base_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_base_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomBase table | 
+
+### Return type
+
+[**list[RoomBaseItem]**](RoomBaseItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_room_classification**
 > list[RoomClassificationItem] search_room_classification(room_classification_id=room_classification_id)
 
@@ -14007,6 +27313,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_room_classification_xml**
+> list[RoomClassificationItem] search_room_classification_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomClassification in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomClassification table
+
+try:
+    # 
+    api_response = api_instance.search_room_classification_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_classification_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomClassification table | 
+
+### Return type
+
+[**list[RoomClassificationItem]**](RoomClassificationItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -14117,6 +27476,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_room_configuration_attribute_xml**
+> list[RoomConfigurationAttributeItem] search_room_configuration_attribute_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomConfigurationAttribute in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomConfigurationAttribute table
+
+try:
+    # 
+    api_response = api_instance.search_room_configuration_attribute_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_configuration_attribute_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomConfigurationAttribute table | 
+
+### Return type
+
+[**list[RoomConfigurationAttributeItem]**](RoomConfigurationAttributeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_room_configuration_classification**
 > list[RoomConfigurationClassificationItem] search_room_configuration_classification(room_configuration_classification_id=room_configuration_classification_id)
 
@@ -14166,6 +27578,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_room_configuration_classification_xml**
+> list[RoomConfigurationClassificationItem] search_room_configuration_classification_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomConfigurationClassification in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomConfigurationClassification table
+
+try:
+    # 
+    api_response = api_instance.search_room_configuration_classification_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_configuration_classification_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomConfigurationClassification table | 
+
+### Return type
+
+[**list[RoomConfigurationClassificationItem]**](RoomConfigurationClassificationItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -14223,6 +27688,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_room_configuration_profile_xml**
+> list[RoomConfigurationProfileItem] search_room_configuration_profile_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomConfigurationProfile in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomConfigurationProfile table
+
+try:
+    # 
+    api_response = api_instance.search_room_configuration_profile_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_configuration_profile_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomConfigurationProfile table | 
+
+### Return type
+
+[**list[RoomConfigurationProfileItem]**](RoomConfigurationProfileItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_room_configuration_room_sort**
 > list[RoomConfigurationRoomSortItem] search_room_configuration_room_sort(room_configuration_room_sort_id=room_configuration_room_sort_id)
 
@@ -14276,6 +27794,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_room_configuration_room_sort_xml**
+> list[RoomConfigurationRoomSortItem] search_room_configuration_room_sort_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomConfigurationRoomSort in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomConfigurationRoomSort table
+
+try:
+    # 
+    api_response = api_instance.search_room_configuration_room_sort_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_configuration_room_sort_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomConfigurationRoomSort table | 
+
+### Return type
+
+[**list[RoomConfigurationRoomSortItem]**](RoomConfigurationRoomSortItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_room_configuration_term_type**
 > list[RoomConfigurationTermTypeItem] search_room_configuration_term_type(room_configuration_term_type_id=room_configuration_term_type_id)
 
@@ -14325,6 +27896,112 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_room_configuration_term_type_xml**
+> list[RoomConfigurationTermTypeItem] search_room_configuration_term_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomConfigurationTermType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomConfigurationTermType table
+
+try:
+    # 
+    api_response = api_instance.search_room_configuration_term_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_configuration_term_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomConfigurationTermType table | 
+
+### Return type
+
+[**list[RoomConfigurationTermTypeItem]**](RoomConfigurationTermTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_room_configuration_xml**
+> list[RoomConfigurationItem] search_room_configuration_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomConfiguration in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomConfiguration table
+
+try:
+    # 
+    api_response = api_instance.search_room_configuration_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_configuration_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomConfiguration table | 
+
+### Return type
+
+[**list[RoomConfigurationItem]**](RoomConfigurationItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -14435,6 +28112,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_room_location_area_xml**
+> list[RoomLocationAreaItem] search_room_location_area_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomLocationArea in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomLocationArea table
+
+try:
+    # 
+    api_response = api_instance.search_room_location_area_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_location_area_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomLocationArea table | 
+
+### Return type
+
+[**list[RoomLocationAreaItem]**](RoomLocationAreaItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_room_location_classification**
 > list[RoomLocationClassificationItem] search_room_location_classification(room_location_classification_id=room_location_classification_id)
 
@@ -14484,6 +28214,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_room_location_classification_xml**
+> list[RoomLocationClassificationItem] search_room_location_classification_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomLocationClassification in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomLocationClassification table
+
+try:
+    # 
+    api_response = api_instance.search_room_location_classification_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_location_classification_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomLocationClassification table | 
+
+### Return type
+
+[**list[RoomLocationClassificationItem]**](RoomLocationClassificationItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -14541,6 +28324,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_room_location_floor_suite_xml**
+> list[RoomLocationFloorSuiteItem] search_room_location_floor_suite_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomLocationFloorSuite in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomLocationFloorSuite table
+
+try:
+    # 
+    api_response = api_instance.search_room_location_floor_suite_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_location_floor_suite_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomLocationFloorSuite table | 
+
+### Return type
+
+[**list[RoomLocationFloorSuiteItem]**](RoomLocationFloorSuiteItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_room_location_section**
 > list[RoomLocationSectionItem] search_room_location_section(room_location_section_id=room_location_section_id)
 
@@ -14590,6 +28426,112 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_room_location_section_xml**
+> list[RoomLocationSectionItem] search_room_location_section_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomLocationSection in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomLocationSection table
+
+try:
+    # 
+    api_response = api_instance.search_room_location_section_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_location_section_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomLocationSection table | 
+
+### Return type
+
+[**list[RoomLocationSectionItem]**](RoomLocationSectionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_room_location_xml**
+> list[RoomLocationItem] search_room_location_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomLocation in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomLocation table
+
+try:
+    # 
+    api_response = api_instance.search_room_location_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_location_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomLocation table | 
+
+### Return type
+
+[**list[RoomLocationItem]**](RoomLocationItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -14647,6 +28589,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_room_manager_xml**
+> list[RoomManagerItem] search_room_manager_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomManager in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomManager table
+
+try:
+    # 
+    api_response = api_instance.search_room_manager_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_manager_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomManager table | 
+
+### Return type
+
+[**list[RoomManagerItem]**](RoomManagerItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_room_preference**
 > list[RoomPreferenceItem] search_room_preference(room_preference_id=room_preference_id)
 
@@ -14700,6 +28695,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_room_preference_xml**
+> list[RoomPreferenceItem] search_room_preference_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomPreference in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomPreference table
+
+try:
+    # 
+    api_response = api_instance.search_room_preference_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_preference_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomPreference table | 
+
+### Return type
+
+[**list[RoomPreferenceItem]**](RoomPreferenceItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_room_profile**
 > list[RoomProfileItem] search_room_profile(room_profile_id=room_profile_id)
 
@@ -14749,6 +28797,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_room_profile_xml**
+> list[RoomProfileItem] search_room_profile_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomProfile in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomProfile table
+
+try:
+    # 
+    api_response = api_instance.search_room_profile_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_profile_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomProfile table | 
+
+### Return type
+
+[**list[RoomProfileItem]**](RoomProfileItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -14859,6 +28960,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_room_rate_charge_xml**
+> list[RoomRateChargeItem] search_room_rate_charge_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomRateCharge in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomRateCharge table
+
+try:
+    # 
+    api_response = api_instance.search_room_rate_charge_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_rate_charge_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomRateCharge table | 
+
+### Return type
+
+[**list[RoomRateChargeItem]**](RoomRateChargeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_room_rate_room_type_location**
 > list[RoomRateRoomTypeLocationItem] search_room_rate_room_type_location(room_rate_room_type_location_id=room_rate_room_type_location_id)
 
@@ -14908,6 +29062,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_room_rate_room_type_location_xml**
+> list[RoomRateRoomTypeLocationItem] search_room_rate_room_type_location_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomRateRoomTypeLocation in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomRateRoomTypeLocation table
+
+try:
+    # 
+    api_response = api_instance.search_room_rate_room_type_location_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_rate_room_type_location_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomRateRoomTypeLocation table | 
+
+### Return type
+
+[**list[RoomRateRoomTypeLocationItem]**](RoomRateRoomTypeLocationItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -14965,6 +29172,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_room_rate_session_xml**
+> list[RoomRateSessionItem] search_room_rate_session_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomRateSession in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomRateSession table
+
+try:
+    # 
+    api_response = api_instance.search_room_rate_session_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_rate_session_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomRateSession table | 
+
+### Return type
+
+[**list[RoomRateSessionItem]**](RoomRateSessionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_room_rate_xml**
+> list[RoomRateItem] search_room_rate_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomRate in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomRate table
+
+try:
+    # 
+    api_response = api_instance.search_room_rate_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_rate_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomRate table | 
+
+### Return type
+
+[**list[RoomRateItem]**](RoomRateItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_room_sort_configuration**
 > list[RoomSortConfigurationItem] search_room_sort_configuration(room_sort_configuration_id=room_sort_configuration_id)
 
@@ -15014,6 +29327,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_room_sort_configuration_xml**
+> list[RoomSortConfigurationItem] search_room_sort_configuration_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomSortConfiguration in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomSortConfiguration table
+
+try:
+    # 
+    api_response = api_instance.search_room_sort_configuration_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_sort_configuration_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomSortConfiguration table | 
+
+### Return type
+
+[**list[RoomSortConfigurationItem]**](RoomSortConfigurationItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -15124,6 +29490,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_room_sort_profile_item_xml**
+> list[RoomSortProfileItemItem] search_room_sort_profile_item_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomSortProfileItem in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomSortProfileItem table
+
+try:
+    # 
+    api_response = api_instance.search_room_sort_profile_item_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_sort_profile_item_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomSortProfileItem table | 
+
+### Return type
+
+[**list[RoomSortProfileItemItem]**](RoomSortProfileItemItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_room_sort_profile_xml**
+> list[RoomSortProfileItem] search_room_sort_profile_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomSortProfile in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomSortProfile table
+
+try:
+    # 
+    api_response = api_instance.search_room_sort_profile_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_sort_profile_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomSortProfile table | 
+
+### Return type
+
+[**list[RoomSortProfileItem]**](RoomSortProfileItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_room_space**
 > list[RoomSpaceItem] search_room_space(room_space_id=room_space_id)
 
@@ -15230,6 +29702,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_room_space_closed_xml**
+> list[RoomSpaceClosedItem] search_room_space_closed_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomSpaceClosed in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomSpaceClosed table
+
+try:
+    # 
+    api_response = api_instance.search_room_space_closed_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_space_closed_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomSpaceClosed table | 
+
+### Return type
+
+[**list[RoomSpaceClosedItem]**](RoomSpaceClosedItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_room_space_detail**
 > list[RoomSpaceDetailItem] search_room_space_detail(room_space_detail_id=room_space_detail_id)
 
@@ -15279,6 +29804,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_room_space_detail_xml**
+> list[RoomSpaceDetailItem] search_room_space_detail_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomSpaceDetail in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomSpaceDetail table
+
+try:
+    # 
+    api_response = api_instance.search_room_space_detail_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_space_detail_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomSpaceDetail table | 
+
+### Return type
+
+[**list[RoomSpaceDetailItem]**](RoomSpaceDetailItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -15389,6 +29967,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_room_space_inventory_condition_xml**
+> list[RoomSpaceInventoryConditionItem] search_room_space_inventory_condition_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomSpaceInventoryCondition in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomSpaceInventoryCondition table
+
+try:
+    # 
+    api_response = api_instance.search_room_space_inventory_condition_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_space_inventory_condition_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomSpaceInventoryCondition table | 
+
+### Return type
+
+[**list[RoomSpaceInventoryConditionItem]**](RoomSpaceInventoryConditionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_room_space_inventory_inspection**
 > list[RoomSpaceInventoryInspectionItem] search_room_space_inventory_inspection(room_space_inventory_inspection_id=room_space_inventory_inspection_id)
 
@@ -15495,6 +30126,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_room_space_inventory_inspection_item_xml**
+> list[RoomSpaceInventoryInspectionItemItem] search_room_space_inventory_inspection_item_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomSpaceInventoryInspectionItem in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomSpaceInventoryInspectionItem table
+
+try:
+    # 
+    api_response = api_instance.search_room_space_inventory_inspection_item_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_space_inventory_inspection_item_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomSpaceInventoryInspectionItem table | 
+
+### Return type
+
+[**list[RoomSpaceInventoryInspectionItemItem]**](RoomSpaceInventoryInspectionItemItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_room_space_inventory_inspection_run**
 > list[RoomSpaceInventoryInspectionRunItem] search_room_space_inventory_inspection_run(room_space_inventory_inspection_run_id=room_space_inventory_inspection_run_id)
 
@@ -15544,6 +30228,112 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_room_space_inventory_inspection_run_xml**
+> list[RoomSpaceInventoryInspectionRunItem] search_room_space_inventory_inspection_run_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomSpaceInventoryInspectionRun in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomSpaceInventoryInspectionRun table
+
+try:
+    # 
+    api_response = api_instance.search_room_space_inventory_inspection_run_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_space_inventory_inspection_run_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomSpaceInventoryInspectionRun table | 
+
+### Return type
+
+[**list[RoomSpaceInventoryInspectionRunItem]**](RoomSpaceInventoryInspectionRunItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_room_space_inventory_inspection_xml**
+> list[RoomSpaceInventoryInspectionItem] search_room_space_inventory_inspection_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomSpaceInventoryInspection in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomSpaceInventoryInspection table
+
+try:
+    # 
+    api_response = api_instance.search_room_space_inventory_inspection_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_space_inventory_inspection_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomSpaceInventoryInspection table | 
+
+### Return type
+
+[**list[RoomSpaceInventoryInspectionItem]**](RoomSpaceInventoryInspectionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -15601,6 +30391,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_room_space_inventory_status_xml**
+> list[RoomSpaceInventoryStatusItem] search_room_space_inventory_status_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomSpaceInventoryStatus in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomSpaceInventoryStatus table
+
+try:
+    # 
+    api_response = api_instance.search_room_space_inventory_status_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_space_inventory_status_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomSpaceInventoryStatus table | 
+
+### Return type
+
+[**list[RoomSpaceInventoryStatusItem]**](RoomSpaceInventoryStatusItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_room_space_inventory_type**
 > list[RoomSpaceInventoryTypeItem] search_room_space_inventory_type(room_space_inventory_type_id=room_space_inventory_type_id)
 
@@ -15650,6 +30493,112 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_room_space_inventory_type_xml**
+> list[RoomSpaceInventoryTypeItem] search_room_space_inventory_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomSpaceInventoryType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomSpaceInventoryType table
+
+try:
+    # 
+    api_response = api_instance.search_room_space_inventory_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_space_inventory_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomSpaceInventoryType table | 
+
+### Return type
+
+[**list[RoomSpaceInventoryTypeItem]**](RoomSpaceInventoryTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_room_space_inventory_xml**
+> list[RoomSpaceInventoryItem] search_room_space_inventory_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomSpaceInventory in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomSpaceInventory table
+
+try:
+    # 
+    api_response = api_instance.search_room_space_inventory_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_space_inventory_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomSpaceInventory table | 
+
+### Return type
+
+[**list[RoomSpaceInventoryItem]**](RoomSpaceInventoryItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -15760,6 +30709,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_room_space_key_booking_xml**
+> list[RoomSpaceKeyBookingItem] search_room_space_key_booking_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomSpaceKeyBooking in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomSpaceKeyBooking table
+
+try:
+    # 
+    api_response = api_instance.search_room_space_key_booking_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_space_key_booking_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomSpaceKeyBooking table | 
+
+### Return type
+
+[**list[RoomSpaceKeyBookingItem]**](RoomSpaceKeyBookingItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_room_space_key_type**
 > list[RoomSpaceKeyTypeItem] search_room_space_key_type(room_space_key_type_id=room_space_key_type_id)
 
@@ -15809,6 +30811,112 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_room_space_key_type_xml**
+> list[RoomSpaceKeyTypeItem] search_room_space_key_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomSpaceKeyType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomSpaceKeyType table
+
+try:
+    # 
+    api_response = api_instance.search_room_space_key_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_space_key_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomSpaceKeyType table | 
+
+### Return type
+
+[**list[RoomSpaceKeyTypeItem]**](RoomSpaceKeyTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_room_space_key_xml**
+> list[RoomSpaceKeyItem] search_room_space_key_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomSpaceKey in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomSpaceKey table
+
+try:
+    # 
+    api_response = api_instance.search_room_space_key_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_space_key_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomSpaceKey table | 
+
+### Return type
+
+[**list[RoomSpaceKeyItem]**](RoomSpaceKeyItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -15919,6 +31027,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_room_space_maintenance_category_xml**
+> list[RoomSpaceMaintenanceCategoryItem] search_room_space_maintenance_category_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomSpaceMaintenanceCategory in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomSpaceMaintenanceCategory table
+
+try:
+    # 
+    api_response = api_instance.search_room_space_maintenance_category_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_space_maintenance_category_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomSpaceMaintenanceCategory table | 
+
+### Return type
+
+[**list[RoomSpaceMaintenanceCategoryItem]**](RoomSpaceMaintenanceCategoryItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_room_space_maintenance_item**
 > list[RoomSpaceMaintenanceItemItem] search_room_space_maintenance_item(room_space_maintenance_item_id=room_space_maintenance_item_id)
 
@@ -15968,6 +31129,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_room_space_maintenance_item_xml**
+> list[RoomSpaceMaintenanceItemItem] search_room_space_maintenance_item_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomSpaceMaintenanceItem in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomSpaceMaintenanceItem table
+
+try:
+    # 
+    api_response = api_instance.search_room_space_maintenance_item_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_space_maintenance_item_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomSpaceMaintenanceItem table | 
+
+### Return type
+
+[**list[RoomSpaceMaintenanceItemItem]**](RoomSpaceMaintenanceItemItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -16025,6 +31239,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_room_space_maintenance_job_action_xml**
+> list[RoomSpaceMaintenanceJobActionItem] search_room_space_maintenance_job_action_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomSpaceMaintenanceJobAction in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomSpaceMaintenanceJobAction table
+
+try:
+    # 
+    api_response = api_instance.search_room_space_maintenance_job_action_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_space_maintenance_job_action_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomSpaceMaintenanceJobAction table | 
+
+### Return type
+
+[**list[RoomSpaceMaintenanceJobActionItem]**](RoomSpaceMaintenanceJobActionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_room_space_maintenance_materials**
 > list[RoomSpaceMaintenanceMaterialsItem] search_room_space_maintenance_materials(room_space_maintenance_materials_id=room_space_maintenance_materials_id)
 
@@ -16074,6 +31341,112 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_room_space_maintenance_materials_xml**
+> list[RoomSpaceMaintenanceMaterialsItem] search_room_space_maintenance_materials_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomSpaceMaintenanceMaterials in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomSpaceMaintenanceMaterials table
+
+try:
+    # 
+    api_response = api_instance.search_room_space_maintenance_materials_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_space_maintenance_materials_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomSpaceMaintenanceMaterials table | 
+
+### Return type
+
+[**list[RoomSpaceMaintenanceMaterialsItem]**](RoomSpaceMaintenanceMaterialsItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_room_space_maintenance_xml**
+> list[RoomSpaceMaintenanceItem] search_room_space_maintenance_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomSpaceMaintenance in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomSpaceMaintenance table
+
+try:
+    # 
+    api_response = api_instance.search_room_space_maintenance_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_space_maintenance_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomSpaceMaintenance table | 
+
+### Return type
+
+[**list[RoomSpaceMaintenanceItem]**](RoomSpaceMaintenanceItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -16184,6 +31557,165 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_room_space_swap_preference_xml**
+> list[RoomSpaceSwapPreferenceItem] search_room_space_swap_preference_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomSpaceSwapPreference in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomSpaceSwapPreference table
+
+try:
+    # 
+    api_response = api_instance.search_room_space_swap_preference_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_space_swap_preference_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomSpaceSwapPreference table | 
+
+### Return type
+
+[**list[RoomSpaceSwapPreferenceItem]**](RoomSpaceSwapPreferenceItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_room_space_swap_xml**
+> list[RoomSpaceSwapItem] search_room_space_swap_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomSpaceSwap in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomSpaceSwap table
+
+try:
+    # 
+    api_response = api_instance.search_room_space_swap_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_space_swap_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomSpaceSwap table | 
+
+### Return type
+
+[**list[RoomSpaceSwapItem]**](RoomSpaceSwapItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_room_space_xml**
+> list[RoomSpaceItem] search_room_space_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomSpace in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomSpace table
+
+try:
+    # 
+    api_response = api_instance.search_room_space_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_space_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomSpace table | 
+
+### Return type
+
+[**list[RoomSpaceItem]**](RoomSpaceItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_room_term_type**
 > list[RoomTermTypeItem] search_room_term_type(room_term_type_id=room_term_type_id)
 
@@ -16233,6 +31765,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_room_term_type_xml**
+> list[RoomTermTypeItem] search_room_term_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomTermType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomTermType table
+
+try:
+    # 
+    api_response = api_instance.search_room_term_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_term_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomTermType table | 
+
+### Return type
+
+[**list[RoomTermTypeItem]**](RoomTermTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -16343,6 +31928,165 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_room_type_capacity_xml**
+> list[RoomTypeCapacityItem] search_room_type_capacity_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomTypeCapacity in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomTypeCapacity table
+
+try:
+    # 
+    api_response = api_instance.search_room_type_capacity_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_type_capacity_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomTypeCapacity table | 
+
+### Return type
+
+[**list[RoomTypeCapacityItem]**](RoomTypeCapacityItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_room_type_xml**
+> list[RoomTypeItem] search_room_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoomType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoomType table
+
+try:
+    # 
+    api_response = api_instance.search_room_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoomType table | 
+
+### Return type
+
+[**list[RoomTypeItem]**](RoomTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_room_xml**
+> list[RoomItem] search_room_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Room in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Room table
+
+try:
+    # 
+    api_response = api_instance.search_room_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_room_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Room table | 
+
+### Return type
+
+[**list[RoomItem]**](RoomItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_roommate_group**
 > list[RoommateGroupItem] search_roommate_group(roommate_group_id=roommate_group_id)
 
@@ -16449,6 +32193,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_roommate_group_mandatory_profile_xml**
+> list[RoommateGroupMandatoryProfileItem] search_roommate_group_mandatory_profile_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoommateGroupMandatoryProfile in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoommateGroupMandatoryProfile table
+
+try:
+    # 
+    api_response = api_instance.search_roommate_group_mandatory_profile_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_roommate_group_mandatory_profile_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoommateGroupMandatoryProfile table | 
+
+### Return type
+
+[**list[RoommateGroupMandatoryProfileItem]**](RoommateGroupMandatoryProfileItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_roommate_group_request**
 > list[RoommateGroupRequestItem] search_roommate_group_request(roommate_group_request_id=roommate_group_request_id)
 
@@ -16498,6 +32295,112 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_roommate_group_request_xml**
+> list[RoommateGroupRequestItem] search_roommate_group_request_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoommateGroupRequest in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoommateGroupRequest table
+
+try:
+    # 
+    api_response = api_instance.search_roommate_group_request_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_roommate_group_request_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoommateGroupRequest table | 
+
+### Return type
+
+[**list[RoommateGroupRequestItem]**](RoommateGroupRequestItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_roommate_group_xml**
+> list[RoommateGroupItem] search_roommate_group_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a RoommateGroup in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the RoommateGroup table
+
+try:
+    # 
+    api_response = api_instance.search_roommate_group_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_roommate_group_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the RoommateGroup table | 
+
+### Return type
+
+[**list[RoommateGroupItem]**](RoommateGroupItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -16608,6 +32511,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_saved_list_item_xml**
+> list[SavedListItemItem] search_saved_list_item_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a SavedListItem in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the SavedListItem table
+
+try:
+    # 
+    api_response = api_instance.search_saved_list_item_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_saved_list_item_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the SavedListItem table | 
+
+### Return type
+
+[**list[SavedListItemItem]**](SavedListItemItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_saved_list_xml**
+> list[SavedListItem] search_saved_list_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a SavedList in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the SavedList table
+
+try:
+    # 
+    api_response = api_instance.search_saved_list_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_saved_list_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the SavedList table | 
+
+### Return type
+
+[**list[SavedListItem]**](SavedListItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_school**
 > list[SchoolItem] search_school(school_id=school_id)
 
@@ -16657,6 +32666,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_school_xml**
+> list[SchoolItem] search_school_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a School in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the School table
+
+try:
+    # 
+    api_response = api_instance.search_school_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_school_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the School table | 
+
+### Return type
+
+[**list[SchoolItem]**](SchoolItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -16714,6 +32776,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_sdas_charge_rate_xml**
+> list[SDASChargeRateItem] search_sdas_charge_rate_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a SDASChargeRate in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the SDASChargeRate table
+
+try:
+    # 
+    api_response = api_instance.search_sdas_charge_rate_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_sdas_charge_rate_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the SDASChargeRate table | 
+
+### Return type
+
+[**list[SDASChargeRateItem]**](SDASChargeRateItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_sdas_data**
 > list[SDASDataItem] search_sdas_data(sdas_data_id=sdas_data_id)
 
@@ -16763,6 +32878,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_sdas_data_xml**
+> list[SDASDataItem] search_sdas_data_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a SDASData in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the SDASData table
+
+try:
+    # 
+    api_response = api_instance.search_sdas_data_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_sdas_data_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the SDASData table | 
+
+### Return type
+
+[**list[SDASDataItem]**](SDASDataItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -16820,6 +32988,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_setting_xml**
+> list[SettingItem] search_setting_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Setting in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Setting table
+
+try:
+    # 
+    api_response = api_instance.search_setting_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_setting_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Setting table | 
+
+### Return type
+
+[**list[SettingItem]**](SettingItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_shipping_type**
 > list[ShippingTypeItem] search_shipping_type(shipping_type_id=shipping_type_id)
 
@@ -16869,6 +33090,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_shipping_type_xml**
+> list[ShippingTypeItem] search_shipping_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ShippingType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ShippingType table
+
+try:
+    # 
+    api_response = api_instance.search_shipping_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_shipping_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ShippingType table | 
+
+### Return type
+
+[**list[ShippingTypeItem]**](ShippingTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -16979,6 +33253,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_shopping_cart_item_hold_xml**
+> list[ShoppingCartItemHoldItem] search_shopping_cart_item_hold_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ShoppingCartItemHold in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ShoppingCartItemHold table
+
+try:
+    # 
+    api_response = api_instance.search_shopping_cart_item_hold_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_shopping_cart_item_hold_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ShoppingCartItemHold table | 
+
+### Return type
+
+[**list[ShoppingCartItemHoldItem]**](ShoppingCartItemHoldItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_shopping_cart_item_xml**
+> list[ShoppingCartItemItem] search_shopping_cart_item_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ShoppingCartItem in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ShoppingCartItem table
+
+try:
+    # 
+    api_response = api_instance.search_shopping_cart_item_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_shopping_cart_item_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ShoppingCartItem table | 
+
+### Return type
+
+[**list[ShoppingCartItemItem]**](ShoppingCartItemItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_staff**
 > list[StaffItem] search_staff(staff_id=staff_id)
 
@@ -17028,6 +33408,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_staff_xml**
+> list[StaffItem] search_staff_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Staff in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Staff table
+
+try:
+    # 
+    api_response = api_instance.search_staff_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_staff_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Staff table | 
+
+### Return type
+
+[**list[StaffItem]**](StaffItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -17191,6 +33624,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_survey_question_response_xml**
+> list[SurveyQuestionResponseItem] search_survey_question_response_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a SurveyQuestionResponse in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the SurveyQuestionResponse table
+
+try:
+    # 
+    api_response = api_instance.search_survey_question_response_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_survey_question_response_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the SurveyQuestionResponse table | 
+
+### Return type
+
+[**list[SurveyQuestionResponseItem]**](SurveyQuestionResponseItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_survey_question_xml**
+> list[SurveyQuestionItem] search_survey_question_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a SurveyQuestion in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the SurveyQuestion table
+
+try:
+    # 
+    api_response = api_instance.search_survey_question_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_survey_question_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the SurveyQuestion table | 
+
+### Return type
+
+[**list[SurveyQuestionItem]**](SurveyQuestionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_survey_response**
 > list[SurveyResponseItem] search_survey_response(survey_response_id=survey_response_id)
 
@@ -17240,6 +33779,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_survey_response_xml**
+> list[SurveyResponseItem] search_survey_response_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a SurveyResponse in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the SurveyResponse table
+
+try:
+    # 
+    api_response = api_instance.search_survey_response_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_survey_response_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the SurveyResponse table | 
+
+### Return type
+
+[**list[SurveyResponseItem]**](SurveyResponseItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -17297,6 +33889,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_survey_type_xml**
+> list[SurveyTypeItem] search_survey_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a SurveyType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the SurveyType table
+
+try:
+    # 
+    api_response = api_instance.search_survey_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_survey_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the SurveyType table | 
+
+### Return type
+
+[**list[SurveyTypeItem]**](SurveyTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_survey_xml**
+> list[SurveyItem] search_survey_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Survey in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Survey table
+
+try:
+    # 
+    api_response = api_instance.search_survey_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_survey_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Survey table | 
+
+### Return type
+
+[**list[SurveyItem]**](SurveyItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_system_activity**
 > list[SystemActivityItem] search_system_activity(system_activity_id=system_activity_id)
 
@@ -17346,6 +34044,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_system_activity_xml**
+> list[SystemActivityItem] search_system_activity_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a SystemActivity in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the SystemActivity table
+
+try:
+    # 
+    api_response = api_instance.search_system_activity_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_system_activity_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the SystemActivity table | 
+
+### Return type
+
+[**list[SystemActivityItem]**](SystemActivityItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -17456,6 +34207,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_task_runner_history_xml**
+> list[TaskRunnerHistoryItem] search_task_runner_history_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a TaskRunnerHistory in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the TaskRunnerHistory table
+
+try:
+    # 
+    api_response = api_instance.search_task_runner_history_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_task_runner_history_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the TaskRunnerHistory table | 
+
+### Return type
+
+[**list[TaskRunnerHistoryItem]**](TaskRunnerHistoryItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_task_status**
 > list[TaskStatusItem] search_task_status(task_status_id=task_status_id)
 
@@ -17505,6 +34309,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_task_status_xml**
+> list[TaskStatusItem] search_task_status_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a TaskStatus in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the TaskStatus table
+
+try:
+    # 
+    api_response = api_instance.search_task_status_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_task_status_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the TaskStatus table | 
+
+### Return type
+
+[**list[TaskStatusItem]**](TaskStatusItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -17615,6 +34472,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_task_template_item_xml**
+> list[TaskTemplateItemItem] search_task_template_item_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a TaskTemplateItem in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the TaskTemplateItem table
+
+try:
+    # 
+    api_response = api_instance.search_task_template_item_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_task_template_item_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the TaskTemplateItem table | 
+
+### Return type
+
+[**list[TaskTemplateItemItem]**](TaskTemplateItemItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_task_template_xml**
+> list[TaskTemplateItem] search_task_template_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a TaskTemplate in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the TaskTemplate table
+
+try:
+    # 
+    api_response = api_instance.search_task_template_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_task_template_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the TaskTemplate table | 
+
+### Return type
+
+[**list[TaskTemplateItem]**](TaskTemplateItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_task_type**
 > list[TaskTypeItem] search_task_type(task_type_id=task_type_id)
 
@@ -17664,6 +34627,112 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_task_type_xml**
+> list[TaskTypeItem] search_task_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a TaskType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the TaskType table
+
+try:
+    # 
+    api_response = api_instance.search_task_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_task_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the TaskType table | 
+
+### Return type
+
+[**list[TaskTypeItem]**](TaskTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_task_xml**
+> list[TaskItem] search_task_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Task in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Task table
+
+try:
+    # 
+    api_response = api_instance.search_task_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_task_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Task table | 
+
+### Return type
+
+[**list[TaskItem]**](TaskItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -17774,6 +34843,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_template_permission_xml**
+> list[TemplatePermissionItem] search_template_permission_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a TemplatePermission in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the TemplatePermission table
+
+try:
+    # 
+    api_response = api_instance.search_template_permission_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_template_permission_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the TemplatePermission table | 
+
+### Return type
+
+[**list[TemplatePermissionItem]**](TemplatePermissionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_template_xml**
+> list[TemplateItem] search_template_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Template in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Template table
+
+try:
+    # 
+    api_response = api_instance.search_template_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_template_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Template table | 
+
+### Return type
+
+[**list[TemplateItem]**](TemplateItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_term**
 > list[TermItem] search_term(term_id=term_id)
 
@@ -17876,6 +35051,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_term_rule_xml**
+> list[TermRuleItem] search_term_rule_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a TermRule in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the TermRule table
+
+try:
+    # 
+    api_response = api_instance.search_term_rule_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_term_rule_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the TermRule table | 
+
+### Return type
+
+[**list[TermRuleItem]**](TermRuleItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -17986,6 +35214,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_term_session_free_xml**
+> list[TermSessionFreeItem] search_term_session_free_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a TermSessionFree in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the TermSessionFree table
+
+try:
+    # 
+    api_response = api_instance.search_term_session_free_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_term_session_free_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the TermSessionFree table | 
+
+### Return type
+
+[**list[TermSessionFreeItem]**](TermSessionFreeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_term_session_xml**
+> list[TermSessionItem] search_term_session_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a TermSession in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the TermSession table
+
+try:
+    # 
+    api_response = api_instance.search_term_session_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_term_session_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the TermSession table | 
+
+### Return type
+
+[**list[TermSessionItem]**](TermSessionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_term_type**
 > list[TermTypeItem] search_term_type(term_type_id=term_type_id)
 
@@ -18035,6 +35369,112 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_term_type_xml**
+> list[TermTypeItem] search_term_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a TermType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the TermType table
+
+try:
+    # 
+    api_response = api_instance.search_term_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_term_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the TermType table | 
+
+### Return type
+
+[**list[TermTypeItem]**](TermTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_term_xml**
+> list[TermItem] search_term_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Term in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Term table
+
+try:
+    # 
+    api_response = api_instance.search_term_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_term_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Term table | 
+
+### Return type
+
+[**list[TermItem]**](TermItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -18092,6 +35532,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_time_slot_xml**
+> list[TimeSlotItem] search_time_slot_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a TimeSlot in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the TimeSlot table
+
+try:
+    # 
+    api_response = api_instance.search_time_slot_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_time_slot_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the TimeSlot table | 
+
+### Return type
+
+[**list[TimeSlotItem]**](TimeSlotItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_title**
 > list[TitleItem] search_title(title_id=title_id)
 
@@ -18145,6 +35638,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_title_xml**
+> list[TitleItem] search_title_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Title in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Title table
+
+try:
+    # 
+    api_response = api_instance.search_title_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_title_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Title table | 
+
+### Return type
+
+[**list[TitleItem]**](TitleItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_total**
 > list[TotalItem] search_total(total_id=total_id)
 
@@ -18194,6 +35740,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_total_xml**
+> list[TotalItem] search_total_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Total in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Total table
+
+try:
+    # 
+    api_response = api_instance.search_total_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_total_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Total table | 
+
+### Return type
+
+[**list[TotalItem]**](TotalItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -18357,6 +35956,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_transaction_dispute_custom_field_xml**
+> list[TransactionDisputeCustomFieldItem] search_transaction_dispute_custom_field_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a TransactionDisputeCustomField in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the TransactionDisputeCustomField table
+
+try:
+    # 
+    api_response = api_instance.search_transaction_dispute_custom_field_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_transaction_dispute_custom_field_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the TransactionDisputeCustomField table | 
+
+### Return type
+
+[**list[TransactionDisputeCustomFieldItem]**](TransactionDisputeCustomFieldItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_transaction_dispute_item**
 > list[TransactionDisputeItemItem] search_transaction_dispute_item(transaction_dispute_item_id=transaction_dispute_item_id)
 
@@ -18406,6 +36058,112 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_transaction_dispute_item_xml**
+> list[TransactionDisputeItemItem] search_transaction_dispute_item_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a TransactionDisputeItem in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the TransactionDisputeItem table
+
+try:
+    # 
+    api_response = api_instance.search_transaction_dispute_item_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_transaction_dispute_item_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the TransactionDisputeItem table | 
+
+### Return type
+
+[**list[TransactionDisputeItemItem]**](TransactionDisputeItemItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_transaction_dispute_xml**
+> list[TransactionDisputeItem] search_transaction_dispute_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a TransactionDispute in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the TransactionDispute table
+
+try:
+    # 
+    api_response = api_instance.search_transaction_dispute_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_transaction_dispute_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the TransactionDispute table | 
+
+### Return type
+
+[**list[TransactionDisputeItem]**](TransactionDisputeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -18516,6 +36274,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_transaction_link_item_xml**
+> list[TransactionLinkItemItem] search_transaction_link_item_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a TransactionLinkItem in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the TransactionLinkItem table
+
+try:
+    # 
+    api_response = api_instance.search_transaction_link_item_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_transaction_link_item_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the TransactionLinkItem table | 
+
+### Return type
+
+[**list[TransactionLinkItemItem]**](TransactionLinkItemItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_transaction_link_xml**
+> list[TransactionLinkItem] search_transaction_link_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a TransactionLink in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the TransactionLink table
+
+try:
+    # 
+    api_response = api_instance.search_transaction_link_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_transaction_link_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the TransactionLink table | 
+
+### Return type
+
+[**list[TransactionLinkItem]**](TransactionLinkItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_transaction_tag**
 > list[TransactionTagItem] search_transaction_tag(transaction_tag_id=transaction_tag_id)
 
@@ -18565,6 +36429,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_transaction_tag_xml**
+> list[TransactionTagItem] search_transaction_tag_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a TransactionTag in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the TransactionTag table
+
+try:
+    # 
+    api_response = api_instance.search_transaction_tag_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_transaction_tag_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the TransactionTag table | 
+
+### Return type
+
+[**list[TransactionTagItem]**](TransactionTagItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -18675,6 +36592,165 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_transaction_template_item_xml**
+> list[TransactionTemplateItemItem] search_transaction_template_item_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a TransactionTemplateItem in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the TransactionTemplateItem table
+
+try:
+    # 
+    api_response = api_instance.search_transaction_template_item_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_transaction_template_item_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the TransactionTemplateItem table | 
+
+### Return type
+
+[**list[TransactionTemplateItemItem]**](TransactionTemplateItemItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_transaction_template_xml**
+> list[TransactionTemplateItem] search_transaction_template_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a TransactionTemplate in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the TransactionTemplate table
+
+try:
+    # 
+    api_response = api_instance.search_transaction_template_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_transaction_template_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the TransactionTemplate table | 
+
+### Return type
+
+[**list[TransactionTemplateItem]**](TransactionTemplateItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_transaction_xml**
+> list[TransactionItem] search_transaction_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Transaction in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Transaction table
+
+try:
+    # 
+    api_response = api_instance.search_transaction_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_transaction_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Transaction table | 
+
+### Return type
+
+[**list[TransactionItem]**](TransactionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_visitor**
 > list[VisitorItem] search_visitor(visitor_id=visitor_id)
 
@@ -18781,6 +36857,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_visitor_type_xml**
+> list[VisitorTypeItem] search_visitor_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a VisitorType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the VisitorType table
+
+try:
+    # 
+    api_response = api_instance.search_visitor_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_visitor_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the VisitorType table | 
+
+### Return type
+
+[**list[VisitorTypeItem]**](VisitorTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_visitor_xml**
+> list[VisitorItem] search_visitor_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Visitor in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Visitor table
+
+try:
+    # 
+    api_response = api_instance.search_visitor_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_visitor_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Visitor table | 
+
+### Return type
+
+[**list[VisitorItem]**](VisitorItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_vm_data**
 > list[VMDataItem] search_vm_data(vm_data_id=vm_data_id)
 
@@ -18830,6 +37012,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_vm_data_xml**
+> list[VMDataItem] search_vm_data_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a VMData in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the VMData table
+
+try:
+    # 
+    api_response = api_instance.search_vm_data_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_vm_data_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the VMData table | 
+
+### Return type
+
+[**list[VMDataItem]**](VMDataItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -18940,6 +37175,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_vm_group_extension_xml**
+> list[VMGroupExtensionItem] search_vm_group_extension_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a VMGroupExtension in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the VMGroupExtension table
+
+try:
+    # 
+    api_response = api_instance.search_vm_group_extension_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_vm_group_extension_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the VMGroupExtension table | 
+
+### Return type
+
+[**list[VMGroupExtensionItem]**](VMGroupExtensionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_vm_group_mail_box**
 > list[VMGroupMailBoxItem] search_vm_group_mail_box(vm_group_mail_box_id=vm_group_mail_box_id)
 
@@ -18989,6 +37277,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_vm_group_mail_box_xml**
+> list[VMGroupMailBoxItem] search_vm_group_mail_box_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a VMGroupMailBox in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the VMGroupMailBox table
+
+try:
+    # 
+    api_response = api_instance.search_vm_group_mail_box_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_vm_group_mail_box_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the VMGroupMailBox table | 
+
+### Return type
+
+[**list[VMGroupMailBoxItem]**](VMGroupMailBoxItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -19046,6 +37387,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_vm_group_message_xml**
+> list[VMGroupMessageItem] search_vm_group_message_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a VMGroupMessage in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the VMGroupMessage table
+
+try:
+    # 
+    api_response = api_instance.search_vm_group_message_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_vm_group_message_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the VMGroupMessage table | 
+
+### Return type
+
+[**list[VMGroupMessageItem]**](VMGroupMessageItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_vm_group_xml**
+> list[VMGroupItem] search_vm_group_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a VMGroup in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the VMGroup table
+
+try:
+    # 
+    api_response = api_instance.search_vm_group_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_vm_group_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the VMGroup table | 
+
+### Return type
+
+[**list[VMGroupItem]**](VMGroupItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_vm_line_usage**
 > list[VMLineUsageItem] search_vm_line_usage(vm_line_usage_id=vm_line_usage_id)
 
@@ -19095,6 +37542,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_vm_line_usage_xml**
+> list[VMLineUsageItem] search_vm_line_usage_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a VMLineUsage in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the VMLineUsage table
+
+try:
+    # 
+    api_response = api_instance.search_vm_line_usage_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_vm_line_usage_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the VMLineUsage table | 
+
+### Return type
+
+[**list[VMLineUsageItem]**](VMLineUsageItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -19205,6 +37705,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_vm_mail_box_type_xml**
+> list[VMMailBoxTypeItem] search_vm_mail_box_type_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a VMMailBoxType in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the VMMailBoxType table
+
+try:
+    # 
+    api_response = api_instance.search_vm_mail_box_type_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_vm_mail_box_type_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the VMMailBoxType table | 
+
+### Return type
+
+[**list[VMMailBoxTypeItem]**](VMMailBoxTypeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_vm_mail_box_xml**
+> list[VMMailBoxItem] search_vm_mail_box_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a VMMailBox in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the VMMailBox table
+
+try:
+    # 
+    api_response = api_instance.search_vm_mail_box_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_vm_mail_box_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the VMMailBox table | 
+
+### Return type
+
+[**list[VMMailBoxItem]**](VMMailBoxItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_vm_message**
 > list[VMMessageItem] search_vm_message(vm_message_id=vm_message_id)
 
@@ -19311,6 +37917,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_vm_message_lamp_xml**
+> list[VMMessageLampItem] search_vm_message_lamp_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a VMMessageLamp in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the VMMessageLamp table
+
+try:
+    # 
+    api_response = api_instance.search_vm_message_lamp_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_vm_message_lamp_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the VMMessageLamp table | 
+
+### Return type
+
+[**list[VMMessageLampItem]**](VMMessageLampItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_vm_message_xml**
+> list[VMMessageItem] search_vm_message_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a VMMessage in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the VMMessage table
+
+try:
+    # 
+    api_response = api_instance.search_vm_message_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_vm_message_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the VMMessage table | 
+
+### Return type
+
+[**list[VMMessageItem]**](VMMessageItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_vmmci**
 > list[VMMCIItem] search_vmmci(vmmciid=vmmciid)
 
@@ -19360,6 +38072,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_vmmcixml**
+> list[VMMCIItem] search_vmmcixml(query)
+
+
+
+By passing in the appropriate xml, you can search for a VMMCI in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the VMMCI table
+
+try:
+    # 
+    api_response = api_instance.search_vmmcixml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_vmmcixml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the VMMCI table | 
+
+### Return type
+
+[**list[VMMCIItem]**](VMMCIItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -19470,6 +38235,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_wait_list_classification_xml**
+> list[WaitListClassificationItem] search_wait_list_classification_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a WaitListClassification in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the WaitListClassification table
+
+try:
+    # 
+    api_response = api_instance.search_wait_list_classification_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_wait_list_classification_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the WaitListClassification table | 
+
+### Return type
+
+[**list[WaitListClassificationItem]**](WaitListClassificationItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_wait_list_entry_application**
 > list[WaitListEntryApplicationItem] search_wait_list_entry_application(wait_list_entry_application_id=wait_list_entry_application_id)
 
@@ -19519,6 +38337,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_wait_list_entry_application_xml**
+> list[WaitListEntryApplicationItem] search_wait_list_entry_application_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a WaitListEntryApplication in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the WaitListEntryApplication table
+
+try:
+    # 
+    api_response = api_instance.search_wait_list_entry_application_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_wait_list_entry_application_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the WaitListEntryApplication table | 
+
+### Return type
+
+[**list[WaitListEntryApplicationItem]**](WaitListEntryApplicationItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -19576,6 +38447,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_wait_list_profile_xml**
+> list[WaitListProfileItem] search_wait_list_profile_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a WaitListProfile in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the WaitListProfile table
+
+try:
+    # 
+    api_response = api_instance.search_wait_list_profile_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_wait_list_profile_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the WaitListProfile table | 
+
+### Return type
+
+[**list[WaitListProfileItem]**](WaitListProfileItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_wait_list_room_space**
 > list[WaitListRoomSpaceItem] search_wait_list_room_space(wait_list_room_space_id=wait_list_room_space_id)
 
@@ -19625,6 +38549,112 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_wait_list_room_space_xml**
+> list[WaitListRoomSpaceItem] search_wait_list_room_space_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a WaitListRoomSpace in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the WaitListRoomSpace table
+
+try:
+    # 
+    api_response = api_instance.search_wait_list_room_space_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_wait_list_room_space_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the WaitListRoomSpace table | 
+
+### Return type
+
+[**list[WaitListRoomSpaceItem]**](WaitListRoomSpaceItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_wait_list_xml**
+> list[WaitListItem] search_wait_list_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a WaitList in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the WaitList table
+
+try:
+    # 
+    api_response = api_instance.search_wait_list_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_wait_list_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the WaitList table | 
+
+### Return type
+
+[**list[WaitListItem]**](WaitListItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -19682,6 +38712,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_web_block_xml**
+> list[WebBlockItem] search_web_block_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a WebBlock in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the WebBlock table
+
+try:
+    # 
+    api_response = api_instance.search_web_block_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_web_block_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the WebBlock table | 
+
+### Return type
+
+[**list[WebBlockItem]**](WebBlockItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_web_control**
 > list[WebControlItem] search_web_control(web_control_id=web_control_id)
 
@@ -19731,6 +38814,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_web_control_xml**
+> list[WebControlItem] search_web_control_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a WebControl in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the WebControl table
+
+try:
+    # 
+    api_response = api_instance.search_web_control_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_web_control_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the WebControl table | 
+
+### Return type
+
+[**list[WebControlItem]**](WebControlItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -19788,6 +38924,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_web_email_text_xml**
+> list[WebEmailTextItem] search_web_email_text_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a WebEmailText in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the WebEmailText table
+
+try:
+    # 
+    api_response = api_instance.search_web_email_text_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_web_email_text_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the WebEmailText table | 
+
+### Return type
+
+[**list[WebEmailTextItem]**](WebEmailTextItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_web_field**
 > list[WebFieldItem] search_web_field(web_field_id=web_field_id)
 
@@ -19841,6 +39030,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_web_field_xml**
+> list[WebFieldItem] search_web_field_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a WebField in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the WebField table
+
+try:
+    # 
+    api_response = api_instance.search_web_field_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_web_field_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the WebField table | 
+
+### Return type
+
+[**list[WebFieldItem]**](WebFieldItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_web_log**
 > list[WebLogItem] search_web_log(web_log_id=web_log_id)
 
@@ -19890,6 +39132,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_web_log_xml**
+> list[WebLogItem] search_web_log_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a WebLog in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the WebLog table
+
+try:
+    # 
+    api_response = api_instance.search_web_log_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_web_log_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the WebLog table | 
+
+### Return type
+
+[**list[WebLogItem]**](WebLogItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -20000,6 +39295,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_web_menu_classification_xml**
+> list[WebMenuClassificationItem] search_web_menu_classification_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a WebMenuClassification in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the WebMenuClassification table
+
+try:
+    # 
+    api_response = api_instance.search_web_menu_classification_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_web_menu_classification_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the WebMenuClassification table | 
+
+### Return type
+
+[**list[WebMenuClassificationItem]**](WebMenuClassificationItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_web_menu_xml**
+> list[WebMenuItem] search_web_menu_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a WebMenu in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the WebMenu table
+
+try:
+    # 
+    api_response = api_instance.search_web_menu_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_web_menu_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the WebMenu table | 
+
+### Return type
+
+[**list[WebMenuItem]**](WebMenuItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_web_module**
 > list[WebModuleItem] search_web_module(web_module_id=web_module_id)
 
@@ -20053,6 +39454,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_web_module_xml**
+> list[WebModuleItem] search_web_module_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a WebModule in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the WebModule table
+
+try:
+    # 
+    api_response = api_instance.search_web_module_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_web_module_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the WebModule table | 
+
+### Return type
+
+[**list[WebModuleItem]**](WebModuleItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_web_payment**
 > list[WebPaymentItem] search_web_payment(web_payment_id=web_payment_id)
 
@@ -20102,6 +39556,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_web_payment_xml**
+> list[WebPaymentItem] search_web_payment_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a WebPayment in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the WebPayment table
+
+try:
+    # 
+    api_response = api_instance.search_web_payment_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_web_payment_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the WebPayment table | 
+
+### Return type
+
+[**list[WebPaymentItem]**](WebPaymentItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -20212,6 +39719,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_web_rule_link_xml**
+> list[WebRuleLinkItem] search_web_rule_link_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a WebRuleLink in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the WebRuleLink table
+
+try:
+    # 
+    api_response = api_instance.search_web_rule_link_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_web_rule_link_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the WebRuleLink table | 
+
+### Return type
+
+[**list[WebRuleLinkItem]**](WebRuleLinkItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_web_rule_xml**
+> list[WebRuleItem] search_web_rule_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a WebRule in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the WebRule table
+
+try:
+    # 
+    api_response = api_instance.search_web_rule_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_web_rule_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the WebRule table | 
+
+### Return type
+
+[**list[WebRuleItem]**](WebRuleItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_web_section**
 > list[WebSectionItem] search_web_section(web_section_id=web_section_id)
 
@@ -20318,6 +39931,112 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_web_section_text_block_xml**
+> list[WebSectionTextBlockItem] search_web_section_text_block_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a WebSectionTextBlock in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the WebSectionTextBlock table
+
+try:
+    # 
+    api_response = api_instance.search_web_section_text_block_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_web_section_text_block_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the WebSectionTextBlock table | 
+
+### Return type
+
+[**list[WebSectionTextBlockItem]**](WebSectionTextBlockItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_web_section_xml**
+> list[WebSectionItem] search_web_section_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a WebSection in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the WebSection table
+
+try:
+    # 
+    api_response = api_instance.search_web_section_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_web_section_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the WebSection table | 
+
+### Return type
+
+[**list[WebSectionItem]**](WebSectionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_web_setting**
 > list[WebSettingItem] search_web_setting(web_setting_id=web_setting_id)
 
@@ -20367,6 +40086,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_web_setting_xml**
+> list[WebSettingItem] search_web_setting_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a WebSetting in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the WebSetting table
+
+try:
+    # 
+    api_response = api_instance.search_web_setting_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_web_setting_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the WebSetting table | 
+
+### Return type
+
+[**list[WebSettingItem]**](WebSettingItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -20424,6 +40196,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_web_site_xml**
+> list[WebSiteItem] search_web_site_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a WebSite in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the WebSite table
+
+try:
+    # 
+    api_response = api_instance.search_web_site_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_web_site_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the WebSite table | 
+
+### Return type
+
+[**list[WebSiteItem]**](WebSiteItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_web_transaction**
 > list[WebTransactionItem] search_web_transaction(web_transaction_id=web_transaction_id)
 
@@ -20473,6 +40298,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_web_transaction_xml**
+> list[WebTransactionItem] search_web_transaction_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a WebTransaction in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the WebTransaction table
+
+try:
+    # 
+    api_response = api_instance.search_web_transaction_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_web_transaction_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the WebTransaction table | 
+
+### Return type
+
+[**list[WebTransactionItem]**](WebTransactionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -20583,6 +40461,59 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_workflow_history_xml**
+> list[WorkflowHistoryItem] search_workflow_history_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a WorkflowHistory in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the WorkflowHistory table
+
+try:
+    # 
+    api_response = api_instance.search_workflow_history_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_workflow_history_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the WorkflowHistory table | 
+
+### Return type
+
+[**list[WorkflowHistoryItem]**](WorkflowHistoryItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_workflow_permission**
 > list[WorkflowPermissionItem] search_workflow_permission(workflow_permission_id=workflow_permission_id)
 
@@ -20632,6 +40563,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_workflow_permission_xml**
+> list[WorkflowPermissionItem] search_workflow_permission_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a WorkflowPermission in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the WorkflowPermission table
+
+try:
+    # 
+    api_response = api_instance.search_workflow_permission_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_workflow_permission_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the WorkflowPermission table | 
+
+### Return type
+
+[**list[WorkflowPermissionItem]**](WorkflowPermissionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -20742,6 +40726,165 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **search_workflow_step_permission_xml**
+> list[WorkflowStepPermissionItem] search_workflow_step_permission_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a WorkflowStepPermission in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the WorkflowStepPermission table
+
+try:
+    # 
+    api_response = api_instance.search_workflow_step_permission_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_workflow_step_permission_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the WorkflowStepPermission table | 
+
+### Return type
+
+[**list[WorkflowStepPermissionItem]**](WorkflowStepPermissionItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_workflow_step_xml**
+> list[WorkflowStepItem] search_workflow_step_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a WorkflowStep in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the WorkflowStep table
+
+try:
+    # 
+    api_response = api_instance.search_workflow_step_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_workflow_step_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the WorkflowStep table | 
+
+### Return type
+
+[**list[WorkflowStepItem]**](WorkflowStepItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_workflow_xml**
+> list[WorkflowItem] search_workflow_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a Workflow in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the Workflow table
+
+try:
+    # 
+    api_response = api_instance.search_workflow_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_workflow_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the Workflow table | 
+
+### Return type
+
+[**list[WorkflowItem]**](WorkflowItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **search_zip_post_code**
 > list[ZipPostCodeItem] search_zip_post_code(zip_post_code_id=zip_post_code_id)
 
@@ -20791,6 +40934,59 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json, application/xml
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **search_zip_post_code_xml**
+> list[ZipPostCodeItem] search_zip_post_code_xml(query)
+
+
+
+By passing in the appropriate xml, you can search for a ZipPostCode in the system
+
+### Example
+```python
+from __future__ import print_function
+import time
+import starrez_client
+from starrez_client.rest import ApiException
+from pprint import pprint
+
+# Configure HTTP basic authorization: UserSecurity
+configuration = starrez_client.Configuration()
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
+
+# create an instance of the API class
+api_instance = starrez_client.DefaultApi(starrez_client.ApiClient(configuration))
+query = 'query_example' # str | An XML query on the ZipPostCode table
+
+try:
+    # 
+    api_response = api_instance.search_zip_post_code_xml(query)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->search_zip_post_code_xml: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **query** | **str**| An XML query on the ZipPostCode table | 
+
+### Return type
+
+[**list[ZipPostCodeItem]**](ZipPostCodeItem.md)
+
+### Authorization
+
+[UserSecurity](../README.md#UserSecurity)
+
+### HTTP request headers
+
+ - **Content-Type**: application/xml
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

@@ -36,7 +36,7 @@ post:
       required: true
       description: An XML query on the WorkflowStepPermission table
       schema:
-        type: string'
+        type: string
   responses:
     200:
       description: Search results matching criteria.

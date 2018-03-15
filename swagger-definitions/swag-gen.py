@@ -8,7 +8,8 @@ VALID_TYPES = {"integer": {"type": "integer", "format": "int32"},
                "float": {"type": "number", "format": "float"},
                "double": {"type": "number", "format": "double"},
                "string": {"type": "string", "format": ""},
-               "byte": {"type": "string", "format": "byte"},
+               # There appear to be byte fields that don't contain byte data
+               "byte": {"type": "string", "format": ""},
                "binary": {"type": "string", "format": "binary"},
                "boolean": {"type": "boolean", "format": ""},
                "date": {"type": "string", "format": "date"},
@@ -189,7 +190,7 @@ def writePOSTSelect(writeFile, name):
     f.write("      required: true\n")
     f.write("      description: An XML query on the " + name + " table\n")
     f.write("      schema:\n")
-    f.write("        type: string'\n")
+    f.write("        type: string\n")
     f.write("  responses:\n")
     f.write("    200:\n")
     f.write("      description: Search results matching criteria.\n")

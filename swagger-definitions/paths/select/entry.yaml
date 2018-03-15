@@ -43,9 +43,7 @@ get:
 post:
   summary: student info
   operationId: searchEntryXML
-  description: |
-    By passing in the appropriate options, you can search for
-    a resident in the system
+  description: By passing in the appropriate options, you can search for a resident in the system
   consumes:
     - application/xml
   produces:
@@ -53,8 +51,8 @@ post:
   parameters:
     - in: body
       name: Query
-      description: An XML query on the table
       required: true
+      description: An XML query on the table
       schema:
         type: string
   responses:

@@ -55,7 +55,7 @@ Name | Type | Description | Notes
 **custom_bit2** | **bool** | Custom Flag 2 | [optional] 
 **custom_bit3** | **bool** | Custom Flag 3 | [optional] 
 **custom_bit4** | **bool** | Custom Flag 4 | [optional] 
-**custom_date1** | **str** | Custom Date 1 | [optional] 
+**custom_date1** | **str** | Added to Waitlist | [optional] 
 **custom_date2** | **str** | Custom Date 2 | [optional] 
 **custom_date3** | **str** | Custom Date 3 | [optional] 
 **custom_date4** | **str** | Custom Date 4 | [optional] 

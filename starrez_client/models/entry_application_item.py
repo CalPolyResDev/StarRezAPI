@@ -1558,7 +1558,7 @@ class EntryApplicationItem(object):
     def custom_date1(self):
         """Gets the custom_date1 of this EntryApplicationItem.  # noqa: E501
 
-        Custom Date 1  # noqa: E501
+        Added to Waitlist  # noqa: E501
 
         :return: The custom_date1 of this EntryApplicationItem.  # noqa: E501
         :rtype: str
@@ -1569,7 +1569,7 @@ class EntryApplicationItem(object):
     def custom_date1(self, custom_date1):
         """Sets the custom_date1 of this EntryApplicationItem.
 
-        Custom Date 1  # noqa: E501
+        Added to Waitlist  # noqa: E501
 
         :param custom_date1: The custom_date1 of this EntryApplicationItem.  # noqa: E501
         :type: str
